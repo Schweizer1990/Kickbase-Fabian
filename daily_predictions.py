@@ -11,100 +11,96 @@ from features.predictions.data_handler import (
     load_player_data_from_db,
 )
 from features.budgets import calc_manager_budgets
-from IPython.display import display
 from dotenv import load_dotenv
-import os, pandas as pd
+import os
+import pandas as pd
 
-# Load environment variables from .env file
-load_dotenv() 
-
-# ----------------- Notes & TODOs -----------------
-
-# TODO Fix the UTC timezone problems in the github actions scheduling
-# TODO Add prediction of 3, 7 days, to give more context
-# TODO Based upon the overpay of the other users, calculate a max price to pay for a player
-# TODO Add features like starting 11 probability, injuries, ...
-# TODO Improve budget calculation, weird bug that for me the budgets is 513929 off, idk why, checked everything
+load_dotenv()
 
 # ----------------- SYSTEM PARAMETERS -----------------
-# Should be left unchanged unless you know what you're doing
+last_mv_values = 365
+last_pfm_values = 50
 
-last_mv_values = 365    # in days, max 365
-last_pfm_values = 50    # in matchdays, max idk
-
-# which features to use for training and prediction
 features = [
-    "p", "mv", "days_to_next", 
-    "mv_change_1d", "mv_trend_1d", 
+    "p", "mv", "days_to_next",
+    "mv_change_1d", "mv_trend_1d",
     "mv_change_3d", "mv_vol_3d",
     "mv_trend_7d", "market_divergence"
 ]
-
-# what column to learn and predict on
 target = "mv_target_clipped"
 
-# Set dot as thousands separator for better readability
 pd.options.display.float_format = lambda x: '{:,.0f}'.format(x).replace(',', '.')
 
-# Show all columns when displaying dataframes
-pd.set_option("display.max_columns", None)
-pd.set_option("display.max_rows", None)
-pd.set_option("display.width", 1000)
-
 # ----------------- USER SETTINGS -----------------
-# Adjust these settings to your preferences
+# Keep personal league settings out of this public repository.
+competition_ids = [1]  # Bundesliga
+league_name = os.getenv("KICKBASE_LEAGUE_NAME")
+league_start_date = os.getenv("KICKBASE_LEAGUE_START_DATE")
+start_budget_raw = os.getenv("KICKBASE_START_BUDGET")
+email_enabled = os.getenv("ENABLE_EMAIL", "false").lower() == "true"
+email = os.getenv("EMAIL_USER") if email_enabled else None
 
-competition_ids = [1]                   # 1 = Bundesliga, 2 = 2. Bundesliga, 3 = La Liga
-league_name = "Die 10 Nuggatschleusen"  # Name of your league, must be exact match, can be done via env or hardcoded
-start_budget = 50_000_000               # Starting budget of your league, used to calculate current budgets of other managers
-league_start_date = "2025-08-08"        # Start date of your league, used to filter activities, format: YYYY-MM-DD
-email = os.getenv("EMAIL_USER")         # Email to send recommendations to, can be the same as EMAIL_USER or different
+USERNAME = os.getenv("KICK_USER")
+PASSWORD = os.getenv("KICK_PASS")
 
-# ---------------------------------------------------
+required = {
+    "KICK_USER": USERNAME,
+    "KICK_PASS": PASSWORD,
+    "KICKBASE_LEAGUE_NAME": league_name,
+    "KICKBASE_LEAGUE_START_DATE": league_start_date,
+    "KICKBASE_START_BUDGET": start_budget_raw,
+}
+missing = [name for name, value in required.items() if not value]
+if missing:
+    raise RuntimeError(
+        "Missing required GitHub Secret/Variable(s): " + ", ".join(missing)
+    )
 
-# Load environment variables and login to kickbase
-USERNAME = os.getenv("KICK_USER") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
-PASSWORD = os.getenv("KICK_PASS") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
+try:
+    start_budget = int(start_budget_raw)
+except ValueError as exc:
+    raise RuntimeError("KICKBASE_START_BUDGET must be an integer, e.g. 50000000") from exc
+
+if email_enabled and (not os.getenv("EMAIL_USER") or not os.getenv("EMAIL_PASS")):
+    raise RuntimeError("ENABLE_EMAIL is true but EMAIL_USER/EMAIL_PASS are missing")
+
+# ----------------- EXECUTION -----------------
 token = login(USERNAME, PASSWORD)
-print("\nLogged in to Kickbase.")
+print("Logged in to Kickbase successfully.")
 
-# Get league ID
 league_id = get_league_id(token, league_name)
+print("Configured Kickbase league found successfully.")
 
-# Calculate (estimated) budgets of all managers in the league
+# Calculate budgets without exposing manager names or values in public logs.
 manager_budgets_df = calc_manager_budgets(token, league_id, league_start_date, start_budget)
-print("\n=== Manager Budgets ===")
-display(manager_budgets_df)
+print(f"Manager budget analysis completed for {len(manager_budgets_df)} managers.")
 
-# Data handling
 create_player_data_table()
 reload_data = check_if_data_reload_needed()
 save_player_data_to_db(token, competition_ids, last_mv_values, last_pfm_values, reload_data)
 player_df = load_player_data_from_db()
-print("\nData loaded from database.")
+print("Player data loaded from database.")
 
-# Preprocess the data and spit the data
 proc_player_df, today_df = preprocess_player_data(player_df)
 X_train, X_test, y_train, y_test = split_data(proc_player_df, features, target)
-print("\nData preprocessed.")
+print("Player data preprocessed.")
 
-# Train and evaluate the model
 model = train_model(X_train, y_train)
 signs_percent, rmse, mae, r2 = evaluate_model(model, X_test, y_test)
-print(f"\nModel evaluation:\nSigns correct: {signs_percent:.2f}%\nRMSE: {rmse:.2f}\nMAE: {mae:.2f}\nR2: {r2:.2f}")
+print(
+    f"Model evaluation: direction accuracy={signs_percent:.2f}%, "
+    f"RMSE={rmse:.2f}, MAE={mae:.2f}, R2={r2:.2f}"
+)
 
-# Make live data predictions
 live_predictions_df = live_data_predictions(today_df, model, features)
-
-# Join with current available players on the market
 market_recommendations_df = join_current_market(token, league_id, live_predictions_df)
-print("\n=== Market Recommendations ===")
-display(market_recommendations_df)
-
-# Join with current players on the team
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
-print("\n=== Squad Recommendations ===")
-display(squad_recommendations_df)
 
-# Send email with recommendations
-send_mail(manager_budgets_df, market_recommendations_df, squad_recommendations_df, email)
+# Do not print player/manager tables to public GitHub Actions logs.
+print(f"Market analysis completed for {len(market_recommendations_df)} candidates.")
+print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
+
+if email_enabled:
+    send_mail(manager_budgets_df, market_recommendations_df, squad_recommendations_df, email)
+else:
+    print("Email delivery disabled (ENABLE_EMAIL=false).")
