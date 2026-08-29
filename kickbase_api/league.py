@@ -3,25 +3,21 @@ from kickbase_api.config import BASE_URL, get_json_with_token
 # All functions related to league data
 
 def get_league_id(token, league_name):
-    """Get the league ID based on the league name."""
+    """Get the league ID based on an exact league-name match."""
 
     league_infos = get_leagues_infos(token)
 
     if not league_infos:
-        print("Warning: You are not part of any league.")
-        return None
+        raise RuntimeError("The Kickbase account is not part of any league.")
 
-    # Try to find leagues matching the given name
     selected_league = [league for league in league_infos if league["name"] == league_name]
 
-    # If no exact match found, fall back to the first available league
     if not selected_league:
-        fallback_league = league_infos[0]
-        print(
-            f"Warning: No league found with name '{league_name}'. "
-            f"Falling back to the first available league: '{fallback_league['name']}'"
+        available_names = ", ".join(sorted(league["name"] for league in league_infos))
+        raise RuntimeError(
+            f"No exact Kickbase league match for '{league_name}'. "
+            f"Available leagues: {available_names}"
         )
-        return fallback_league["id"]
 
     return selected_league[0]["id"]
 
@@ -48,7 +44,6 @@ def get_league_activities(token, league_id, league_start_date):
     url = f"{BASE_URL}/leagues/{league_id}/activitiesFeed?max=5000"
     data = get_json_with_token(url, token)
 
-    # Filter out entries prior to reset_Date
     filtered_activities = []
     for entry in data["af"]:
         entry_date = entry.get("dt", "")
@@ -85,13 +80,11 @@ def get_league_players_on_market(token, league_id):
 
 def get_league_ranking(token, league_id):
     """Get the overall league ranking."""
-    
+
     url = f"{BASE_URL}/leagues/{league_id}/ranking"
     data = get_json_with_token(url, token)
 
     players = [(user["n"], user["sp"]) for user in data["us"]]
-
-    # Sort by score (descending)
     ranked = sorted(players, key=lambda x: x[1], reverse=True)
 
     return ranked
