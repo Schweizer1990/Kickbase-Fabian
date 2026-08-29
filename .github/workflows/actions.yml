@@ -2,12 +2,16 @@ name: Run Daily Predictions
 
 on:
   schedule:
-    - cron: '30 21 * * *'  # Runs every day at 22:30 UTC
+    - cron: '30 21 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   run-daily-predictions:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,11 +26,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run daily_predictions.py
+      - name: Run daily predictions
         env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           KICK_USER: ${{ secrets.KICK_USER }}
           KICK_PASS: ${{ secrets.KICK_PASS }}
-        run: |
-          python daily_predictions.py
+          KICKBASE_LEAGUE_NAME: ${{ vars.KICKBASE_LEAGUE_NAME }}
+          KICKBASE_LEAGUE_START_DATE: ${{ vars.KICKBASE_LEAGUE_START_DATE }}
+          KICKBASE_START_BUDGET: ${{ vars.KICKBASE_START_BUDGET }}
+          ENABLE_EMAIL: ${{ vars.ENABLE_EMAIL }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+        run: python daily_predictions.py
