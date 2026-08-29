@@ -4,6 +4,7 @@ from features.predictions.modeling import train_model, evaluate_model
 from kickbase_api.league import get_league_id
 from kickbase_api.user import login
 from features.notifier import send_mail
+from features.reporting import save_latest_report
 from features.predictions.data_handler import (
     create_player_data_table,
     check_if_data_reload_needed,
@@ -17,7 +18,6 @@ import pandas as pd
 
 load_dotenv()
 
-# ----------------- SYSTEM PARAMETERS -----------------
 last_mv_values = 365
 last_pfm_values = 50
 
@@ -31,9 +31,7 @@ target = "mv_target_clipped"
 
 pd.options.display.float_format = lambda x: '{:,.0f}'.format(x).replace(',', '.')
 
-# ----------------- USER SETTINGS -----------------
-# Keep personal league settings out of this public repository.
-competition_ids = [1]  # Bundesliga
+competition_ids = [1]
 league_name = os.getenv("KICKBASE_LEAGUE_NAME")
 league_start_date = os.getenv("KICKBASE_LEAGUE_START_DATE")
 start_budget_raw = os.getenv("KICKBASE_START_BUDGET")
@@ -52,9 +50,7 @@ required = {
 }
 missing = [name for name, value in required.items() if not value]
 if missing:
-    raise RuntimeError(
-        "Missing required GitHub Secret/Variable(s): " + ", ".join(missing)
-    )
+    raise RuntimeError("Missing required GitHub Secret/Variable(s): " + ", ".join(missing))
 
 try:
     start_budget = int(start_budget_raw)
@@ -64,14 +60,12 @@ except ValueError as exc:
 if email_enabled and (not os.getenv("EMAIL_USER") or not os.getenv("EMAIL_PASS")):
     raise RuntimeError("ENABLE_EMAIL is true but EMAIL_USER/EMAIL_PASS are missing")
 
-# ----------------- EXECUTION -----------------
 token = login(USERNAME, PASSWORD)
 print("Logged in to Kickbase successfully.")
 
 league_id = get_league_id(token, league_name)
 print("Configured Kickbase league found successfully.")
 
-# Calculate budgets without exposing manager names or values in public logs.
 manager_budgets_df = calc_manager_budgets(token, league_id, league_start_date, start_budget)
 print(f"Manager budget analysis completed for {len(manager_budgets_df)} managers.")
 
@@ -96,9 +90,22 @@ live_predictions_df = live_data_predictions(today_df, model, features)
 market_recommendations_df = join_current_market(token, league_id, live_predictions_df)
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
 
-# Do not print player/manager tables to public GitHub Actions logs.
-print(f"Market analysis completed for {len(market_recommendations_df)} candidates.")
+print(f"Market analysis completed for {len(market_recommendations_df)} market players.")
 print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
+
+report_path = save_latest_report(
+    league_name,
+    {
+        "direction_accuracy_percent": round(float(signs_percent), 2),
+        "rmse": round(float(rmse), 2),
+        "mae": round(float(mae), 2),
+        "r2": round(float(r2), 4),
+    },
+    manager_budgets_df,
+    market_recommendations_df,
+    squad_recommendations_df,
+)
+print(f"Machine-readable report written to {report_path}.")
 
 if email_enabled:
     send_mail(manager_budgets_df, market_recommendations_df, squad_recommendations_df, email)
