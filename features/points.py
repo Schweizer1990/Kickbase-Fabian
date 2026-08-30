@@ -31,11 +31,13 @@ def _season_matches(season):
     for match in season.get("ph", []) if isinstance(season, dict) else []:
         points = _num(match.get("p"))
         minutes = _minutes(match.get("mp"))
-        # Future matchdays usually have no points yet. A played matchday can
-        # legitimately have 0 points and 0 minutes, so points-not-null is enough.
         if points is None and minutes <= 0:
             continue
-        matches.append({"points": points or 0.0, "minutes": minutes})
+        matches.append({
+            "points": points or 0.0,
+            "minutes": minutes,
+            "status": match.get("st"),
+        })
     return matches
 
 
@@ -46,74 +48,145 @@ def _weighted_average(values):
     return sum(v * w for v, w in zip(values, weights)) / sum(weights)
 
 
-def _profile_from_performance(payload):
+def _p90(matches):
+    total_minutes = sum(m["minutes"] for m in matches)
+    if total_minutes <= 0:
+        return 0.0
+    return sum(m["points"] for m in matches) / total_minutes * 90.0
+
+
+def _raw_performance(payload):
     seasons = payload.get("it", []) if isinstance(payload, dict) else []
     current = _season_matches(seasons[-1]) if seasons else []
     previous = _season_matches(seasons[-2]) if len(seasons) >= 2 else []
+    return current, previous
 
+
+def _league_baseline(raw_profiles):
+    """Robust points-per-90 prior for shrinking tiny samples.
+
+    Use only players with a meaningful recent-minute sample. A fallback keeps the
+    model stable at the very start of a season when almost nobody qualifies.
+    """
+    values = []
+    for current, previous in raw_profiles.values():
+        recent = current[-5:] if sum(m["minutes"] for m in current[-5:]) >= 270 else previous[-5:]
+        minutes = sum(m["minutes"] for m in recent)
+        if minutes >= 270:
+            value = _p90(recent)
+            if math.isfinite(value):
+                values.append(max(-50.0, min(250.0, value)))
+
+    if not values:
+        return 85.0
+    values.sort()
+    middle = len(values) // 2
+    if len(values) % 2:
+        return values[middle]
+    return (values[middle - 1] + values[middle]) / 2
+
+
+def _profile_from_matches(current, previous, baseline_p90):
     current_recent = current[-5:]
     previous_recent = previous[-5:]
 
+    current_minutes_total = sum(m["minutes"] for m in current_recent)
+    previous_minutes_total = sum(m["minutes"] for m in previous_recent)
+    current_p90 = _p90(current_recent)
+    previous_p90 = _p90(previous_recent)
+
+    # Blend current and previous season by actual minutes, then shrink small
+    # samples aggressively to a league prior. This prevents a single cameo or
+    # one freak scoring game from becoming a 150+ xP projection.
+    current_weight = min(current_minutes_total / 450.0, 1.0)
+    if current_minutes_total > 0 and previous_minutes_total > 0:
+        history_p90 = current_p90 * current_weight + previous_p90 * (1.0 - current_weight)
+    elif current_minutes_total > 0:
+        history_p90 = current_p90
+    elif previous_minutes_total > 0:
+        history_p90 = previous_p90
+    else:
+        history_p90 = baseline_p90
+
+    effective_minutes = current_minutes_total + min(previous_minutes_total, 450.0) * 0.35
+    reliability = min(effective_minutes / 540.0, 1.0)
+    regressed_p90 = baseline_p90 * (1.0 - reliability) + history_p90 * reliability
+    # Raw fantasy p90 can be noisy even with a few games. Keep the heuristic in
+    # a plausible band until a trained xP model has enough season data.
+    regressed_p90 = max(-30.0, min(220.0, regressed_p90))
+
     current_minutes = [m["minutes"] for m in current_recent]
     previous_minutes = [m["minutes"] for m in previous_recent]
-
-    current_points = [m["points"] for m in current_recent]
-    previous_points = [m["points"] for m in previous_recent]
-
-    def p90(matches):
-        total_minutes = sum(m["minutes"] for m in matches)
-        if total_minutes <= 0:
-            return 0.0
-        return sum(m["points"] for m in matches) / total_minutes * 90.0
-
-    current_p90 = p90(current_recent)
-    previous_p90 = p90(previous_recent)
-
-    if len(current_recent) >= 3:
-        blended_p90 = current_p90
-        confidence = "high"
-    elif len(current_recent) >= 1 and previous_recent:
-        blended_p90 = current_p90 * 0.45 + previous_p90 * 0.55
-        confidence = "medium"
-    elif previous_recent:
-        blended_p90 = previous_p90
-        confidence = "low"
+    if current_minutes:
+        expected_minutes_raw = _weighted_average(current_minutes[-3:])
+    elif previous_minutes:
+        expected_minutes_raw = _weighted_average(previous_minutes[-3:]) * 0.70
     else:
-        blended_p90 = current_p90
-        confidence = "low"
+        expected_minutes_raw = 0.0
 
-    if current_recent:
-        expected_minutes = _weighted_average(current_minutes[-3:])
-    elif previous_recent:
-        expected_minutes = _weighted_average(previous_minutes[-3:])
-    else:
-        expected_minutes = 0.0
+    # Recent starting/appearance proxies. We deliberately do not interpret the
+    # undocumented Kickbase status code. Minutes are observable and robust.
+    role_sample = current_recent if current_recent else previous_recent
+    starts = sum(1 for m in role_sample if m["minutes"] >= 60)
+    appearances = sum(1 for m in role_sample if m["minutes"] > 0)
+    sample_games = len(role_sample)
+    starter_rate = starts / sample_games if sample_games else 0.0
+    appearance_rate = appearances / sample_games if sample_games else 0.0
 
+    # Starter probability is a conservative proxy, not an official lineup
+    # probability. It combines start rate and general appearance frequency.
+    starter_probability = min(1.0, starter_rate * 0.80 + appearance_rate * 0.20)
+
+    if not current_recent and previous_recent:
+        starter_probability *= 0.75
+
+    expected_minutes = expected_minutes_raw
+    if sample_games:
+        role_cap = 20.0 + 70.0 * starter_probability
+        expected_minutes = min(expected_minutes, role_cap)
     expected_minutes = max(0.0, min(90.0, expected_minutes))
-    expected_points = blended_p90 * expected_minutes / 90.0
+
+    expected_points = regressed_p90 * expected_minutes / 90.0
 
     current_apps = len(current)
     current_total_points = sum(m["points"] for m in current)
     current_total_minutes = sum(m["minutes"] for m in current)
 
+    if current_minutes_total >= 270 and len(current_recent) >= 3:
+        confidence = "high"
+    elif effective_minutes >= 180:
+        confidence = "medium"
+    else:
+        confidence = "low"
+
+    # Low-confidence xP is useful as a directional signal, but must never
+    # dominate the win ranking. Apply an explicit uncertainty haircut.
+    confidence_factor = {"high": 1.0, "medium": 0.85, "low": 0.60}[confidence]
+    expected_points_adjusted = expected_points * confidence_factor
+
+    if starter_probability >= 0.65 and expected_minutes >= 55:
+        role = "starter"
+    elif appearance_rate >= 0.60 and expected_minutes >= 25:
+        role = "rotation"
+    else:
+        role = "bench_risk"
+
     return {
         "current_matchdays": current_apps,
         "current_points": round(current_total_points, 2),
         "current_minutes": round(current_total_minutes, 1),
-        "recent_points_per_90": round(blended_p90, 2),
+        "recent_points_per_90": round(regressed_p90, 2),
         "expected_minutes_next": round(expected_minutes, 1),
-        "expected_points_next": round(expected_points, 2),
+        "starter_probability_proxy": round(starter_probability, 3),
+        "role_signal": role,
+        "expected_points_raw": round(expected_points, 2),
+        "expected_points_next": round(expected_points_adjusted, 2),
         "xp_confidence": confidence,
     }
 
 
 def build_points_profiles(token, league_id, market_df, squad_df):
-    """Build compact expected-points profiles for current squad and market players.
-
-    Kickbase's league player performance endpoint provides matchday points and
-    minutes. This is a transparent minutes/points heuristic, not a trained xP
-    model yet. It becomes more reliable as the current season sample grows.
-    """
+    """Build stabilized expected-points profiles for squad and market players."""
     source = {}
     for label, df in (("market", market_df), ("squad", squad_df)):
         if df is None or df.empty:
@@ -134,23 +207,29 @@ def build_points_profiles(token, league_id, market_df, squad_df):
             item["on_market"] = item["on_market"] or label == "market"
             item["in_squad"] = item["in_squad"] or label == "squad"
 
-    rows = []
-    for player_id, base in source.items():
+    raw_profiles = {}
+    failures = set()
+    for player_id in source:
         try:
             url = f"{BASE_URL}/leagues/{league_id}/players/{player_id}/performance"
             payload = get_json_with_token(url, token)
-            profile = _profile_from_performance(payload)
+            raw_profiles[player_id] = _raw_performance(payload)
         except Exception as exc:
             print(f"Warning: Could not fetch league performance for player {player_id}: {exc}")
-            profile = {
-                "current_matchdays": 0,
-                "current_points": 0.0,
-                "current_minutes": 0.0,
-                "recent_points_per_90": 0.0,
-                "expected_minutes_next": 0.0,
-                "expected_points_next": 0.0,
-                "xp_confidence": "unavailable",
-            }
+            raw_profiles[player_id] = ([], [])
+            failures.add(player_id)
+
+    baseline_p90 = _league_baseline(raw_profiles)
+    rows = []
+    for player_id, base in source.items():
+        current, previous = raw_profiles[player_id]
+        profile = _profile_from_matches(current, previous, baseline_p90)
+        if player_id in failures:
+            profile["xp_confidence"] = "unavailable"
+            profile["expected_points_next"] = 0.0
+            profile["expected_points_raw"] = 0.0
+            profile["role_signal"] = "unknown"
+            profile["starter_probability_proxy"] = 0.0
 
         mv = base.get("market_value")
         xp = profile["expected_points_next"]
@@ -158,6 +237,7 @@ def build_points_profiles(token, league_id, market_df, squad_df):
         rows.append({
             **base,
             **profile,
+            "league_p90_prior": round(baseline_p90, 2),
             "expected_points_per_million": round(ppm, 3) if ppm is not None else None,
         })
 
@@ -172,7 +252,11 @@ def build_points_profiles(token, league_id, market_df, squad_df):
 
 
 def build_win_ranking(market_strategy_df, points_df):
-    """Combine capital-growth and expected-points efficiency for transfer targets."""
+    """Separate championship value from pure trading value.
+
+    Low-confidence and bench-risk point projections are deliberately discounted
+    so cheap one-game outliers cannot dominate the ranking.
+    """
     if market_strategy_df is None or market_strategy_df.empty:
         return pd.DataFrame()
 
@@ -190,9 +274,27 @@ def build_win_ranking(market_strategy_df, points_df):
         xp = _num(p.get("expected_points_next"), 0.0)
         xp_per_m = _num(p.get("expected_points_per_million"), 0.0)
         capital = _num(row.get("capital_score"), 0.0)
-        # Capital remains important early in the season, but points efficiency
-        # gets the larger weight because league points decide the championship.
-        win_score = xp * 0.55 + xp_per_m * 0.25 + capital * 0.20
+        confidence = p.get("xp_confidence", "unavailable")
+        role = p.get("role_signal", "unknown")
+        starter_probability = _num(p.get("starter_probability_proxy"), 0.0)
+
+        confidence_weight = {"high": 1.0, "medium": 0.85, "low": 0.55, "unavailable": 0.0}.get(confidence, 0.0)
+        role_weight = {"starter": 1.0, "rotation": 0.72, "bench_risk": 0.40, "unknown": 0.25}.get(role, 0.25)
+        point_weight = confidence_weight * role_weight
+
+        points_component = (xp * 0.60 + xp_per_m * 0.15) * point_weight
+        capital_component = capital * 0.25
+        win_score = points_component + capital_component
+
+        if role == "starter" and confidence in ("high", "medium"):
+            championship_label = "startelf_target"
+        elif role == "rotation" and xp > 40:
+            championship_label = "points_upside"
+        elif capital >= 5:
+            championship_label = "trading_target"
+        else:
+            championship_label = "watch_or_avoid"
+
         rows.append({
             "player_id": player_id,
             "player_name": row.get("player_name"),
@@ -200,12 +302,16 @@ def build_win_ranking(market_strategy_df, points_df):
             "market_value": row.get("market_value"),
             "expected_points_next": round(xp, 2),
             "expected_points_per_million": round(xp_per_m, 3),
-            "xp_confidence": p.get("xp_confidence", "unavailable"),
+            "expected_minutes_next": p.get("expected_minutes_next"),
+            "starter_probability_proxy": round(starter_probability, 3),
+            "role_signal": role,
+            "xp_confidence": confidence,
             "capital_score": row.get("capital_score"),
             "suggested_bid": row.get("suggested_bid"),
             "hard_max_bid": row.get("hard_max_bid"),
             "budget_fit": row.get("budget_fit"),
             "strategy_label": row.get("strategy_label"),
+            "championship_label": championship_label,
             "win_score": round(win_score, 3),
         })
 
