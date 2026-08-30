@@ -2,6 +2,7 @@ import math
 import re
 import unicodedata
 from html import unescape
+from html.parser import HTMLParser
 
 import pandas as pd
 import requests
@@ -34,15 +35,21 @@ TEAM_PATHS = {
     "Paderborn": "/sc-paderborn-07/20/",
 }
 
-STATUS_KEYWORDS = [
-    ("gesperrt", "suspended", 0.0),
-    ("nicht im kader", "out", 0.0),
-    ("verletzung", "injured", 0.0),
-    ("schwerer angeschlagen", "likely_out", 0.15),
-    ("aufbautraining", "rehab", 0.45),
-    ("angeschlagen", "doubtful", 0.60),
-    ("leicht angeschlagen", "slight_knock", 0.82),
-]
+# LigaInsider exposes the status as the alt text of the icon immediately before
+# the affected player. Parsing that structure is much safer than looking for
+# keywords in a large text window around a surname.
+STATUS_ALTS = {
+    "verletzung": ("injured", 0.0),
+    "aufbautraining": ("rehab", 0.45),
+    "nicht im kader": ("out", 0.0),
+    "gelb rote karte": ("suspended", 0.0),
+    "rote karte": ("suspended", 0.0),
+    "gelbe karte": ("suspended", 0.0),
+    "gesperrt": ("suspended", 0.0),
+    "schwerer angeschlagen": ("likely_out", 0.15),
+    "angeschlagen": ("doubtful", 0.60),
+    "leicht angeschlagen": ("slight_knock", 0.82),
+}
 
 
 def _clean_text_value(value):
@@ -97,6 +104,88 @@ def _collect_source(market_df, squad_df):
     return players
 
 
+class _InjuryStatusParser(HTMLParser):
+    """Extract (player name, status icon) pairs from LigaInsider's table."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.pending = None
+        self.in_anchor = False
+        self.anchor_parts = []
+        self.records = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag.lower() == "img":
+            alt = _norm(attrs.get("alt"))
+            if alt in STATUS_ALTS:
+                label, factor = STATUS_ALTS[alt]
+                self.pending = {
+                    "status": label,
+                    "availability_factor": factor,
+                    "status_raw": attrs.get("alt"),
+                }
+        elif tag.lower() == "a" and self.pending:
+            self.in_anchor = True
+            self.anchor_parts = []
+
+    def handle_data(self, data):
+        if self.in_anchor and self.pending:
+            text = data.strip()
+            if text:
+                self.anchor_parts.append(text)
+
+    def handle_endtag(self, tag):
+        if tag.lower() != "a" or not self.in_anchor:
+            return
+        self.in_anchor = False
+        name = " ".join(self.anchor_parts).strip()
+        self.anchor_parts = []
+        if not name or not self.pending:
+            return
+        # News links can follow a player inside the same row. The first textual
+        # anchor after a recognized status icon is the player name, so consume
+        # the status immediately after recording it.
+        self.records.append({
+            "full_name": name,
+            "name_norm": _norm(name),
+            **self.pending,
+        })
+        self.pending = None
+
+
+def _parse_injury_statuses(html):
+    parser = _InjuryStatusParser()
+    parser.feed(html)
+    return parser.records
+
+
+def _match_status(player_name, records):
+    """Match Kickbase's usually-short surname against structured LigaInsider rows.
+
+    Exact normalized names win. For Kickbase surname-only values we accept a
+    unique token/suffix match. Ambiguous matches deliberately return unknown.
+    """
+    name = _norm(player_name)
+    if not name:
+        return None
+
+    exact = [r for r in records if r["name_norm"] == name]
+    if len(exact) == 1:
+        return exact[0]
+
+    candidates = []
+    for record in records:
+        full = record["name_norm"]
+        tokens = full.split()
+        if not tokens:
+            continue
+        if name == tokens[-1] or name in tokens or full.endswith(" " + name):
+            candidates.append(record)
+
+    return candidates[0] if len(candidates) == 1 else None
+
+
 def build_ligainsider_signals(market_df, squad_df):
     """Read public LigaInsider status and Topelf pages conservatively.
 
@@ -109,11 +198,13 @@ def build_ligainsider_signals(market_df, squad_df):
     if not players:
         return pd.DataFrame()
 
+    injury_records = []
     try:
-        injury_text = _norm(_plain(_get(INJURIES_URL)))
+        injury_html = _get(INJURIES_URL)
+        injury_records = _parse_injury_statuses(injury_html)
+        print(f"LigaInsider status rows parsed: {len(injury_records)}.")
     except Exception as exc:
         print(f"Warning: LigaInsider injury page unavailable: {exc}")
-        injury_text = ""
 
     team_text = {}
     teams = sorted({p["team"] for p in players.values() if isinstance(p.get("team"), str) and p["team"]})
@@ -138,29 +229,30 @@ def build_ligainsider_signals(market_df, squad_df):
         name = _norm(player.get("player_name"))
         team = player.get("team")
         lineup_text = team_text.get(team, "")
-        in_topelf_pool = bool(name and name in lineup_text)
+        in_topelf_pool = bool(name and re.search(rf"\b{re.escape(name)}\b", lineup_text))
 
-        status = "unknown"
-        availability_factor = 1.0
-        matched_status = False
-        if name and injury_text:
-            positions = [m.start() for m in re.finditer(rf"\b{re.escape(name)}\b", injury_text)]
-            for pos in positions:
-                window = injury_text[max(0, pos - 180): pos + 220]
-                for keyword, label, factor in STATUS_KEYWORDS:
-                    if _norm(keyword) in window:
-                        status = label
-                        availability_factor = factor
-                        matched_status = True
-                        break
-                if matched_status:
-                    break
+        matched = _match_status(player.get("player_name"), injury_records)
+        if matched:
+            status = matched["status"]
+            availability_factor = matched["availability_factor"]
+            matched_name = matched["full_name"]
+            status_raw = matched["status_raw"]
+        else:
+            # "available" means the player was successfully checked against the
+            # current structured absence list and was not found there. This is
+            # more useful than calling every healthy player "unknown".
+            status = "available" if injury_records else "unknown"
+            availability_factor = 1.0
+            matched_name = None
+            status_raw = None
 
         rows.append({
             **player,
             "ligainsider_status": status,
             "availability_factor": availability_factor,
             "ligainsider_topelf_pool": in_topelf_pool,
+            "ligainsider_matched_name": matched_name,
+            "ligainsider_status_raw": status_raw,
             "ligainsider_source": "public_web",
         })
 
