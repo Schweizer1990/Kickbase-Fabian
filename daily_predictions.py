@@ -5,6 +5,7 @@ from kickbase_api.league import get_league_id
 from kickbase_api.user import login
 from features.notifier import send_mail
 from features.reporting import save_latest_report
+from features.transfers import build_transfer_history, summarize_manager_bidding
 from features.predictions.data_handler import (
     create_player_data_table,
     check_if_data_reload_needed,
@@ -69,6 +70,18 @@ print("Configured Kickbase league found successfully.")
 manager_budgets_df = calc_manager_budgets(token, league_id, league_start_date, start_budget)
 print(f"Manager budget analysis completed for {len(manager_budgets_df)} managers.")
 
+transfer_history_df = build_transfer_history(
+    token,
+    league_id,
+    league_start_date,
+    competition_id=competition_ids[0],
+)
+bidding_behavior_df = summarize_manager_bidding(transfer_history_df)
+print(
+    f"Transfer analysis completed for {len(transfer_history_df)} completed transfers "
+    f"and {len(bidding_behavior_df)} managers with purchase activity."
+)
+
 create_player_data_table()
 reload_data = check_if_data_reload_needed()
 save_player_data_to_db(token, competition_ids, last_mv_values, last_pfm_values, reload_data)
@@ -104,6 +117,8 @@ report_path = save_latest_report(
     manager_budgets_df,
     market_recommendations_df,
     squad_recommendations_df,
+    transfer_history_df,
+    bidding_behavior_df,
 )
 print(f"Machine-readable report written to {report_path}.")
 
