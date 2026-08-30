@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-30T12:50:38.887895+02:00",
+  "generated_at": "2026-08-30T12:56:33.306579+02:00",
   "league": "BFCO",
   "model": {
-    "direction_accuracy_percent": 81.46,
-    "rmse": 1584011900.66,
-    "mae": 21715.83,
-    "r2": 0.929
+    "direction_accuracy_percent": 81.56,
+    "rmse": 1577643475.52,
+    "mae": 21714.49,
+    "r2": 0.9293
   },
   "manager_budgets": [
     {
@@ -124,10 +124,10 @@
       "team_name": "Dortmund",
       "mv": 4701709.0,
       "mv_change_yesterday": 408770.0,
-      "predicted_mv_target": 376694.59,
+      "predicted_mv_target": 376565.54,
       "model_recommended": true,
       "s_11_prob": 3,
-      "hours_to_exp": 31.63,
+      "hours_to_exp": 31.54,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -137,10 +137,10 @@
       "team_name": "Leverkusen",
       "mv": 6650207.0,
       "mv_change_yesterday": 373232.0,
-      "predicted_mv_target": 350987.42,
+      "predicted_mv_target": 351474.8,
       "model_recommended": true,
       "s_11_prob": 1,
-      "hours_to_exp": 45.43,
+      "hours_to_exp": 45.33,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -150,10 +150,10 @@
       "team_name": "Freiburg",
       "mv": 6308353.0,
       "mv_change_yesterday": 334147.0,
-      "predicted_mv_target": 317082.42,
+      "predicted_mv_target": 318955.26,
       "model_recommended": true,
       "s_11_prob": 2,
-      "hours_to_exp": 13.98,
+      "hours_to_exp": 13.88,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -163,7 +163,7 @@
       "team_name": "Hoffenheim",
       "mv": 1074637.0,
       "mv_change_yesterday": 221764.0,
-      "predicted_mv_target": 277361.24,
+      "predicted_mv_target": 278953.85,
       "model_recommended": true,
       "s_11_prob": 5,
       "hours_to_exp": null,
@@ -176,7 +176,7 @@
       "team_name": "M'gladbach",
       "mv": 9527128.0,
       "mv_change_yesterday": 201651.0,
-      "predicted_mv_target": 209620.71,
+      "predicted_mv_target": 209771.93,
       "model_recommended": true,
       "s_11_prob": 1,
       "hours_to_exp": null,
@@ -189,7 +189,7 @@
       "team_name": "Dortmund",
       "mv": 19469683.0,
       "mv_change_yesterday": 193823.0,
-      "predicted_mv_target": 199052.73,
+      "predicted_mv_target": 198923.87,
       "model_recommended": true,
       "s_11_prob": 3,
       "hours_to_exp": null,
@@ -202,10 +202,10 @@
       "team_name": "Mainz",
       "mv": 1031154.0,
       "mv_change_yesterday": 112201.0,
-      "predicted_mv_target": 181608.28,
+      "predicted_mv_target": 181501.13,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 32.45,
+      "hours_to_exp": 32.35,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -215,23 +215,10 @@
       "team_name": "Paderborn",
       "mv": 7093891.0,
       "mv_change_yesterday": 6593891.0,
-      "predicted_mv_target": 151595.72,
+      "predicted_mv_target": 144509.9,
       "model_recommended": true,
       "s_11_prob": 3,
-      "hours_to_exp": 4.77,
-      "expiring_today": true,
-      "prediction_available": true
-    },
-    {
-      "player_id": "7269",
-      "last_name": "Tella",
-      "team_name": "Leverkusen",
-      "mv": 5164267.0,
-      "mv_change_yesterday": 58997.0,
-      "predicted_mv_target": 125507.93,
-      "model_recommended": true,
-      "s_11_prob": 4,
-      "hours_to_exp": 0.29,
+      "hours_to_exp": 4.67,
       "expiring_today": true,
       "prediction_available": true
     },
@@ -241,11 +228,24 @@
       "team_name": "Freiburg",
       "mv": 1108262.0,
       "mv_change_yesterday": 98924.0,
-      "predicted_mv_target": 124282.48,
+      "predicted_mv_target": 126593.3,
       "model_recommended": true,
       "s_11_prob": 4,
-      "hours_to_exp": 9.66,
+      "hours_to_exp": 9.56,
       "expiring_today": false,
+      "prediction_available": true
+    },
+    {
+      "player_id": "7269",
+      "last_name": "Tella",
+      "team_name": "Leverkusen",
+      "mv": 5164267.0,
+      "mv_change_yesterday": 58997.0,
+      "predicted_mv_target": 124076.97,
+      "model_recommended": true,
+      "s_11_prob": 4,
+      "hours_to_exp": 0.19,
+      "expiring_today": true,
       "prediction_available": true
     },
     {
@@ -254,7 +254,7 @@
       "team_name": "Bayern",
       "mv": 32748431.0,
       "mv_change_yesterday": 108033.0,
-      "predicted_mv_target": 115776.8,
+      "predicted_mv_target": 116873.13,
       "model_recommended": true,
       "s_11_prob": 1,
       "hours_to_exp": null,
@@ -267,10 +267,10 @@
       "team_name": "Bayern",
       "mv": 500000.0,
       "mv_change_yesterday": 0.0,
-      "predicted_mv_target": 7722.47,
+      "predicted_mv_target": 6515.77,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 31.41,
+      "hours_to_exp": 31.31,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -280,10 +280,10 @@
       "team_name": "Frankfurt",
       "mv": 500000.0,
       "mv_change_yesterday": 0.0,
-      "predicted_mv_target": 5865.94,
+      "predicted_mv_target": 6154.92,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 21.1,
+      "hours_to_exp": 21.0,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -293,10 +293,10 @@
       "team_name": "M'gladbach",
       "mv": 4498142.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -3798.98,
+      "predicted_mv_target": -2591.23,
       "model_recommended": false,
       "s_11_prob": 4,
-      "hours_to_exp": 13.74,
+      "hours_to_exp": 13.64,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -306,10 +306,10 @@
       "team_name": "M'gladbach",
       "mv": 6121718.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -23625.93,
+      "predicted_mv_target": -19083.1,
       "model_recommended": false,
       "s_11_prob": 4,
-      "hours_to_exp": 18.93,
+      "hours_to_exp": 18.83,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -319,10 +319,10 @@
       "team_name": "Freiburg",
       "mv": 4133946.0,
       "mv_change_yesterday": -73036.0,
-      "predicted_mv_target": -63435.48,
+      "predicted_mv_target": -62452.6,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 9.54,
+      "hours_to_exp": 9.45,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -332,7 +332,7 @@
       "team_name": "Freiburg",
       "mv": 26608181.0,
       "mv_change_yesterday": -86303.0,
-      "predicted_mv_target": -101584.56,
+      "predicted_mv_target": -95124.03,
       "model_recommended": false,
       "s_11_prob": 1,
       "hours_to_exp": null,
@@ -345,10 +345,10 @@
       "team_name": "Freiburg",
       "mv": 4172924.0,
       "mv_change_yesterday": -111817.0,
-      "predicted_mv_target": -102519.59,
+      "predicted_mv_target": -104190.37,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 42.42,
+      "hours_to_exp": 42.32,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -358,23 +358,10 @@
       "team_name": "Bremen",
       "mv": 3468435.0,
       "mv_change_yesterday": -130822.0,
-      "predicted_mv_target": -123810.25,
+      "predicted_mv_target": -124010.41,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 28.77,
-      "expiring_today": false,
-      "prediction_available": true
-    },
-    {
-      "player_id": "14662",
-      "last_name": "Lerma",
-      "team_name": "Dortmund",
-      "mv": 4051239.0,
-      "mv_change_yesterday": -139455.0,
-      "predicted_mv_target": -126039.83,
-      "model_recommended": false,
-      "s_11_prob": 5,
-      "hours_to_exp": 16.66,
+      "hours_to_exp": 28.67,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -384,10 +371,23 @@
       "team_name": "Bremen",
       "mv": 3310683.0,
       "mv_change_yesterday": -138218.0,
-      "predicted_mv_target": -126538.57,
+      "predicted_mv_target": -126283.37,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 34.07,
+      "hours_to_exp": 33.97,
+      "expiring_today": false,
+      "prediction_available": true
+    },
+    {
+      "player_id": "14662",
+      "last_name": "Lerma",
+      "team_name": "Dortmund",
+      "mv": 4051239.0,
+      "mv_change_yesterday": -139455.0,
+      "predicted_mv_target": -127933.97,
+      "model_recommended": false,
+      "s_11_prob": 5,
+      "hours_to_exp": 16.56,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -397,10 +397,10 @@
       "team_name": "Paderborn",
       "mv": 7018012.0,
       "mv_change_yesterday": -356308.0,
-      "predicted_mv_target": -334935.33,
+      "predicted_mv_target": -333263.65,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 13.18,
+      "hours_to_exp": 13.08,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -426,7 +426,7 @@
       "predicted_mv_target": null,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 9.63,
+      "hours_to_exp": 9.53,
       "expiring_today": false,
       "prediction_available": false
     },
@@ -451,7 +451,7 @@
       "team_name": "Freiburg",
       "mv": 16242917.0,
       "mv_change_yesterday": 23404.0,
-      "predicted_mv_target": 33516.49,
+      "predicted_mv_target": 33886.06,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -461,7 +461,7 @@
       "team_name": "Paderborn",
       "mv": 3883735.0,
       "mv_change_yesterday": -46968.0,
-      "predicted_mv_target": -44690.39,
+      "predicted_mv_target": -44529.61,
       "s_11_prob": 3,
       "prediction_available": true
     },
@@ -471,7 +471,7 @@
       "team_name": "Hoffenheim",
       "mv": 9982590.0,
       "mv_change_yesterday": 175793.0,
-      "predicted_mv_target": 197333.94,
+      "predicted_mv_target": 198538.52,
       "s_11_prob": 5,
       "prediction_available": true
     },
@@ -481,7 +481,7 @@
       "team_name": "Frankfurt",
       "mv": 8295842.0,
       "mv_change_yesterday": -302502.0,
-      "predicted_mv_target": -290664.74,
+      "predicted_mv_target": -291241.72,
       "s_11_prob": 5,
       "prediction_available": true
     },
@@ -491,7 +491,7 @@
       "team_name": "Dortmund",
       "mv": 6359421.0,
       "mv_change_yesterday": -193124.0,
-      "predicted_mv_target": -189703.1,
+      "predicted_mv_target": -187697.69,
       "s_11_prob": 4,
       "prediction_available": true
     },
@@ -501,7 +501,7 @@
       "team_name": "M'gladbach",
       "mv": 18314448.0,
       "mv_change_yesterday": -184072.0,
-      "predicted_mv_target": -104229.38,
+      "predicted_mv_target": -99316.4,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -511,7 +511,7 @@
       "team_name": "M'gladbach",
       "mv": 8311140.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -27757.39,
+      "predicted_mv_target": -23209.43,
       "s_11_prob": 5,
       "prediction_available": true
     },
@@ -521,7 +521,7 @@
       "team_name": "Mainz",
       "mv": 2178806.0,
       "mv_change_yesterday": -24320.0,
-      "predicted_mv_target": -38925.52,
+      "predicted_mv_target": -41817.89,
       "s_11_prob": 4,
       "prediction_available": true
     },
@@ -531,7 +531,7 @@
       "team_name": "Union Berlin",
       "mv": 10057061.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -10308.16,
+      "predicted_mv_target": -7184.78,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -541,7 +541,7 @@
       "team_name": "Frankfurt",
       "mv": 23849121.0,
       "mv_change_yesterday": 41109.0,
-      "predicted_mv_target": 59816.58,
+      "predicted_mv_target": 60865.98,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -551,7 +551,7 @@
       "team_name": "Dortmund",
       "mv": 30011345.0,
       "mv_change_yesterday": 84179.0,
-      "predicted_mv_target": 91015.41,
+      "predicted_mv_target": 91759.53,
       "s_11_prob": 2,
       "prediction_available": true
     }
@@ -569,7 +569,8 @@
       "market_value_at_transfer": 3026867.0,
       "overpay": 29304.0,
       "overpay_pct": 0.97,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-08T09:48:02Z|4654||Fabian|3056171.00"
     },
     {
       "transfer_id": "77",
@@ -583,7 +584,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-08T09:48:09Z|11253||Fabian|500000.00"
     },
     {
       "transfer_id": "15",
@@ -597,7 +599,8 @@
       "market_value_at_transfer": 13558192.0,
       "overpay": 1441808.0,
       "overpay_pct": 10.63,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-08T10:30:48Z|3516|Fabian||15000000.00"
     },
     {
       "transfer_id": "18",
@@ -611,7 +614,8 @@
       "market_value_at_transfer": 2194550.0,
       "overpay": -193971.0,
       "overpay_pct": -8.84,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-08T12:22:17Z|620|Simon Koller||2000579.00"
     },
     {
       "transfer_id": "43",
@@ -625,7 +629,8 @@
       "market_value_at_transfer": 6676539.0,
       "overpay": 101238.0,
       "overpay_pct": 1.52,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-08T14:51:06Z|12337|Bommer||6777777.00"
     },
     {
       "transfer_id": "29",
@@ -639,7 +644,8 @@
       "market_value_at_transfer": 8341665.0,
       "overpay": -8312.0,
       "overpay_pct": -0.1,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-08T18:15:39Z|2015|Simon Koller||8333353.00"
     },
     {
       "transfer_id": "14",
@@ -653,7 +659,8 @@
       "market_value_at_transfer": 4170530.0,
       "overpay": -140374.0,
       "overpay_pct": -3.37,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-08T19:29:33Z|9598||Bommer|4030156.00"
     },
     {
       "transfer_id": "6",
@@ -667,7 +674,8 @@
       "market_value_at_transfer": 3581976.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-08T21:00:19Z|10120||Joel|3581976.00"
     },
     {
       "transfer_id": "29",
@@ -681,7 +689,8 @@
       "market_value_at_transfer": 11136454.0,
       "overpay": 453171.0,
       "overpay_pct": 4.07,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-08T22:46:50Z|2977|Joel||11589625.00"
     },
     {
       "transfer_id": "8",
@@ -695,7 +704,8 @@
       "market_value_at_transfer": 3850898.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-08T22:47:10Z|13431||Marc Frischiniemi|3850898.00"
     },
     {
       "transfer_id": "3",
@@ -709,7 +719,8 @@
       "market_value_at_transfer": 5712576.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-08T22:47:43Z|13472||Marc Frischiniemi|5712576.00"
     },
     {
       "transfer_id": "15",
@@ -723,7 +734,8 @@
       "market_value_at_transfer": 4341713.0,
       "overpay": -8380.0,
       "overpay_pct": -0.19,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-09T06:31:04Z|4333|Bommer||4333333.00"
     },
     {
       "transfer_id": "5",
@@ -737,7 +749,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T11:18:05Z|1767||KönigMario|500000.00"
     },
     {
       "transfer_id": "5",
@@ -751,7 +764,8 @@
       "market_value_at_transfer": 3222459.0,
       "overpay": 15109.0,
       "overpay_pct": 0.47,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-09T13:57:42Z|1858|Pedro||3237568.00"
     },
     {
       "transfer_id": "18",
@@ -765,7 +779,8 @@
       "market_value_at_transfer": 3725951.0,
       "overpay": 274049.0,
       "overpay_pct": 7.36,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-09T16:52:45Z|3041|Fabian||4000000.00"
     },
     {
       "transfer_id": "5",
@@ -779,7 +794,8 @@
       "market_value_at_transfer": 3222459.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T20:41:51Z|1858||Pedro|3222459.00"
     },
     {
       "transfer_id": "43",
@@ -793,7 +809,8 @@
       "market_value_at_transfer": 3902659.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T20:41:59Z|1333||Pedro|3902659.00"
     },
     {
       "transfer_id": "29",
@@ -807,7 +824,8 @@
       "market_value_at_transfer": 11460937.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T21:01:28Z|6197||KönigMario|11460937.00"
     },
     {
       "transfer_id": "10",
@@ -821,7 +839,8 @@
       "market_value_at_transfer": 608519.0,
       "overpay": 1481.0,
       "overpay_pct": 0.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-09T21:14:18Z|15313|AndiiRutz_1||610000.00"
     },
     {
       "transfer_id": "6",
@@ -835,7 +854,8 @@
       "market_value_at_transfer": 6376287.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T21:21:47Z|15478||Thomasson|6376287.00"
     },
     {
       "transfer_id": "18",
@@ -849,7 +869,8 @@
       "market_value_at_transfer": 3043352.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T21:38:16Z|2399||Marc Frischiniemi|3043352.00"
     },
     {
       "transfer_id": "5",
@@ -863,7 +884,8 @@
       "market_value_at_transfer": 4691225.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-09T21:38:21Z|7216||Marc Frischiniemi|4691225.00"
     },
     {
       "transfer_id": "4",
@@ -877,7 +899,8 @@
       "market_value_at_transfer": 11704299.0,
       "overpay": 184586.0,
       "overpay_pct": 1.58,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-09T21:50:47Z|16369|Simon Koller||11888885.00"
     },
     {
       "transfer_id": "3",
@@ -891,7 +914,8 @@
       "market_value_at_transfer": 9814220.0,
       "overpay": -15064.0,
       "overpay_pct": -0.15,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T04:02:14Z|14662|Thomasson||9799156.00"
     },
     {
       "transfer_id": "28",
@@ -905,7 +929,8 @@
       "market_value_at_transfer": 3715083.0,
       "overpay": -22215.0,
       "overpay_pct": -0.6,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T05:22:31Z|11875||AndiiRutz_1|3692868.00"
     },
     {
       "transfer_id": "14",
@@ -919,7 +944,8 @@
       "market_value_at_transfer": 10747511.0,
       "overpay": -87994.0,
       "overpay_pct": -0.82,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T06:00:16Z|3204|KönigMario||10659517.00"
     },
     {
       "transfer_id": "29",
@@ -933,7 +959,8 @@
       "market_value_at_transfer": 7452719.0,
       "overpay": 647281.0,
       "overpay_pct": 8.69,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T07:13:32Z|7320|Fabian||8100000.00"
     },
     {
       "transfer_id": "9",
@@ -947,7 +974,8 @@
       "market_value_at_transfer": 4959894.0,
       "overpay": 276006.0,
       "overpay_pct": 5.56,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T07:56:40Z|2199||Bommer|5235900.00"
     },
     {
       "transfer_id": "29",
@@ -961,7 +989,8 @@
       "market_value_at_transfer": 5346955.0,
       "overpay": 97489.0,
       "overpay_pct": 1.82,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T08:53:41Z|2498|Bommer||5444444.00"
     },
     {
       "transfer_id": "3",
@@ -975,7 +1004,8 @@
       "market_value_at_transfer": 4607346.0,
       "overpay": 191987.0,
       "overpay_pct": 4.17,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T08:54:25Z|9440||Flo24|4799333.00"
     },
     {
       "transfer_id": "5",
@@ -989,7 +1019,8 @@
       "market_value_at_transfer": 8996166.0,
       "overpay": 369491.0,
       "overpay_pct": 4.11,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T08:54:30Z|14048||Flo24|9365657.00"
     },
     {
       "transfer_id": "8",
@@ -1003,7 +1034,8 @@
       "market_value_at_transfer": 15434589.0,
       "overpay": 315493.0,
       "overpay_pct": 2.04,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T10:29:49Z|32|AndiiRutz_1||15750082.00"
     },
     {
       "transfer_id": "14",
@@ -1017,7 +1049,8 @@
       "market_value_at_transfer": 15275991.0,
       "overpay": 832809.0,
       "overpay_pct": 5.45,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T12:25:19Z|15262|Marc Frischiniemi||16108800.00"
     },
     {
       "transfer_id": "4",
@@ -1031,7 +1064,8 @@
       "market_value_at_transfer": 10404877.0,
       "overpay": 17113.0,
       "overpay_pct": 0.16,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T17:34:18Z|7417|Thomasson||10421990.00"
     },
     {
       "transfer_id": "7",
@@ -1045,7 +1079,8 @@
       "market_value_at_transfer": 8791032.0,
       "overpay": 315107.0,
       "overpay_pct": 3.58,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T19:16:14Z|7269||Fabian|9106139.00"
     },
     {
       "transfer_id": "43",
@@ -1059,7 +1094,8 @@
       "market_value_at_transfer": 5803765.0,
       "overpay": 462970.0,
       "overpay_pct": 7.98,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T19:43:46Z|12337||Bommer|6266735.00"
     },
     {
       "transfer_id": "8",
@@ -1073,7 +1109,8 @@
       "market_value_at_transfer": 5480514.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:16:07Z|4571||KönigMario|5480514.00"
     },
     {
       "transfer_id": "10",
@@ -1087,7 +1124,8 @@
       "market_value_at_transfer": 3993856.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:21:16Z|7469||Simon Koller|3993856.00"
     },
     {
       "transfer_id": "15",
@@ -1101,7 +1139,8 @@
       "market_value_at_transfer": 10314413.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:23:44Z|4292||AndiiRutz_1|10314413.00"
     },
     {
       "transfer_id": "18",
@@ -1115,7 +1154,8 @@
       "market_value_at_transfer": 5256645.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:26:04Z|13438||Flo24|5256645.00"
     },
     {
       "transfer_id": "7",
@@ -1129,7 +1169,8 @@
       "market_value_at_transfer": 8505801.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:31:13Z|11867||Pedro|8505801.00"
     },
     {
       "transfer_id": "10",
@@ -1143,7 +1184,8 @@
       "market_value_at_transfer": 10274838.0,
       "overpay": 1058500.0,
       "overpay_pct": 10.3,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-10T20:44:53Z|8166|Simon Koller||11333338.00"
     },
     {
       "transfer_id": "10",
@@ -1157,7 +1199,8 @@
       "market_value_at_transfer": 8372391.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:48:31Z|15256||Joel|8372391.00"
     },
     {
       "transfer_id": "3",
@@ -1171,7 +1214,8 @@
       "market_value_at_transfer": 9814220.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T20:51:02Z|14662||Thomasson|9814220.00"
     },
     {
       "transfer_id": "10",
@@ -1185,7 +1229,8 @@
       "market_value_at_transfer": 16275202.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-10T21:41:19Z|2367||Marc Frischiniemi|16275202.00"
     },
     {
       "transfer_id": "8",
@@ -1199,7 +1244,8 @@
       "market_value_at_transfer": 7361232.0,
       "overpay": -129614.0,
       "overpay_pct": -1.76,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T02:05:23Z|1012|Joel||7231618.00"
     },
     {
       "transfer_id": "28",
@@ -1213,7 +1259,8 @@
       "market_value_at_transfer": 9230919.0,
       "overpay": -73537.0,
       "overpay_pct": -0.8,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T02:15:00Z|15373|Simon Koller||9157382.00"
     },
     {
       "transfer_id": "8",
@@ -1227,7 +1274,8 @@
       "market_value_at_transfer": 7549521.0,
       "overpay": -99654.0,
       "overpay_pct": -1.32,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T03:25:18Z|2876|KönigMario||7449867.00"
     },
     {
       "transfer_id": "7",
@@ -1241,7 +1289,8 @@
       "market_value_at_transfer": 8347676.0,
       "overpay": -86303.0,
       "overpay_pct": -1.03,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T07:15:40Z|14893|Pedro||8261373.00"
     },
     {
       "transfer_id": "8",
@@ -1255,7 +1304,8 @@
       "market_value_at_transfer": 8527209.0,
       "overpay": 275964.0,
       "overpay_pct": 3.24,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T08:29:59Z|3029||Simon Koller|8803173.00"
     },
     {
       "transfer_id": "7",
@@ -1269,7 +1319,8 @@
       "market_value_at_transfer": 18284193.0,
       "overpay": 705702.0,
       "overpay_pct": 3.86,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T08:50:33Z|3759|Simon Koller||18989895.00"
     },
     {
       "transfer_id": "77",
@@ -1283,7 +1334,8 @@
       "market_value_at_transfer": 6009225.0,
       "overpay": -189197.0,
       "overpay_pct": -3.15,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T13:16:49Z|8301||Joel|5820028.00"
     },
     {
       "transfer_id": "8",
@@ -1297,7 +1349,8 @@
       "market_value_at_transfer": 13559711.0,
       "overpay": -137489.0,
       "overpay_pct": -1.01,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T16:13:49Z|2967|AndiiRutz_1||13422222.00"
     },
     {
       "transfer_id": "2",
@@ -1311,7 +1364,8 @@
       "market_value_at_transfer": 59533168.0,
       "overpay": 6146832.0,
       "overpay_pct": 10.33,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T17:43:58Z|1685|Marc Frischiniemi||65680000.00"
     },
     {
       "transfer_id": "9",
@@ -1325,7 +1379,8 @@
       "market_value_at_transfer": 7578856.0,
       "overpay": 255632.0,
       "overpay_pct": 3.37,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T17:50:06Z|7781||Marc Frischiniemi|7834488.00"
     },
     {
       "transfer_id": "40",
@@ -1339,7 +1394,8 @@
       "market_value_at_transfer": 6886054.0,
       "overpay": 1113946.0,
       "overpay_pct": 16.18,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T19:51:09Z|12763|Fabian||8000000.00"
     },
     {
       "transfer_id": "6",
@@ -1353,7 +1409,8 @@
       "market_value_at_transfer": 4895461.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T20:19:33Z|3521||Simon Koller|4895461.00"
     },
     {
       "transfer_id": "40",
@@ -1367,7 +1424,8 @@
       "market_value_at_transfer": 3928935.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T20:21:07Z|2717||AndiiRutz_1|3928935.00"
     },
     {
       "transfer_id": "29",
@@ -1381,7 +1439,8 @@
       "market_value_at_transfer": 3603863.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T20:21:14Z|6290||AndiiRutz_1|3603863.00"
     },
     {
       "transfer_id": "4",
@@ -1395,7 +1454,8 @@
       "market_value_at_transfer": 10501341.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-11T20:34:48Z|7417||Thomasson|10501341.00"
     },
     {
       "transfer_id": "29",
@@ -1409,7 +1469,8 @@
       "market_value_at_transfer": 5945113.0,
       "overpay": 165998.0,
       "overpay_pct": 2.79,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-11T23:38:28Z|12262|Bommer||6111111.00"
     },
     {
       "transfer_id": "2",
@@ -1423,7 +1484,8 @@
       "market_value_at_transfer": 68542518.0,
       "overpay": 8570885.0,
       "overpay_pct": 12.5,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-12T03:07:01Z|7226|Pedro||77113403.00"
     },
     {
       "transfer_id": "6",
@@ -1437,7 +1499,8 @@
       "market_value_at_transfer": 4612908.0,
       "overpay": 454756.0,
       "overpay_pct": 9.86,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T03:14:10Z|1889||Pedro|5067664.00"
     },
     {
       "transfer_id": "7",
@@ -1451,7 +1514,8 @@
       "market_value_at_transfer": 4600189.0,
       "overpay": 118770.0,
       "overpay_pct": 2.58,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T07:23:56Z|8225||Fabian|4718959.00"
     },
     {
       "transfer_id": "28",
@@ -1465,7 +1529,8 @@
       "market_value_at_transfer": 3340382.0,
       "overpay": 5085.0,
       "overpay_pct": 0.15,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-12T08:55:24Z|14300|Joel||3345467.00"
     },
     {
       "transfer_id": "40",
@@ -1479,7 +1544,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-12T14:59:06Z|13629|AndiiRutz_1||500000.00"
     },
     {
       "transfer_id": "14",
@@ -1493,7 +1559,8 @@
       "market_value_at_transfer": 26689900.0,
       "overpay": 838100.0,
       "overpay_pct": 3.14,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-12T18:11:51Z|3158|Marc Frischiniemi||27528000.00"
     },
     {
       "transfer_id": "43",
@@ -1507,7 +1574,8 @@
       "market_value_at_transfer": 5485678.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:05:41Z|10113||AndiiRutz_1|5485678.00"
     },
     {
       "transfer_id": "18",
@@ -1521,7 +1589,8 @@
       "market_value_at_transfer": 4571963.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:05:56Z|11954||Joel|4571963.00"
     },
     {
       "transfer_id": "29",
@@ -1535,7 +1604,8 @@
       "market_value_at_transfer": 9449327.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:13:18Z|7235||Flo24|9449327.00"
     },
     {
       "transfer_id": "6",
@@ -1549,7 +1619,8 @@
       "market_value_at_transfer": 4534495.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:19:44Z|1865||Thomasson|4534495.00"
     },
     {
       "transfer_id": "7",
@@ -1563,7 +1634,8 @@
       "market_value_at_transfer": 8345334.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:27:41Z|14893||Pedro|8345334.00"
     },
     {
       "transfer_id": "40",
@@ -1577,7 +1649,8 @@
       "market_value_at_transfer": 12362481.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:28:06Z|14917||Pedro|12362481.00"
     },
     {
       "transfer_id": "77",
@@ -1591,7 +1664,8 @@
       "market_value_at_transfer": 5822492.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:28:51Z|3232||Pedro|5822492.00"
     },
     {
       "transfer_id": "40",
@@ -1605,7 +1679,8 @@
       "market_value_at_transfer": 10110858.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:29:08Z|6750||Pedro|10110858.00"
     },
     {
       "transfer_id": "8",
@@ -1619,7 +1694,8 @@
       "market_value_at_transfer": 13738971.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-12T21:29:46Z|11255||Pedro|13738971.00"
     },
     {
       "transfer_id": "8",
@@ -1633,7 +1709,8 @@
       "market_value_at_transfer": 8734510.0,
       "overpay": -170983.0,
       "overpay_pct": -1.96,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T02:17:19Z|8222|Marc Frischiniemi||8563527.00"
     },
     {
       "transfer_id": "7",
@@ -1647,7 +1724,8 @@
       "market_value_at_transfer": 37761929.0,
       "overpay": 1804748.0,
       "overpay_pct": 4.78,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T03:19:04Z|4199|Joel||39566677.00"
     },
     {
       "transfer_id": "9",
@@ -1661,7 +1739,8 @@
       "market_value_at_transfer": 43739640.0,
       "overpay": 371474.0,
       "overpay_pct": 0.85,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T03:41:20Z|7158|Simon Koller||44111114.00"
     },
     {
       "transfer_id": "2",
@@ -1675,7 +1754,8 @@
       "market_value_at_transfer": 64484855.0,
       "overpay": 6765145.0,
       "overpay_pct": 10.49,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T06:31:20Z|8329|Thomasson||71250000.00"
     },
     {
       "transfer_id": "13",
@@ -1689,7 +1769,8 @@
       "market_value_at_transfer": 3078928.0,
       "overpay": 16617.0,
       "overpay_pct": 0.54,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-13T07:26:39Z|7696||Bommer|3095545.00"
     },
     {
       "transfer_id": "8",
@@ -1703,7 +1784,8 @@
       "market_value_at_transfer": 12484592.0,
       "overpay": -111789.0,
       "overpay_pct": -0.9,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T09:15:15Z|4606|Thomasson||12372803.00"
     },
     {
       "transfer_id": "7",
@@ -1717,7 +1799,8 @@
       "market_value_at_transfer": 29059100.0,
       "overpay": -83064.0,
       "overpay_pct": -0.29,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-13T10:59:56Z|6061||Joel|28976036.00"
     },
     {
       "transfer_id": "3",
@@ -1731,7 +1814,8 @@
       "market_value_at_transfer": 33549309.0,
       "overpay": 129636.0,
       "overpay_pct": 0.39,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T12:43:09Z|1704|Joel||33678945.00"
     },
     {
       "transfer_id": "7",
@@ -1745,7 +1829,8 @@
       "market_value_at_transfer": 14070132.0,
       "overpay": -88793.0,
       "overpay_pct": -0.63,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T13:18:36Z|14241|KönigMario||13981339.00"
     },
     {
       "transfer_id": "6",
@@ -1759,7 +1844,8 @@
       "market_value_at_transfer": 10425180.0,
       "overpay": -63567.0,
       "overpay_pct": -0.61,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-13T16:14:27Z|11512||AndiiRutz_1|10361613.00"
     },
     {
       "transfer_id": "2",
@@ -1773,7 +1859,8 @@
       "market_value_at_transfer": 53194406.0,
       "overpay": 6906604.0,
       "overpay_pct": 12.98,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T19:01:44Z|11675|AndiiRutz_1||60101010.00"
     },
     {
       "transfer_id": "9",
@@ -1787,7 +1874,8 @@
       "market_value_at_transfer": 8543176.0,
       "overpay": 196824.0,
       "overpay_pct": 2.3,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-13T19:49:51Z|2214|Flo24||8740000.00"
     },
     {
       "transfer_id": "43",
@@ -1801,7 +1889,8 @@
       "market_value_at_transfer": 19505457.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-13T22:36:09Z|2141||Simon Koller|19505457.00"
     },
     {
       "transfer_id": "6",
@@ -1815,7 +1904,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 2000.0,
       "overpay_pct": 0.4,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T00:47:16Z|9413|Pedro||502000.00"
     },
     {
       "transfer_id": "5",
@@ -1829,7 +1919,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T02:17:24Z|1910|Marc Frischiniemi||500000.00"
     },
     {
       "transfer_id": "15",
@@ -1843,7 +1934,8 @@
       "market_value_at_transfer": 9982919.0,
       "overpay": 45915.0,
       "overpay_pct": 0.46,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T08:08:15Z|6319|KönigMario||10028834.00"
     },
     {
       "transfer_id": "43",
@@ -1857,7 +1949,8 @@
       "market_value_at_transfer": 4472058.0,
       "overpay": 100170.0,
       "overpay_pct": 2.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T11:13:04Z|7239|Pedro||4572228.00"
     },
     {
       "transfer_id": "14",
@@ -1871,7 +1964,8 @@
       "market_value_at_transfer": 11217444.0,
       "overpay": -107767.0,
       "overpay_pct": -0.96,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-14T11:27:00Z|3204||KönigMario|11109677.00"
     },
     {
       "transfer_id": "40",
@@ -1885,7 +1979,8 @@
       "market_value_at_transfer": 5630456.0,
       "overpay": -220884.0,
       "overpay_pct": -3.92,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T11:32:19Z|51|KönigMario||5409572.00"
     },
     {
       "transfer_id": "43",
@@ -1899,7 +1994,8 @@
       "market_value_at_transfer": 18096898.0,
       "overpay": -11618.0,
       "overpay_pct": -0.06,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-14T11:55:16Z|15376||Thomasson|18085280.00"
     },
     {
       "transfer_id": "10",
@@ -1913,7 +2009,8 @@
       "market_value_at_transfer": 10341053.0,
       "overpay": 214502.0,
       "overpay_pct": 2.07,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T16:40:56Z|7282|Flo24||10555555.00"
     },
     {
       "transfer_id": "40",
@@ -1927,7 +2024,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-14T16:54:00Z|13629||AndiiRutz_1|500000.00"
     },
     {
       "transfer_id": "5",
@@ -1941,7 +2039,8 @@
       "market_value_at_transfer": 9709676.0,
       "overpay": 483484.0,
       "overpay_pct": 4.98,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-14T19:47:52Z|8363||Thomasson|10193160.00"
     },
     {
       "transfer_id": "18",
@@ -1955,7 +2054,8 @@
       "market_value_at_transfer": 8326218.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-14T20:47:54Z|2232||Bommer|8326218.00"
     },
     {
       "transfer_id": "15",
@@ -1969,7 +2069,8 @@
       "market_value_at_transfer": 9982919.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-14T21:16:39Z|6319||KönigMario|9982919.00"
     },
     {
       "transfer_id": "10",
@@ -1983,7 +2084,8 @@
       "market_value_at_transfer": 8497291.0,
       "overpay": 252709.0,
       "overpay_pct": 2.97,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-14T22:11:11Z|7167|Marc Frischiniemi||8750000.00"
     },
     {
       "transfer_id": "9",
@@ -1997,7 +2099,8 @@
       "market_value_at_transfer": 36844129.0,
       "overpay": 1155880.0,
       "overpay_pct": 3.14,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T02:31:56Z|2694|Bommer||38000009.00"
     },
     {
       "transfer_id": "9",
@@ -2011,7 +2114,8 @@
       "market_value_at_transfer": 25213056.0,
       "overpay": 786936.0,
       "overpay_pct": 3.12,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T03:33:13Z|2172|Bommer||25999992.00"
     },
     {
       "transfer_id": "43",
@@ -2025,7 +2129,8 @@
       "market_value_at_transfer": 20445010.0,
       "overpay": 955078.0,
       "overpay_pct": 4.67,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T03:34:44Z|11886|Marc Frischiniemi||21400088.00"
     },
     {
       "transfer_id": "29",
@@ -2039,7 +2144,8 @@
       "market_value_at_transfer": 6120557.0,
       "overpay": -36325.0,
       "overpay_pct": -0.59,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T05:41:39Z|2498||Bommer|6084232.00"
     },
     {
       "transfer_id": "8",
@@ -2053,7 +2159,8 @@
       "market_value_at_transfer": 6146034.0,
       "overpay": -110855.0,
       "overpay_pct": -1.8,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T06:32:23Z|1911||KönigMario|6035179.00"
     },
     {
       "transfer_id": "7",
@@ -2067,7 +2174,8 @@
       "market_value_at_transfer": 29216224.0,
       "overpay": 2165443.0,
       "overpay_pct": 7.41,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T06:32:33Z|2746|Pedro||31381667.00"
     },
     {
       "transfer_id": "4",
@@ -2081,7 +2189,8 @@
       "market_value_at_transfer": 23398569.0,
       "overpay": 601431.0,
       "overpay_pct": 2.57,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T06:51:47Z|2144|Fabian||24000000.00"
     },
     {
       "transfer_id": "43",
@@ -2095,7 +2204,8 @@
       "market_value_at_transfer": 13158530.0,
       "overpay": 339543.0,
       "overpay_pct": 2.58,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T07:00:50Z|2897||Pedro|13498073.00"
     },
     {
       "transfer_id": "40",
@@ -2109,7 +2219,8 @@
       "market_value_at_transfer": 1870751.0,
       "overpay": 579249.0,
       "overpay_pct": 30.96,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T09:55:39Z|3364|Marc Frischiniemi||2450000.00"
     },
     {
       "transfer_id": "29",
@@ -2123,7 +2234,8 @@
       "market_value_at_transfer": 769913.0,
       "overpay": -19913.0,
       "overpay_pct": -2.59,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T11:03:02Z|9283|Thomasson||750000.00"
     },
     {
       "transfer_id": "9",
@@ -2137,7 +2249,8 @@
       "market_value_at_transfer": 12449959.0,
       "overpay": 1905596.0,
       "overpay_pct": 15.31,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T12:07:23Z|8247|Flo24||14355555.00"
     },
     {
       "transfer_id": "2",
@@ -2151,7 +2264,8 @@
       "market_value_at_transfer": 35215989.0,
       "overpay": 3041307.0,
       "overpay_pct": 8.64,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T13:23:25Z|2804|Pedro||38257296.00"
     },
     {
       "transfer_id": "40",
@@ -2165,7 +2279,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 100000.0,
       "overpay_pct": 20.0,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T14:46:24Z|9221|AndiiRutz_1||600000.00"
     },
     {
       "transfer_id": "14",
@@ -2179,7 +2294,8 @@
       "market_value_at_transfer": 26862152.0,
       "overpay": -56973.0,
       "overpay_pct": -0.21,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T15:07:06Z|3158||Marc Frischiniemi|26805179.00"
     },
     {
       "transfer_id": "43",
@@ -2193,7 +2309,8 @@
       "market_value_at_transfer": 3546997.0,
       "overpay": 87978.0,
       "overpay_pct": 2.48,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T15:08:12Z|10530|Thomasson||3634975.00"
     },
     {
       "transfer_id": "13",
@@ -2207,7 +2324,8 @@
       "market_value_at_transfer": 11148133.0,
       "overpay": 2374089.0,
       "overpay_pct": 21.3,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-15T15:24:56Z|3183|Flo24||13522222.00"
     },
     {
       "transfer_id": "43",
@@ -2221,7 +2339,8 @@
       "market_value_at_transfer": 3546997.0,
       "overpay": 87978.0,
       "overpay_pct": 2.48,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T18:48:05Z|10530||Thomasson|3634975.00"
     },
     {
       "transfer_id": "15",
@@ -2235,7 +2354,8 @@
       "market_value_at_transfer": 18674993.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T20:25:24Z|1686||AndiiRutz_1|18674993.00"
     },
     {
       "transfer_id": "8",
@@ -2249,7 +2369,8 @@
       "market_value_at_transfer": 8295319.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T21:58:25Z|2876||KönigMario|8295319.00"
     },
     {
       "transfer_id": "77",
@@ -2263,7 +2384,8 @@
       "market_value_at_transfer": 5546256.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-15T21:59:47Z|2495||KönigMario|5546256.00"
     },
     {
       "transfer_id": "13",
@@ -2277,7 +2399,8 @@
       "market_value_at_transfer": 10412560.0,
       "overpay": 29918.0,
       "overpay_pct": 0.29,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T01:54:39Z|1811|KönigMario||10442478.00"
     },
     {
       "transfer_id": "2",
@@ -2291,7 +2414,8 @@
       "market_value_at_transfer": 22014468.0,
       "overpay": 1858146.0,
       "overpay_pct": 8.44,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T06:34:20Z|3120|KönigMario||23872614.00"
     },
     {
       "transfer_id": "9",
@@ -2305,7 +2429,8 @@
       "market_value_at_transfer": 4170397.0,
       "overpay": 1082936.0,
       "overpay_pct": 25.97,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T08:51:15Z|4296|Marc Frischiniemi||5253333.00"
     },
     {
       "transfer_id": "18",
@@ -2319,7 +2444,8 @@
       "market_value_at_transfer": 13314667.0,
       "overpay": -77940.0,
       "overpay_pct": -0.59,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T09:28:18Z|2646|KönigMario||13236727.00"
     },
     {
       "transfer_id": "9",
@@ -2333,7 +2459,8 @@
       "market_value_at_transfer": 12093611.0,
       "overpay": -98067.0,
       "overpay_pct": -0.81,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-16T09:29:51Z|1671||Marc Frischiniemi|11995544.00"
     },
     {
       "transfer_id": "40",
@@ -2347,7 +2474,8 @@
       "market_value_at_transfer": 4563008.0,
       "overpay": 245880.0,
       "overpay_pct": 5.39,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T12:20:49Z|4598|Marc Frischiniemi||4808888.00"
     },
     {
       "transfer_id": "43",
@@ -2361,7 +2489,8 @@
       "market_value_at_transfer": 5681104.0,
       "overpay": -193769.0,
       "overpay_pct": -3.41,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-16T16:05:52Z|9776||Joel|5487335.00"
     },
     {
       "transfer_id": "14",
@@ -2375,7 +2504,8 @@
       "market_value_at_transfer": 22850507.0,
       "overpay": 343335.0,
       "overpay_pct": 1.5,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T18:30:48Z|11631|KönigMario||23193842.00"
     },
     {
       "transfer_id": "10",
@@ -2389,7 +2519,8 @@
       "market_value_at_transfer": 12633106.0,
       "overpay": 712572.0,
       "overpay_pct": 5.64,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T18:48:44Z|9513|Joel||13345678.00"
     },
     {
       "transfer_id": "29",
@@ -2403,7 +2534,8 @@
       "market_value_at_transfer": 5493451.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-16T20:28:10Z|2471||Joel|5493451.00"
     },
     {
       "transfer_id": "28",
@@ -2417,7 +2549,8 @@
       "market_value_at_transfer": 3047115.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-16T20:30:43Z|417||AndiiRutz_1|3047115.00"
     },
     {
       "transfer_id": "18",
@@ -2431,7 +2564,8 @@
       "market_value_at_transfer": 5256064.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-16T20:33:02Z|6111||KönigMario|5256064.00"
     },
     {
       "transfer_id": "13",
@@ -2445,7 +2579,8 @@
       "market_value_at_transfer": 9352629.0,
       "overpay": 1004348.0,
       "overpay_pct": 10.74,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-16T20:43:17Z|10049|Joel||10356977.00"
     },
     {
       "transfer_id": "3",
@@ -2459,7 +2594,8 @@
       "market_value_at_transfer": 28960380.0,
       "overpay": 4261842.0,
       "overpay_pct": 14.72,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T01:45:35Z|1920|Fabian||33222222.00"
     },
     {
       "transfer_id": "43",
@@ -2473,7 +2609,8 @@
       "market_value_at_transfer": 6138051.0,
       "overpay": 1061949.0,
       "overpay_pct": 17.3,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T04:07:37Z|11008|AndiiRutz_1||7200000.00"
     },
     {
       "transfer_id": "8",
@@ -2487,7 +2624,8 @@
       "market_value_at_transfer": 5014097.0,
       "overpay": 570019.0,
       "overpay_pct": 11.37,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-17T06:20:20Z|1691||Bommer|5584116.00"
     },
     {
       "transfer_id": "2",
@@ -2501,7 +2639,8 @@
       "market_value_at_transfer": 1924739.0,
       "overpay": -106022.0,
       "overpay_pct": -5.51,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T06:31:19Z|15502|Thomasson||1818717.00"
     },
     {
       "transfer_id": "8",
@@ -2515,7 +2654,8 @@
       "market_value_at_transfer": 9296998.0,
       "overpay": -149689.0,
       "overpay_pct": -1.61,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-17T07:44:43Z|8222||Marc Frischiniemi|9147309.00"
     },
     {
       "transfer_id": "5",
@@ -2529,7 +2669,8 @@
       "market_value_at_transfer": 18169244.0,
       "overpay": 1052978.0,
       "overpay_pct": 5.8,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T12:30:05Z|3304|Bommer||19222222.00"
     },
     {
       "transfer_id": "18",
@@ -2543,7 +2684,8 @@
       "market_value_at_transfer": 12888058.0,
       "overpay": 611944.0,
       "overpay_pct": 4.75,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T13:18:57Z|1590|AndiiRutz_1||13500002.00"
     },
     {
       "transfer_id": "9",
@@ -2557,7 +2699,8 @@
       "market_value_at_transfer": 6015018.0,
       "overpay": 134982.0,
       "overpay_pct": 2.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T14:02:41Z|11258|AndiiRutz_1||6150000.00"
     },
     {
       "transfer_id": "5",
@@ -2571,7 +2714,8 @@
       "market_value_at_transfer": 5337499.0,
       "overpay": 225204.0,
       "overpay_pct": 4.22,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-17T14:15:58Z|2722||Simon Koller|5562703.00"
     },
     {
       "transfer_id": "10",
@@ -2585,7 +2729,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 2005.0,
       "overpay_pct": 0.4,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T15:25:27Z|3450|Pedro||502005.00"
     },
     {
       "transfer_id": "5",
@@ -2599,7 +2744,8 @@
       "market_value_at_transfer": 11162008.0,
       "overpay": -102071.0,
       "overpay_pct": -0.91,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T16:23:55Z|6209|Simon Koller||11059937.00"
     },
     {
       "transfer_id": "15",
@@ -2613,7 +2759,8 @@
       "market_value_at_transfer": 17072915.0,
       "overpay": 2127085.0,
       "overpay_pct": 12.46,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T16:25:28Z|849|Thomasson||19200000.00"
     },
     {
       "transfer_id": "29",
@@ -2627,7 +2774,8 @@
       "market_value_at_transfer": 12269795.0,
       "overpay": -119014.0,
       "overpay_pct": -0.97,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-17T17:14:08Z|2977||Joel|12150781.00"
     },
     {
       "transfer_id": "15",
@@ -2641,7 +2789,8 @@
       "market_value_at_transfer": 16229488.0,
       "overpay": 227499.0,
       "overpay_pct": 1.4,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-17T19:34:52Z|11010|Joel||16456987.00"
     },
     {
       "transfer_id": "8",
@@ -2655,7 +2804,8 @@
       "market_value_at_transfer": 12873631.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-17T21:32:10Z|4606||Thomasson|12873631.00"
     },
     {
       "transfer_id": "28",
@@ -2669,7 +2819,8 @@
       "market_value_at_transfer": 9566123.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-17T23:08:39Z|15373||Simon Koller|9566123.00"
     },
     {
       "transfer_id": "29",
@@ -2683,7 +2834,8 @@
       "market_value_at_transfer": 5361859.0,
       "overpay": 302783.0,
       "overpay_pct": 5.65,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T04:27:32Z|7320||Fabian|5664642.00"
     },
     {
       "transfer_id": "14",
@@ -2697,7 +2849,8 @@
       "market_value_at_transfer": 4000520.0,
       "overpay": 117210.0,
       "overpay_pct": 2.93,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T04:27:36Z|7717||Fabian|4117730.00"
     },
     {
       "transfer_id": "40",
@@ -2711,7 +2864,8 @@
       "market_value_at_transfer": 4171806.0,
       "overpay": 153333.0,
       "overpay_pct": 3.68,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T04:27:39Z|1553||Fabian|4325139.00"
     },
     {
       "transfer_id": "40",
@@ -2725,7 +2879,8 @@
       "market_value_at_transfer": 1187120.0,
       "overpay": -9482.0,
       "overpay_pct": -0.8,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T04:55:48Z|3419|Thomasson||1177638.00"
     },
     {
       "transfer_id": "8",
@@ -2739,7 +2894,8 @@
       "market_value_at_transfer": 15522623.0,
       "overpay": 103751.0,
       "overpay_pct": 0.67,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T07:00:35Z|670||Bommer|15626374.00"
     },
     {
       "transfer_id": "10",
@@ -2753,7 +2909,8 @@
       "market_value_at_transfer": 4367340.0,
       "overpay": 150141.0,
       "overpay_pct": 3.44,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T09:27:47Z|2939|Pedro||4517481.00"
     },
     {
       "transfer_id": "18",
@@ -2767,7 +2924,8 @@
       "market_value_at_transfer": 9957448.0,
       "overpay": 598110.0,
       "overpay_pct": 6.01,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T12:18:26Z|2006|Simon Koller||10555558.00"
     },
     {
       "transfer_id": "4",
@@ -2781,7 +2939,8 @@
       "market_value_at_transfer": 4432610.0,
       "overpay": 123118.0,
       "overpay_pct": 2.78,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T13:32:20Z|2863|Thomasson||4555728.00"
     },
     {
       "transfer_id": "29",
@@ -2795,7 +2954,8 @@
       "market_value_at_transfer": 4978291.0,
       "overpay": 132820.0,
       "overpay_pct": 2.67,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T13:39:28Z|3559|Bommer||5111111.00"
     },
     {
       "transfer_id": "8",
@@ -2809,7 +2969,8 @@
       "market_value_at_transfer": 9596843.0,
       "overpay": 361926.0,
       "overpay_pct": 3.77,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T15:16:24Z|10916||Simon Koller|9958769.00"
     },
     {
       "transfer_id": "4",
@@ -2823,7 +2984,8 @@
       "market_value_at_transfer": 7257438.0,
       "overpay": 348604.0,
       "overpay_pct": 4.8,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T19:22:57Z|12284|Pedro||7606042.00"
     },
     {
       "transfer_id": "40",
@@ -2837,7 +2999,8 @@
       "market_value_at_transfer": 5215573.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T20:06:33Z|4352||Joel|5215573.00"
     },
     {
       "transfer_id": "5",
@@ -2851,7 +3014,8 @@
       "market_value_at_transfer": 12532857.0,
       "overpay": 700797.0,
       "overpay_pct": 5.59,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-18T20:13:06Z|2084|Joel||13233654.00"
     },
     {
       "transfer_id": "2",
@@ -2865,7 +3029,8 @@
       "market_value_at_transfer": 35155990.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-18T20:35:20Z|2804||Pedro|35155990.00"
     },
     {
       "transfer_id": "40",
@@ -2879,7 +3044,8 @@
       "market_value_at_transfer": 4582086.0,
       "overpay": 192277.0,
       "overpay_pct": 4.2,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T05:41:06Z|2491||Bommer|4774363.00"
     },
     {
       "transfer_id": "29",
@@ -2893,7 +3059,8 @@
       "market_value_at_transfer": 6165641.0,
       "overpay": 583151.0,
       "overpay_pct": 9.46,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T05:41:23Z|12262||Bommer|6748792.00"
     },
     {
       "transfer_id": "10",
@@ -2907,7 +3074,8 @@
       "market_value_at_transfer": 4673252.0,
       "overpay": 36941.0,
       "overpay_pct": 0.79,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T06:25:22Z|43|AndiiRutz_1||4710193.00"
     },
     {
       "transfer_id": "28",
@@ -2921,7 +3089,8 @@
       "market_value_at_transfer": 6857911.0,
       "overpay": 142088.0,
       "overpay_pct": 2.07,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T14:41:00Z|2552|AndiiRutz_1||6999999.00"
     },
     {
       "transfer_id": "4",
@@ -2935,7 +3104,8 @@
       "market_value_at_transfer": 26372750.0,
       "overpay": 627249.0,
       "overpay_pct": 2.38,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T14:45:35Z|2255|Bommer||26999999.00"
     },
     {
       "transfer_id": "15",
@@ -2949,7 +3119,8 @@
       "market_value_at_transfer": 9260573.0,
       "overpay": -33955.0,
       "overpay_pct": -0.37,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T18:33:00Z|2074|KönigMario||9226618.00"
     },
     {
       "transfer_id": "3",
@@ -2963,7 +3134,8 @@
       "market_value_at_transfer": 21173321.0,
       "overpay": 2037749.0,
       "overpay_pct": 9.62,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T19:56:11Z|2736|Pedro||23211070.00"
     },
     {
       "transfer_id": "6",
@@ -2977,7 +3149,8 @@
       "market_value_at_transfer": 9261396.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T20:07:31Z|3277||AndiiRutz_1|9261396.00"
     },
     {
       "transfer_id": "9",
@@ -2991,7 +3164,8 @@
       "market_value_at_transfer": 6137990.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T20:10:17Z|11258||AndiiRutz_1|6137990.00"
     },
     {
       "transfer_id": "29",
@@ -3005,7 +3179,8 @@
       "market_value_at_transfer": 10136878.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T21:04:21Z|8292||Thomasson|10136878.00"
     },
     {
       "transfer_id": "7",
@@ -3019,7 +3194,8 @@
       "market_value_at_transfer": 14443900.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T21:26:47Z|14241||KönigMario|14443900.00"
     },
     {
       "transfer_id": "7",
@@ -3033,7 +3209,8 @@
       "market_value_at_transfer": 14992508.0,
       "overpay": 200000.0,
       "overpay_pct": 1.33,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T21:58:26Z|72|KönigMario||15192508.00"
     },
     {
       "transfer_id": "9",
@@ -3047,7 +3224,8 @@
       "market_value_at_transfer": 6997256.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-19T21:58:37Z|2214||Flo24|6997256.00"
     },
     {
       "transfer_id": "2",
@@ -3061,7 +3239,8 @@
       "market_value_at_transfer": 36944368.0,
       "overpay": 1722298.0,
       "overpay_pct": 4.66,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T23:27:22Z|173|Flo24||38666666.00"
     },
     {
       "transfer_id": "13",
@@ -3075,7 +3254,8 @@
       "market_value_at_transfer": 13547610.0,
       "overpay": 1300000.0,
       "overpay_pct": 9.6,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-19T23:39:46Z|7676|Thomasson||14847610.00"
     },
     {
       "transfer_id": "9",
@@ -3089,7 +3269,8 @@
       "market_value_at_transfer": 5131689.0,
       "overpay": -33871.0,
       "overpay_pct": -0.66,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T04:52:35Z|2445||Joel|5097818.00"
     },
     {
       "transfer_id": "13",
@@ -3103,7 +3284,8 @@
       "market_value_at_transfer": 6039427.0,
       "overpay": -129429.0,
       "overpay_pct": -2.14,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T05:07:59Z|2651||Marc Frischiniemi|5909998.00"
     },
     {
       "transfer_id": "77",
@@ -3117,7 +3299,8 @@
       "market_value_at_transfer": 9939968.0,
       "overpay": 370831.0,
       "overpay_pct": 3.73,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T06:45:23Z|6148||Pedro|10310799.00"
     },
     {
       "transfer_id": "9",
@@ -3131,7 +3314,8 @@
       "market_value_at_transfer": 4922577.0,
       "overpay": -33678.0,
       "overpay_pct": -0.68,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T06:56:22Z|3193|Joel||4888899.00"
     },
     {
       "transfer_id": "13",
@@ -3145,7 +3329,8 @@
       "market_value_at_transfer": 16289886.0,
       "overpay": -2859.0,
       "overpay_pct": -0.02,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T09:35:25Z|2195|Simon Koller||16287027.00"
     },
     {
       "transfer_id": "10",
@@ -3159,7 +3344,8 @@
       "market_value_at_transfer": 10472568.0,
       "overpay": 137432.0,
       "overpay_pct": 1.31,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T10:19:51Z|608|Marc Frischiniemi||10610000.00"
     },
     {
       "transfer_id": "40",
@@ -3173,7 +3359,8 @@
       "market_value_at_transfer": 1106304.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T10:48:44Z|9221||AndiiRutz_1|1106304.00"
     },
     {
       "transfer_id": "7",
@@ -3187,7 +3374,8 @@
       "market_value_at_transfer": 6292578.0,
       "overpay": -116466.0,
       "overpay_pct": -1.85,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T11:42:57Z|4318||KönigMario|6176112.00"
     },
     {
       "transfer_id": "77",
@@ -3201,7 +3389,8 @@
       "market_value_at_transfer": 5389340.0,
       "overpay": 138879.0,
       "overpay_pct": 2.58,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T11:54:55Z|9384|Pedro||5528219.00"
     },
     {
       "transfer_id": "15",
@@ -3215,7 +3404,8 @@
       "market_value_at_transfer": 7538624.0,
       "overpay": -13372.0,
       "overpay_pct": -0.18,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T14:43:53Z|619|AndiiRutz_1||7525252.00"
     },
     {
       "transfer_id": "9",
@@ -3229,7 +3419,8 @@
       "market_value_at_transfer": 13101042.0,
       "overpay": -21446.0,
       "overpay_pct": -0.16,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T16:13:13Z|8247||Flo24|13079596.00"
     },
     {
       "transfer_id": "28",
@@ -3243,7 +3434,8 @@
       "market_value_at_transfer": 4821515.0,
       "overpay": -244145.0,
       "overpay_pct": -5.06,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T16:50:27Z|16945|AndiiRutz_1||4577370.00"
     },
     {
       "transfer_id": "40",
@@ -3257,7 +3449,8 @@
       "market_value_at_transfer": 14366802.0,
       "overpay": -92718.0,
       "overpay_pct": -0.65,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T17:14:24Z|7723|Bommer||14274084.00"
     },
     {
       "transfer_id": "28",
@@ -3271,7 +3464,8 @@
       "market_value_at_transfer": 4344998.0,
       "overpay": 113002.0,
       "overpay_pct": 2.6,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T17:24:36Z|2201|Marc Frischiniemi||4458000.00"
     },
     {
       "transfer_id": "3",
@@ -3285,7 +3479,8 @@
       "market_value_at_transfer": 17522987.0,
       "overpay": 365901.0,
       "overpay_pct": 2.09,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-20T18:13:31Z|7737|Bommer||17888888.00"
     },
     {
       "transfer_id": "13",
@@ -3299,7 +3494,8 @@
       "market_value_at_transfer": 10220993.0,
       "overpay": 132869.0,
       "overpay_pct": 1.3,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T19:30:31Z|6168||Marc Frischiniemi|10353862.00"
     },
     {
       "transfer_id": "9",
@@ -3313,7 +3509,8 @@
       "market_value_at_transfer": 27062831.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T20:43:53Z|2988||Thomasson|27062831.00"
     },
     {
       "transfer_id": "10",
@@ -3327,7 +3524,8 @@
       "market_value_at_transfer": 8093843.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-20T20:43:57Z|3139||Thomasson|8093843.00"
     },
     {
       "transfer_id": "18",
@@ -3341,7 +3539,8 @@
       "market_value_at_transfer": 1222870.0,
       "overpay": -111758.0,
       "overpay_pct": -9.14,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T00:53:40Z|2822|AndiiRutz_1||1111112.00"
     },
     {
       "transfer_id": "10",
@@ -3355,7 +3554,8 @@
       "market_value_at_transfer": 7643851.0,
       "overpay": -144796.0,
       "overpay_pct": -1.89,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T06:08:10Z|11262|Thomasson||7499055.00"
     },
     {
       "transfer_id": "8",
@@ -3369,7 +3569,8 @@
       "market_value_at_transfer": 16920223.0,
       "overpay": -75068.0,
       "overpay_pct": -0.44,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T10:57:15Z|32||AndiiRutz_1|16845155.00"
     },
     {
       "transfer_id": "8",
@@ -3383,7 +3584,8 @@
       "market_value_at_transfer": 14973093.0,
       "overpay": -120069.0,
       "overpay_pct": -0.8,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T10:58:02Z|2967||AndiiRutz_1|14853024.00"
     },
     {
       "transfer_id": "77",
@@ -3397,7 +3599,8 @@
       "market_value_at_transfer": 6371964.0,
       "overpay": -56590.0,
       "overpay_pct": -0.89,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T11:21:49Z|12317||Joel|6315374.00"
     },
     {
       "transfer_id": "29",
@@ -3411,7 +3614,8 @@
       "market_value_at_transfer": 5080079.0,
       "overpay": 224712.0,
       "overpay_pct": 4.42,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T13:17:23Z|3081|Pedro||5304791.00"
     },
     {
       "transfer_id": "18",
@@ -3425,7 +3629,8 @@
       "market_value_at_transfer": 13856588.0,
       "overpay": 35102.0,
       "overpay_pct": 0.25,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T14:02:16Z|10122||Pedro|13891690.00"
     },
     {
       "transfer_id": "8",
@@ -3439,7 +3644,8 @@
       "market_value_at_transfer": 1564962.0,
       "overpay": 153917.0,
       "overpay_pct": 9.84,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T14:38:56Z|12158|Pedro||1718879.00"
     },
     {
       "transfer_id": "8",
@@ -3453,7 +3659,8 @@
       "market_value_at_transfer": 8400378.0,
       "overpay": 56545.0,
       "overpay_pct": 0.67,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T16:23:47Z|8277||Pedro|8456923.00"
     },
     {
       "transfer_id": "5",
@@ -3467,7 +3674,8 @@
       "market_value_at_transfer": 5778966.0,
       "overpay": 27048.0,
       "overpay_pct": 0.47,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T17:01:37Z|4335|Pedro||5806014.00"
     },
     {
       "transfer_id": "15",
@@ -3481,7 +3689,8 @@
       "market_value_at_transfer": 10731397.0,
       "overpay": 1379714.0,
       "overpay_pct": 12.86,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T20:19:21Z|11748|Flo24||12111111.00"
     },
     {
       "transfer_id": "40",
@@ -3495,7 +3704,8 @@
       "market_value_at_transfer": 4990355.0,
       "overpay": 559645.0,
       "overpay_pct": 11.21,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T20:26:39Z|7684|Thomasson||5550000.00"
     },
     {
       "transfer_id": "28",
@@ -3509,7 +3719,8 @@
       "market_value_at_transfer": 6043808.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T20:26:56Z|737||Pedro|6043808.00"
     },
     {
       "transfer_id": "10",
@@ -3523,7 +3734,8 @@
       "market_value_at_transfer": 9965561.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T20:46:16Z|7282||Flo24|9965561.00"
     },
     {
       "transfer_id": "13",
@@ -3537,7 +3749,8 @@
       "market_value_at_transfer": 5989375.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T20:46:52Z|9965||Flo24|5989375.00"
     },
     {
       "transfer_id": "77",
@@ -3551,7 +3764,8 @@
       "market_value_at_transfer": 10365919.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T20:47:07Z|7278||Thomasson|10365919.00"
     },
     {
       "transfer_id": "10",
@@ -3565,7 +3779,8 @@
       "market_value_at_transfer": 10058955.0,
       "overpay": 2607711.0,
       "overpay_pct": 25.92,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T21:11:59Z|9923|Flo24||12666666.00"
     },
     {
       "transfer_id": "6",
@@ -3579,7 +3794,8 @@
       "market_value_at_transfer": 9669555.0,
       "overpay": 435445.0,
       "overpay_pct": 4.5,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T22:47:35Z|2725|Pedro||10105000.00"
     },
     {
       "transfer_id": "4",
@@ -3593,7 +3809,8 @@
       "market_value_at_transfer": 3482516.0,
       "overpay": 1027485.0,
       "overpay_pct": 29.5,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-21T23:01:20Z|2718|AndiiRutz_1||4510001.00"
     },
     {
       "transfer_id": "13",
@@ -3607,7 +3824,8 @@
       "market_value_at_transfer": 6359738.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T23:12:13Z|13479||Simon Koller|6359738.00"
     },
     {
       "transfer_id": "77",
@@ -3621,7 +3839,8 @@
       "market_value_at_transfer": 5746902.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-21T23:12:25Z|8296||Simon Koller|5746902.00"
     },
     {
       "transfer_id": "13",
@@ -3635,7 +3854,8 @@
       "market_value_at_transfer": 9835144.0,
       "overpay": -21725.0,
       "overpay_pct": -0.22,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-22T00:29:13Z|11556|KönigMario||9813419.00"
     },
     {
       "transfer_id": "18",
@@ -3649,7 +3869,8 @@
       "market_value_at_transfer": 5264858.0,
       "overpay": -176576.0,
       "overpay_pct": -3.35,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-22T01:05:52Z|3318|Thomasson||5088282.00"
     },
     {
       "transfer_id": "3",
@@ -3663,7 +3884,8 @@
       "market_value_at_transfer": 18041690.0,
       "overpay": 1967190.0,
       "overpay_pct": 10.9,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-22T02:02:53Z|16948|Marc Frischiniemi||20008880.00"
     },
     {
       "transfer_id": "43",
@@ -3677,7 +3899,8 @@
       "market_value_at_transfer": 20405009.0,
       "overpay": 343418.0,
       "overpay_pct": 1.68,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T11:41:03Z|11886||Marc Frischiniemi|20748427.00"
     },
     {
       "transfer_id": "13",
@@ -3691,7 +3914,8 @@
       "market_value_at_transfer": 10895146.0,
       "overpay": 84784.0,
       "overpay_pct": 0.78,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T12:02:03Z|1811||KönigMario|10979930.00"
     },
     {
       "transfer_id": "2",
@@ -3705,7 +3929,8 @@
       "market_value_at_transfer": 13389844.0,
       "overpay": 135711.0,
       "overpay_pct": 1.01,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-22T12:28:21Z|237|Marc Frischiniemi||13525555.00"
     },
     {
       "transfer_id": "5",
@@ -3719,7 +3944,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T12:38:52Z|1910||Marc Frischiniemi|500000.00"
     },
     {
       "transfer_id": "43",
@@ -3733,7 +3959,8 @@
       "market_value_at_transfer": 6476321.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T20:04:24Z|7493||Bommer|6476321.00"
     },
     {
       "transfer_id": "28",
@@ -3747,7 +3974,8 @@
       "market_value_at_transfer": 6079462.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T21:14:49Z|14300||Joel|6079462.00"
     },
     {
       "transfer_id": "28",
@@ -3761,7 +3989,8 @@
       "market_value_at_transfer": 10789208.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T21:25:23Z|8001||Pedro|10789208.00"
     },
     {
       "transfer_id": "40",
@@ -3775,7 +4004,8 @@
       "market_value_at_transfer": 2159786.0,
       "overpay": 640215.0,
       "overpay_pct": 29.64,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-22T21:39:02Z|1223|AndiiRutz_1||2800001.00"
     },
     {
       "transfer_id": "29",
@@ -3789,7 +4019,8 @@
       "market_value_at_transfer": 8352355.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-22T22:45:41Z|3492||Marc Frischiniemi|8352355.00"
     },
     {
       "transfer_id": "29",
@@ -3803,7 +4034,8 @@
       "market_value_at_transfer": 5765086.0,
       "overpay": 367591.0,
       "overpay_pct": 6.38,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T01:01:25Z|8872||KönigMario|6132677.00"
     },
     {
       "transfer_id": "4",
@@ -3817,7 +4049,8 @@
       "market_value_at_transfer": 6002747.0,
       "overpay": 290528.0,
       "overpay_pct": 4.84,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T01:01:34Z|513||KönigMario|6293275.00"
     },
     {
       "transfer_id": "6",
@@ -3831,7 +4064,8 @@
       "market_value_at_transfer": 1554596.0,
       "overpay": -11112.0,
       "overpay_pct": -0.71,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-23T02:37:07Z|12368|Joel||1543484.00"
     },
     {
       "transfer_id": "5",
@@ -3845,7 +4079,8 @@
       "market_value_at_transfer": 11843920.0,
       "overpay": 1489413.0,
       "overpay_pct": 12.58,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-23T02:39:27Z|2125|Flo24||13333333.00"
     },
     {
       "transfer_id": "10",
@@ -3859,7 +4094,8 @@
       "market_value_at_transfer": 4440786.0,
       "overpay": 79107.0,
       "overpay_pct": 1.78,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T06:36:57Z|43||AndiiRutz_1|4519893.00"
     },
     {
       "transfer_id": "6",
@@ -3873,7 +4109,8 @@
       "market_value_at_transfer": 11544107.0,
       "overpay": 322848.0,
       "overpay_pct": 2.8,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-23T07:36:06Z|9605|Joel||11866955.00"
     },
     {
       "transfer_id": "15",
@@ -3887,7 +4124,8 @@
       "market_value_at_transfer": 10221527.0,
       "overpay": 228473.0,
       "overpay_pct": 2.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-23T08:51:04Z|3129|Marc Frischiniemi||10450000.00"
     },
     {
       "transfer_id": "18",
@@ -3901,7 +4139,8 @@
       "market_value_at_transfer": 5190814.0,
       "overpay": 626508.0,
       "overpay_pct": 12.07,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T11:14:05Z|620||Simon Koller|5817322.00"
     },
     {
       "transfer_id": "18",
@@ -3915,7 +4154,8 @@
       "market_value_at_transfer": 10341219.0,
       "overpay": -7324.0,
       "overpay_pct": -0.07,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-23T11:37:50Z|60|KönigMario||10333895.00"
     },
     {
       "transfer_id": "18",
@@ -3929,7 +4169,8 @@
       "market_value_at_transfer": 11088481.0,
       "overpay": 741519.0,
       "overpay_pct": 6.69,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-23T12:32:41Z|2476|Marc Frischiniemi||11830000.00"
     },
     {
       "transfer_id": "8",
@@ -3943,7 +4184,8 @@
       "market_value_at_transfer": 15435667.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T20:23:48Z|13448||Marc Frischiniemi|15435667.00"
     },
     {
       "transfer_id": "10",
@@ -3957,7 +4199,8 @@
       "market_value_at_transfer": 7798662.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T21:00:07Z|11262||Thomasson|7798662.00"
     },
     {
       "transfer_id": "2",
@@ -3971,7 +4214,8 @@
       "market_value_at_transfer": 4146157.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T21:00:21Z|15502||Thomasson|4146157.00"
     },
     {
       "transfer_id": "43",
@@ -3985,7 +4229,8 @@
       "market_value_at_transfer": 4713797.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T21:04:13Z|1728||KönigMario|4713797.00"
     },
     {
       "transfer_id": "6",
@@ -3999,7 +4244,8 @@
       "market_value_at_transfer": 12069742.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-23T21:04:29Z|15472||KönigMario|12069742.00"
     },
     {
       "transfer_id": "2",
@@ -4013,7 +4259,8 @@
       "market_value_at_transfer": 32438401.0,
       "overpay": 2067228.0,
       "overpay_pct": 6.37,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T00:23:43Z|6080|Pedro||34505629.00"
     },
     {
       "transfer_id": "18",
@@ -4027,7 +4274,8 @@
       "market_value_at_transfer": 9703648.0,
       "overpay": 175018.0,
       "overpay_pct": 1.8,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T05:51:43Z|1540||Pedro|9878666.00"
     },
     {
       "transfer_id": "43",
@@ -4041,7 +4289,8 @@
       "market_value_at_transfer": 6476754.0,
       "overpay": 246864.0,
       "overpay_pct": 3.81,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T06:26:33Z|7239||Pedro|6723618.00"
     },
     {
       "transfer_id": "77",
@@ -4055,7 +4304,8 @@
       "market_value_at_transfer": 9250465.0,
       "overpay": 278130.0,
       "overpay_pct": 3.01,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T06:37:00Z|3026||Bommer|9528595.00"
     },
     {
       "transfer_id": "9",
@@ -4069,7 +4319,8 @@
       "market_value_at_transfer": 10673605.0,
       "overpay": 627283.0,
       "overpay_pct": 5.88,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T07:16:45Z|2237|Marc Frischiniemi||11300888.00"
     },
     {
       "transfer_id": "2",
@@ -4083,7 +4334,8 @@
       "market_value_at_transfer": 30262853.0,
       "overpay": 4170.0,
       "overpay_pct": 0.01,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T07:26:29Z|14251||AndiiRutz_1|30267023.00"
     },
     {
       "transfer_id": "43",
@@ -4097,7 +4349,8 @@
       "market_value_at_transfer": 19603467.0,
       "overpay": 1554677.0,
       "overpay_pct": 7.93,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T08:01:03Z|4596|KönigMario||21158144.00"
     },
     {
       "transfer_id": "2",
@@ -4111,7 +4364,8 @@
       "market_value_at_transfer": 13565866.0,
       "overpay": -92933.0,
       "overpay_pct": -0.69,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T08:53:51Z|237||Marc Frischiniemi|13472933.00"
     },
     {
       "transfer_id": "9",
@@ -4125,7 +4379,8 @@
       "market_value_at_transfer": 24402227.0,
       "overpay": 660655.0,
       "overpay_pct": 2.71,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T09:54:06Z|2172||Bommer|25062882.00"
     },
     {
       "transfer_id": "40",
@@ -4139,7 +4394,8 @@
       "market_value_at_transfer": 10286923.0,
       "overpay": -64694.0,
       "overpay_pct": -0.63,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T11:53:56Z|4446|Bommer||10222229.00"
     },
     {
       "transfer_id": "43",
@@ -4153,7 +4409,8 @@
       "market_value_at_transfer": 11153564.0,
       "overpay": 4810.0,
       "overpay_pct": 0.04,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T11:58:31Z|8061|Simon Koller||11158374.00"
     },
     {
       "transfer_id": "5",
@@ -4167,7 +4424,8 @@
       "market_value_at_transfer": 13920110.0,
       "overpay": -142336.0,
       "overpay_pct": -1.02,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T12:42:57Z|11006|Simon Koller||13777774.00"
     },
     {
       "transfer_id": "2",
@@ -4181,7 +4439,8 @@
       "market_value_at_transfer": 29388219.0,
       "overpay": 4200366.0,
       "overpay_pct": 14.29,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T13:40:07Z|3543|AndiiRutz_1||33588585.00"
     },
     {
       "transfer_id": "13",
@@ -4195,7 +4454,8 @@
       "market_value_at_transfer": 3585560.0,
       "overpay": 533959.0,
       "overpay_pct": 14.89,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T15:42:42Z|1809|Pedro||4119519.00"
     },
     {
       "transfer_id": "8",
@@ -4209,7 +4469,8 @@
       "market_value_at_transfer": 527770.0,
       "overpay": -27670.0,
       "overpay_pct": -5.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T15:52:55Z|8235|Pedro||500100.00"
     },
     {
       "transfer_id": "2",
@@ -4223,7 +4484,8 @@
       "market_value_at_transfer": 33879307.0,
       "overpay": 99931.0,
       "overpay_pct": 0.29,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-24T19:27:42Z|1991|Marc Frischiniemi||33979238.00"
     },
     {
       "transfer_id": "8",
@@ -4237,7 +4499,8 @@
       "market_value_at_transfer": 10316546.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T20:08:50Z|1012||Joel|10316546.00"
     },
     {
       "transfer_id": "10",
@@ -4251,7 +4514,8 @@
       "market_value_at_transfer": 5999660.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T20:41:01Z|2939||Pedro|5999660.00"
     },
     {
       "transfer_id": "6",
@@ -4265,7 +4529,8 @@
       "market_value_at_transfer": 10484612.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T20:42:11Z|2725||Pedro|10484612.00"
     },
     {
       "transfer_id": "77",
@@ -4279,7 +4544,8 @@
       "market_value_at_transfer": 7451693.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-24T21:38:34Z|859||KönigMario|7451693.00"
     },
     {
       "transfer_id": "3",
@@ -4293,7 +4559,8 @@
       "market_value_at_transfer": 16597972.0,
       "overpay": 33136.0,
       "overpay_pct": 0.2,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T02:50:54Z|10115|Thomasson||16631108.00"
     },
     {
       "transfer_id": "77",
@@ -4307,7 +4574,8 @@
       "market_value_at_transfer": 6460437.0,
       "overpay": 689563.0,
       "overpay_pct": 10.67,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T03:14:20Z|7441|AndiiRutz_1||7150000.00"
     },
     {
       "transfer_id": "3",
@@ -4321,7 +4589,8 @@
       "market_value_at_transfer": 27274237.0,
       "overpay": 1231829.0,
       "overpay_pct": 4.52,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T05:17:08Z|3069|KönigMario||28506066.00"
     },
     {
       "transfer_id": "40",
@@ -4335,7 +4604,8 @@
       "market_value_at_transfer": 9032528.0,
       "overpay": -133128.0,
       "overpay_pct": -1.47,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-25T05:28:13Z|8381||AndiiRutz_1|8899400.00"
     },
     {
       "transfer_id": "40",
@@ -4349,7 +4619,8 @@
       "market_value_at_transfer": 3028777.0,
       "overpay": -128775.0,
       "overpay_pct": -4.25,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T05:52:51Z|10106|AndiiRutz_1||2900002.00"
     },
     {
       "transfer_id": "6",
@@ -4363,7 +4634,8 @@
       "market_value_at_transfer": 1251654.0,
       "overpay": 53714.0,
       "overpay_pct": 4.29,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T06:45:30Z|11949|Pedro||1305368.00"
     },
     {
       "transfer_id": "29",
@@ -4377,7 +4649,8 @@
       "market_value_at_transfer": 3715923.0,
       "overpay": 145529.0,
       "overpay_pct": 3.92,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-25T08:00:58Z|10048||Simon Koller|3861452.00"
     },
     {
       "transfer_id": "4",
@@ -4391,7 +4664,8 @@
       "market_value_at_transfer": 11598785.0,
       "overpay": 2251215.0,
       "overpay_pct": 19.41,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T12:41:30Z|10004|Thomasson||13850000.00"
     },
     {
       "transfer_id": "10",
@@ -4405,7 +4679,8 @@
       "market_value_at_transfer": 10476426.0,
       "overpay": 37351.0,
       "overpay_pct": 0.36,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-25T12:55:43Z|7167||Marc Frischiniemi|10513777.00"
     },
     {
       "transfer_id": "9",
@@ -4419,7 +4694,8 @@
       "market_value_at_transfer": 3983726.0,
       "overpay": 121757.0,
       "overpay_pct": 3.06,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T17:01:54Z|11043|Pedro||4105483.00"
     },
     {
       "transfer_id": "10",
@@ -4433,7 +4709,8 @@
       "market_value_at_transfer": 19970901.0,
       "overpay": -65444.0,
       "overpay_pct": -0.33,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T19:59:49Z|3481|KönigMario||19905457.00"
     },
     {
       "transfer_id": "2",
@@ -4447,7 +4724,8 @@
       "market_value_at_transfer": 33750143.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-25T20:37:36Z|1991||Marc Frischiniemi|33750143.00"
     },
     {
       "transfer_id": "14",
@@ -4461,7 +4739,8 @@
       "market_value_at_transfer": 10615051.0,
       "overpay": 390147.0,
       "overpay_pct": 3.68,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-25T22:12:56Z|3471|KönigMario||11005198.00"
     },
     {
       "transfer_id": "18",
@@ -4475,7 +4754,8 @@
       "market_value_at_transfer": 16397617.0,
       "overpay": -64284.0,
       "overpay_pct": -0.39,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-26T02:26:58Z|8307|Bommer||16333333.00"
     },
     {
       "transfer_id": "5",
@@ -4489,7 +4769,8 @@
       "market_value_at_transfer": 26787025.0,
       "overpay": 1562975.0,
       "overpay_pct": 5.83,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-26T03:28:20Z|49|Marc Frischiniemi||28350000.00"
     },
     {
       "transfer_id": "2",
@@ -4503,7 +4784,8 @@
       "market_value_at_transfer": 22791888.0,
       "overpay": 198870.0,
       "overpay_pct": 0.87,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T03:42:36Z|3120||KönigMario|22990758.00"
     },
     {
       "transfer_id": "28",
@@ -4517,7 +4799,8 @@
       "market_value_at_transfer": 1464625.0,
       "overpay": 133319.0,
       "overpay_pct": 9.1,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T06:14:23Z|417||Mario|1597944.00"
     },
     {
       "transfer_id": "8",
@@ -4531,7 +4814,8 @@
       "market_value_at_transfer": 1163395.0,
       "overpay": 108135.0,
       "overpay_pct": 9.29,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T06:15:51Z|9390||Mario|1271530.00"
     },
     {
       "transfer_id": "7",
@@ -4545,7 +4829,8 @@
       "market_value_at_transfer": 1699238.0,
       "overpay": 59746.0,
       "overpay_pct": 3.52,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T06:16:13Z|8374||Mario|1758984.00"
     },
     {
       "transfer_id": "2",
@@ -4559,7 +4844,8 @@
       "market_value_at_transfer": 5780497.0,
       "overpay": 19503.0,
       "overpay_pct": 0.34,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-26T08:16:03Z|3089|Mario||5800000.00"
     },
     {
       "transfer_id": "28",
@@ -4573,7 +4859,8 @@
       "market_value_at_transfer": 8521663.0,
       "overpay": 79448.0,
       "overpay_pct": 0.93,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-26T09:30:09Z|11958|Mario||8601111.00"
     },
     {
       "transfer_id": "10",
@@ -4587,7 +4874,8 @@
       "market_value_at_transfer": 6178485.0,
       "overpay": -81115.0,
       "overpay_pct": -1.31,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T10:42:22Z|15313||AndiiRutz_1|6097370.00"
     },
     {
       "transfer_id": "29",
@@ -4601,7 +4889,8 @@
       "market_value_at_transfer": 3216993.0,
       "overpay": -72549.0,
       "overpay_pct": -2.26,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-26T11:27:45Z|2749|Simon Koller||3144444.00"
     },
     {
       "transfer_id": "10",
@@ -4615,7 +4904,8 @@
       "market_value_at_transfer": 9475571.0,
       "overpay": 671795.0,
       "overpay_pct": 7.09,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T12:06:25Z|8166||Simon Koller|10147366.00"
     },
     {
       "transfer_id": "7",
@@ -4629,7 +4919,8 @@
       "market_value_at_transfer": 13804009.0,
       "overpay": 1529324.0,
       "overpay_pct": 11.08,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-26T17:30:50Z|2846|Flo24||15333333.00"
     },
     {
       "transfer_id": "40",
@@ -4643,7 +4934,8 @@
       "market_value_at_transfer": 10216017.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T20:08:01Z|4446||Bommer|10216017.00"
     },
     {
       "transfer_id": "40",
@@ -4657,7 +4949,8 @@
       "market_value_at_transfer": 5237059.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T20:42:14Z|3364||Marc Frischiniemi|5237059.00"
     },
     {
       "transfer_id": "5",
@@ -4671,7 +4964,8 @@
       "market_value_at_transfer": 10934988.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T20:51:56Z|3209||Joel|10934988.00"
     },
     {
       "transfer_id": "6",
@@ -4685,7 +4979,8 @@
       "market_value_at_transfer": 11384077.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-26T20:53:59Z|1978||Flo24|11384077.00"
     },
     {
       "transfer_id": "43",
@@ -4699,7 +4994,8 @@
       "market_value_at_transfer": 16782740.0,
       "overpay": 3459.0,
       "overpay_pct": 0.02,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T00:19:43Z|8227|Simon Koller||16786199.00"
     },
     {
       "transfer_id": "40",
@@ -4713,7 +5009,8 @@
       "market_value_at_transfer": 10152163.0,
       "overpay": 403387.0,
       "overpay_pct": 3.97,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T03:30:33Z|3102|Mario||10555550.00"
     },
     {
       "transfer_id": "4",
@@ -4727,7 +5024,8 @@
       "market_value_at_transfer": 28566231.0,
       "overpay": -81231.0,
       "overpay_pct": -0.28,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T03:49:25Z|6081|Joel||28485000.00"
     },
     {
       "transfer_id": "28",
@@ -4741,7 +5039,8 @@
       "market_value_at_transfer": 9995287.0,
       "overpay": 73003.0,
       "overpay_pct": 0.73,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T04:42:59Z|2358||Thomasson|10068290.00"
     },
     {
       "transfer_id": "5",
@@ -4755,7 +5054,8 @@
       "market_value_at_transfer": 5329915.0,
       "overpay": 314048.0,
       "overpay_pct": 5.89,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T06:13:33Z|8363||Mario|5643963.00"
     },
     {
       "transfer_id": "7",
@@ -4769,7 +5069,8 @@
       "market_value_at_transfer": 8945101.0,
       "overpay": 1142899.0,
       "overpay_pct": 12.78,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T08:15:09Z|11956|Marc Frischiniemi||10088000.00"
     },
     {
       "transfer_id": "14",
@@ -4783,7 +5084,8 @@
       "market_value_at_transfer": 8525983.0,
       "overpay": 1874376.0,
       "overpay_pct": 21.98,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T09:17:20Z|3124|Simon Koller||10400359.00"
     },
     {
       "transfer_id": "77",
@@ -4797,7 +5099,8 @@
       "market_value_at_transfer": 6492208.0,
       "overpay": -80356.0,
       "overpay_pct": -1.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T09:29:34Z|6158|KönigMario||6411852.00"
     },
     {
       "transfer_id": "4",
@@ -4811,7 +5114,8 @@
       "market_value_at_transfer": 11667533.0,
       "overpay": 14612.0,
       "overpay_pct": 0.13,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T12:04:19Z|7325|Simon Koller||11682145.00"
     },
     {
       "transfer_id": "4",
@@ -4825,7 +5129,8 @@
       "market_value_at_transfer": 6180804.0,
       "overpay": 72943.0,
       "overpay_pct": 1.18,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T13:00:49Z|2863||Thomasson|6253747.00"
     },
     {
       "transfer_id": "13",
@@ -4839,7 +5144,8 @@
       "market_value_at_transfer": 16477992.0,
       "overpay": 23764.0,
       "overpay_pct": 0.14,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T13:07:17Z|2195||Simon Koller|16501756.00"
     },
     {
       "transfer_id": "29",
@@ -4853,7 +5159,8 @@
       "market_value_at_transfer": 797749.0,
       "overpay": -158749.0,
       "overpay_pct": -19.9,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T13:41:41Z|8984|AndiiRutz_1||639000.00"
     },
     {
       "transfer_id": "10",
@@ -4867,7 +5174,8 @@
       "market_value_at_transfer": 9158263.0,
       "overpay": 252888.0,
       "overpay_pct": 2.76,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T16:13:47Z|9923||Flo24|9411151.00"
     },
     {
       "transfer_id": "13",
@@ -4881,7 +5189,8 @@
       "market_value_at_transfer": 6188958.0,
       "overpay": 22153.0,
       "overpay_pct": 0.36,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-27T17:59:25Z|8355|Mario||6211111.00"
     },
     {
       "transfer_id": "13",
@@ -4895,7 +5204,8 @@
       "market_value_at_transfer": 6188958.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T20:18:55Z|8355||Mario|6188958.00"
     },
     {
       "transfer_id": "29",
@@ -4909,7 +5219,8 @@
       "market_value_at_transfer": 797749.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T20:22:36Z|8984||AndiiRutz_1|797749.00"
     },
     {
       "transfer_id": "28",
@@ -4923,7 +5234,8 @@
       "market_value_at_transfer": 6457299.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T20:23:37Z|16945||AndiiRutz_1|6457299.00"
     },
     {
       "transfer_id": "28",
@@ -4937,7 +5249,8 @@
       "market_value_at_transfer": 5715161.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T20:25:12Z|2718||AndiiRutz_1|5715161.00"
     },
     {
       "transfer_id": "28",
@@ -4951,7 +5264,8 @@
       "market_value_at_transfer": 8504721.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T20:27:52Z|2552||AndiiRutz_1|8504721.00"
     },
     {
       "transfer_id": "3",
@@ -4965,7 +5279,8 @@
       "market_value_at_transfer": 34099208.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-27T20:57:52Z|1704||Joel|34099208.00"
     },
     {
       "transfer_id": "43",
@@ -4979,7 +5294,8 @@
       "market_value_at_transfer": 19408801.0,
       "overpay": 344581.0,
       "overpay_pct": 1.78,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-28T00:05:58Z|7224|Joel||19753382.00"
     },
     {
       "transfer_id": "77",
@@ -4993,7 +5309,8 @@
       "market_value_at_transfer": 6249898.0,
       "overpay": 242310.0,
       "overpay_pct": 3.88,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T05:47:41Z|6158||KönigMario|6492208.00"
     },
     {
       "transfer_id": "14",
@@ -5007,7 +5324,8 @@
       "market_value_at_transfer": 18421555.0,
       "overpay": -42697.0,
       "overpay_pct": -0.23,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:37:37Z|15262||Marc Frischiniemi|18378858.00"
     },
     {
       "transfer_id": "40",
@@ -5021,7 +5339,8 @@
       "market_value_at_transfer": 8061159.0,
       "overpay": -108407.0,
       "overpay_pct": -1.34,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:37:42Z|4598||Marc Frischiniemi|7952752.00"
     },
     {
       "transfer_id": "28",
@@ -5035,7 +5354,8 @@
       "market_value_at_transfer": 14950559.0,
       "overpay": 35770.0,
       "overpay_pct": 0.24,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:38:14Z|2855||Marc Frischiniemi|14986329.00"
     },
     {
       "transfer_id": "4",
@@ -5049,7 +5369,8 @@
       "market_value_at_transfer": 10274451.0,
       "overpay": -113846.0,
       "overpay_pct": -1.11,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:54:29Z|12284||Pedro|10160605.00"
     },
     {
       "transfer_id": "77",
@@ -5063,7 +5384,8 @@
       "market_value_at_transfer": 7061726.0,
       "overpay": 159367.0,
       "overpay_pct": 2.26,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:54:57Z|9384||Pedro|7221093.00"
     },
     {
       "transfer_id": "9",
@@ -5077,7 +5399,8 @@
       "market_value_at_transfer": 4256112.0,
       "overpay": 118142.0,
       "overpay_pct": 2.78,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:58:52Z|11043||Pedro|4374254.00"
     },
     {
       "transfer_id": "6",
@@ -5091,7 +5414,8 @@
       "market_value_at_transfer": 500000.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T06:59:06Z|9413||Pedro|500000.00"
     },
     {
       "transfer_id": "5",
@@ -5105,7 +5429,8 @@
       "market_value_at_transfer": 12761273.0,
       "overpay": 158727.0,
       "overpay_pct": 1.24,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-28T07:06:06Z|118|Flo24||12920000.00"
     },
     {
       "transfer_id": "43",
@@ -5119,7 +5444,8 @@
       "market_value_at_transfer": 25985432.0,
       "overpay": 214568.0,
       "overpay_pct": 0.83,
-      "type": "manager_to_manager"
+      "type": "manager_to_manager",
+      "event_key": "2026-08-28T07:16:49Z|9507|Mario|Joel|26200000.00"
     },
     {
       "transfer_id": "15",
@@ -5133,7 +5459,8 @@
       "market_value_at_transfer": 13048461.0,
       "overpay": 50020.0,
       "overpay_pct": 0.38,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T07:18:51Z|2560||Joel|13098481.00"
     },
     {
       "transfer_id": "6",
@@ -5147,7 +5474,8 @@
       "market_value_at_transfer": 2677006.0,
       "overpay": 32443.0,
       "overpay_pct": 1.21,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T07:18:54Z|12368||Joel|2709449.00"
     },
     {
       "transfer_id": "15",
@@ -5161,7 +5489,8 @@
       "market_value_at_transfer": 10578969.0,
       "overpay": 285790.0,
       "overpay_pct": 2.7,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T11:18:13Z|11748||Flo24|10864759.00"
     },
     {
       "transfer_id": "8",
@@ -5175,7 +5504,8 @@
       "market_value_at_transfer": 10737126.0,
       "overpay": 262216.0,
       "overpay_pct": 2.44,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-28T12:22:49Z|7242|Thomasson||10999342.00"
     },
     {
       "transfer_id": "29",
@@ -5189,7 +5519,8 @@
       "market_value_at_transfer": 7384113.0,
       "overpay": -11705.0,
       "overpay_pct": -0.16,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T12:51:21Z|3559||Bommer|7372408.00"
     },
     {
       "transfer_id": "18",
@@ -5203,7 +5534,8 @@
       "market_value_at_transfer": 16567343.0,
       "overpay": -49168.0,
       "overpay_pct": -0.3,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T12:51:25Z|8307||Bommer|16518175.00"
     },
     {
       "transfer_id": "29",
@@ -5217,7 +5549,8 @@
       "market_value_at_transfer": 3517772.0,
       "overpay": 82228.0,
       "overpay_pct": 2.34,
-      "type": "manager_to_manager"
+      "type": "manager_to_manager",
+      "event_key": "2026-08-28T14:37:43Z|2749|AndiiRutz_1|Simon Koller|3600000.00"
     },
     {
       "transfer_id": "40",
@@ -5231,7 +5564,8 @@
       "market_value_at_transfer": 8806329.0,
       "overpay": 74967.0,
       "overpay_pct": 0.85,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T15:06:05Z|51||KönigMario|8881296.00"
     },
     {
       "transfer_id": "18",
@@ -5245,7 +5579,8 @@
       "market_value_at_transfer": 2230693.0,
       "overpay": 173014.0,
       "overpay_pct": 7.76,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T15:25:01Z|2822||AndiiRutz_1|2403707.00"
     },
     {
       "transfer_id": "13",
@@ -5259,7 +5594,8 @@
       "market_value_at_transfer": 10163703.0,
       "overpay": 35460.0,
       "overpay_pct": 0.35,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T15:33:53Z|11556||KönigMario|10199163.00"
     },
     {
       "transfer_id": "14",
@@ -5273,7 +5609,8 @@
       "market_value_at_transfer": 852873.0,
       "overpay": 227127.0,
       "overpay_pct": 26.63,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-28T16:35:33Z|14890|Thomasson||1080000.00"
     },
     {
       "transfer_id": "18",
@@ -5287,7 +5624,8 @@
       "market_value_at_transfer": 11811836.0,
       "overpay": 81833.0,
       "overpay_pct": 0.69,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T17:07:16Z|2006||Simon Koller|11893669.00"
     },
     {
       "transfer_id": "10",
@@ -5301,7 +5639,8 @@
       "market_value_at_transfer": 13765229.0,
       "overpay": 54708.0,
       "overpay_pct": 0.4,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T17:07:19Z|1996||Simon Koller|13819937.00"
     },
     {
       "transfer_id": "29",
@@ -5315,7 +5654,8 @@
       "market_value_at_transfer": 4268211.0,
       "overpay": 172637.0,
       "overpay_pct": 4.04,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T17:46:59Z|9283||Thomasson|4440848.00"
     },
     {
       "transfer_id": "77",
@@ -5329,7 +5669,8 @@
       "market_value_at_transfer": 13166722.0,
       "overpay": 70821.0,
       "overpay_pct": 0.54,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T17:47:03Z|6160||Thomasson|13237543.00"
     },
     {
       "transfer_id": "15",
@@ -5343,7 +5684,8 @@
       "market_value_at_transfer": 10580069.0,
       "overpay": 93088.0,
       "overpay_pct": 0.88,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-28T17:47:06Z|15613||Thomasson|10673157.00"
     },
     {
       "transfer_id": "29",
@@ -5357,7 +5699,8 @@
       "market_value_at_transfer": 6553622.0,
       "overpay": 97142.0,
       "overpay_pct": 1.48,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-28T18:50:32Z|7616|KönigMario||6650764.00"
     },
     {
       "transfer_id": "4",
@@ -5371,7 +5714,8 @@
       "market_value_at_transfer": 5640591.0,
       "overpay": 4248297.0,
       "overpay_pct": 75.32,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-28T19:30:32Z|12294|Bommer||9888888.00"
     },
     {
       "transfer_id": "2",
@@ -5385,7 +5729,8 @@
       "market_value_at_transfer": 5613837.0,
       "overpay": 232490.0,
       "overpay_pct": 4.14,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-29T07:10:37Z|3089||Mario|5846327.00"
     },
     {
       "transfer_id": "43",
@@ -5399,7 +5744,8 @@
       "market_value_at_transfer": 24863498.0,
       "overpay": 3688724.0,
       "overpay_pct": 14.84,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T07:54:12Z|2687|Marc Frischiniemi||28552222.00"
     },
     {
       "transfer_id": "13",
@@ -5413,7 +5759,8 @@
       "market_value_at_transfer": 4617471.0,
       "overpay": 615884.0,
       "overpay_pct": 13.34,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T09:35:06Z|7283|Joel||5233355.00"
     },
     {
       "transfer_id": "29",
@@ -5427,7 +5774,8 @@
       "market_value_at_transfer": 1453239.0,
       "overpay": -43519.0,
       "overpay_pct": -2.99,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T09:44:21Z|3027|Pedro||1409720.00"
     },
     {
       "transfer_id": "7",
@@ -5441,7 +5789,8 @@
       "market_value_at_transfer": 5022763.0,
       "overpay": 210531.0,
       "overpay_pct": 4.19,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T10:02:51Z|663|Thomasson||5233294.00"
     },
     {
       "transfer_id": "77",
@@ -5455,7 +5804,8 @@
       "market_value_at_transfer": 1462628.0,
       "overpay": 73878.0,
       "overpay_pct": 5.05,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T10:47:03Z|7514|Thomasson||1536506.00"
     },
     {
       "transfer_id": "7",
@@ -5469,7 +5819,8 @@
       "market_value_at_transfer": 5022763.0,
       "overpay": 210531.0,
       "overpay_pct": 4.19,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-29T16:18:39Z|663||Thomasson|5233294.00"
     },
     {
       "transfer_id": "77",
@@ -5483,7 +5834,8 @@
       "market_value_at_transfer": 1462628.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-29T20:18:02Z|7514||Thomasson|1462628.00"
     },
     {
       "transfer_id": "40",
@@ -5497,7 +5849,8 @@
       "market_value_at_transfer": 3053133.0,
       "overpay": 0.0,
       "overpay_pct": 0.0,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-29T20:56:35Z|1223||AndiiRutz_1|3053133.00"
     },
     {
       "transfer_id": "14",
@@ -5511,7 +5864,8 @@
       "market_value_at_transfer": 8975658.0,
       "overpay": 135453.0,
       "overpay_pct": 1.51,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T22:17:08Z|15193|AndiiRutz_1||9111111.00"
     },
     {
       "transfer_id": "13",
@@ -5525,7 +5879,8 @@
       "market_value_at_transfer": 13234032.0,
       "overpay": 357198.0,
       "overpay_pct": 2.7,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-29T22:17:11Z|9642|Thomasson||13591230.00"
     },
     {
       "transfer_id": "7",
@@ -5539,7 +5894,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-30T00:28:14Z|11957|AndiiRutz_1||1922254.00"
     },
     {
       "transfer_id": "6",
@@ -5553,7 +5909,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-30T02:44:04Z|15283|Thomasson||5449879.00"
     },
     {
       "transfer_id": "8",
@@ -5567,7 +5924,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-30T04:23:19Z|12297|Thomasson||4595066.00"
     },
     {
       "transfer_id": "8",
@@ -5581,7 +5939,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_sale"
+      "type": "kickbase_sale",
+      "event_key": "2026-08-30T06:05:10Z|12158||Pedro|3326139.00"
     },
     {
       "transfer_id": "29",
@@ -5595,7 +5954,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-30T07:58:50Z|6197|AndiiRutz_1||9991999.00"
     },
     {
       "transfer_id": "8",
@@ -5609,7 +5969,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-30T08:05:46Z|755|Pedro||1658553.00"
     },
     {
       "transfer_id": "15",
@@ -5623,7 +5984,8 @@
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
-      "type": "kickbase_purchase"
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-30T10:02:28Z|16564|Pedro||700005.00"
     }
   ],
   "manager_bidding_behavior": [
