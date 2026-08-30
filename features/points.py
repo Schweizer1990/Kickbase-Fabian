@@ -33,11 +33,7 @@ def _season_matches(season):
         minutes = _minutes(match.get("mp"))
         if points is None and minutes <= 0:
             continue
-        matches.append({
-            "points": points or 0.0,
-            "minutes": minutes,
-            "status": match.get("st"),
-        })
+        matches.append({"points": points or 0.0, "minutes": minutes, "status": match.get("st")})
     return matches
 
 
@@ -63,11 +59,6 @@ def _raw_performance(payload):
 
 
 def _league_baseline(raw_profiles):
-    """Robust points-per-90 prior for shrinking tiny samples.
-
-    Use only players with a meaningful recent-minute sample. A fallback keeps the
-    model stable at the very start of a season when almost nobody qualifies.
-    """
     values = []
     for current, previous in raw_profiles.values():
         recent = current[-5:] if sum(m["minutes"] for m in current[-5:]) >= 270 else previous[-5:]
@@ -76,7 +67,6 @@ def _league_baseline(raw_profiles):
             value = _p90(recent)
             if math.isfinite(value):
                 values.append(max(-50.0, min(250.0, value)))
-
     if not values:
         return 85.0
     values.sort()
@@ -89,15 +79,11 @@ def _league_baseline(raw_profiles):
 def _profile_from_matches(current, previous, baseline_p90):
     current_recent = current[-5:]
     previous_recent = previous[-5:]
-
     current_minutes_total = sum(m["minutes"] for m in current_recent)
     previous_minutes_total = sum(m["minutes"] for m in previous_recent)
     current_p90 = _p90(current_recent)
     previous_p90 = _p90(previous_recent)
 
-    # Blend current and previous season by actual minutes, then shrink small
-    # samples aggressively to a league prior. This prevents a single cameo or
-    # one freak scoring game from becoming a 150+ xP projection.
     current_weight = min(current_minutes_total / 450.0, 1.0)
     if current_minutes_total > 0 and previous_minutes_total > 0:
         history_p90 = current_p90 * current_weight + previous_p90 * (1.0 - current_weight)
@@ -111,8 +97,6 @@ def _profile_from_matches(current, previous, baseline_p90):
     effective_minutes = current_minutes_total + min(previous_minutes_total, 450.0) * 0.35
     reliability = min(effective_minutes / 540.0, 1.0)
     regressed_p90 = baseline_p90 * (1.0 - reliability) + history_p90 * reliability
-    # Raw fantasy p90 can be noisy even with a few games. Keep the heuristic in
-    # a plausible band until a trained xP model has enough season data.
     regressed_p90 = max(-30.0, min(220.0, regressed_p90))
 
     current_minutes = [m["minutes"] for m in current_recent]
@@ -124,33 +108,21 @@ def _profile_from_matches(current, previous, baseline_p90):
     else:
         expected_minutes_raw = 0.0
 
-    # Recent starting/appearance proxies. We deliberately do not interpret the
-    # undocumented Kickbase status code. Minutes are observable and robust.
     role_sample = current_recent if current_recent else previous_recent
     starts = sum(1 for m in role_sample if m["minutes"] >= 60)
     appearances = sum(1 for m in role_sample if m["minutes"] > 0)
     sample_games = len(role_sample)
     starter_rate = starts / sample_games if sample_games else 0.0
     appearance_rate = appearances / sample_games if sample_games else 0.0
-
-    # Starter probability is a conservative proxy, not an official lineup
-    # probability. It combines start rate and general appearance frequency.
     starter_probability = min(1.0, starter_rate * 0.80 + appearance_rate * 0.20)
-
     if not current_recent and previous_recent:
         starter_probability *= 0.75
 
     expected_minutes = expected_minutes_raw
     if sample_games:
-        role_cap = 20.0 + 70.0 * starter_probability
-        expected_minutes = min(expected_minutes, role_cap)
+        expected_minutes = min(expected_minutes, 20.0 + 70.0 * starter_probability)
     expected_minutes = max(0.0, min(90.0, expected_minutes))
-
     expected_points = regressed_p90 * expected_minutes / 90.0
-
-    current_apps = len(current)
-    current_total_points = sum(m["points"] for m in current)
-    current_total_minutes = sum(m["minutes"] for m in current)
 
     if current_minutes_total >= 270 and len(current_recent) >= 3:
         confidence = "high"
@@ -158,9 +130,6 @@ def _profile_from_matches(current, previous, baseline_p90):
         confidence = "medium"
     else:
         confidence = "low"
-
-    # Low-confidence xP is useful as a directional signal, but must never
-    # dominate the win ranking. Apply an explicit uncertainty haircut.
     confidence_factor = {"high": 1.0, "medium": 0.85, "low": 0.60}[confidence]
     expected_points_adjusted = expected_points * confidence_factor
 
@@ -172,9 +141,9 @@ def _profile_from_matches(current, previous, baseline_p90):
         role = "bench_risk"
 
     return {
-        "current_matchdays": current_apps,
-        "current_points": round(current_total_points, 2),
-        "current_minutes": round(current_total_minutes, 1),
+        "current_matchdays": len(current),
+        "current_points": round(sum(m["points"] for m in current), 2),
+        "current_minutes": round(sum(m["minutes"] for m in current), 1),
         "recent_points_per_90": round(regressed_p90, 2),
         "expected_minutes_next": round(expected_minutes, 1),
         "starter_probability_proxy": round(starter_probability, 3),
@@ -185,8 +154,8 @@ def _profile_from_matches(current, previous, baseline_p90):
     }
 
 
-def build_points_profiles(token, league_id, market_df, squad_df):
-    """Build stabilized expected-points profiles for squad and market players."""
+def build_points_profiles(token, league_id, market_df, squad_df, ligainsider_df=None):
+    """Build stabilized xP and then adjust availability with LigaInsider signals."""
     source = {}
     for label, df in (("market", market_df), ("squad", squad_df)):
         if df is None or df.empty:
@@ -207,12 +176,15 @@ def build_points_profiles(token, league_id, market_df, squad_df):
             item["on_market"] = item["on_market"] or label == "market"
             item["in_squad"] = item["in_squad"] or label == "squad"
 
+    li_lookup = {}
+    if ligainsider_df is not None and not ligainsider_df.empty:
+        li_lookup = {str(r["player_id"]): r for _, r in ligainsider_df.iterrows()}
+
     raw_profiles = {}
     failures = set()
     for player_id in source:
         try:
-            url = f"{BASE_URL}/leagues/{league_id}/players/{player_id}/performance"
-            payload = get_json_with_token(url, token)
+            payload = get_json_with_token(f"{BASE_URL}/leagues/{league_id}/players/{player_id}/performance", token)
             raw_profiles[player_id] = _raw_performance(payload)
         except Exception as exc:
             print(f"Warning: Could not fetch league performance for player {player_id}: {exc}")
@@ -225,11 +197,26 @@ def build_points_profiles(token, league_id, market_df, squad_df):
         current, previous = raw_profiles[player_id]
         profile = _profile_from_matches(current, previous, baseline_p90)
         if player_id in failures:
-            profile["xp_confidence"] = "unavailable"
-            profile["expected_points_next"] = 0.0
-            profile["expected_points_raw"] = 0.0
-            profile["role_signal"] = "unknown"
-            profile["starter_probability_proxy"] = 0.0
+            profile.update({"xp_confidence": "unavailable", "expected_points_next": 0.0, "expected_points_raw": 0.0, "role_signal": "unknown", "starter_probability_proxy": 0.0})
+
+        li = li_lookup.get(player_id, {})
+        availability = _num(li.get("availability_factor"), 1.0)
+        li_status = li.get("ligainsider_status", "unknown")
+        topelf_pool = bool(li.get("ligainsider_topelf_pool", False))
+
+        # Availability is a hard external constraint. A forecast-page appearance
+        # is only a modest positive signal because LigaInsider also shows alternatives.
+        if availability < 1.0:
+            profile["expected_minutes_next"] = round(profile["expected_minutes_next"] * availability, 1)
+            profile["expected_points_next"] = round(profile["expected_points_next"] * availability, 2)
+            profile["starter_probability_proxy"] = round(profile["starter_probability_proxy"] * availability, 3)
+            if availability <= 0.15:
+                profile["role_signal"] = "out"
+            elif availability < 0.70:
+                profile["role_signal"] = "doubtful"
+        elif topelf_pool and profile["role_signal"] == "bench_risk":
+            profile["starter_probability_proxy"] = max(profile["starter_probability_proxy"], 0.35)
+            profile["role_signal"] = "lineup_candidate"
 
         mv = base.get("market_value")
         xp = profile["expected_points_next"]
@@ -239,33 +226,23 @@ def build_points_profiles(token, league_id, market_df, squad_df):
             **profile,
             "league_p90_prior": round(baseline_p90, 2),
             "expected_points_per_million": round(ppm, 3) if ppm is not None else None,
+            "ligainsider_status": li_status,
+            "ligainsider_topelf_pool": topelf_pool,
+            "availability_factor": availability,
         })
 
     result = pd.DataFrame(rows)
     if result.empty:
         return result
-    return result.sort_values(
-        ["expected_points_next", "expected_points_per_million"],
-        ascending=[False, False],
-        ignore_index=True,
-    )
+    return result.sort_values(["expected_points_next", "expected_points_per_million"], ascending=[False, False], ignore_index=True)
 
 
 def build_win_ranking(market_strategy_df, points_df):
-    """Separate championship value from pure trading value.
-
-    Low-confidence and bench-risk point projections are deliberately discounted
-    so cheap one-game outliers cannot dominate the ranking.
-    """
     if market_strategy_df is None or market_strategy_df.empty:
         return pd.DataFrame()
-
     points_lookup = {}
     if points_df is not None and not points_df.empty:
-        points_lookup = {
-            str(row["player_id"]): row
-            for _, row in points_df[points_df["on_market"] == True].iterrows()  # noqa: E712
-        }
+        points_lookup = {str(row["player_id"]): row for _, row in points_df[points_df["on_market"] == True].iterrows()}  # noqa: E712
 
     rows = []
     for _, row in market_strategy_df.iterrows():
@@ -276,19 +253,19 @@ def build_win_ranking(market_strategy_df, points_df):
         capital = _num(row.get("capital_score"), 0.0)
         confidence = p.get("xp_confidence", "unavailable")
         role = p.get("role_signal", "unknown")
+        availability = _num(p.get("availability_factor"), 1.0)
         starter_probability = _num(p.get("starter_probability_proxy"), 0.0)
 
         confidence_weight = {"high": 1.0, "medium": 0.85, "low": 0.55, "unavailable": 0.0}.get(confidence, 0.0)
-        role_weight = {"starter": 1.0, "rotation": 0.72, "bench_risk": 0.40, "unknown": 0.25}.get(role, 0.25)
-        point_weight = confidence_weight * role_weight
+        role_weight = {"starter": 1.0, "lineup_candidate": 0.78, "rotation": 0.72, "bench_risk": 0.40, "doubtful": 0.25, "out": 0.0, "unknown": 0.25}.get(role, 0.25)
+        point_weight = confidence_weight * role_weight * availability
+        win_score = (xp * 0.60 + xp_per_m * 0.15) * point_weight + capital * 0.25
 
-        points_component = (xp * 0.60 + xp_per_m * 0.15) * point_weight
-        capital_component = capital * 0.25
-        win_score = points_component + capital_component
-
-        if role == "starter" and confidence in ("high", "medium"):
+        if availability <= 0.15:
+            championship_label = "unavailable"
+        elif role == "starter" and confidence in ("high", "medium"):
             championship_label = "startelf_target"
-        elif role == "rotation" and xp > 40:
+        elif role in ("rotation", "lineup_candidate") and xp > 40:
             championship_label = "points_upside"
         elif capital >= 5:
             championship_label = "trading_target"
@@ -306,6 +283,9 @@ def build_win_ranking(market_strategy_df, points_df):
             "starter_probability_proxy": round(starter_probability, 3),
             "role_signal": role,
             "xp_confidence": confidence,
+            "ligainsider_status": p.get("ligainsider_status", "unknown"),
+            "ligainsider_topelf_pool": bool(p.get("ligainsider_topelf_pool", False)),
+            "availability_factor": availability,
             "capital_score": row.get("capital_score"),
             "suggested_bid": row.get("suggested_bid"),
             "hard_max_bid": row.get("hard_max_bid"),
@@ -315,6 +295,4 @@ def build_win_ranking(market_strategy_df, points_df):
             "win_score": round(win_score, 3),
         })
 
-    return pd.DataFrame(rows).sort_values(
-        ["budget_fit", "win_score"], ascending=[False, False], ignore_index=True
-    )
+    return pd.DataFrame(rows).sort_values(["budget_fit", "win_score"], ascending=[False, False], ignore_index=True)
