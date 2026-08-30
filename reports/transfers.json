@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T17:02:49.510146",
+  "updated_at": "2026-08-30T18:40:24.757856",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5460,6 +5460,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-08-30T16:31:00Z|3450||Pedro|500000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-08-30T17:58:20Z",
+      "date": "2026-08-30",
+      "player_id": "7242",
+      "player_name": "Gosens",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 10460435.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-08-30T17:58:20Z|7242||Thomasson|10460435.00"
     }
   ]
 }
