@@ -2137,6 +2137,490 @@
           "win_score": 5.919
         }
       ]
+    },
+    {
+      "generated_at": "2026-08-30T19:04:21.947777+02:00",
+      "manager_budgets": [
+        {
+          "user": "Thomasson",
+          "budget": 33890280.560517035,
+          "budget_confidence": "estimated",
+          "team_value": 206491891.0
+        },
+        {
+          "user": "Pedro",
+          "budget": 37517507.454759106,
+          "budget_confidence": "estimated",
+          "team_value": 177037932.0
+        },
+        {
+          "user": "Joel",
+          "budget": 27466261.582843713,
+          "budget_confidence": "estimated",
+          "team_value": 210563866.0
+        },
+        {
+          "user": "baumimario",
+          "budget": 52040733.254994124,
+          "budget_confidence": "estimated",
+          "team_value": 98134125.0
+        },
+        {
+          "user": "Flo24",
+          "budget": 28756500.4653349,
+          "budget_confidence": "estimated",
+          "team_value": 163656730.0
+        },
+        {
+          "user": "AndiiRutz_1",
+          "budget": 19422694.95652174,
+          "budget_confidence": "estimated",
+          "team_value": 200566660.0
+        },
+        {
+          "user": "KönigMario",
+          "budget": 21299000.08108108,
+          "budget_confidence": "estimated",
+          "team_value": 187184144.0
+        },
+        {
+          "user": "Simon Koller",
+          "budget": 15896319.506462984,
+          "budget_confidence": "estimated",
+          "team_value": 190166064.0
+        },
+        {
+          "user": "Mario",
+          "budget": 18571525.0693302,
+          "budget_confidence": "estimated",
+          "team_value": 139560127.0
+        },
+        {
+          "user": "Marc Frischiniemi",
+          "budget": -4805666.963572267,
+          "budget_confidence": "estimated",
+          "team_value": 211026354.0
+        },
+        {
+          "user": "Bommer",
+          "budget": -11278816.616921268,
+          "budget_confidence": "estimated",
+          "team_value": 200393232.0
+        },
+        {
+          "user": "Fabian",
+          "budget": 2994143.0,
+          "budget_confidence": "exact",
+          "team_value": 137486426.0
+        }
+      ],
+      "market": [
+        {
+          "player_id": "9440",
+          "name": "Mane",
+          "mv": 4701709.0,
+          "mv_change_yesterday": 408770.0,
+          "predicted_mv_target": 378685.59
+        },
+        {
+          "player_id": "3754",
+          "name": "Vázquez",
+          "mv": 6650207.0,
+          "mv_change_yesterday": 373232.0,
+          "predicted_mv_target": 349589.57
+        },
+        {
+          "player_id": "7215",
+          "name": "Makengo",
+          "mv": 6308353.0,
+          "mv_change_yesterday": 334147.0,
+          "predicted_mv_target": 318731.41
+        },
+        {
+          "player_id": "13433",
+          "name": "Lemke",
+          "mv": 6440868.0,
+          "mv_change_yesterday": 292105.0,
+          "predicted_mv_target": 285311.94
+        },
+        {
+          "player_id": "3029",
+          "name": "Ljubičić",
+          "mv": 5605813.0,
+          "mv_change_yesterday": 286616.0,
+          "predicted_mv_target": 285212.4
+        },
+        {
+          "player_id": "14890",
+          "name": "Vogt",
+          "mv": 1074637.0,
+          "mv_change_yesterday": 221764.0,
+          "predicted_mv_target": 282126.92
+        },
+        {
+          "player_id": "7216",
+          "name": "Rosenfelder",
+          "mv": 2882593.0,
+          "mv_change_yesterday": 138229.0,
+          "predicted_mv_target": 231951.07
+        },
+        {
+          "player_id": "619",
+          "name": "Stöger",
+          "mv": 9527128.0,
+          "mv_change_yesterday": 201651.0,
+          "predicted_mv_target": 210855.57
+        },
+        {
+          "player_id": "16948",
+          "name": "Konstantelias",
+          "mv": 19469683.0,
+          "mv_change_yesterday": 193823.0,
+          "predicted_mv_target": 199766.47
+        },
+        {
+          "player_id": "2399",
+          "name": "Maloney",
+          "mv": 1031154.0,
+          "mv_change_yesterday": 112201.0,
+          "predicted_mv_target": 180816.15
+        },
+        {
+          "player_id": "1858",
+          "name": "Jung",
+          "mv": 1108262.0,
+          "mv_change_yesterday": 98924.0,
+          "predicted_mv_target": 123298.1
+        },
+        {
+          "player_id": "6080",
+          "name": "Pavlović",
+          "mv": 32748431.0,
+          "mv_change_yesterday": 108033.0,
+          "predicted_mv_target": 116853.07
+        },
+        {
+          "player_id": "383",
+          "name": "Ulreich",
+          "mv": 500000.0,
+          "mv_change_yesterday": 0.0,
+          "predicted_mv_target": 8390.08
+        },
+        {
+          "player_id": "11186",
+          "name": "Maluze",
+          "mv": 500000.0,
+          "mv_change_yesterday": 0.0,
+          "predicted_mv_target": 6276.7
+        },
+        {
+          "player_id": "4292",
+          "name": "Herold",
+          "mv": 4498142.0,
+          "mv_change_yesterday": null,
+          "predicted_mv_target": -5178.66
+        },
+        {
+          "player_id": "9540",
+          "name": "Lidberg",
+          "mv": 6121718.0,
+          "mv_change_yesterday": null,
+          "predicted_mv_target": -17248.23
+        },
+        {
+          "player_id": "14048",
+          "name": "Goto",
+          "mv": 4133946.0,
+          "mv_change_yesterday": -73036.0,
+          "predicted_mv_target": -63255.14
+        },
+        {
+          "player_id": "11875",
+          "name": "van den Berg",
+          "mv": 1900330.0,
+          "mv_change_yesterday": -61995.0,
+          "predicted_mv_target": -72637.54
+        },
+        {
+          "player_id": "49",
+          "name": "Ginter",
+          "mv": 26608181.0,
+          "mv_change_yesterday": -86303.0,
+          "predicted_mv_target": -100145.42
+        },
+        {
+          "player_id": "15196",
+          "name": "Yamamoto",
+          "mv": 4172924.0,
+          "mv_change_yesterday": -111817.0,
+          "predicted_mv_target": -103133.47
+        },
+        {
+          "player_id": "14896",
+          "name": "Koné",
+          "mv": 2787894.0,
+          "mv_change_yesterday": -113700.0,
+          "predicted_mv_target": -110224.44
+        },
+        {
+          "player_id": "15256",
+          "name": "Wójcik",
+          "mv": 3468435.0,
+          "mv_change_yesterday": -130822.0,
+          "predicted_mv_target": -122148.08
+        },
+        {
+          "player_id": "7469",
+          "name": "Malatini",
+          "mv": 3310683.0,
+          "mv_change_yesterday": -138218.0,
+          "predicted_mv_target": -126728.81
+        },
+        {
+          "player_id": "14662",
+          "name": "Lerma",
+          "mv": 4051239.0,
+          "mv_change_yesterday": -139455.0,
+          "predicted_mv_target": -126756.07
+        },
+        {
+          "player_id": "6199",
+          "name": "Machino",
+          "mv": 4155319.0,
+          "mv_change_yesterday": -100840.0,
+          "predicted_mv_target": -132916.63
+        },
+        {
+          "player_id": "1964",
+          "name": "Götze",
+          "mv": 7018012.0,
+          "mv_change_yesterday": -356308.0,
+          "predicted_mv_target": -339709.95
+        },
+        {
+          "player_id": "7242",
+          "name": null,
+          "mv": null,
+          "mv_change_yesterday": null,
+          "predicted_mv_target": null
+        },
+        {
+          "player_id": "10131",
+          "name": null,
+          "mv": null,
+          "mv_change_yesterday": null,
+          "predicted_mv_target": null
+        },
+        {
+          "player_id": "12297",
+          "name": null,
+          "mv": null,
+          "mv_change_yesterday": null,
+          "predicted_mv_target": null
+        }
+      ],
+      "squad": [
+        {
+          "player_id": "1645",
+          "name": "Eggestein",
+          "mv": 16242917.0,
+          "predicted_mv_target": 33402.37
+        },
+        {
+          "player_id": "6292",
+          "name": "Hansen",
+          "mv": 3883735.0,
+          "predicted_mv_target": -43622.46
+        },
+        {
+          "player_id": "2803",
+          "name": "Lemperle",
+          "mv": 9982590.0,
+          "predicted_mv_target": 198016.61
+        },
+        {
+          "player_id": "2864",
+          "name": "Collins",
+          "mv": 8295842.0,
+          "predicted_mv_target": -290554.85
+        },
+        {
+          "player_id": "1856",
+          "name": "Sabitzer",
+          "mv": 6359421.0,
+          "predicted_mv_target": -187685.96
+        },
+        {
+          "player_id": "1883",
+          "name": "Nicolas",
+          "mv": 18314448.0,
+          "predicted_mv_target": -116385.94
+        },
+        {
+          "player_id": "3516",
+          "name": "Leopold",
+          "mv": 8311140.0,
+          "predicted_mv_target": -21261.57
+        },
+        {
+          "player_id": "3041",
+          "name": "Widmer",
+          "mv": 2178806.0,
+          "predicted_mv_target": -41414.71
+        },
+        {
+          "player_id": "12763",
+          "name": "Latte Lath",
+          "mv": 10057061.0,
+          "predicted_mv_target": -8001.04
+        },
+        {
+          "player_id": "2144",
+          "name": "Koch",
+          "mv": 23849121.0,
+          "predicted_mv_target": 60465.66
+        },
+        {
+          "player_id": "1920",
+          "name": "Guirassy",
+          "mv": 30011345.0,
+          "predicted_mv_target": 92524.53
+        }
+      ],
+      "my_open_offers": [
+        {
+          "player_id": "1858",
+          "player_name": "Jung",
+          "market_value": 1108262,
+          "listed_price": 1108262,
+          "expires": 12364,
+          "offer_count": 1,
+          "my_bid": 1050000,
+          "source": "market_inline"
+        },
+        {
+          "player_id": "2399",
+          "player_name": "Maloney",
+          "market_value": 1031154,
+          "listed_price": 1031154,
+          "expires": 94412,
+          "offer_count": 1,
+          "my_bid": 1100000,
+          "source": "market_inline"
+        }
+      ],
+      "top_win_targets": [
+        {
+          "player_id": "11186",
+          "player_name": "Maluze",
+          "team": "Frankfurt",
+          "market_value": 500000,
+          "expected_points_next": 60.21,
+          "expected_points_per_million": 120.42,
+          "expected_minutes_next": 90.0,
+          "starter_probability_proxy": 1.0,
+          "role_signal": "starter",
+          "xp_confidence": "low",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": 0.816,
+          "suggested_bid": 500000,
+          "hard_max_bid": 518830,
+          "budget_fit": true,
+          "strategy_label": "watch",
+          "championship_label": "watch_or_avoid",
+          "win_score": 30.008
+        },
+        {
+          "player_id": "383",
+          "player_name": "Ulreich",
+          "team": "Bayern",
+          "market_value": 500000,
+          "expected_points_next": 42.34,
+          "expected_points_per_million": 84.68,
+          "expected_minutes_next": 72.5,
+          "starter_probability_proxy": 0.75,
+          "role_signal": "starter",
+          "xp_confidence": "low",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": 1.091,
+          "suggested_bid": 500000,
+          "hard_max_bid": 523350,
+          "budget_fit": true,
+          "strategy_label": "watch",
+          "championship_label": "watch_or_avoid",
+          "win_score": 21.231
+        },
+        {
+          "player_id": "11875",
+          "player_name": "van den Berg",
+          "team": "Köln",
+          "market_value": 1900330,
+          "expected_points_next": 36.13,
+          "expected_points_per_million": 19.012,
+          "expected_minutes_next": 68.8,
+          "starter_probability_proxy": 0.75,
+          "role_signal": "starter",
+          "xp_confidence": "low",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": -3.626,
+          "suggested_bid": 1900330,
+          "hard_max_bid": 1900330,
+          "budget_fit": true,
+          "strategy_label": "avoid_for_trading",
+          "championship_label": "watch_or_avoid",
+          "win_score": 12.585
+        },
+        {
+          "player_id": "14890",
+          "player_name": "Vogt",
+          "team": "Hoffenheim",
+          "market_value": 1074637,
+          "expected_points_next": 0.0,
+          "expected_points_per_million": 0.0,
+          "expected_minutes_next": 0.0,
+          "starter_probability_proxy": 0.35,
+          "role_signal": "lineup_candidate",
+          "xp_confidence": "low",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": 24.287,
+          "suggested_bid": 1074637,
+          "hard_max_bid": 1124823,
+          "budget_fit": true,
+          "strategy_label": "strong_trade",
+          "championship_label": "trading_target",
+          "win_score": 6.072
+        },
+        {
+          "player_id": "1858",
+          "player_name": "Jung",
+          "team": "Freiburg",
+          "market_value": 1108262,
+          "expected_points_next": 10.34,
+          "expected_points_per_million": 9.33,
+          "expected_minutes_next": 18.8,
+          "starter_probability_proxy": 0.35,
+          "role_signal": "lineup_candidate",
+          "xp_confidence": "low",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": 10.356,
+          "suggested_bid": 1108262,
+          "hard_max_bid": 1160018,
+          "budget_fit": true,
+          "strategy_label": "strong_trade",
+          "championship_label": "trading_target",
+          "win_score": 5.851
+        }
+      ]
     }
   ]
 }

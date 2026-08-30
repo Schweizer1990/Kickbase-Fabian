@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T12:30:53.951307",
+  "updated_at": "2026-08-30T17:02:49.510146",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5430,6 +5430,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-08-30T10:02:28Z|16564|Pedro||700005.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-08-30T13:13:15Z",
+      "date": "2026-08-30",
+      "player_id": "3481",
+      "player_name": "Stage",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 20193214.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-08-30T13:13:15Z|3481||KönigMario|20193214.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-08-30T16:31:00Z",
+      "date": "2026-08-30",
+      "player_id": "3450",
+      "player_name": "Kolke",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-08-30T16:31:00Z|3450||Pedro|500000.00"
     }
   ]
 }
