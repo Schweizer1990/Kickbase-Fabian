@@ -102,11 +102,10 @@ def build_transfer_history(token, league_id, league_start_date, competition_id=1
     combined = existing + rows
     deduped = {}
     for row in combined:
-        # Prefer Kickbase transfer ID. Fall back to a stable composite key.
-        key = row.get("transfer_id")
-        if key is None:
-            key = "|".join(str(row.get(k)) for k in ["timestamp", "player_id", "buyer", "seller", "price"])
-        deduped[str(key)] = row
+        # Do not assume Kickbase's `tid` is globally unique. The composite key is
+        # stable for one completed transfer and prevents accidental row collapse.
+        key = "|".join(str(row.get(k)) for k in ["timestamp", "player_id", "buyer", "seller", "price"])
+        deduped[key] = row
 
     history = list(deduped.values())
     history.sort(key=lambda item: item.get("timestamp") or "")
