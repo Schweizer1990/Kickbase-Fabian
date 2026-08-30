@@ -2,11 +2,11 @@ name: Run Daily Predictions
 
 on:
   schedule:
-    # GitHub Actions cron uses UTC. These runs correspond to roughly
-    # 08:30, 15:30 and 23:30 in Switzerland during summer time (CEST).
-    - cron: '30 6 * * *'
-    - cron: '30 13 * * *'
-    - cron: '30 21 * * *'
+    # GitHub Actions cron uses UTC. During Swiss summer time (CEST),
+    # these runs are approximately 06:30, 12:00 and 19:00 local time.
+    - cron: '30 4 * * *'
+    - cron: '0 10 * * *'
+    - cron: '0 17 * * *'
   workflow_dispatch:
 
 permissions:
