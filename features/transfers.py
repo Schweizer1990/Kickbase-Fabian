@@ -17,6 +17,25 @@ def _transfer_date(value):
         return str(value)[:10]
 
 
+def _transfer_key(row):
+    """Create a stable key for one completed transfer event.
+
+    Kickbase's `tid` is not globally unique, so it must never be used by itself
+    for persistence/deduplication.
+    """
+    fields = ["timestamp", "player_id", "buyer", "seller", "price"]
+    values = []
+    for field in fields:
+        value = row.get(field)
+        if field == "price" and value is not None:
+            try:
+                value = f"{float(value):.2f}"
+            except (TypeError, ValueError):
+                pass
+        values.append("" if value is None else str(value))
+    return "|".join(values)
+
+
 def _market_value_lookup(token, competition_id, player_ids):
     """Fetch daily market-value histories once per traded player."""
     result = {}
@@ -75,7 +94,7 @@ def build_transfer_history(token, league_id, league_start_date, competition_id=1
         else:
             transfer_type = "unknown"
 
-        rows.append({
+        row = {
             "transfer_id": transfer_id,
             "timestamp": transfer.get("dt"),
             "date": date,
@@ -88,7 +107,9 @@ def build_transfer_history(token, league_id, league_start_date, competition_id=1
             "overpay": overpay,
             "overpay_pct": round(overpay_pct, 2) if overpay_pct is not None else None,
             "type": transfer_type,
-        })
+        }
+        row["event_key"] = _transfer_key(row)
+        rows.append(row)
 
     history_path = Path("reports/transfers.json")
     existing = []
@@ -102,9 +123,9 @@ def build_transfer_history(token, league_id, league_start_date, competition_id=1
     combined = existing + rows
     deduped = {}
     for row in combined:
-        # Do not assume Kickbase's `tid` is globally unique. The composite key is
-        # stable for one completed transfer and prevents accidental row collapse.
-        key = "|".join(str(row.get(k)) for k in ["timestamp", "player_id", "buyer", "seller", "price"])
+        # Recompute the key for legacy rows so old reports are migrated safely.
+        key = _transfer_key(row)
+        row["event_key"] = key
         deduped[key] = row
 
     history = list(deduped.values())
