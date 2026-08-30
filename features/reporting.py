@@ -12,7 +12,15 @@ def _records(df):
     return clean.to_dict(orient="records")
 
 
-def save_latest_report(league_name, metrics, manager_df, market_df, squad_df):
+def save_latest_report(
+    league_name,
+    metrics,
+    manager_df,
+    market_df,
+    squad_df,
+    transfer_df=None,
+    bidding_df=None,
+):
     """Write the latest analysis to a JSON file that ChatGPT can read from GitHub."""
     report = {
         "generated_at": datetime.now(ZoneInfo("Europe/Zurich")).isoformat(),
@@ -21,6 +29,12 @@ def save_latest_report(league_name, metrics, manager_df, market_df, squad_df):
         "manager_budgets": _records(manager_df),
         "market": _records(market_df),
         "squad": _records(squad_df),
+        "transfer_history": _records(transfer_df) if transfer_df is not None else [],
+        "manager_bidding_behavior": _records(bidding_df) if bidding_df is not None else [],
+        "notes": {
+            "opponent_budgets": "estimated; own budget marked exact",
+            "bidding_behavior": "based on completed/winning transfers only; losing/open bids are not visible",
+        },
     }
 
     output = Path("reports/latest.json")
