@@ -38,14 +38,14 @@ jobs:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
         run: python daily_predictions.py
 
-      - name: Publish latest report
+      - name: Publish reports
         run: |
           git config user.name "kickbase-report-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/latest.json
+          git add reports/latest.json reports/transfers.json
           if git diff --cached --quiet; then
             echo "No report changes to publish."
           else
-            git commit -m "Update latest Kickbase report"
+            git commit -m "Update Kickbase reports"
             git push
           fi
