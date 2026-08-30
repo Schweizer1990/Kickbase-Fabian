@@ -6,6 +6,7 @@ from kickbase_api.user import login
 from features.notifier import send_mail
 from features.reporting import save_latest_report
 from features.transfers import build_transfer_history, summarize_manager_bidding
+from features.strategy import build_market_strategy, build_squad_signals, build_opponent_bid_profiles
 from features.predictions.data_handler import (
     create_player_data_table,
     check_if_data_reload_needed,
@@ -77,6 +78,7 @@ transfer_history_df = build_transfer_history(
     competition_id=competition_ids[0],
 )
 bidding_behavior_df = summarize_manager_bidding(transfer_history_df)
+opponent_bid_profiles_df = build_opponent_bid_profiles(transfer_history_df)
 print(
     f"Transfer analysis completed for {len(transfer_history_df)} completed transfers "
     f"and {len(bidding_behavior_df)} managers with purchase activity."
@@ -104,9 +106,27 @@ market_recommendations_df = join_current_market(token, league_id, live_predictio
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
 open_offers = get_my_open_offers(token, league_id)
 
+own_budget = None
+exact_budget_rows = manager_budgets_df[
+    manager_budgets_df["Budget Confidence"] == "exact"
+] if "Budget Confidence" in manager_budgets_df.columns else pd.DataFrame()
+if not exact_budget_rows.empty:
+    own_budget = float(exact_budget_rows.iloc[0]["Budget"])
+
+market_strategy_df = build_market_strategy(
+    market_recommendations_df,
+    transfer_history_df,
+    own_budget=own_budget,
+)
+squad_signals_df = build_squad_signals(squad_recommendations_df)
+
 print(f"Market analysis completed for {len(market_recommendations_df)} market players.")
 print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
 print(f"Visible own open offers found: {len(open_offers)}.")
+print(
+    f"Strategy layer completed for {len(market_strategy_df)} market players, "
+    f"{len(squad_signals_df)} squad players and {len(opponent_bid_profiles_df)} opponent bid profiles."
+)
 
 report_path = save_latest_report(
     league_name,
@@ -122,6 +142,9 @@ report_path = save_latest_report(
     transfer_history_df,
     bidding_behavior_df,
     open_offers,
+    market_strategy_df,
+    squad_signals_df,
+    opponent_bid_profiles_df,
 )
 print(f"Machine-readable report written to {report_path}.")
 
