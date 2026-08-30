@@ -53,6 +53,11 @@ jobs:
             echo "No report changes to publish."
           else
             git commit -m "Update Kickbase reports"
+            # daily_predictions.py can modify local runtime/cache files that are
+            # not meant to be published. Discard those before rebasing so they
+            # cannot block the report push.
+            git reset --hard HEAD
+            git clean -fd
             git pull --rebase origin main
             git push origin main
           fi
