@@ -21,6 +21,7 @@ def get_league_id(token, league_name):
 
     return selected_league[0]["id"]
 
+
 def get_leagues_infos(token):
     """Get information about all leagues the user is part of."""
 
@@ -36,6 +37,7 @@ def get_leagues_infos(token):
         })
 
     return result
+
 
 def get_league_activities(token, league_id, league_start_date):
     """Get league activities such as trades, logins, and achievements since the league start date."""
@@ -65,51 +67,88 @@ def get_league_activities(token, league_id, league_start_date):
 
 
 def get_league_market_raw(token, league_id):
-    """Return the raw Kickbase market entries.
-
-    Market entries can contain `ofs[]`. For players listed by somebody else,
-    Kickbase only exposes the authenticated user's own outgoing offer there;
-    competing managers' bids remain hidden.
-    """
+    """Return the raw Kickbase market entries."""
     url = f"{BASE_URL}/leagues/{league_id}/market"
     data = get_json_with_token(url, token)
     return data.get("it", [])
 
 
+def _offer_record(player, offer, source, context=None):
+    """Normalize one visible offer from Kickbase."""
+    context = context or {}
+    price = offer.get("uop")
+    price_key = "uop" if isinstance(price, (int, float)) else None
+
+    # Compatibility fallback in case Kickbase changes the compact field name.
+    if price_key is None:
+        for key in ("prc", "p", "price", "amt", "a", "v"):
+            value = offer.get(key)
+            if isinstance(value, (int, float)) and value >= 0:
+                price = value
+                price_key = key
+                break
+
+    return {
+        "player_id": str(player.get("i")) if player.get("i") is not None else None,
+        "player_name": player.get("ln") or player.get("n") or player.get("pn"),
+        "market_value": context.get("mv", player.get("mv")),
+        "listed_price": context.get("prc", player.get("prc")),
+        "expires": player.get("exs"),
+        "offer_count": player.get("ofc"),
+        "my_bid": price,
+        "bid_price_key": price_key,
+        "offer_user_id": offer.get("u") or offer.get("uoid"),
+        "offer_user_name": offer.get("unm"),
+        "source": source,
+        "raw_offer": offer,
+    }
+
+
 def get_my_open_offers(token, league_id):
-    """Extract the authenticated user's visible outgoing market offers.
+    """Return the authenticated user's visible outgoing open bids.
 
-    We intentionally do not guess which numeric field is the bid price. The raw
-    offer object is retained, and common observed price keys are checked. This
-    makes the report useful immediately while remaining resilient to API changes.
+    Kickbase exposes the bid amount as `uop`. We first read inline `ofs[]` from
+    the market endpoint. If that yields no outgoing offers, we fall back to the
+    documented player-transfers endpoint for market entries that report offers.
+    On somebody else's listing that endpoint exposes at most our own bid; players
+    on our own sell list (`iposl`) are skipped so incoming bids are not mistaken
+    for our outgoing bids.
     """
+    market = get_league_market_raw(token, league_id)
     result = []
-    for player in get_league_market_raw(token, league_id):
-        offers = player.get("ofs") or []
-        for offer in offers:
-            # On somebody else's listing, any visible offer is our own bid.
-            # If ownership/listing flags are present, keep them for auditability.
-            price = None
-            price_key = None
-            for key in ("prc", "p", "price", "amt", "a", "v"):
-                value = offer.get(key)
-                if isinstance(value, (int, float)) and value >= 0:
-                    price = value
-                    price_key = key
-                    break
 
-            result.append({
-                "player_id": str(player.get("i")) if player.get("i") is not None else None,
-                "player_name": player.get("ln") or player.get("n") or player.get("pn"),
-                "market_value": player.get("mv"),
-                "expires": player.get("exs"),
-                "offer_count": player.get("ofc"),
-                "my_bid": price,
-                "bid_price_key": price_key,
-                "offer_user_id": offer.get("u") or offer.get("uoid"),
-                "offer_user_name": offer.get("unm"),
-                "raw_offer": offer,
-            })
+    for player in market:
+        for offer in player.get("ofs") or []:
+            result.append(_offer_record(player, offer, "market_inline"))
+
+    if result:
+        return result
+
+    # Fallback only for entries that actually report offers, keeping API traffic
+    # low while covering cases where `/market` omits the inline `ofs[]` payload.
+    for player in market:
+        if not player.get("ofc"):
+            continue
+
+        player_id = player.get("i")
+        if player_id is None:
+            continue
+
+        try:
+            url = f"{BASE_URL}/leagues/{league_id}/players/{player_id}/transfers"
+            data = get_json_with_token(url, token)
+        except Exception as exc:
+            print(f"Warning: Could not inspect open offers for player {player_id}: {exc}")
+            continue
+
+        # `iposl` means the player is on our own sell list. In that case `ofs[]`
+        # contains incoming bids from other managers, not our own outgoing bid.
+        if data.get("iposl"):
+            continue
+
+        for offer in data.get("ofs") or []:
+            result.append(_offer_record(player, offer, "player_transfers", data))
+
     return result
 
 
@@ -119,12 +158,13 @@ def get_league_players_on_market(token, league_id):
     result = []
     for player in get_league_market_raw(token, league_id):
         result.append({
-            'id': player.get('i'),
-            'prob': player.get('prob'),
+            "id": player.get("i"),
+            "prob": player.get("prob"),
             "exp": player.get("exs"),
         })
 
     return result
+
 
 def get_league_ranking(token, league_id):
     """Get the overall league ranking."""
