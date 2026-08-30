@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-30T12:56:33.306579+02:00",
+  "generated_at": "2026-08-30T13:04:16.540088+02:00",
   "league": "BFCO",
   "model": {
-    "direction_accuracy_percent": 81.56,
-    "rmse": 1577643475.52,
-    "mae": 21714.49,
-    "r2": 0.9293
+    "direction_accuracy_percent": 81.5,
+    "rmse": 1580230270.26,
+    "mae": 21705.33,
+    "r2": 0.9291
   },
   "manager_budgets": [
     {
@@ -124,10 +124,10 @@
       "team_name": "Dortmund",
       "mv": 4701709.0,
       "mv_change_yesterday": 408770.0,
-      "predicted_mv_target": 376565.54,
+      "predicted_mv_target": 380817.64,
       "model_recommended": true,
       "s_11_prob": 3,
-      "hours_to_exp": 31.54,
+      "hours_to_exp": 31.41,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -137,10 +137,10 @@
       "team_name": "Leverkusen",
       "mv": 6650207.0,
       "mv_change_yesterday": 373232.0,
-      "predicted_mv_target": 351474.8,
+      "predicted_mv_target": 351575.07,
       "model_recommended": true,
       "s_11_prob": 1,
-      "hours_to_exp": 45.33,
+      "hours_to_exp": 45.2,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -150,10 +150,10 @@
       "team_name": "Freiburg",
       "mv": 6308353.0,
       "mv_change_yesterday": 334147.0,
-      "predicted_mv_target": 318955.26,
+      "predicted_mv_target": 317206.59,
       "model_recommended": true,
       "s_11_prob": 2,
-      "hours_to_exp": 13.88,
+      "hours_to_exp": 13.75,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -163,7 +163,7 @@
       "team_name": "Hoffenheim",
       "mv": 1074637.0,
       "mv_change_yesterday": 221764.0,
-      "predicted_mv_target": 278953.85,
+      "predicted_mv_target": 277663.15,
       "model_recommended": true,
       "s_11_prob": 5,
       "hours_to_exp": null,
@@ -176,7 +176,7 @@
       "team_name": "M'gladbach",
       "mv": 9527128.0,
       "mv_change_yesterday": 201651.0,
-      "predicted_mv_target": 209771.93,
+      "predicted_mv_target": 211512.65,
       "model_recommended": true,
       "s_11_prob": 1,
       "hours_to_exp": null,
@@ -189,7 +189,7 @@
       "team_name": "Dortmund",
       "mv": 19469683.0,
       "mv_change_yesterday": 193823.0,
-      "predicted_mv_target": 198923.87,
+      "predicted_mv_target": 198710.08,
       "model_recommended": true,
       "s_11_prob": 3,
       "hours_to_exp": null,
@@ -202,10 +202,10 @@
       "team_name": "Mainz",
       "mv": 1031154.0,
       "mv_change_yesterday": 112201.0,
-      "predicted_mv_target": 181501.13,
+      "predicted_mv_target": 183145.09,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 32.35,
+      "hours_to_exp": 32.22,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -215,10 +215,23 @@
       "team_name": "Paderborn",
       "mv": 7093891.0,
       "mv_change_yesterday": 6593891.0,
-      "predicted_mv_target": 144509.9,
+      "predicted_mv_target": 144729.14,
       "model_recommended": true,
       "s_11_prob": 3,
-      "hours_to_exp": 4.67,
+      "hours_to_exp": 4.54,
+      "expiring_today": true,
+      "prediction_available": true
+    },
+    {
+      "player_id": "7269",
+      "last_name": "Tella",
+      "team_name": "Leverkusen",
+      "mv": 5164267.0,
+      "mv_change_yesterday": 58997.0,
+      "predicted_mv_target": 124670.9,
+      "model_recommended": true,
+      "s_11_prob": 4,
+      "hours_to_exp": 0.06,
       "expiring_today": true,
       "prediction_available": true
     },
@@ -228,24 +241,11 @@
       "team_name": "Freiburg",
       "mv": 1108262.0,
       "mv_change_yesterday": 98924.0,
-      "predicted_mv_target": 126593.3,
+      "predicted_mv_target": 123842.76,
       "model_recommended": true,
       "s_11_prob": 4,
-      "hours_to_exp": 9.56,
+      "hours_to_exp": 9.43,
       "expiring_today": false,
-      "prediction_available": true
-    },
-    {
-      "player_id": "7269",
-      "last_name": "Tella",
-      "team_name": "Leverkusen",
-      "mv": 5164267.0,
-      "mv_change_yesterday": 58997.0,
-      "predicted_mv_target": 124076.97,
-      "model_recommended": true,
-      "s_11_prob": 4,
-      "hours_to_exp": 0.19,
-      "expiring_today": true,
       "prediction_available": true
     },
     {
@@ -254,7 +254,7 @@
       "team_name": "Bayern",
       "mv": 32748431.0,
       "mv_change_yesterday": 108033.0,
-      "predicted_mv_target": 116873.13,
+      "predicted_mv_target": 117621.75,
       "model_recommended": true,
       "s_11_prob": 1,
       "hours_to_exp": null,
@@ -267,10 +267,10 @@
       "team_name": "Bayern",
       "mv": 500000.0,
       "mv_change_yesterday": 0.0,
-      "predicted_mv_target": 6515.77,
+      "predicted_mv_target": 8709.3,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 31.31,
+      "hours_to_exp": 31.18,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -280,10 +280,10 @@
       "team_name": "Frankfurt",
       "mv": 500000.0,
       "mv_change_yesterday": 0.0,
-      "predicted_mv_target": 6154.92,
+      "predicted_mv_target": 5737.27,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 21.0,
+      "hours_to_exp": 20.88,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -293,10 +293,10 @@
       "team_name": "M'gladbach",
       "mv": 4498142.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -2591.23,
+      "predicted_mv_target": -7262.0,
       "model_recommended": false,
       "s_11_prob": 4,
-      "hours_to_exp": 13.64,
+      "hours_to_exp": 13.51,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -306,10 +306,10 @@
       "team_name": "M'gladbach",
       "mv": 6121718.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -19083.1,
+      "predicted_mv_target": -19639.98,
       "model_recommended": false,
       "s_11_prob": 4,
-      "hours_to_exp": 18.83,
+      "hours_to_exp": 18.7,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -319,10 +319,10 @@
       "team_name": "Freiburg",
       "mv": 4133946.0,
       "mv_change_yesterday": -73036.0,
-      "predicted_mv_target": -62452.6,
+      "predicted_mv_target": -62614.9,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 9.45,
+      "hours_to_exp": 9.32,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -332,7 +332,7 @@
       "team_name": "Freiburg",
       "mv": 26608181.0,
       "mv_change_yesterday": -86303.0,
-      "predicted_mv_target": -95124.03,
+      "predicted_mv_target": -92668.52,
       "model_recommended": false,
       "s_11_prob": 1,
       "hours_to_exp": null,
@@ -345,10 +345,10 @@
       "team_name": "Freiburg",
       "mv": 4172924.0,
       "mv_change_yesterday": -111817.0,
-      "predicted_mv_target": -104190.37,
+      "predicted_mv_target": -101449.47,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 42.32,
+      "hours_to_exp": 42.19,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -358,10 +358,10 @@
       "team_name": "Bremen",
       "mv": 3468435.0,
       "mv_change_yesterday": -130822.0,
-      "predicted_mv_target": -124010.41,
+      "predicted_mv_target": -122339.59,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 28.67,
+      "hours_to_exp": 28.54,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -371,10 +371,10 @@
       "team_name": "Bremen",
       "mv": 3310683.0,
       "mv_change_yesterday": -138218.0,
-      "predicted_mv_target": -126283.37,
+      "predicted_mv_target": -126261.27,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 33.97,
+      "hours_to_exp": 33.84,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -384,10 +384,10 @@
       "team_name": "Dortmund",
       "mv": 4051239.0,
       "mv_change_yesterday": -139455.0,
-      "predicted_mv_target": -127933.97,
+      "predicted_mv_target": -127143.16,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 16.56,
+      "hours_to_exp": 16.43,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -397,10 +397,10 @@
       "team_name": "Paderborn",
       "mv": 7018012.0,
       "mv_change_yesterday": -356308.0,
-      "predicted_mv_target": -333263.65,
+      "predicted_mv_target": -335696.94,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 13.08,
+      "hours_to_exp": 12.95,
       "expiring_today": false,
       "prediction_available": true
     },
@@ -426,7 +426,7 @@
       "predicted_mv_target": null,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 9.53,
+      "hours_to_exp": 9.4,
       "expiring_today": false,
       "prediction_available": false
     },
@@ -451,7 +451,7 @@
       "team_name": "Freiburg",
       "mv": 16242917.0,
       "mv_change_yesterday": 23404.0,
-      "predicted_mv_target": 33886.06,
+      "predicted_mv_target": 32673.87,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -461,7 +461,7 @@
       "team_name": "Paderborn",
       "mv": 3883735.0,
       "mv_change_yesterday": -46968.0,
-      "predicted_mv_target": -44529.61,
+      "predicted_mv_target": -43361.9,
       "s_11_prob": 3,
       "prediction_available": true
     },
@@ -471,7 +471,7 @@
       "team_name": "Hoffenheim",
       "mv": 9982590.0,
       "mv_change_yesterday": 175793.0,
-      "predicted_mv_target": 198538.52,
+      "predicted_mv_target": 196082.25,
       "s_11_prob": 5,
       "prediction_available": true
     },
@@ -481,7 +481,7 @@
       "team_name": "Frankfurt",
       "mv": 8295842.0,
       "mv_change_yesterday": -302502.0,
-      "predicted_mv_target": -291241.72,
+      "predicted_mv_target": -289833.79,
       "s_11_prob": 5,
       "prediction_available": true
     },
@@ -491,7 +491,7 @@
       "team_name": "Dortmund",
       "mv": 6359421.0,
       "mv_change_yesterday": -193124.0,
-      "predicted_mv_target": -187697.69,
+      "predicted_mv_target": -189671.36,
       "s_11_prob": 4,
       "prediction_available": true
     },
@@ -501,7 +501,7 @@
       "team_name": "M'gladbach",
       "mv": 18314448.0,
       "mv_change_yesterday": -184072.0,
-      "predicted_mv_target": -99316.4,
+      "predicted_mv_target": -112373.53,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -511,7 +511,7 @@
       "team_name": "M'gladbach",
       "mv": 8311140.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -23209.43,
+      "predicted_mv_target": -21752.13,
       "s_11_prob": 5,
       "prediction_available": true
     },
@@ -521,7 +521,7 @@
       "team_name": "Mainz",
       "mv": 2178806.0,
       "mv_change_yesterday": -24320.0,
-      "predicted_mv_target": -41817.89,
+      "predicted_mv_target": -38482.79,
       "s_11_prob": 4,
       "prediction_available": true
     },
@@ -531,7 +531,7 @@
       "team_name": "Union Berlin",
       "mv": 10057061.0,
       "mv_change_yesterday": null,
-      "predicted_mv_target": -7184.78,
+      "predicted_mv_target": -9848.03,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -541,7 +541,7 @@
       "team_name": "Frankfurt",
       "mv": 23849121.0,
       "mv_change_yesterday": 41109.0,
-      "predicted_mv_target": 60865.98,
+      "predicted_mv_target": 59233.77,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -551,9 +551,49 @@
       "team_name": "Dortmund",
       "mv": 30011345.0,
       "mv_change_yesterday": 84179.0,
-      "predicted_mv_target": 91759.53,
+      "predicted_mv_target": 92123.72,
       "s_11_prob": 2,
       "prediction_available": true
+    }
+  ],
+  "my_open_offers": [
+    {
+      "player_id": "1858",
+      "player_name": "Jung",
+      "market_value": 1108262,
+      "expires": 33945,
+      "offer_count": 1,
+      "my_bid": null,
+      "bid_price_key": null,
+      "offer_user_id": "4052902",
+      "offer_user_name": "Fabian",
+      "raw_offer": {
+        "u": "4052902",
+        "unm": "Fabian",
+        "uoid": "4052902",
+        "uop": 1050000,
+        "st": 0,
+        "uim": "user/27afa48a34c841ce8198bfb7303fbf7a.png"
+      }
+    },
+    {
+      "player_id": "2399",
+      "player_name": "Maloney",
+      "market_value": 1031154,
+      "expires": 115993,
+      "offer_count": 1,
+      "my_bid": null,
+      "bid_price_key": null,
+      "offer_user_id": "4052902",
+      "offer_user_name": "Fabian",
+      "raw_offer": {
+        "u": "4052902",
+        "unm": "Fabian",
+        "uoid": "4052902",
+        "uop": 1100000,
+        "st": 0,
+        "uim": "user/27afa48a34c841ce8198bfb7303fbf7a.png"
+      }
     }
   ],
   "transfer_history": [
@@ -6091,6 +6131,7 @@
   ],
   "notes": {
     "opponent_budgets": "estimated; own budget marked exact",
-    "bidding_behavior": "based on completed/winning transfers only; losing/open bids are not visible"
+    "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
+    "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible"
   }
 }
