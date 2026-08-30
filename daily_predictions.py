@@ -7,6 +7,7 @@ from features.notifier import send_mail
 from features.reporting import save_latest_report
 from features.transfers import build_transfer_history, summarize_manager_bidding
 from features.strategy import build_market_strategy, build_squad_signals, build_opponent_bid_profiles
+from features.points import build_points_profiles, build_win_ranking
 from features.predictions.data_handler import (
     create_player_data_table,
     check_if_data_reload_needed,
@@ -119,6 +120,13 @@ market_strategy_df = build_market_strategy(
     own_budget=own_budget,
 )
 squad_signals_df = build_squad_signals(squad_recommendations_df)
+points_profiles_df = build_points_profiles(
+    token,
+    league_id,
+    market_recommendations_df,
+    squad_recommendations_df,
+)
+win_ranking_df = build_win_ranking(market_strategy_df, points_profiles_df)
 
 print(f"Market analysis completed for {len(market_recommendations_df)} market players.")
 print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
@@ -126,6 +134,10 @@ print(f"Visible own open offers found: {len(open_offers)}.")
 print(
     f"Strategy layer completed for {len(market_strategy_df)} market players, "
     f"{len(squad_signals_df)} squad players and {len(opponent_bid_profiles_df)} opponent bid profiles."
+)
+print(
+    f"Expected-points layer completed for {len(points_profiles_df)} players and "
+    f"{len(win_ranking_df)} ranked market targets."
 )
 
 report_path = save_latest_report(
@@ -145,6 +157,8 @@ report_path = save_latest_report(
     market_strategy_df,
     squad_signals_df,
     opponent_bid_profiles_df,
+    points_profiles_df,
+    win_ranking_df,
 )
 print(f"Machine-readable report written to {report_path}.")
 
