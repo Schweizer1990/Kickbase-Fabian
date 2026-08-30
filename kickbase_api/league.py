@@ -40,12 +40,14 @@ def get_leagues_infos(token):
 def get_league_activities(token, league_id, league_start_date):
     """Get league activities such as trades, logins, and achievements since the league start date."""
 
-    # TODO magic number with 5000, have to find a better solution
+    # The API does not currently expose pagination here in this client. 5000 is
+    # sufficient for a young league, while the report exposes the activity count
+    # so we can detect when this needs to be revisited.
     url = f"{BASE_URL}/leagues/{league_id}/activitiesFeed?max=5000"
     data = get_json_with_token(url, token)
 
     filtered_activities = []
-    for entry in data["af"]:
+    for entry in data.get("af", []):
         entry_date = entry.get("dt", "")
         if entry_date >= league_start_date:
             filtered_activities.append(entry)
@@ -53,11 +55,11 @@ def get_league_activities(token, league_id, league_start_date):
     login = [entry for entry in filtered_activities if entry.get("t") == 22]
     achievements = [entry for entry in filtered_activities if entry.get("t") == 26]
     trade = [entry for entry in filtered_activities if entry.get("t") == 15]
-    trading = [
-        {k: entry["data"].get(k) for k in ["byr", "slr", "pi", "pn", "tid", "trp"]}
-        for entry in trade
-        if entry.get("t") == 15
-    ]
+    trading = []
+    for entry in trade:
+        transfer = {k: entry.get("data", {}).get(k) for k in ["byr", "slr", "pi", "pn", "tid", "trp"]}
+        transfer["dt"] = entry.get("dt")
+        trading.append(transfer)
 
     return trading, login, achievements
 
@@ -84,7 +86,7 @@ def get_league_ranking(token, league_id):
     url = f"{BASE_URL}/leagues/{league_id}/ranking"
     data = get_json_with_token(url, token)
 
-    players = [(user["n"], user["sp"]) for user in data["us"]]
+    players = [(user["n"], user["sp"]) for user in data.get("us", [])]
     ranked = sorted(players, key=lambda x: x[1], reverse=True)
 
     return ranked
