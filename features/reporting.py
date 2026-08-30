@@ -13,7 +13,6 @@ def _records(df):
 
 
 def _sanitize_open_offers(open_offers):
-    """Keep only fields needed for analysis in the public report."""
     allowed = [
         "player_id", "player_name", "market_value", "listed_price",
         "expires", "offer_count", "my_bid", "source",
@@ -22,7 +21,6 @@ def _sanitize_open_offers(open_offers):
 
 
 def _write_history_snapshot(report):
-    """Persist compact time-series snapshots for league trend analysis."""
     path = Path("reports/history.json")
     snapshots = []
     if path.exists():
@@ -69,10 +67,7 @@ def _write_history_snapshot(report):
     snapshots.append(snapshot)
     snapshots = snapshots[-180:]
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps({"snapshots": snapshots}, ensure_ascii=False, indent=2, default=str),
-        encoding="utf-8",
-    )
+    path.write_text(json.dumps({"snapshots": snapshots}, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
 
 
 def save_latest_report(
@@ -89,8 +84,8 @@ def save_latest_report(
     opponent_bid_profiles_df=None,
     points_profiles_df=None,
     win_ranking_df=None,
+    ligainsider_signals_df=None,
 ):
-    """Write the latest analysis to a JSON file that ChatGPT can read from GitHub."""
     report = {
         "generated_at": datetime.now(ZoneInfo("Europe/Zurich")).isoformat(),
         "league": league_name,
@@ -106,6 +101,7 @@ def save_latest_report(
             "opponent_bid_profiles": _records(opponent_bid_profiles_df) if opponent_bid_profiles_df is not None else [],
         },
         "points_profiles": _records(points_profiles_df) if points_profiles_df is not None else [],
+        "ligainsider_signals": _records(ligainsider_signals_df) if ligainsider_signals_df is not None else [],
         "transfer_history": _records(transfer_df) if transfer_df is not None else [],
         "manager_bidding_behavior": _records(bidding_df) if bidding_df is not None else [],
         "notes": {
@@ -113,8 +109,9 @@ def save_latest_report(
             "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
             "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
             "market_strategy": "capital-growth and bid-discipline layer based on MV model plus observed completed winning transfers",
-            "expected_points": "transparent heuristic from Kickbase matchday points and minutes; current season blended with recent prior-season data when sample is small; confidence field must be respected",
-            "win_ranking": "combines expected next-match points, points-per-million and capital-growth score; it is a decision aid, not a guaranteed forecast",
+            "expected_points": "transparent heuristic from Kickbase points/minutes, stabilized for small samples and adjusted by LigaInsider availability signals",
+            "ligainsider": "public LigaInsider injury/suspension status and Topelf-page presence. Topelf presence can include an alternative and is therefore only a moderate positive signal, never a guaranteed start",
+            "win_ranking": "combines expected next-match points, points-per-million, availability and capital-growth score; decision aid, not a guaranteed forecast",
             "s11_indicator": "raw upstream indicator retained without assuming an undocumented probability mapping",
         },
     }
