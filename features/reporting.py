@@ -18,10 +18,7 @@ def _sanitize_open_offers(open_offers):
         "player_id", "player_name", "market_value", "listed_price",
         "expires", "offer_count", "my_bid", "source",
     ]
-    result = []
-    for offer in open_offers or []:
-        result.append({key: offer.get(key) for key in allowed})
-    return result
+    return [{key: offer.get(key) for key in allowed} for offer in (open_offers or [])]
 
 
 def _write_history_snapshot(report):
@@ -66,10 +63,10 @@ def _write_history_snapshot(report):
             for row in report.get("squad", [])
         ],
         "my_open_offers": report.get("my_open_offers", []),
+        "top_win_targets": report.get("strategy", {}).get("win_ranking", [])[:5],
     }
 
     snapshots.append(snapshot)
-    # Three runs per day: 180 snapshots is about two months of league context.
     snapshots = snapshots[-180:]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -90,6 +87,8 @@ def save_latest_report(
     market_strategy_df=None,
     squad_signals_df=None,
     opponent_bid_profiles_df=None,
+    points_profiles_df=None,
+    win_ranking_df=None,
 ):
     """Write the latest analysis to a JSON file that ChatGPT can read from GitHub."""
     report = {
@@ -102,16 +101,20 @@ def save_latest_report(
         "my_open_offers": _sanitize_open_offers(open_offers),
         "strategy": {
             "market_ranking": _records(market_strategy_df) if market_strategy_df is not None else [],
+            "win_ranking": _records(win_ranking_df) if win_ranking_df is not None else [],
             "squad_signals": _records(squad_signals_df) if squad_signals_df is not None else [],
             "opponent_bid_profiles": _records(opponent_bid_profiles_df) if opponent_bid_profiles_df is not None else [],
         },
+        "points_profiles": _records(points_profiles_df) if points_profiles_df is not None else [],
         "transfer_history": _records(transfer_df) if transfer_df is not None else [],
         "manager_bidding_behavior": _records(bidding_df) if bidding_df is not None else [],
         "notes": {
             "opponent_budgets": "estimated; own budget marked exact",
             "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
             "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
-            "market_strategy": "heuristic capital-growth and bid-discipline layer based on the existing market-value model plus observed completed winning transfers; not an expected-points model",
+            "market_strategy": "capital-growth and bid-discipline layer based on MV model plus observed completed winning transfers",
+            "expected_points": "transparent heuristic from Kickbase matchday points and minutes; current season blended with recent prior-season data when sample is small; confidence field must be respected",
+            "win_ranking": "combines expected next-match points, points-per-million and capital-growth score; it is a decision aid, not a guaranteed forecast",
             "s11_indicator": "raw upstream indicator retained without assuming an undocumented probability mapping",
         },
     }
