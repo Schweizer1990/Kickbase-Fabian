@@ -20,6 +20,7 @@ def save_latest_report(
     squad_df,
     transfer_df=None,
     bidding_df=None,
+    open_offers=None,
 ):
     """Write the latest analysis to a JSON file that ChatGPT can read from GitHub."""
     report = {
@@ -29,11 +30,13 @@ def save_latest_report(
         "manager_budgets": _records(manager_df),
         "market": _records(market_df),
         "squad": _records(squad_df),
+        "my_open_offers": open_offers or [],
         "transfer_history": _records(transfer_df) if transfer_df is not None else [],
         "manager_bidding_behavior": _records(bidding_df) if bidding_df is not None else [],
         "notes": {
             "opponent_budgets": "estimated; own budget marked exact",
-            "bidding_behavior": "based on completed/winning transfers only; losing/open bids are not visible",
+            "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
+            "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
         },
     }
 
