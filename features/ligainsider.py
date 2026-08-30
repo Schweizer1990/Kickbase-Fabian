@@ -1,3 +1,4 @@
+import math
 import re
 import unicodedata
 from html import unescape
@@ -44,8 +45,23 @@ STATUS_KEYWORDS = [
 ]
 
 
+def _clean_text_value(value):
+    """Return a real string or None; pandas NaN must not leak into matching/sorting."""
+    if value is None:
+        return None
+    if isinstance(value, float) and math.isnan(value):
+        return None
+    text = str(value).strip()
+    if not text or text.lower() == "nan":
+        return None
+    return text
+
+
 def _norm(value):
-    text = unicodedata.normalize("NFKD", str(value or ""))
+    value = _clean_text_value(value)
+    if not value:
+        return ""
+    text = unicodedata.normalize("NFKD", value)
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
 
@@ -71,12 +87,12 @@ def _collect_source(market_df, squad_df):
             continue
         for _, row in df.iterrows():
             pid = row.get("player_id")
-            if pid is None:
+            if pid is None or (isinstance(pid, float) and math.isnan(pid)):
                 continue
             players[str(pid)] = {
                 "player_id": str(pid),
-                "player_name": row.get("last_name"),
-                "team": row.get("team_name"),
+                "player_name": _clean_text_value(row.get("last_name")),
+                "team": _clean_text_value(row.get("team_name")),
             }
     return players
 
@@ -100,7 +116,8 @@ def build_ligainsider_signals(market_df, squad_df):
         injury_text = ""
 
     team_text = {}
-    for team in sorted({p["team"] for p in players.values() if p.get("team")}):
+    teams = sorted({p["team"] for p in players.values() if isinstance(p.get("team"), str) and p["team"]})
+    for team in teams:
         path = TEAM_PATHS.get(team)
         if not path:
             continue
