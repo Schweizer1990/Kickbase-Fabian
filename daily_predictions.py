@@ -1,7 +1,7 @@
 from features.predictions.predictions import live_data_predictions, join_current_market, join_current_squad
 from features.predictions.preprocessing import preprocess_player_data, split_data
 from features.predictions.modeling import train_model, evaluate_model
-from kickbase_api.league import get_league_id
+from kickbase_api.league import get_league_id, get_my_open_offers
 from kickbase_api.user import login
 from features.notifier import send_mail
 from features.reporting import save_latest_report
@@ -102,9 +102,11 @@ print(
 live_predictions_df = live_data_predictions(today_df, model, features)
 market_recommendations_df = join_current_market(token, league_id, live_predictions_df)
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
+open_offers = get_my_open_offers(token, league_id)
 
 print(f"Market analysis completed for {len(market_recommendations_df)} market players.")
 print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
+print(f"Visible own open offers found: {len(open_offers)}.")
 
 report_path = save_latest_report(
     league_name,
@@ -119,6 +121,7 @@ report_path = save_latest_report(
     squad_recommendations_df,
     transfer_history_df,
     bidding_behavior_df,
+    open_offers,
 )
 print(f"Machine-readable report written to {report_path}.")
 
