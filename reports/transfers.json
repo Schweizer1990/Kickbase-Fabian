@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T10:09:05.253872",
+  "updated_at": "2026-08-31T17:03:06.677128",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5610,6 +5610,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-08-31T08:13:23Z|3029|AndiiRutz_1||6905800.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-08-31T14:06:45Z",
+      "date": "2026-08-31",
+      "player_id": "15589",
+      "player_name": "Otávio",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 10216997.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-08-31T14:06:45Z|15589||KönigMario|10216997.00"
     }
   ]
 }
