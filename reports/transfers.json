@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T19:10:39.349752",
+  "updated_at": "2026-08-31T19:21:14.242598",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5655,6 +5655,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-08-31T18:29:08Z|9440|Bommer||5666666.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-08-31T19:17:46Z",
+      "date": "2026-08-31",
+      "player_id": "2399",
+      "player_name": "Maloney",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 1595358.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-31T19:17:46Z|2399|Pedro||1595358.00"
     }
   ]
 }
