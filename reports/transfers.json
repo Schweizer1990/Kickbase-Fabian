@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T04:32:47.610452",
+  "updated_at": "2026-08-31T10:09:05.253872",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5580,6 +5580,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-08-31T00:49:32Z|7215|Joel||7123454.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-08-31T07:56:59Z",
+      "date": "2026-08-31",
+      "player_id": "11186",
+      "player_name": "Maluze",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 6710000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-31T07:56:59Z|11186|Pedro||6710000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-08-31T08:13:23Z",
+      "date": "2026-08-31",
+      "player_id": "3029",
+      "player_name": "Ljubičić",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 6905800.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-08-31T08:13:23Z|3029|AndiiRutz_1||6905800.00"
     }
   ]
 }
