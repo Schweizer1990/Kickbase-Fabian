@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T15:29:38.184159",
+  "updated_at": "2026-09-01T17:03:44.323333",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5805,6 +5805,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-01T14:42:05Z|3516||Fabian|7574791.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-01T15:38:04Z",
+      "date": "2026-09-01",
+      "player_id": "3041",
+      "player_name": "Widmer",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 2001428.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-01T15:38:04Z|3041||Fabian|2001428.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-01T15:38:18Z",
+      "date": "2026-09-01",
+      "player_id": "1856",
+      "player_name": "Sabitzer",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 6199622.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-01T15:38:18Z|1856||Fabian|6199622.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-01T16:35:08Z",
+      "date": "2026-09-01",
+      "player_id": "10134",
+      "player_name": "Schmetgens",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 7857382.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-01T16:35:08Z|10134||Flo24|7857382.00"
     }
   ]
 }
