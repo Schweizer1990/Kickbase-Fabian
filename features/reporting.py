@@ -47,6 +47,8 @@ def _write_history_snapshot(report):
                 "name": row.get("last_name"),
                 "mv": row.get("mv"),
                 "mv_change_yesterday": row.get("mv_change_yesterday"),
+                "mv_change_7d": row.get("mv_change_7d"),
+                "mv_trend_7d": row.get("mv_trend_7d"),
                 "predicted_mv_target": row.get("predicted_mv_target"),
             }
             for row in report.get("market", [])
@@ -56,6 +58,9 @@ def _write_history_snapshot(report):
                 "player_id": row.get("player_id"),
                 "name": row.get("last_name"),
                 "mv": row.get("mv"),
+                "mv_change_yesterday": row.get("mv_change_yesterday"),
+                "mv_change_7d": row.get("mv_change_7d"),
+                "mv_trend_7d": row.get("mv_trend_7d"),
                 "predicted_mv_target": row.get("predicted_mv_target"),
             }
             for row in report.get("squad", [])
@@ -113,6 +118,7 @@ def save_latest_report(
             "ligainsider": "public LigaInsider injury/suspension status and Topelf-page presence. Topelf presence can include an alternative and is therefore only a moderate positive signal, never a guaranteed start",
             "win_ranking": "combines expected next-match points, points-per-million, availability and capital-growth score; decision aid, not a guaranteed forecast",
             "s11_indicator": "raw upstream indicator retained without assuming an undocumented probability mapping",
+            "mv_7d": "mv_change_7d is the absolute market-value change versus the value seven daily Kickbase MV points earlier; mv_trend_7d is the same change as a fraction of the older value",
         },
     }
 
