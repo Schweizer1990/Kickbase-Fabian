@@ -83,13 +83,14 @@ def _league_segment_stats(transfer_df):
 def build_market_strategy(market_df, transfer_df, own_budget=None):
     """Rank current market players for capital growth and bid discipline.
 
-    This is a transparent heuristic layer on top of the existing MV model, not
-    an expected-points model. It combines predicted MV movement, current daily
-    momentum and observed winning overpay behaviour in the league.
+    Combines the next-day model, current daily momentum and the sustained
+    seven-day Kickbase market-value trend. Completed league transfers are used
+    only to estimate how much competition tends to overpay.
     """
     columns = [
         "player_id", "player_name", "team", "market_value", "predicted_mv_change",
-        "predicted_return_pct", "daily_return_pct", "segment", "league_bid_sample",
+        "predicted_return_pct", "daily_return_pct", "mv_change_7d", "return_7d_pct",
+        "avg_daily_return_7d_pct", "segment", "league_bid_sample",
         "league_median_overpay_pct", "suggested_bid", "hard_max_bid", "capital_score",
         "budget_fit", "strategy_label",
     ]
@@ -104,13 +105,13 @@ def build_market_strategy(market_df, transfer_df, own_budget=None):
             continue
         pred = _num(player.get("predicted_mv_target"), 0.0)
         daily = _num(player.get("mv_change_yesterday"), 0.0)
+        change_7d = _num(player.get("mv_change_7d"), 0.0)
+        trend_7d = _num(player.get("mv_trend_7d"), 0.0)
         segment = _price_segment(mv)
         stats = segment_stats.get(segment, {})
         median_overpay = _num(stats.get("median_overpay_pct"), 0.0)
         p75_overpay = _num(stats.get("p75_overpay_pct"), median_overpay)
 
-        # Keep historic overpay influence bounded. Historic winning bids are a
-        # guide to competition, never a reason to destroy expected trading ROI.
         median_overpay = max(-5.0, min(median_overpay, 15.0))
         p75_overpay = max(median_overpay, min(p75_overpay, 20.0))
 
@@ -122,14 +123,20 @@ def build_market_strategy(market_df, transfer_df, own_budget=None):
 
         pred_pct = pred / mv * 100
         daily_pct = daily / mv * 100
-        # Capital score favours strong % returns and confirmed positive momentum.
-        capital_score = pred_pct * 0.65 + daily_pct * 0.35
+        return_7d_pct = trend_7d * 100
+        avg_daily_7d_pct = return_7d_pct / 7
+
+        # A hot single day is less valuable than momentum confirmed over a week.
+        capital_score = pred_pct * 0.50 + daily_pct * 0.30 + avg_daily_7d_pct * 0.20
 
         budget_fit = own_budget is None or suggested <= own_budget
-        if pred_pct >= 8 and daily_pct > 0:
+        sustained_positive = change_7d > 0
+        if pred_pct >= 8 and daily_pct > 0 and sustained_positive:
             label = "strong_trade"
-        elif pred_pct >= 3 and daily_pct >= 0:
+        elif pred_pct >= 3 and daily_pct >= 0 and sustained_positive:
             label = "trade"
+        elif pred_pct > 0 and daily_pct >= 0:
+            label = "watch_trend_unconfirmed"
         elif pred_pct > 0:
             label = "watch"
         else:
@@ -143,6 +150,9 @@ def build_market_strategy(market_df, transfer_df, own_budget=None):
             "predicted_mv_change": int(round(pred)),
             "predicted_return_pct": round(pred_pct, 2),
             "daily_return_pct": round(daily_pct, 2),
+            "mv_change_7d": int(round(change_7d)),
+            "return_7d_pct": round(return_7d_pct, 2),
+            "avg_daily_return_7d_pct": round(avg_daily_7d_pct, 2),
             "segment": segment,
             "league_bid_sample": int(stats.get("sample_size", 0)),
             "league_median_overpay_pct": round(median_overpay, 2),
@@ -164,10 +174,10 @@ def build_market_strategy(market_df, transfer_df, own_budget=None):
 
 
 def build_squad_signals(squad_df):
-    """Create simple hold/sell signals from the existing MV prediction layer."""
+    """Create hold/sell signals using next-day, daily and seven-day MV direction."""
     columns = [
         "player_id", "player_name", "team", "market_value", "predicted_mv_change",
-        "daily_mv_change", "s11_indicator", "signal", "reason",
+        "daily_mv_change", "mv_change_7d", "return_7d_pct", "s11_indicator", "signal", "reason",
     ]
     if squad_df is None or squad_df.empty:
         return pd.DataFrame(columns=columns)
@@ -177,11 +187,19 @@ def build_squad_signals(squad_df):
         mv = _num(player.get("mv"), 0.0)
         pred = _num(player.get("predicted_mv_target"), 0.0)
         daily = _num(player.get("mv_change_yesterday"), 0.0)
+        change_7d = _num(player.get("mv_change_7d"), 0.0)
+        trend_7d = _num(player.get("mv_trend_7d"), 0.0)
         s11 = player.get("s_11_prob")
 
-        if pred < 0 and daily < 0:
+        if pred < 0 and daily < 0 and change_7d < 0:
+            signal = "sell_pressure_strong"
+            reason = "model_daily_and_7d_market_value_negative"
+        elif pred < 0 and daily < 0:
             signal = "sell_pressure"
             reason = "model_and_daily_market_value_both_negative"
+        elif pred > 0 and daily >= 0 and change_7d > 0:
+            signal = "hold_positive_strong"
+            reason = "model_daily_and_7d_market_value_positive"
         elif pred > 0 and daily >= 0:
             signal = "hold_positive"
             reason = "model_and_daily_market_value_positive"
@@ -199,6 +217,8 @@ def build_squad_signals(squad_df):
             "market_value": int(round(mv)) if mv else None,
             "predicted_mv_change": int(round(pred)),
             "daily_mv_change": int(round(daily)),
+            "mv_change_7d": int(round(change_7d)),
+            "return_7d_pct": round(trend_7d * 100, 2),
             "s11_indicator": s11,
             "signal": signal,
             "reason": reason,
