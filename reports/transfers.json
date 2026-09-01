@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T10:15:38.726857",
+  "updated_at": "2026-09-01T14:15:26.793155",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5730,6 +5730,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-01T08:37:47Z|7216|Mario||3900000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-01T10:32:13Z",
+      "date": "2026-09-01",
+      "player_id": "4406",
+      "player_name": "Dina Ebimbe",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 6450000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-01T10:32:13Z|4406|Mario||6450000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-01T12:27:12Z",
+      "date": "2026-09-01",
+      "player_id": "2762",
+      "player_name": "Becker",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 9844444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-01T12:27:12Z|2762|Fabian||9844444.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-01T13:33:08Z",
+      "date": "2026-09-01",
+      "player_id": "13433",
+      "player_name": "Lemke",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 7844444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-01T13:33:08Z|13433|Fabian||7844444.00"
     }
   ]
 }
