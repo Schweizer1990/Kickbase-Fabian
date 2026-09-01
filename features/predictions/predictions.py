@@ -22,7 +22,8 @@ def live_data_predictions(today_df, model, features):
     today_df_results = today_df_results.dropna(subset=["mv"])
     today_df_results = today_df_results[[
         "player_id", "first_name", "last_name", "position", "team_name", "date",
-        "mv_change_1d", "mv_trend_1d", "mv", "predicted_mv_target"
+        "mv_change_1d", "mv_trend_1d", "mv_change_7d", "mv_trend_7d",
+        "mv_avg_daily_change_7d", "mv", "predicted_mv_target"
     ]]
 
     return today_df_results
@@ -37,6 +38,7 @@ def join_current_squad(token, league_id, today_df_results):
     if squad_df.empty:
         return pd.DataFrame(columns=[
             "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
+            "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
             "predicted_mv_target", "s_11_prob", "prediction_available"
         ])
 
@@ -68,12 +70,16 @@ def join_current_squad(token, league_id, today_df_results):
     squad_df["player_id"] = squad_df["player_id"].fillna(squad_df["i"])
     squad_df["prediction_available"] = squad_df["predicted_mv_target"].notna()
 
-    for column in ["team_name", "mv_change_yesterday", "predicted_mv_target", "s_11_prob"]:
+    for column in [
+        "team_name", "mv_change_yesterday", "mv_change_7d", "mv_trend_7d",
+        "mv_avg_daily_change_7d", "predicted_mv_target", "s_11_prob"
+    ]:
         if column not in squad_df.columns:
             squad_df[column] = np.nan
 
     return squad_df[[
         "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
+        "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
         "predicted_mv_target", "s_11_prob", "prediction_available"
     ]]
 
@@ -87,6 +93,7 @@ def join_current_market(token, league_id, today_df_results):
     if market_df.empty:
         return pd.DataFrame(columns=[
             "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
+            "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
             "predicted_mv_target", "model_recommended", "s_11_prob", "hours_to_exp",
             "expiring_today", "prediction_available"
         ])
@@ -116,7 +123,10 @@ def join_current_market(token, league_id, today_df_results):
     bid_df = bid_df.rename(columns={"prob": "s_11_prob", "mv_change_1d": "mv_change_yesterday"})
     bid_df["player_id"] = bid_df["player_id"].fillna(bid_df["id"])
 
-    for column in ["last_name", "team_name", "mv", "mv_change_yesterday", "predicted_mv_target"]:
+    for column in [
+        "last_name", "team_name", "mv", "mv_change_yesterday", "mv_change_7d",
+        "mv_trend_7d", "mv_avg_daily_change_7d", "predicted_mv_target"
+    ]:
         if column not in bid_df.columns:
             bid_df[column] = np.nan
 
@@ -128,6 +138,7 @@ def join_current_market(token, league_id, today_df_results):
 
     return bid_df[[
         "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
+        "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
         "predicted_mv_target", "model_recommended", "s_11_prob", "hours_to_exp",
         "expiring_today", "prediction_available"
     ]]
