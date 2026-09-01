@@ -40,9 +40,13 @@ def preprocess_player_data(df):
     df["mv_change_3d"] = df["mv"] - df.groupby("player_id")["mv"].shift(3)
     df["mv_vol_3d"] = df.groupby("player_id")["mv"].rolling(3).std().reset_index(0,drop=True)
 
-    # Market value trend 7d
-    df["mv_trend_7d"] = df.groupby("player_id")["mv"].pct_change(periods=7, fill_method=None)
+    # Market value trend 7d. Kickbase's app displays the absolute change over
+    # seven daily MV points; keep both the absolute and relative variants.
+    mv_7d_ago = df.groupby("player_id")["mv"].shift(7)
+    df["mv_change_7d"] = df["mv"] - mv_7d_ago
+    df["mv_trend_7d"] = df["mv_change_7d"] / mv_7d_ago
     df["mv_trend_7d"] = df["mv_trend_7d"].replace([np.inf, -np.inf], 0).fillna(0)
+    df["mv_avg_daily_change_7d"] = df["mv_change_7d"] / 7
 
     ## League-wide market context
     df["market_divergence"] = (df["mv"] / df.groupby("md")["mv"].transform("mean")).rolling(3).mean()
@@ -60,6 +64,8 @@ def preprocess_player_data(df):
     df = df.fillna({
         "market_divergence": 1,
         "mv_change_3d": 0,
+        "mv_change_7d": 0,
+        "mv_avg_daily_change_7d": 0,
         "mv_vol_3d": 0,
         "p": 0,
         "ppm": 0,
