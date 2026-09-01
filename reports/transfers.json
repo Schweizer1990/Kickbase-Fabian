@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T04:37:40.438302",
+  "updated_at": "2026-09-01T09:07:23.242661",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5685,6 +5685,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-08-31T20:18:02Z|15193||AndiiRutz_1|9020858.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-01T07:07:50Z",
+      "date": "2026-09-01",
+      "player_id": "7463",
+      "player_name": "Onyeka",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 8685129.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-01T07:07:50Z|7463|KönigMario||8685129.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-01T08:16:49Z",
+      "date": "2026-09-01",
+      "player_id": "3754",
+      "player_name": "Vázquez",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 8000888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-01T08:16:49Z|3754|Marc Frischiniemi||8000888.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-01T08:37:47Z",
+      "date": "2026-09-01",
+      "player_id": "7216",
+      "player_name": "Rosenfelder",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 3900000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-01T08:37:47Z|7216|Mario||3900000.00"
     }
   ]
 }
