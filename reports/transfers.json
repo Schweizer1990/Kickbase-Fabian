@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T17:02:55.217312",
+  "updated_at": "2026-09-02T19:48:50.147354",
   "transfers": [
     {
       "transfer_id": "13",
@@ -5925,6 +5925,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-02T14:11:23Z|8235||Pedro|1499555.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-02T18:42:48Z",
+      "date": "2026-09-02",
+      "player_id": "3318",
+      "player_name": "Königsdörffer",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 5141102.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-02T18:42:48Z|3318||Thomasson|5141102.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-02T19:22:03Z",
+      "date": "2026-09-02",
+      "player_id": "6085",
+      "player_name": "Seimen",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 6108766.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-02T19:22:03Z|6085|KönigMario||6108766.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-02T19:39:56Z",
+      "date": "2026-09-02",
+      "player_id": "1889",
+      "player_name": "Jatta",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 8994525.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-02T19:39:56Z|1889|Fabian||8994525.00"
     }
   ]
 }
