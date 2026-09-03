@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T05:38:34.823351",
+  "updated_at": "2026-09-03T10:16:40.019174",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6015,6 +6015,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-03T05:11:11Z|17282|Fabian||11888888.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-03T06:07:08Z",
+      "date": "2026-09-03",
+      "player_id": "12297",
+      "player_name": "Tanaka",
+      "buyer": "Fabian",
+      "seller": "Thomasson",
+      "price": 5044444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-03T06:07:08Z|12297|Fabian|Thomasson|5044444.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-03T07:34:17Z",
+      "date": "2026-09-03",
+      "player_id": "11255",
+      "player_name": "Katic",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 12330272.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-03T07:34:17Z|11255|Mario||12330272.00"
     }
   ]
 }
