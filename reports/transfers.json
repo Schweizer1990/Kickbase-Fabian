@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T10:16:40.019174",
+  "updated_at": "2026-09-03T17:02:57.291727",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6045,6 +6045,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-03T07:34:17Z|11255|Mario||12330272.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-03T11:08:15Z",
+      "date": "2026-09-03",
+      "player_id": "11255",
+      "player_name": "Katic",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 12330272.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-03T11:08:15Z|11255||Mario|12330272.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-03T12:30:11Z",
+      "date": "2026-09-03",
+      "player_id": "11512",
+      "player_name": "Capaldo",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 11223333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-03T12:30:11Z|11512|Flo24||11223333.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-03T13:35:07Z",
+      "date": "2026-09-03",
+      "player_id": "6319",
+      "player_name": "Honorat",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 9655555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-03T13:35:07Z|6319|Flo24||9655555.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-03T15:04:29Z",
+      "date": "2026-09-03",
+      "player_id": "2717",
+      "player_name": "Skov",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 912000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-03T15:04:29Z|2717|Marc Frischiniemi||912000.00"
     }
   ]
 }
