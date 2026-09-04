@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T17:02:55.193351",
+  "updated_at": "2026-09-04T19:27:20.468906",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6600,6 +6600,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-04T16:41:23Z|524||Thomasson|17429161.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-04T17:53:15Z",
+      "date": "2026-09-04",
+      "player_id": "14256",
+      "player_name": "El Ouahdi",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 10500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T17:53:15Z|14256|Mario||10500000.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-04T18:03:29Z",
+      "date": "2026-09-04",
+      "player_id": "3204",
+      "player_name": "Conté",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 9198968.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T18:03:29Z|3204||Simon Koller|9198968.00"
     }
   ]
 }
