@@ -1,9 +1,17 @@
 from kickbase_api.league import get_league_players_on_market
+from kickbase_api.manager import get_managers, get_manager_squad
 from kickbase_api.user import get_players_in_squad
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import pandas as pd
 import numpy as np
+
+
+SQUAD_COLUMNS = [
+    "manager_id", "manager_name", "player_id", "first_name", "last_name", "position",
+    "team_name", "mv", "mv_change_yesterday", "mv_change_7d", "mv_trend_7d",
+    "mv_avg_daily_change_7d", "predicted_mv_target", "s_11_prob", "prediction_available"
+]
 
 
 def live_data_predictions(today_df, model, features):
@@ -29,20 +37,32 @@ def live_data_predictions(today_df, model, features):
     return today_df_results
 
 
-def join_current_squad(token, league_id, today_df_results):
-    """Return every player currently in the user's squad, enriched with predictions where available."""
+def _extract_squad_items(payload):
+    """Return the player list from own or manager squad payloads across API variants."""
+    if isinstance(payload, list):
+        return payload
+    if not isinstance(payload, dict):
+        return []
 
-    squad_players = get_players_in_squad(token, league_id)
-    squad_df = pd.DataFrame(squad_players.get("it", []))
+    for key in ("it", "players", "squad", "pl"):
+        value = payload.get(key)
+        if isinstance(value, list):
+            return value
+    return []
 
+
+def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_name=None):
+    """Normalize one Kickbase squad payload and enrich it with current ML/MV data."""
+    squad_df = pd.DataFrame(_extract_squad_items(payload))
     if squad_df.empty:
-        return pd.DataFrame(columns=[
-            "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
-            "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
-            "predicted_mv_target", "s_11_prob", "prediction_available"
-        ])
+        return pd.DataFrame(columns=SQUAD_COLUMNS)
 
-    # Keep all current squad players even when the historical ML database has no row yet.
+    if "i" not in squad_df.columns:
+        if "id" in squad_df.columns:
+            squad_df["i"] = squad_df["id"]
+        else:
+            squad_df["i"] = np.nan
+
     squad_df = pd.merge(
         squad_df,
         today_df_results,
@@ -56,32 +76,92 @@ def join_current_squad(token, league_id, today_df_results):
         squad_df["prob"] = np.nan
     squad_df = squad_df.rename(columns={"prob": "s_11_prob", "mv_change_1d": "mv_change_yesterday"})
 
-    # Kickbase squad payload may contain its own current market value. Prefer model-data mv when available.
+    # Prefer the model data's current MV, but retain Kickbase's payload value as fallback.
     if "mv" not in squad_df.columns:
         squad_df["mv"] = np.nan
+    if "mv_kickbase" in squad_df.columns:
+        squad_df["mv"] = squad_df["mv"].fillna(squad_df["mv_kickbase"])
 
-    # Fall back to names from the live Kickbase payload if present.
+    if "player_id" not in squad_df.columns:
+        squad_df["player_id"] = np.nan
+    squad_df["player_id"] = squad_df["player_id"].fillna(squad_df["i"])
+
+    # Fall back to compact Kickbase name fields when historical/model data is missing.
+    if "first_name" not in squad_df.columns:
+        squad_df["first_name"] = np.nan
     if "last_name" not in squad_df.columns:
         squad_df["last_name"] = np.nan
-    for candidate in ["ln", "n"]:
+
+    for candidate in ("fn", "firstName"):
+        if candidate in squad_df.columns:
+            squad_df["first_name"] = squad_df["first_name"].fillna(squad_df[candidate])
+    for candidate in ("ln", "n", "lastName"):
         if candidate in squad_df.columns:
             squad_df["last_name"] = squad_df["last_name"].fillna(squad_df[candidate])
 
-    squad_df["player_id"] = squad_df["player_id"].fillna(squad_df["i"])
-    squad_df["prediction_available"] = squad_df["predicted_mv_target"].notna()
+    if "position" not in squad_df.columns:
+        squad_df["position"] = np.nan
+    for candidate in ("pos", "position_kickbase"):
+        if candidate in squad_df.columns:
+            squad_df["position"] = squad_df["position"].fillna(squad_df[candidate])
+
+    if "team_name" not in squad_df.columns:
+        squad_df["team_name"] = np.nan
+    for candidate in ("tn", "teamName"):
+        if candidate in squad_df.columns:
+            squad_df["team_name"] = squad_df["team_name"].fillna(squad_df[candidate])
 
     for column in [
-        "team_name", "mv_change_yesterday", "mv_change_7d", "mv_trend_7d",
+        "mv_change_yesterday", "mv_change_7d", "mv_trend_7d",
         "mv_avg_daily_change_7d", "predicted_mv_target", "s_11_prob"
     ]:
         if column not in squad_df.columns:
             squad_df[column] = np.nan
 
-    return squad_df[[
-        "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
-        "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
-        "predicted_mv_target", "s_11_prob", "prediction_available"
-    ]]
+    squad_df["prediction_available"] = squad_df["predicted_mv_target"].notna()
+    squad_df["manager_id"] = str(manager_id) if manager_id is not None else None
+    squad_df["manager_name"] = manager_name
+
+    return squad_df[SQUAD_COLUMNS]
+
+
+def join_current_squad(token, league_id, today_df_results):
+    """Return every player currently in the user's squad, enriched with predictions where available."""
+
+    squad_players = get_players_in_squad(token, league_id)
+    enriched = _enrich_squad_payload(squad_players, today_df_results)
+    return enriched.drop(columns=["manager_id", "manager_name"], errors="ignore")
+
+
+def join_all_manager_squads(token, league_id, today_df_results):
+    """Return current squads for every league manager with the same MV fields as the user's squad.
+
+    Opponent squads are read from Kickbase's manager-squad endpoint. Individual manager
+    failures are isolated so one unavailable profile does not break the full daily report.
+    """
+    frames = []
+    managers = get_managers(token, league_id)
+
+    for manager_name, manager_id in managers:
+        try:
+            payload = get_manager_squad(token, league_id, manager_id)
+            enriched = _enrich_squad_payload(
+                payload,
+                today_df_results,
+                manager_id=manager_id,
+                manager_name=manager_name,
+            )
+            if not enriched.empty:
+                frames.append(enriched)
+        except Exception as exc:
+            print(f"Warning: Could not fetch squad for manager {manager_name}: {exc}")
+
+    if not frames:
+        return pd.DataFrame(columns=SQUAD_COLUMNS)
+
+    result = pd.concat(frames, ignore_index=True)
+    result.sort_values(["manager_name", "mv"], ascending=[True, False], inplace=True, na_position="last")
+    return result
 
 
 def join_current_market(token, league_id, today_df_results):
