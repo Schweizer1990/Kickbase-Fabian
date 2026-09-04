@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:07:28.330627",
+  "updated_at": "2026-09-04T04:36:28.045585",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6195,6 +6195,111 @@
       "overpay_pct": 3.44,
       "type": "kickbase_purchase",
       "event_key": "2026-09-03T21:04:09Z|17288|Fabian||6111111.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-03T22:23:12Z",
+      "date": "2026-09-03",
+      "player_id": "2661",
+      "player_name": "Diaby",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 27360000.0,
+      "market_value_at_transfer": 25567268.0,
+      "overpay": 1792732.0,
+      "overpay_pct": 7.01,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-03T22:23:12Z|2661|Marc Frischiniemi||27360000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-03T22:24:13Z",
+      "date": "2026-09-03",
+      "player_id": "15202",
+      "player_name": "Uno",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 875471.0,
+      "market_value_at_transfer": 874716.0,
+      "overpay": 755.0,
+      "overpay_pct": 0.09,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-03T22:24:13Z|15202|Thomasson||875471.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-04T00:50:40Z",
+      "date": "2026-09-04",
+      "player_id": "7696",
+      "player_name": "Labrović",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T00:50:40Z|7696|Fabian||500000.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-04T01:03:57Z",
+      "date": "2026-09-04",
+      "player_id": "14249",
+      "player_name": "El Aynaoui",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 15140685.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T01:03:57Z|14249|Bommer||15140685.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-04T01:27:59Z",
+      "date": "2026-09-04",
+      "player_id": "17285",
+      "player_name": "Brassier",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 13055781.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T01:27:59Z|17285|AndiiRutz_1||13055781.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-04T02:48:12Z",
+      "date": "2026-09-04",
+      "player_id": "17309",
+      "player_name": "Nwaneri",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 19435000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T02:48:12Z|17309|Marc Frischiniemi||19435000.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-04T04:31:57Z",
+      "date": "2026-09-04",
+      "player_id": "14425",
+      "player_name": "Møller Wolfe",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 9353655.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T04:31:57Z|14425|Joel||9353655.00"
     }
   ]
 }
