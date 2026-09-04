@@ -1,4 +1,4 @@
-from features.predictions.predictions import live_data_predictions, join_current_market, join_current_squad
+from features.predictions.predictions import live_data_predictions, join_current_market, join_current_squad, join_all_manager_squads
 from features.predictions.preprocessing import preprocess_player_data, split_data
 from features.predictions.modeling import train_model, evaluate_model
 from kickbase_api.league import get_league_id, get_my_open_offers
@@ -95,6 +95,7 @@ print(f"Model evaluation: direction accuracy={signs_percent:.2f}%, RMSE={rmse:.2
 live_predictions_df = live_data_predictions(today_df, model, features)
 market_recommendations_df = join_current_market(token, league_id, live_predictions_df)
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
+manager_squads_df = join_all_manager_squads(token, league_id, live_predictions_df)
 open_offers = get_my_open_offers(token, league_id)
 
 own_budget = None
@@ -110,6 +111,8 @@ win_ranking_df = build_win_ranking(market_strategy_df, points_profiles_df)
 
 print(f"Market analysis completed for {len(market_recommendations_df)} market players.")
 print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
+manager_count = manager_squads_df["manager_name"].nunique() if not manager_squads_df.empty else 0
+print(f"League-wide squad analysis completed for {len(manager_squads_df)} players across {manager_count} managers.")
 print(f"Visible own open offers found: {len(open_offers)}.")
 print(f"LigaInsider layer completed for {len(ligainsider_signals_df)} players.")
 print(f"Strategy layer completed for {len(market_strategy_df)} market players, {len(squad_signals_df)} squad players and {len(opponent_bid_profiles_df)} opponent bid profiles.")
@@ -135,6 +138,7 @@ report_path = save_latest_report(
     points_profiles_df,
     win_ranking_df,
     ligainsider_signals_df,
+    manager_squads_df,
 )
 print(f"Machine-readable report written to {report_path}.")
 
