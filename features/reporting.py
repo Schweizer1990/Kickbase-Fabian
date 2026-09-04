@@ -57,6 +57,7 @@ def _write_history_snapshot(report):
             {
                 "player_id": row.get("player_id"),
                 "name": row.get("last_name"),
+                "position": row.get("position"),
                 "mv": row.get("mv"),
                 "mv_change_yesterday": row.get("mv_change_yesterday"),
                 "mv_change_7d": row.get("mv_change_7d"),
@@ -64,6 +65,19 @@ def _write_history_snapshot(report):
                 "predicted_mv_target": row.get("predicted_mv_target"),
             }
             for row in report.get("squad", [])
+        ],
+        # Compact ownership snapshot for rival tracking without duplicating every
+        # enrichment field on every historical run.
+        "manager_squads": [
+            {
+                "manager_id": row.get("manager_id"),
+                "manager_name": row.get("manager_name"),
+                "player_id": row.get("player_id"),
+                "name": row.get("last_name"),
+                "position": row.get("position"),
+                "mv": row.get("mv"),
+            }
+            for row in report.get("manager_squads", [])
         ],
         "my_open_offers": report.get("my_open_offers", []),
         "top_win_targets": report.get("strategy", {}).get("win_ranking", [])[:5],
@@ -90,6 +104,7 @@ def save_latest_report(
     points_profiles_df=None,
     win_ranking_df=None,
     ligainsider_signals_df=None,
+    manager_squads_df=None,
 ):
     report = {
         "generated_at": datetime.now(ZoneInfo("Europe/Zurich")).isoformat(),
@@ -98,6 +113,7 @@ def save_latest_report(
         "manager_budgets": _records(manager_df),
         "market": _records(market_df),
         "squad": _records(squad_df),
+        "manager_squads": _records(manager_squads_df) if manager_squads_df is not None else [],
         "my_open_offers": _sanitize_open_offers(open_offers),
         "strategy": {
             "market_ranking": _records(market_strategy_df) if market_strategy_df is not None else [],
@@ -111,6 +127,7 @@ def save_latest_report(
         "manager_bidding_behavior": _records(bidding_df) if bidding_df is not None else [],
         "notes": {
             "opponent_budgets": "estimated; own budget marked exact",
+            "manager_squads": "current squads for all league managers fetched from Kickbase manager-squad endpoints and enriched with the same MV model fields as the authenticated user's squad",
             "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
             "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
             "market_strategy": "capital-growth and bid-discipline layer based on MV model plus observed completed winning transfers",
