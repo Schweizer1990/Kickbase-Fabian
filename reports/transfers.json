@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T04:36:28.045585",
+  "updated_at": "2026-09-04T09:17:27.571033",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6300,6 +6300,96 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-04T04:31:57Z|14425|Joel||9353655.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-04T05:05:12Z",
+      "date": "2026-09-04",
+      "player_id": "2661",
+      "player_name": "Diaby",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 25567268.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T05:05:12Z|2661||Marc Frischiniemi|25567268.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-04T05:05:15Z",
+      "date": "2026-09-04",
+      "player_id": "17309",
+      "player_name": "Nwaneri",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 18286222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T05:05:15Z|17309||Marc Frischiniemi|18286222.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-04T05:05:18Z",
+      "date": "2026-09-04",
+      "player_id": "4296",
+      "player_name": "Pejcinovic",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 10929287.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T05:05:18Z|4296||Marc Frischiniemi|10929287.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-04T05:26:13Z",
+      "date": "2026-09-04",
+      "player_id": "619",
+      "player_name": "Stöger",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 10130124.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T05:26:13Z|619||AndiiRutz_1|10130124.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-04T05:26:21Z",
+      "date": "2026-09-04",
+      "player_id": "1858",
+      "player_name": "Jung",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 2535895.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T05:26:21Z|1858||AndiiRutz_1|2535895.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-04T09:14:31Z",
+      "date": "2026-09-04",
+      "player_id": "2144",
+      "player_name": "Koch",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 24285098.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T09:14:31Z|2144||Fabian|24285098.00"
     }
   ]
 }
