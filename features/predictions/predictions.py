@@ -163,10 +163,19 @@ def join_all_manager_squads(token, league_id, today_df_results):
     """
     frames = []
     managers = get_managers(token, league_id)
+    schema_logged = False
 
     for manager_name, manager_id in managers:
         try:
             payload = get_manager_squad(token, league_id, manager_id)
+            items = _extract_squad_items(payload)
+            if items and not schema_logged:
+                outer_keys = sorted(payload.keys()) if isinstance(payload, dict) else ["<list>"]
+                item_keys = sorted(items[0].keys()) if isinstance(items[0], dict) else [type(items[0]).__name__]
+                print(f"Manager squad payload keys: {outer_keys}")
+                print(f"Manager squad item keys: {item_keys}")
+                schema_logged = True
+
             enriched = _enrich_squad_payload(
                 payload,
                 today_df_results,
