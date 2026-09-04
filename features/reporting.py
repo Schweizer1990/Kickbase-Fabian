@@ -20,6 +20,34 @@ def _sanitize_open_offers(open_offers):
     return [{key: offer.get(key) for key in allowed} for offer in (open_offers or [])]
 
 
+def _manager_squad_summary(manager_squads_df):
+    """Aggregate rival squad market-value momentum for quick comparisons."""
+    if manager_squads_df is None or manager_squads_df.empty:
+        return []
+
+    df = manager_squads_df.copy()
+    for column in ["mv", "mv_change_yesterday", "mv_change_7d", "predicted_mv_target"]:
+        if column not in df.columns:
+            df[column] = np.nan
+        df[column] = pd.to_numeric(df[column], errors="coerce")
+
+    rows = []
+    for (manager_id, manager_name), group in df.groupby(["manager_id", "manager_name"], dropna=False):
+        prediction_count = int(group["predicted_mv_target"].notna().sum())
+        rows.append({
+            "manager_id": manager_id,
+            "manager_name": manager_name,
+            "player_count": int(len(group)),
+            "squad_market_value": float(group["mv"].sum(min_count=1)) if group["mv"].notna().any() else None,
+            "mv_change_yesterday_sum": float(group["mv_change_yesterday"].sum(min_count=1)) if group["mv_change_yesterday"].notna().any() else None,
+            "mv_change_7d_sum": float(group["mv_change_7d"].sum(min_count=1)) if group["mv_change_7d"].notna().any() else None,
+            "predicted_mv_change_sum": float(group["predicted_mv_target"].sum(min_count=1)) if prediction_count else None,
+            "prediction_coverage": round(prediction_count / len(group), 3) if len(group) else 0.0,
+        })
+
+    return sorted(rows, key=lambda row: (row.get("squad_market_value") or 0), reverse=True)
+
+
 def _write_history_snapshot(report):
     path = Path("reports/history.json")
     snapshots = []
@@ -41,6 +69,7 @@ def _write_history_snapshot(report):
             }
             for row in report.get("manager_budgets", [])
         ],
+        "manager_squad_summary": report.get("manager_squad_summary", []),
         "market": [
             {
                 "player_id": row.get("player_id"),
@@ -114,6 +143,7 @@ def save_latest_report(
         "market": _records(market_df),
         "squad": _records(squad_df),
         "manager_squads": _records(manager_squads_df) if manager_squads_df is not None else [],
+        "manager_squad_summary": _manager_squad_summary(manager_squads_df),
         "my_open_offers": _sanitize_open_offers(open_offers),
         "strategy": {
             "market_ranking": _records(market_strategy_df) if market_strategy_df is not None else [],
@@ -128,6 +158,7 @@ def save_latest_report(
         "notes": {
             "opponent_budgets": "estimated; own budget marked exact",
             "manager_squads": "current squads for all league managers fetched from Kickbase manager-squad endpoints and enriched with the same MV model fields as the authenticated user's squad",
+            "manager_squad_summary": "per-manager sums of current squad MV, latest daily/7d MV movement and predicted next MV movement; prediction coverage shows how much of the squad had model data",
             "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
             "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
             "market_strategy": "capital-growth and bid-discipline layer based on MV model plus observed completed winning transfers",
