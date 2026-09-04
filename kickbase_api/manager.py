@@ -12,6 +12,7 @@ def get_managers(token, league_id):
 
     return user_info
 
+
 def get_manager_info(token, league_id, manager_id):
     """Get detailed information about a specific manager in the league."""
 
@@ -19,6 +20,14 @@ def get_manager_info(token, league_id, manager_id):
     data = get_json_with_token(url, token)
 
     return data
+
+
+def get_manager_squad(token, league_id, manager_id):
+    """Get the current squad of any manager in the league."""
+
+    url = f"{BASE_URL}/leagues/{league_id}/managers/{manager_id}/squad"
+    return get_json_with_token(url, token)
+
 
 def get_manager_performance(token, league_id, manager_id, manager_name):
     """Get performance data for a specific manager in the current season.
