@@ -72,9 +72,12 @@ def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_na
     if squad_df.empty:
         return pd.DataFrame(columns=SQUAD_COLUMNS)
 
+    # Own squad payloads use `i`; manager-squad payloads use `pi` (player id).
     if "i" not in squad_df.columns:
-        if "id" in squad_df.columns:
-            squad_df["i"] = squad_df["id"]
+        for candidate in ("pi", "id", "playerId"):
+            if candidate in squad_df.columns:
+                squad_df["i"] = squad_df[candidate]
+                break
         else:
             squad_df["i"] = np.nan
 
@@ -117,7 +120,7 @@ def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_na
     for candidate in ("fn", "firstName", "first_name_kickbase"):
         if candidate in squad_df.columns:
             squad_df["first_name"] = squad_df["first_name"].fillna(squad_df[candidate])
-    for candidate in ("ln", "n", "lastName", "last_name_kickbase"):
+    for candidate in ("pn", "ln", "n", "lastName", "last_name_kickbase"):
         if candidate in squad_df.columns:
             squad_df["last_name"] = squad_df["last_name"].fillna(squad_df[candidate])
 
@@ -163,19 +166,10 @@ def join_all_manager_squads(token, league_id, today_df_results):
     """
     frames = []
     managers = get_managers(token, league_id)
-    schema_logged = False
 
     for manager_name, manager_id in managers:
         try:
             payload = get_manager_squad(token, league_id, manager_id)
-            items = _extract_squad_items(payload)
-            if items and not schema_logged:
-                outer_keys = sorted(payload.keys()) if isinstance(payload, dict) else ["<list>"]
-                item_keys = sorted(items[0].keys()) if isinstance(items[0], dict) else [type(items[0]).__name__]
-                print(f"Manager squad payload keys: {outer_keys}")
-                print(f"Manager squad item keys: {item_keys}")
-                schema_logged = True
-
             enriched = _enrich_squad_payload(
                 payload,
                 today_df_results,
