@@ -37,6 +37,21 @@ def live_data_predictions(today_df, model, features):
     return today_df_results
 
 
+def _normalize_player_id(value):
+    """Normalize compact Kickbase IDs so numeric and string payloads merge reliably."""
+    if value is None or pd.isna(value):
+        return None
+    if isinstance(value, (int, np.integer)):
+        return str(int(value))
+    if isinstance(value, (float, np.floating)) and float(value).is_integer():
+        return str(int(value))
+
+    text = str(value).strip()
+    if text.endswith(".0") and text[:-2].isdigit():
+        text = text[:-2]
+    return text or None
+
+
 def _extract_squad_items(payload):
     """Return the player list from own or manager squad payloads across API variants."""
     if isinstance(payload, list):
@@ -63,11 +78,17 @@ def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_na
         else:
             squad_df["i"] = np.nan
 
+    # Manager-squad payloads can expose player IDs as floats while the historical
+    # model stores them as strings. Merge through a normalized text key instead of
+    # relying on pandas' dtype coercion.
+    squad_df["_merge_player_id"] = squad_df["i"].map(_normalize_player_id)
+    prediction_df = today_df_results.copy()
+    prediction_df["_merge_player_id"] = prediction_df["player_id"].map(_normalize_player_id)
+
     squad_df = pd.merge(
         squad_df,
-        today_df_results,
-        left_on="i",
-        right_on="player_id",
+        prediction_df,
+        on="_merge_player_id",
         how="left",
         suffixes=("_kickbase", "")
     )
@@ -84,7 +105,8 @@ def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_na
 
     if "player_id" not in squad_df.columns:
         squad_df["player_id"] = np.nan
-    squad_df["player_id"] = squad_df["player_id"].fillna(squad_df["i"])
+    squad_df["player_id"] = squad_df["player_id"].fillna(squad_df["_merge_player_id"])
+    squad_df["player_id"] = squad_df["player_id"].map(_normalize_player_id)
 
     # Fall back to compact Kickbase name fields when historical/model data is missing.
     if "first_name" not in squad_df.columns:
@@ -92,10 +114,10 @@ def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_na
     if "last_name" not in squad_df.columns:
         squad_df["last_name"] = np.nan
 
-    for candidate in ("fn", "firstName"):
+    for candidate in ("fn", "firstName", "first_name_kickbase"):
         if candidate in squad_df.columns:
             squad_df["first_name"] = squad_df["first_name"].fillna(squad_df[candidate])
-    for candidate in ("ln", "n", "lastName"):
+    for candidate in ("ln", "n", "lastName", "last_name_kickbase"):
         if candidate in squad_df.columns:
             squad_df["last_name"] = squad_df["last_name"].fillna(squad_df[candidate])
 
@@ -107,7 +129,7 @@ def _enrich_squad_payload(payload, today_df_results, manager_id=None, manager_na
 
     if "team_name" not in squad_df.columns:
         squad_df["team_name"] = np.nan
-    for candidate in ("tn", "teamName"):
+    for candidate in ("tn", "teamName", "team_name_kickbase"):
         if candidate in squad_df.columns:
             squad_df["team_name"] = squad_df["team_name"].fillna(squad_df[candidate])
 
