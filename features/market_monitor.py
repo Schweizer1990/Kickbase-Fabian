@@ -22,6 +22,14 @@ def _num_or_none(value):
     return value if isinstance(value, (int, float)) else None
 
 
+def _offer_price(offer):
+    for key in ("uop", "prc", "p", "price", "amt", "a", "v"):
+        value = _num_or_none((offer or {}).get(key))
+        if value is not None:
+            return value
+    return None
+
+
 def capture_market_snapshot(token, league_id):
     """Fetch the market once and normalize fields needed for last-minute checks.
 
@@ -41,21 +49,25 @@ def capture_market_snapshot(token, league_id):
         visible_offers = player.get("ofs") or []
         is_own_listing = bool(player.get("iposl"))
 
-        item_my_bid = _num_or_none(player.get("uop"))
-        my_bid = item_my_bid
+        my_bid = None
         my_offer_id = None
+        if not is_own_listing:
+            my_bid = _num_or_none(player.get("uop"))
+            if my_bid is None:
+                for offer in visible_offers:
+                    candidate = _offer_price(offer)
+                    if candidate is not None:
+                        my_bid = candidate
+                        my_offer_id = offer.get("i") or offer.get("id") or offer.get("oi")
+                        break
+            if my_offer_id is None and visible_offers:
+                offer = visible_offers[0]
+                my_offer_id = offer.get("i") or offer.get("id") or offer.get("oi")
 
-        if my_bid is None and not is_own_listing:
-            for offer in visible_offers:
-                candidate = _num_or_none(offer.get("uop"))
-                if candidate is not None:
-                    my_bid = candidate
-                    my_offer_id = offer.get("i") or offer.get("id") or offer.get("oi")
-                    break
-
-        if my_offer_id is None and visible_offers and not is_own_listing:
-            offer = visible_offers[0]
-            my_offer_id = offer.get("i") or offer.get("id") or offer.get("oi")
+        incoming_prices = [
+            price for price in (_offer_price(offer) for offer in visible_offers)
+            if price is not None
+        ] if is_own_listing else []
 
         expires_seconds = _int_or_none(player.get("exs"))
         expires_at = (
@@ -65,7 +77,7 @@ def capture_market_snapshot(token, league_id):
         )
 
         raw_ofc = _int_or_none(player.get("ofc"))
-        my_bid_present = bool(my_bid is not None or (visible_offers and not is_own_listing))
+        my_bid_present = bool(not is_own_listing and (my_bid is not None or visible_offers))
 
         entries.append({
             "player_id": str(player.get("i")) if player.get("i") is not None else None,
@@ -84,6 +96,8 @@ def capture_market_snapshot(token, league_id):
             "my_bid": my_bid,
             "my_offer_id": my_offer_id,
             "visible_offer_count": len(visible_offers),
+            "incoming_visible_offer_count": len(visible_offers) if is_own_listing else None,
+            "incoming_highest_visible_bid": max(incoming_prices) if incoming_prices else None,
             "ofc_raw": raw_ofc,
             "competition_visibility": (
                 "incoming_offers_visible_on_own_listing"
@@ -150,6 +164,8 @@ def append_market_snapshot(snapshot, path="reports/market_snapshots.json", max_s
             "my_bid_present": row.get("my_bid_present"),
             "my_bid": row.get("my_bid"),
             "visible_offer_count": row.get("visible_offer_count"),
+            "incoming_visible_offer_count": row.get("incoming_visible_offer_count"),
+            "incoming_highest_visible_bid": row.get("incoming_highest_visible_bid"),
             "ofc_raw": row.get("ofc_raw"),
         })
 
