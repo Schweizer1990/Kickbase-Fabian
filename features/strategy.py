@@ -126,7 +126,6 @@ def build_market_strategy(market_df, transfer_df, own_budget=None):
         return_7d_pct = trend_7d * 100
         avg_daily_7d_pct = return_7d_pct / 7
 
-        # A hot single day is less valuable than momentum confirmed over a week.
         capital_score = pred_pct * 0.50 + daily_pct * 0.30 + avg_daily_7d_pct * 0.20
 
         budget_fit = own_budget is None or suggested <= own_budget
@@ -225,3 +224,194 @@ def build_squad_signals(squad_df):
         })
 
     return pd.DataFrame(rows, columns=columns)
+
+
+def build_market_bid_guardrails(
+    market_df,
+    transfer_df,
+    manager_budgets_df=None,
+    manager_squads_df=None,
+    own_manager_name="Fabian",
+):
+    """Estimate protection bids from observable completed league bidding behaviour.
+
+    This is deliberately a shadow model. Kickbase does not reveal rivals' live
+    bids on somebody else's listing, so the output uses completed winning
+    transfers, estimated rival spending power and the two-players-per-club rule.
+    It never claims that a specific manager has actually placed a live bid.
+    """
+    columns = [
+        "player_id", "player_name", "team", "market_value", "segment",
+        "league_sample", "league_median_overpay_pct", "league_p75_overpay_pct",
+        "league_p90_overpay_pct", "shadow_bid_median", "shadow_bid_p75",
+        "shadow_bid_p90", "rival_candidates", "top_rival", "top_rival_sample",
+        "top_rival_p75_overpay_pct", "top_rival_shadow_bid",
+        "roi_guardrail_bid", "trade_protection_bid", "competition_risk",
+        "model_confidence",
+    ]
+    if market_df is None or market_df.empty:
+        return pd.DataFrame(columns=columns)
+
+    purchases = pd.DataFrame()
+    if transfer_df is not None and not transfer_df.empty:
+        purchases = transfer_df[
+            transfer_df["buyer"].notna() & transfer_df["overpay_pct"].notna()
+        ].copy()
+        if not purchases.empty:
+            purchases["segment"] = purchases["market_value_at_transfer"].apply(_price_segment)
+
+    budget_map = {}
+    if manager_budgets_df is not None and not manager_budgets_df.empty:
+        for _, row in manager_budgets_df.iterrows():
+            name = row.get("User")
+            if not name:
+                continue
+            available = _num(row.get("Available Budget"))
+            cash = _num(row.get("Budget"))
+            budget_map[str(name)] = available if available is not None else cash
+
+    club_counts = {}
+    if manager_squads_df is not None and not manager_squads_df.empty:
+        for (manager_name, team_name), group in manager_squads_df.groupby(
+            ["manager_name", "team_name"], dropna=False
+        ):
+            if manager_name is None or team_name is None:
+                continue
+            club_counts[(str(manager_name), str(team_name))] = int(len(group))
+
+    manager_profiles = {}
+    if not purchases.empty:
+        for (manager, segment), group in purchases.groupby(["buyer", "segment"]):
+            values = pd.to_numeric(group["overpay_pct"], errors="coerce").dropna()
+            if values.empty:
+                continue
+            manager_profiles[(str(manager), segment)] = {
+                "sample": int(len(values)),
+                "median": float(values.median()),
+                "p75": float(values.quantile(0.75)),
+            }
+
+    rows = []
+    for _, player in market_df.iterrows():
+        mv = _num(player.get("mv"))
+        if not mv or mv <= 0:
+            continue
+
+        segment = _price_segment(mv)
+        pred = _num(player.get("predicted_mv_target"), 0.0)
+        team = player.get("team_name")
+
+        league_values = pd.Series(dtype=float)
+        if not purchases.empty:
+            league_values = pd.to_numeric(
+                purchases.loc[purchases["segment"] == segment, "overpay_pct"],
+                errors="coerce",
+            ).dropna()
+
+        if league_values.empty:
+            league_median = 0.0
+            league_p75 = 3.0
+            league_p90 = 6.0
+            league_sample = 0
+        else:
+            league_median = float(league_values.median())
+            league_p75 = float(league_values.quantile(0.75))
+            league_p90 = float(league_values.quantile(0.90))
+            league_sample = int(len(league_values))
+
+        league_median = max(-5.0, min(league_median, 15.0))
+        league_p75 = max(league_median, min(league_p75, 20.0))
+        league_p90 = max(league_p75, min(league_p90, 25.0))
+
+        candidates = []
+        managers = set(budget_map) | {key[0] for key in manager_profiles}
+        for manager in managers:
+            if manager == own_manager_name:
+                continue
+            if team is not None and club_counts.get((manager, str(team)), 0) >= 2:
+                continue
+
+            available = budget_map.get(manager)
+            if available is not None and available < mv:
+                continue
+
+            profile = manager_profiles.get((manager, segment))
+            if profile:
+                p75 = max(-5.0, min(profile["p75"], 25.0))
+                sample = profile["sample"]
+            else:
+                p75 = league_p75
+                sample = 0
+
+            projected = mv * (1 + p75 / 100)
+            if available is not None:
+                projected = min(projected, available)
+
+            candidates.append({
+                "manager": manager,
+                "sample": sample,
+                "p75": p75,
+                "projected": projected,
+            })
+
+        candidates.sort(key=lambda item: (item["projected"], item["sample"]), reverse=True)
+        top = candidates[0] if candidates else None
+
+        shadow_median = mv * (1 + league_median / 100)
+        shadow_p75 = mv * (1 + league_p75 / 100)
+        shadow_p90 = mv * (1 + league_p90 / 100)
+        if top is not None:
+            shadow_p75 = max(shadow_p75, top["projected"])
+
+        roi_guardrail = mv + max(pred, 0.0) * 3
+        trade_protection = min(shadow_p75, roi_guardrail) if pred > 0 else mv
+
+        if len(candidates) >= 5:
+            risk = "high"
+        elif len(candidates) >= 2:
+            risk = "medium"
+        else:
+            risk = "low"
+
+        if league_sample >= 50 and top is not None and top["sample"] >= 5:
+            confidence = "medium_high"
+        elif league_sample >= 20:
+            confidence = "medium"
+        else:
+            confidence = "low"
+
+        rows.append({
+            "player_id": str(player.get("player_id")) if player.get("player_id") is not None else None,
+            "player_name": player.get("last_name"),
+            "team": team,
+            "market_value": int(round(mv)),
+            "segment": segment,
+            "league_sample": league_sample,
+            "league_median_overpay_pct": round(league_median, 2),
+            "league_p75_overpay_pct": round(league_p75, 2),
+            "league_p90_overpay_pct": round(league_p90, 2),
+            "shadow_bid_median": int(round(shadow_median)),
+            "shadow_bid_p75": int(round(shadow_p75)),
+            "shadow_bid_p90": int(round(shadow_p90)),
+            "rival_candidates": int(len(candidates)),
+            "top_rival": top["manager"] if top else None,
+            "top_rival_sample": int(top["sample"]) if top else None,
+            "top_rival_p75_overpay_pct": round(top["p75"], 2) if top else None,
+            "top_rival_shadow_bid": int(round(top["projected"])) if top else None,
+            "roi_guardrail_bid": int(round(roi_guardrail)),
+            "trade_protection_bid": int(round(max(mv, trade_protection))),
+            "competition_risk": risk,
+            "model_confidence": confidence,
+        })
+
+    result = pd.DataFrame(rows, columns=columns)
+    if result.empty:
+        return result
+    risk_rank = {"high": 0, "medium": 1, "low": 2}
+    result["_risk_rank"] = result["competition_risk"].map(risk_rank).fillna(3)
+    result = result.sort_values(
+        ["_risk_rank", "shadow_bid_p75", "market_value"],
+        ascending=[True, False, False],
+        ignore_index=True,
+    )
+    return result.drop(columns=["_risk_rank"])
