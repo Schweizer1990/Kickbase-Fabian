@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T13:22:32.598508",
+  "updated_at": "2026-09-05T17:02:45.383424",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6795,6 +6795,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-05T12:54:47Z|3019|Thomasson||15699637.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-05T13:36:27Z",
+      "date": "2026-09-05",
+      "player_id": "3419",
+      "player_name": "Raab",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 6310485.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-05T13:36:27Z|3419||Thomasson|6310485.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-05T14:24:15Z",
+      "date": "2026-09-05",
+      "player_id": "2714",
+      "player_name": "Beier",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 24008000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-05T14:24:15Z|2714|Marc Frischiniemi||24008000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-05T16:30:57Z",
+      "date": "2026-09-05",
+      "player_id": "2941",
+      "player_name": "Scally",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 5850000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-05T16:30:57Z|2941|Marc Frischiniemi||5850000.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-05T16:33:09Z",
+      "date": "2026-09-05",
+      "player_id": "10106",
+      "player_name": "Ljubicic",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 5667942.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-05T16:33:09Z|10106||AndiiRutz_1|5667942.00"
     }
   ]
 }
