@@ -109,10 +109,14 @@ def get_my_open_offers(token, league_id):
 
     Kickbase exposes the bid amount as `uop`. We first read inline `ofs[]` from
     the market endpoint. If that yields no outgoing offers, we fall back to the
-    documented player-transfers endpoint for market entries that report offers.
+    player-transfers endpoint for market entries that expose visible offers.
     On somebody else's listing that endpoint exposes at most our own bid; players
     on our own sell list (`iposl`) are skipped so incoming bids are not mistaken
     for our outgoing bids.
+
+    Important: `ofc` is retained as a raw upstream field only. It is NOT treated
+    as the total number of bids because observed auctions show that competing
+    bids can remain hidden even when `ofc == 1` for our own visible offer.
     """
     market = get_league_market_raw(token, league_id)
     result = []
@@ -153,12 +157,16 @@ def get_my_open_offers(token, league_id):
 
 
 def get_league_players_on_market(token, league_id):
-    """Get all players currently available on the market, including bid competition counts.
+    """Get all players currently available on the market.
 
-    Kickbase exposes the total number of offers as `ofc`. On another manager's
-    listing, inline `ofs[]` contains our visible outgoing offer (if any), while the
-    competing managers' bid amounts remain hidden. This lets us derive the number
-    of competing offers without pretending to know their prices.
+    Kickbase exposes our visible offer in `ofs[]`. The compact `ofc` field is also
+    retained for diagnostics, but it must not be interpreted as the total number
+    of bids. In a verified auction we observed `ofc == 1` while another manager
+    still won the player, proving that open competing bids can be hidden.
+
+    Therefore `competitor_offer_count` is deliberately reported as `None` for
+    market listings we do not own. Winning competing bids can only be learned
+    after the transfer via the league activity/transfer history.
     """
 
     result = []
@@ -173,14 +181,9 @@ def get_league_players_on_market(token, league_id):
         visible_offers = player.get("ofs") or []
         my_bid_present = bool(visible_offers) and not is_own_listing
 
-        # If `ofc` is unexpectedly absent, the visible offer list is still a safe
-        # lower bound. Normally `ofc` is the total count and therefore preferred.
-        if raw_offer_count is None:
-            offer_count = len(visible_offers)
-
-        competitor_offer_count = None
-        if not is_own_listing:
-            competitor_offer_count = max(offer_count - (1 if my_bid_present else 0), 0)
+        # `ofc` is an opaque/visibility-limited upstream value. Do not subtract
+        # our bid from it to manufacture a competitor count.
+        competitor_offer_count = None if not is_own_listing else None
 
         result.append({
             "id": player.get("i"),
