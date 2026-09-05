@@ -190,7 +190,7 @@ def join_all_manager_squads(token, league_id, today_df_results):
 
 
 def join_current_market(token, league_id, today_df_results):
-    """Return the complete current market, enriched with ML predictions where available."""
+    """Return the complete current market, enriched with ML predictions and bid competition counts."""
 
     players_on_market = get_league_players_on_market(token, league_id)
     market_df = pd.DataFrame(players_on_market)
@@ -200,7 +200,8 @@ def join_current_market(token, league_id, today_df_results):
             "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
             "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
             "predicted_mv_target", "model_recommended", "s_11_prob", "hours_to_exp",
-            "expiring_today", "prediction_available"
+            "expiring_today", "prediction_available", "offer_count", "my_bid_present",
+            "competitor_offer_count", "is_own_listing"
         ])
 
     bid_df = pd.merge(
@@ -235,6 +236,15 @@ def join_current_market(token, league_id, today_df_results):
         if column not in bid_df.columns:
             bid_df[column] = np.nan
 
+    for column, default in [
+        ("offer_count", 0),
+        ("my_bid_present", False),
+        ("competitor_offer_count", 0),
+        ("is_own_listing", False),
+    ]:
+        if column not in bid_df.columns:
+            bid_df[column] = default
+
     bid_df = bid_df.sort_values(
         ["model_recommended", "predicted_mv_target"],
         ascending=[False, False],
@@ -245,5 +255,6 @@ def join_current_market(token, league_id, today_df_results):
         "player_id", "last_name", "team_name", "mv", "mv_change_yesterday",
         "mv_change_7d", "mv_trend_7d", "mv_avg_daily_change_7d",
         "predicted_mv_target", "model_recommended", "s_11_prob", "hours_to_exp",
-        "expiring_today", "prediction_available"
+        "expiring_today", "prediction_available", "offer_count", "my_bid_present",
+        "competitor_offer_count", "is_own_listing"
     ]]
