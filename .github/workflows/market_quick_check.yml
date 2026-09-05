@@ -1,0 +1,75 @@
+name: Quick Market Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Hourly snapshots during the active Swiss daytime/evening window.
+    # GitHub cron is UTC: 06:00-19:00 UTC = 08:00-21:00 CEST.
+    - cron: '0 6-19 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kickbase-report-publisher
+  cancel-in-progress: false
+
+jobs:
+  quick-market-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install minimal dependencies
+        run: pip install requests python-dotenv
+
+      - name: Capture live market snapshot
+        env:
+          KICK_USER: ${{ secrets.KICK_USER }}
+          KICK_PASS: ${{ secrets.KICK_PASS }}
+          KICKBASE_LEAGUE_NAME: ${{ vars.KICKBASE_LEAGUE_NAME }}
+        run: python quick_market_check.py
+
+      - name: Publish quick market reports
+        run: |
+          git config user.name "kickbase-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          mkdir -p /tmp/kickbase-market
+          cp reports/market_quick.json /tmp/kickbase-market/market_quick.json
+          cp reports/market_snapshots.json /tmp/kickbase-market/market_snapshots.json
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            git clean -fd
+
+            mkdir -p reports
+            cp /tmp/kickbase-market/market_quick.json reports/market_quick.json
+            cp /tmp/kickbase-market/market_snapshots.json reports/market_snapshots.json
+            git add reports/market_quick.json reports/market_snapshots.json
+
+            if git diff --cached --quiet; then
+              echo "No quick market changes to publish."
+              exit 0
+            fi
+
+            git commit -m "Update live Kickbase market snapshot"
+            if git push origin main; then
+              exit 0
+            fi
+
+            echo "Quick market push raced with another update; retrying ($attempt/3)..."
+          done
+
+          echo "Could not publish quick market reports after 3 attempts."
+          exit 1
