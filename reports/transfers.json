@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T12:48:21.128346",
+  "updated_at": "2026-09-05T12:59:02.495546",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6780,6 +6780,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-05T06:41:03Z|17282||Fabian|10811639.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-05T12:54:47Z",
+      "date": "2026-09-05",
+      "player_id": "3019",
+      "player_name": "Atubolu",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 15699637.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-05T12:54:47Z|3019|Thomasson||15699637.00"
     }
   ]
 }
