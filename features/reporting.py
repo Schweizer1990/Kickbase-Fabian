@@ -15,7 +15,8 @@ def _records(df):
 def _sanitize_open_offers(open_offers):
     allowed = [
         "player_id", "player_name", "market_value", "listed_price",
-        "expires", "offer_count", "my_bid", "source",
+        "expires", "expires_at", "offer_count", "ofc_raw", "my_bid",
+        "competition_visibility", "source",
     ]
     return [{key: offer.get(key) for key in allowed} for offer in (open_offers or [])]
 
@@ -48,6 +49,22 @@ def _manager_squad_summary(manager_squads_df):
     return sorted(rows, key=lambda row: (row.get("squad_market_value") or 0), reverse=True)
 
 
+def _compact_live_market(snapshot):
+    rows = []
+    for row in (snapshot or {}).get("entries", []):
+        rows.append({
+            "player_id": row.get("player_id"),
+            "player_name": row.get("player_name"),
+            "market_value": row.get("market_value"),
+            "expires_seconds": row.get("expires_seconds"),
+            "my_bid": row.get("my_bid"),
+            "my_bid_present": row.get("my_bid_present"),
+            "ofc_raw": row.get("ofc_raw"),
+            "seller_name": row.get("seller_name"),
+        })
+    return rows
+
+
 def _write_history_snapshot(report):
     path = Path("reports/history.json")
     snapshots = []
@@ -60,6 +77,7 @@ def _write_history_snapshot(report):
 
     snapshot = {
         "generated_at": report["generated_at"],
+        "market_fetched_at": report.get("market_fetched_at"),
         "manager_budgets": [
             {
                 "user": row.get("User"),
@@ -82,6 +100,7 @@ def _write_history_snapshot(report):
             }
             for row in report.get("market", [])
         ],
+        "market_live": _compact_live_market({"entries": report.get("market_live", [])}),
         "squad": [
             {
                 "player_id": row.get("player_id"),
@@ -95,8 +114,6 @@ def _write_history_snapshot(report):
             }
             for row in report.get("squad", [])
         ],
-        # Compact ownership snapshot for rival tracking without duplicating every
-        # enrichment field on every historical run.
         "manager_squads": [
             {
                 "manager_id": row.get("manager_id"),
@@ -110,6 +127,7 @@ def _write_history_snapshot(report):
         ],
         "my_open_offers": report.get("my_open_offers", []),
         "top_win_targets": report.get("strategy", {}).get("win_ranking", [])[:5],
+        "top_bid_guardrails": report.get("strategy", {}).get("bid_guardrails", [])[:10],
     }
 
     snapshots.append(snapshot)
@@ -134,19 +152,25 @@ def save_latest_report(
     win_ranking_df=None,
     ligainsider_signals_df=None,
     manager_squads_df=None,
+    market_live_snapshot=None,
+    bid_guardrails_df=None,
 ):
+    market_live_snapshot = market_live_snapshot or {}
     report = {
         "generated_at": datetime.now(ZoneInfo("Europe/Zurich")).isoformat(),
+        "market_fetched_at": market_live_snapshot.get("fetched_at"),
         "league": league_name,
         "model": metrics,
         "manager_budgets": _records(manager_df),
         "market": _records(market_df),
+        "market_live": market_live_snapshot.get("entries", []),
         "squad": _records(squad_df),
         "manager_squads": _records(manager_squads_df) if manager_squads_df is not None else [],
         "manager_squad_summary": _manager_squad_summary(manager_squads_df),
         "my_open_offers": _sanitize_open_offers(open_offers),
         "strategy": {
             "market_ranking": _records(market_strategy_df) if market_strategy_df is not None else [],
+            "bid_guardrails": _records(bid_guardrails_df) if bid_guardrails_df is not None else [],
             "win_ranking": _records(win_ranking_df) if win_ranking_df is not None else [],
             "squad_signals": _records(squad_signals_df) if squad_signals_df is not None else [],
             "opponent_bid_profiles": _records(opponent_bid_profiles_df) if opponent_bid_profiles_df is not None else [],
@@ -156,11 +180,14 @@ def save_latest_report(
         "transfer_history": _records(transfer_df) if transfer_df is not None else [],
         "manager_bidding_behavior": _records(bidding_df) if bidding_df is not None else [],
         "notes": {
+            "market_freshness": "market_live is fetched again immediately before the report is saved; use market_fetched_at rather than generated_at for auction freshness",
+            "ofc_signal": "ofc_raw is stored for empirical validation only. It is visibility-limited/opaque and is not treated as a known competitor count",
             "opponent_budgets": "estimated; own budget marked exact",
             "manager_squads": "current squads for all league managers fetched from Kickbase manager-squad endpoints and enriched with the same MV model fields as the authenticated user's squad",
             "manager_squad_summary": "per-manager sums of current squad MV, latest daily/7d MV movement and predicted next MV movement; prediction coverage shows how much of the squad had model data",
             "open_offers": "only the authenticated user's visible outgoing bids are exposed on other managers' listings; competing bids are hidden by Kickbase",
             "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
+            "bid_guardrails": "shadow bidding ranges derived from completed winning transfers, estimated rival spending power and club-limit eligibility; they are not observations of live rival bids",
             "market_strategy": "capital-growth and bid-discipline layer based on MV model plus observed completed winning transfers",
             "expected_points": "transparent heuristic from Kickbase points/minutes, stabilized for small samples and adjusted by LigaInsider availability signals",
             "ligainsider": "public LigaInsider injury/suspension status and Topelf-page presence. Topelf presence can include an alternative and is therefore only a moderate positive signal, never a guaranteed start",
