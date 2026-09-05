@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T08:54:50.293075+02:00",
+  "generated_at": "2026-09-05T09:05:52.340475+02:00",
   "league": "BFCO",
   "model": {
-    "direction_accuracy_percent": 83.59,
-    "rmse": 1910021146.04,
-    "mae": 23471.84,
-    "r2": 0.9226
+    "direction_accuracy_percent": 83.54,
+    "rmse": 1908516107.54,
+    "mae": 23457.03,
+    "r2": 0.9227
   },
   "manager_budgets": [
     {
@@ -127,12 +127,16 @@
       "mv_change_7d": 462659.0,
       "mv_trend_7d": 0.12162290404030447,
       "mv_avg_daily_change_7d": 66094.14285714286,
-      "predicted_mv_target": 228094.33,
+      "predicted_mv_target": 227325.02,
       "model_recommended": true,
       "s_11_prob": 2,
-      "hours_to_exp": 9.6,
+      "hours_to_exp": 9.42,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 1,
+      "my_bid_present": true,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "3019",
@@ -143,12 +147,16 @@
       "mv_change_7d": -2977108.0,
       "mv_trend_7d": -0.19156885662829937,
       "mv_avg_daily_change_7d": -425301.14285714284,
-      "predicted_mv_target": 191639.93,
+      "predicted_mv_target": 195605.7,
       "model_recommended": true,
       "s_11_prob": 1,
-      "hours_to_exp": 6.0,
+      "hours_to_exp": 5.82,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 1,
+      "my_bid_present": true,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "493",
@@ -159,12 +167,16 @@
       "mv_change_7d": 1262670.0,
       "mv_trend_7d": 0.11779351193929558,
       "mv_avg_daily_change_7d": 180381.42857142858,
-      "predicted_mv_target": 117791.37,
+      "predicted_mv_target": 120620.47,
       "model_recommended": true,
       "s_11_prob": 2,
-      "hours_to_exp": 17.15,
+      "hours_to_exp": 16.97,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 1,
+      "my_bid_present": true,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "2714",
@@ -175,12 +187,16 @@
       "mv_change_7d": 362396.0,
       "mv_trend_7d": 0.016857478309246967,
       "mv_avg_daily_change_7d": 51770.857142857145,
-      "predicted_mv_target": 89751.19,
+      "predicted_mv_target": 85033.42,
       "model_recommended": true,
       "s_11_prob": 1,
-      "hours_to_exp": 7.49,
+      "hours_to_exp": 7.31,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "12294",
@@ -191,12 +207,16 @@
       "mv_change_7d": 2193079.0,
       "mv_trend_7d": 0.3888030527297583,
       "mv_avg_daily_change_7d": 313297.0,
-      "predicted_mv_target": 87878.01,
+      "predicted_mv_target": 77485.2,
       "model_recommended": true,
       "s_11_prob": 4,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "157",
@@ -207,12 +227,16 @@
       "mv_change_7d": 1366250.0,
       "mv_trend_7d": 0.8841948988830507,
       "mv_avg_daily_change_7d": 195178.57142857142,
-      "predicted_mv_target": 57578.72,
+      "predicted_mv_target": 43819.38,
       "model_recommended": true,
       "s_11_prob": 5,
-      "hours_to_exp": 20.66,
+      "hours_to_exp": 20.47,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 1,
+      "my_bid_present": true,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "6668",
@@ -223,12 +247,16 @@
       "mv_change_7d": 1278809.0,
       "mv_trend_7d": 0.11794900410900153,
       "mv_avg_daily_change_7d": 182687.0,
-      "predicted_mv_target": 39966.05,
+      "predicted_mv_target": 42577.94,
       "model_recommended": true,
       "s_11_prob": 3,
-      "hours_to_exp": 21.82,
+      "hours_to_exp": 21.64,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 1,
+      "my_bid_present": true,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "1225",
@@ -239,12 +267,16 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 271.77,
+      "predicted_mv_target": 280.72,
       "model_recommended": false,
       "s_11_prob": 5,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "2536",
@@ -255,12 +287,16 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 205.37,
+      "predicted_mv_target": 204.44,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 2.72,
+      "hours_to_exp": 2.54,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "3166",
@@ -271,12 +307,16 @@
       "mv_change_7d": -645922.0,
       "mv_trend_7d": -0.5594955962552578,
       "mv_avg_daily_change_7d": -92274.57142857143,
-      "predicted_mv_target": -1962.28,
+      "predicted_mv_target": -1888.15,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 3.35,
+      "hours_to_exp": 3.16,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "11956",
@@ -287,12 +327,16 @@
       "mv_change_7d": 1419536.0,
       "mv_trend_7d": 0.1537443794559829,
       "mv_avg_daily_change_7d": 202790.85714285713,
-      "predicted_mv_target": -52821.29,
+      "predicted_mv_target": -49231.93,
       "model_recommended": false,
       "s_11_prob": 3,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "12763",
@@ -303,12 +347,16 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -60646.83,
+      "predicted_mv_target": -60162.36,
       "model_recommended": false,
       "s_11_prob": 2,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "9776",
@@ -319,12 +367,16 @@
       "mv_change_7d": -913517.0,
       "mv_trend_7d": -0.21469042733528193,
       "mv_avg_daily_change_7d": -130502.42857142857,
-      "predicted_mv_target": -63796.13,
+      "predicted_mv_target": -64140.86,
       "model_recommended": false,
       "s_11_prob": 3,
-      "hours_to_exp": 25.77,
+      "hours_to_exp": 25.59,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "6111",
@@ -335,28 +387,16 @@
       "mv_change_7d": -813013.0,
       "mv_trend_7d": -0.23886405943712422,
       "mv_avg_daily_change_7d": -116144.71428571429,
-      "predicted_mv_target": -64961.97,
+      "predicted_mv_target": -65059.3,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 9.43,
+      "hours_to_exp": 9.25,
       "expiring_today": true,
-      "prediction_available": true
-    },
-    {
-      "player_id": "2498",
-      "last_name": "Baack",
-      "team_name": "Paderborn",
-      "mv": 2470621.0,
-      "mv_change_yesterday": -71042.0,
-      "mv_change_7d": 1970621.0,
-      "mv_trend_7d": 3.941242,
-      "mv_avg_daily_change_7d": 281517.28571428574,
-      "predicted_mv_target": -72195.95,
-      "model_recommended": false,
-      "s_11_prob": 4,
-      "hours_to_exp": 41.27,
-      "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "49",
@@ -367,12 +407,36 @@
       "mv_change_7d": -61866.0,
       "mv_trend_7d": -0.002317557439956509,
       "mv_avg_daily_change_7d": -8838.0,
-      "predicted_mv_target": -84905.02,
+      "predicted_mv_target": -73068.07,
       "model_recommended": false,
       "s_11_prob": 1,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
+    },
+    {
+      "player_id": "2498",
+      "last_name": "Baack",
+      "team_name": "Paderborn",
+      "mv": 2470621.0,
+      "mv_change_yesterday": -71042.0,
+      "mv_change_7d": 1970621.0,
+      "mv_trend_7d": 3.941242,
+      "mv_avg_daily_change_7d": 281517.28571428574,
+      "predicted_mv_target": -74378.5,
+      "model_recommended": false,
+      "s_11_prob": 4,
+      "hours_to_exp": 41.08,
+      "expiring_today": false,
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "3232",
@@ -383,12 +447,16 @@
       "mv_change_7d": -916040.0,
       "mv_trend_7d": -0.3066987994404665,
       "mv_avg_daily_change_7d": -130862.85714285714,
-      "predicted_mv_target": -95614.92,
+      "predicted_mv_target": -90808.36,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 21.75,
+      "hours_to_exp": 21.57,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "17288",
@@ -399,12 +467,16 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -102308.84,
+      "predicted_mv_target": -94414.05,
       "model_recommended": false,
       "s_11_prob": 3,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "11955",
@@ -415,12 +487,16 @@
       "mv_change_7d": -2739744.0,
       "mv_trend_7d": -0.13083716628928077,
       "mv_avg_daily_change_7d": -391392.0,
-      "predicted_mv_target": -106882.62,
+      "predicted_mv_target": -97135.07,
       "model_recommended": false,
       "s_11_prob": 3,
-      "hours_to_exp": 13.13,
+      "hours_to_exp": 12.95,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "8061",
@@ -431,12 +507,16 @@
       "mv_change_7d": -2856621.0,
       "mv_trend_7d": -0.24486411453034884,
       "mv_avg_daily_change_7d": -408088.71428571426,
-      "predicted_mv_target": -110718.59,
+      "predicted_mv_target": -116553.75,
       "model_recommended": false,
       "s_11_prob": 3,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "54",
@@ -447,12 +527,16 @@
       "mv_change_7d": 1031202.0,
       "mv_trend_7d": 0.8879086399577056,
       "mv_avg_daily_change_7d": 147314.57142857142,
-      "predicted_mv_target": -123513.14,
+      "predicted_mv_target": -122437.77,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 5.6,
+      "hours_to_exp": 5.42,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "2471",
@@ -463,12 +547,16 @@
       "mv_change_7d": -1054486.0,
       "mv_trend_7d": -0.3220967078805236,
       "mv_avg_daily_change_7d": -150640.85714285713,
-      "predicted_mv_target": -132847.86,
+      "predicted_mv_target": -132829.81,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 24.17,
+      "hours_to_exp": 23.99,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "2176",
@@ -479,12 +567,16 @@
       "mv_change_7d": 742392.0,
       "mv_trend_7d": 0.15092648800605338,
       "mv_avg_daily_change_7d": 106056.0,
-      "predicted_mv_target": -153441.73,
+      "predicted_mv_target": -146658.37,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 19.66,
+      "hours_to_exp": 19.47,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "1246",
@@ -495,12 +587,16 @@
       "mv_change_7d": -748651.0,
       "mv_trend_7d": -0.02389844027172776,
       "mv_avg_daily_change_7d": -106950.14285714286,
-      "predicted_mv_target": -187576.58,
+      "predicted_mv_target": -185743.64,
       "model_recommended": false,
       "s_11_prob": 2,
-      "hours_to_exp": 26.25,
+      "hours_to_exp": 26.07,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "11100",
@@ -511,12 +607,16 @@
       "mv_change_7d": -2113679.0,
       "mv_trend_7d": -0.2416636530344542,
       "mv_avg_daily_change_7d": -301954.14285714284,
-      "predicted_mv_target": -236239.1,
+      "predicted_mv_target": -236353.84,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 13.43,
+      "hours_to_exp": 13.25,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "13888",
@@ -527,12 +627,16 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -281972.36,
+      "predicted_mv_target": -276404.69,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 9.9,
+      "hours_to_exp": 9.72,
       "expiring_today": true,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "14249",
@@ -543,12 +647,16 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -290824.94,
+      "predicted_mv_target": -280226.11,
       "model_recommended": false,
       "s_11_prob": 3,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "7963",
@@ -559,12 +667,16 @@
       "mv_change_7d": -2973824.0,
       "mv_trend_7d": -0.1502146848444264,
       "mv_avg_daily_change_7d": -424832.0,
-      "predicted_mv_target": -310056.66,
+      "predicted_mv_target": -298358.01,
       "model_recommended": false,
       "s_11_prob": 3,
-      "hours_to_exp": 24.49,
+      "hours_to_exp": 24.31,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "2897",
@@ -575,12 +687,16 @@
       "mv_change_7d": 3493962.0,
       "mv_trend_7d": 0.3700108748797902,
       "mv_avg_daily_change_7d": 499137.4285714286,
-      "predicted_mv_target": -376427.61,
+      "predicted_mv_target": -380997.76,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 13.71,
+      "hours_to_exp": 13.52,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "3158",
@@ -591,12 +707,16 @@
       "mv_change_7d": -3818785.0,
       "mv_trend_7d": -0.1696886710771616,
       "mv_avg_daily_change_7d": -545540.7142857143,
-      "predicted_mv_target": -406448.06,
+      "predicted_mv_target": -406931.04,
       "model_recommended": false,
       "s_11_prob": 5,
-      "hours_to_exp": 17.74,
+      "hours_to_exp": 17.56,
       "expiring_today": false,
-      "prediction_available": true
+      "prediction_available": true,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     },
     {
       "player_id": "6174",
@@ -612,7 +732,11 @@
       "s_11_prob": 2,
       "hours_to_exp": null,
       "expiring_today": false,
-      "prediction_available": false
+      "prediction_available": false,
+      "offer_count": 0,
+      "my_bid_present": false,
+      "competitor_offer_count": 0,
+      "is_own_listing": false
     }
   ],
   "squad": [
@@ -627,7 +751,7 @@
       "mv_change_7d": 735127.0,
       "mv_trend_7d": 0.04532361729973027,
       "mv_avg_daily_change_7d": 105018.14285714286,
-      "predicted_mv_target": 71818.46,
+      "predicted_mv_target": 72877.38,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -642,7 +766,7 @@
       "mv_change_7d": 809494.0,
       "mv_trend_7d": 0.2059412781886599,
       "mv_avg_daily_change_7d": 115642.0,
-      "predicted_mv_target": 155389.26,
+      "predicted_mv_target": 162262.81,
       "s_11_prob": 2,
       "prediction_available": true
     },
@@ -657,7 +781,7 @@
       "mv_change_7d": 1372789.0,
       "mv_trend_7d": 0.13998342170231523,
       "mv_avg_daily_change_7d": 196112.7142857143,
-      "predicted_mv_target": 142890.21,
+      "predicted_mv_target": 139782.67,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -672,7 +796,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -60646.83,
+      "predicted_mv_target": -60162.36,
       "s_11_prob": 2,
       "prediction_available": true
     },
@@ -687,7 +811,7 @@
       "mv_change_7d": 615515.0,
       "mv_trend_7d": 0.020567099470761782,
       "mv_avg_daily_change_7d": 87930.71428571429,
-      "predicted_mv_target": 66915.0,
+      "predicted_mv_target": 65797.8,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -702,7 +826,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 48203.7,
+      "predicted_mv_target": 42928.19,
       "s_11_prob": 1,
       "prediction_available": true
     },
@@ -717,7 +841,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -102308.84,
+      "predicted_mv_target": -94414.05,
       "s_11_prob": 3,
       "prediction_available": true
     },
@@ -732,7 +856,7 @@
       "mv_change_7d": -306287.0,
       "mv_trend_7d": -0.37987341976244193,
       "mv_avg_daily_change_7d": -43755.28571428572,
-      "predicted_mv_target": 775.02,
+      "predicted_mv_target": 610.97,
       "s_11_prob": 5,
       "prediction_available": true
     }
@@ -751,7 +875,7 @@
       "mv_change_7d": 130592.0,
       "mv_trend_7d": 0.0024356687151099623,
       "mv_avg_daily_change_7d": 18656.0,
-      "predicted_mv_target": 9557.69,
+      "predicted_mv_target": 8157.13,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -768,7 +892,7 @@
       "mv_change_7d": 992670.0,
       "mv_trend_7d": 0.039594156209350646,
       "mv_avg_daily_change_7d": 141810.0,
-      "predicted_mv_target": 111189.9,
+      "predicted_mv_target": 113502.88,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -785,7 +909,7 @@
       "mv_change_7d": 782877.0,
       "mv_trend_7d": 0.03448802674365357,
       "mv_avg_daily_change_7d": 111839.57142857143,
-      "predicted_mv_target": 39500.67,
+      "predicted_mv_target": 42186.45,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -802,7 +926,7 @@
       "mv_change_7d": 1492864.0,
       "mv_trend_7d": 0.08149781852008751,
       "mv_avg_daily_change_7d": 213266.2857142857,
-      "predicted_mv_target": 167028.44,
+      "predicted_mv_target": 168339.0,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -819,7 +943,7 @@
       "mv_change_7d": 522748.0,
       "mv_trend_7d": 0.03653817133423933,
       "mv_avg_daily_change_7d": 74678.28571428571,
-      "predicted_mv_target": -46977.17,
+      "predicted_mv_target": -51187.34,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -836,7 +960,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -113308.91,
+      "predicted_mv_target": -108101.84,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -853,7 +977,7 @@
       "mv_change_7d": 1790005.0,
       "mv_trend_7d": 0.18566644525054113,
       "mv_avg_daily_change_7d": 255715.0,
-      "predicted_mv_target": 173217.74,
+      "predicted_mv_target": 170249.35,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -870,7 +994,7 @@
       "mv_change_7d": 1288395.0,
       "mv_trend_7d": 0.1394796794509823,
       "mv_avg_daily_change_7d": 184056.42857142858,
-      "predicted_mv_target": 68987.5,
+      "predicted_mv_target": 66994.75,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -887,7 +1011,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 176863.4,
+      "predicted_mv_target": 177074.0,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -904,7 +1028,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -96636.53,
+      "predicted_mv_target": -93063.98,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -921,7 +1045,7 @@
       "mv_change_7d": 3060377.0,
       "mv_trend_7d": 1.17365319752336,
       "mv_avg_daily_change_7d": 437196.71428571426,
-      "predicted_mv_target": -43044.71,
+      "predicted_mv_target": -42496.43,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -938,7 +1062,7 @@
       "mv_change_7d": -2128841.0,
       "mv_trend_7d": -0.05884865574406746,
       "mv_avg_daily_change_7d": -304120.14285714284,
-      "predicted_mv_target": -252583.64,
+      "predicted_mv_target": -242786.05,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -955,7 +1079,7 @@
       "mv_change_7d": -378472.0,
       "mv_trend_7d": -0.014128006445684566,
       "mv_avg_daily_change_7d": -54067.42857142857,
-      "predicted_mv_target": -82386.55,
+      "predicted_mv_target": -84069.01,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -972,7 +1096,7 @@
       "mv_change_7d": 1269565.0,
       "mv_trend_7d": 0.06435791000340403,
       "mv_avg_daily_change_7d": 181366.42857142858,
-      "predicted_mv_target": 167674.54,
+      "predicted_mv_target": 168126.08,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -989,7 +1113,7 @@
       "mv_change_7d": -2571228.0,
       "mv_trend_7d": -0.13445160375402024,
       "mv_avg_daily_change_7d": -367318.28571428574,
-      "predicted_mv_target": -353122.2,
+      "predicted_mv_target": -354542.58,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1006,7 +1130,7 @@
       "mv_change_7d": 306334.0,
       "mv_trend_7d": 0.0200969888631215,
       "mv_avg_daily_change_7d": 43762.0,
-      "predicted_mv_target": -101376.76,
+      "predicted_mv_target": -96738.9,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1023,7 +1147,7 @@
       "mv_change_7d": 984671.0,
       "mv_trend_7d": 0.06862831262284477,
       "mv_avg_daily_change_7d": 140667.2857142857,
-      "predicted_mv_target": 38446.84,
+      "predicted_mv_target": 36461.49,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1040,7 +1164,7 @@
       "mv_change_7d": 1123554.0,
       "mv_trend_7d": 0.07926441641794403,
       "mv_avg_daily_change_7d": 160507.7142857143,
-      "predicted_mv_target": 117314.57,
+      "predicted_mv_target": 117581.75,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1057,7 +1181,7 @@
       "mv_change_7d": 973732.0,
       "mv_trend_7d": 0.06838789869652889,
       "mv_avg_daily_change_7d": 139104.57142857142,
-      "predicted_mv_target": 26226.89,
+      "predicted_mv_target": 17832.28,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1074,7 +1198,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -290824.94,
+      "predicted_mv_target": -280226.11,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1091,7 +1215,7 @@
       "mv_change_7d": 800966.0,
       "mv_trend_7d": 0.07501112337624695,
       "mv_avg_daily_change_7d": 114423.71428571429,
-      "predicted_mv_target": -22710.09,
+      "predicted_mv_target": -23040.87,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1108,7 +1232,7 @@
       "mv_change_7d": 1177923.0,
       "mv_trend_7d": 0.1184433832778785,
       "mv_avg_daily_change_7d": 168274.7142857143,
-      "predicted_mv_target": 78225.52,
+      "predicted_mv_target": 78878.4,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1125,7 +1249,7 @@
       "mv_change_7d": 2193079.0,
       "mv_trend_7d": 0.3888030527297583,
       "mv_avg_daily_change_7d": 313297.0,
-      "predicted_mv_target": 87878.01,
+      "predicted_mv_target": 77485.2,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1142,7 +1266,7 @@
       "mv_change_7d": -1687897.0,
       "mv_trend_7d": -0.18535523059795425,
       "mv_avg_daily_change_7d": -241128.14285714287,
-      "predicted_mv_target": -178629.58,
+      "predicted_mv_target": -179594.7,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1159,7 +1283,7 @@
       "mv_change_7d": 615515.0,
       "mv_trend_7d": 0.020567099470761782,
       "mv_avg_daily_change_7d": 87930.71428571429,
-      "predicted_mv_target": 66915.0,
+      "predicted_mv_target": 65797.8,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1176,7 +1300,7 @@
       "mv_change_7d": 735127.0,
       "mv_trend_7d": 0.04532361729973027,
       "mv_avg_daily_change_7d": 105018.14285714286,
-      "predicted_mv_target": 71818.46,
+      "predicted_mv_target": 72877.38,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1193,7 +1317,7 @@
       "mv_change_7d": 1372789.0,
       "mv_trend_7d": 0.13998342170231523,
       "mv_avg_daily_change_7d": 196112.7142857143,
-      "predicted_mv_target": 142890.21,
+      "predicted_mv_target": 139782.67,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1210,7 +1334,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -60646.83,
+      "predicted_mv_target": -60162.36,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1227,7 +1351,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -102308.84,
+      "predicted_mv_target": -94414.05,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1244,7 +1368,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 48203.7,
+      "predicted_mv_target": 42928.19,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1261,7 +1385,7 @@
       "mv_change_7d": 809494.0,
       "mv_trend_7d": 0.2059412781886599,
       "mv_avg_daily_change_7d": 115642.0,
-      "predicted_mv_target": 155389.26,
+      "predicted_mv_target": 162262.81,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1278,7 +1402,7 @@
       "mv_change_7d": -306287.0,
       "mv_trend_7d": -0.37987341976244193,
       "mv_avg_daily_change_7d": -43755.28571428572,
-      "predicted_mv_target": 775.02,
+      "predicted_mv_target": 610.97,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1295,7 +1419,7 @@
       "mv_change_7d": -3777576.0,
       "mv_trend_7d": -0.10267993171371492,
       "mv_avg_daily_change_7d": -539653.7142857143,
-      "predicted_mv_target": -317184.91,
+      "predicted_mv_target": -307703.87,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1312,7 +1436,7 @@
       "mv_change_7d": -94367.0,
       "mv_trend_7d": -0.003650046391912877,
       "mv_avg_daily_change_7d": -13481.0,
-      "predicted_mv_target": -231170.04,
+      "predicted_mv_target": -223181.73,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1329,7 +1453,7 @@
       "mv_change_7d": 1100237.0,
       "mv_trend_7d": 0.0772498001943046,
       "mv_avg_daily_change_7d": 157176.7142857143,
-      "predicted_mv_target": -103555.06,
+      "predicted_mv_target": -103763.37,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1346,7 +1470,7 @@
       "mv_change_7d": -646105.0,
       "mv_trend_7d": -0.04262494815412181,
       "mv_avg_daily_change_7d": -92300.71428571429,
-      "predicted_mv_target": -131205.41,
+      "predicted_mv_target": -133690.72,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1363,7 +1487,7 @@
       "mv_change_7d": 1057962.0,
       "mv_trend_7d": 0.08121001433738308,
       "mv_avg_daily_change_7d": 151137.42857142858,
-      "predicted_mv_target": -35888.71,
+      "predicted_mv_target": -51774.84,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1380,7 +1504,7 @@
       "mv_change_7d": 977574.0,
       "mv_trend_7d": 0.0789288769412309,
       "mv_avg_daily_change_7d": 139653.42857142858,
-      "predicted_mv_target": 132020.16,
+      "predicted_mv_target": 129625.56,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1397,7 +1521,7 @@
       "mv_change_7d": 1160346.0,
       "mv_trend_7d": 0.12964132573250925,
       "mv_avg_daily_change_7d": 165763.7142857143,
-      "predicted_mv_target": -122496.5,
+      "predicted_mv_target": -115527.3,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1414,7 +1538,7 @@
       "mv_change_7d": 804960.0,
       "mv_trend_7d": 0.08653343796695441,
       "mv_avg_daily_change_7d": 114994.28571428571,
-      "predicted_mv_target": -88416.56,
+      "predicted_mv_target": -88750.77,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1431,7 +1555,7 @@
       "mv_change_7d": 6631634.0,
       "mv_trend_7d": 2.03808466016935,
       "mv_avg_daily_change_7d": 947376.2857142857,
-      "predicted_mv_target": 201431.44,
+      "predicted_mv_target": 190722.35,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1448,7 +1572,7 @@
       "mv_change_7d": 733701.0,
       "mv_trend_7d": 0.08603771699809573,
       "mv_avg_daily_change_7d": 104814.42857142857,
-      "predicted_mv_target": 158708.31,
+      "predicted_mv_target": 157264.99,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1465,7 +1589,7 @@
       "mv_change_7d": -2014966.0,
       "mv_trend_7d": -0.24451767558910337,
       "mv_avg_daily_change_7d": -287852.28571428574,
-      "predicted_mv_target": -136168.1,
+      "predicted_mv_target": -138763.27,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1482,7 +1606,7 @@
       "mv_change_7d": -121956.0,
       "mv_trend_7d": -0.0031198061747890623,
       "mv_avg_daily_change_7d": -17422.285714285714,
-      "predicted_mv_target": -239436.47,
+      "predicted_mv_target": -242750.3,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1499,7 +1623,7 @@
       "mv_change_7d": 282371.0,
       "mv_trend_7d": 0.009866171415988872,
       "mv_avg_daily_change_7d": 40338.71428571428,
-      "predicted_mv_target": -100649.89,
+      "predicted_mv_target": -107511.99,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1516,7 +1640,7 @@
       "mv_change_7d": 453208.0,
       "mv_trend_7d": 0.018017070356014128,
       "mv_avg_daily_change_7d": 64744.0,
-      "predicted_mv_target": 27211.61,
+      "predicted_mv_target": 24870.91,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1533,7 +1657,7 @@
       "mv_change_7d": -647293.0,
       "mv_trend_7d": -0.03650893429477011,
       "mv_avg_daily_change_7d": -92470.42857142857,
-      "predicted_mv_target": -295425.08,
+      "predicted_mv_target": -298061.4,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1550,7 +1674,7 @@
       "mv_change_7d": -136131.0,
       "mv_trend_7d": -0.008086859588305654,
       "mv_avg_daily_change_7d": -19447.285714285714,
-      "predicted_mv_target": -201880.62,
+      "predicted_mv_target": -203384.86,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1567,7 +1691,7 @@
       "mv_change_7d": 177247.0,
       "mv_trend_7d": 0.013114989662105532,
       "mv_avg_daily_change_7d": 25321.0,
-      "predicted_mv_target": -32965.05,
+      "predicted_mv_target": -25635.81,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1584,7 +1708,7 @@
       "mv_change_7d": 800979.0,
       "mv_trend_7d": 0.0656282922546261,
       "mv_avg_daily_change_7d": 114425.57142857143,
-      "predicted_mv_target": -122332.62,
+      "predicted_mv_target": -115514.43,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1601,7 +1725,7 @@
       "mv_change_7d": -787060.0,
       "mv_trend_7d": -0.05960141581570739,
       "mv_avg_daily_change_7d": -112437.14285714286,
-      "predicted_mv_target": -235410.18,
+      "predicted_mv_target": -237668.63,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1618,7 +1742,7 @@
       "mv_change_7d": 8517881.0,
       "mv_trend_7d": 2.3424376542075915,
       "mv_avg_daily_change_7d": 1216840.142857143,
-      "predicted_mv_target": 16164.51,
+      "predicted_mv_target": 17287.68,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1635,7 +1759,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -94513.07,
+      "predicted_mv_target": -98202.97,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1652,7 +1776,7 @@
       "mv_change_7d": 1092605.0,
       "mv_trend_7d": 0.1403451375051075,
       "mv_avg_daily_change_7d": 156086.42857142858,
-      "predicted_mv_target": -358943.97,
+      "predicted_mv_target": -354927.4,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1669,7 +1793,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 13534.69,
+      "predicted_mv_target": 22884.82,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1703,7 +1827,7 @@
       "mv_change_7d": 349459.0,
       "mv_trend_7d": 0.01014923389561071,
       "mv_avg_daily_change_7d": 49922.71428571428,
-      "predicted_mv_target": 2932.95,
+      "predicted_mv_target": -2454.31,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1720,7 +1844,7 @@
       "mv_change_7d": 603139.0,
       "mv_trend_7d": 0.021942680228216768,
       "mv_avg_daily_change_7d": 86162.71428571429,
-      "predicted_mv_target": 48262.73,
+      "predicted_mv_target": 49843.99,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1737,7 +1861,7 @@
       "mv_change_7d": 123141.0,
       "mv_trend_7d": 0.005192148189806429,
       "mv_avg_daily_change_7d": 17591.571428571428,
-      "predicted_mv_target": -112039.95,
+      "predicted_mv_target": -100218.21,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1754,7 +1878,7 @@
       "mv_change_7d": -1999688.0,
       "mv_trend_7d": -0.0819985205979002,
       "mv_avg_daily_change_7d": -285669.71428571426,
-      "predicted_mv_target": -372797.61,
+      "predicted_mv_target": -369355.64,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1771,7 +1895,7 @@
       "mv_change_7d": 1186882.0,
       "mv_trend_7d": 0.057840399985419066,
       "mv_avg_daily_change_7d": 169554.57142857142,
-      "predicted_mv_target": -123544.15,
+      "predicted_mv_target": -114461.09,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1788,7 +1912,7 @@
       "mv_change_7d": -1362866.0,
       "mv_trend_7d": -0.08738734308085483,
       "mv_avg_daily_change_7d": -194695.14285714287,
-      "predicted_mv_target": -180502.05,
+      "predicted_mv_target": -173745.45,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1805,7 +1929,7 @@
       "mv_change_7d": -693640.0,
       "mv_trend_7d": -0.06764156174345239,
       "mv_avg_daily_change_7d": -99091.42857142857,
-      "predicted_mv_target": -102058.78,
+      "predicted_mv_target": -95868.05,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1822,7 +1946,7 @@
       "mv_change_7d": 8765745.0,
       "mv_trend_7d": 16.83379647144451,
       "mv_avg_daily_change_7d": 1252249.2857142857,
-      "predicted_mv_target": 201118.6,
+      "predicted_mv_target": 201489.4,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1839,7 +1963,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 60012.87,
+      "predicted_mv_target": 79173.9,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1856,7 +1980,7 @@
       "mv_change_7d": 1127238.0,
       "mv_trend_7d": 0.22587427650832423,
       "mv_avg_daily_change_7d": 161034.0,
-      "predicted_mv_target": -211053.9,
+      "predicted_mv_target": -219700.0,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1873,7 +1997,7 @@
       "mv_change_7d": 926594.0,
       "mv_trend_7d": 0.6015461380955287,
       "mv_avg_daily_change_7d": 132370.57142857142,
-      "predicted_mv_target": -157408.36,
+      "predicted_mv_target": -160724.19,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1890,7 +2014,7 @@
       "mv_change_7d": 1819499.0,
       "mv_trend_7d": 3.638998,
       "mv_avg_daily_change_7d": 259928.42857142858,
-      "predicted_mv_target": 155091.27,
+      "predicted_mv_target": 171523.25,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1907,7 +2031,7 @@
       "mv_change_7d": -8869.0,
       "mv_trend_7d": -0.00014811301859993234,
       "mv_avg_daily_change_7d": -1267.0,
-      "predicted_mv_target": -21223.89,
+      "predicted_mv_target": -22165.12,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1924,7 +2048,7 @@
       "mv_change_7d": -61866.0,
       "mv_trend_7d": -0.002317557439956509,
       "mv_avg_daily_change_7d": -8838.0,
-      "predicted_mv_target": -84905.02,
+      "predicted_mv_target": -73068.07,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1941,7 +2065,7 @@
       "mv_change_7d": 961669.0,
       "mv_trend_7d": 0.03896468661305328,
       "mv_avg_daily_change_7d": 137381.2857142857,
-      "predicted_mv_target": 103817.89,
+      "predicted_mv_target": 103636.09,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1958,7 +2082,7 @@
       "mv_change_7d": 1015929.0,
       "mv_trend_7d": 0.0858337830909824,
       "mv_avg_daily_change_7d": 145132.7142857143,
-      "predicted_mv_target": 22980.14,
+      "predicted_mv_target": 25649.92,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1975,7 +2099,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -143006.03,
+      "predicted_mv_target": -144288.18,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -1992,7 +2116,7 @@
       "mv_change_7d": 1007661.0,
       "mv_trend_7d": 0.08941181042897768,
       "mv_avg_daily_change_7d": 143951.57142857142,
-      "predicted_mv_target": 23103.86,
+      "predicted_mv_target": 30827.11,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2009,7 +2133,7 @@
       "mv_change_7d": 1049805.0,
       "mv_trend_7d": 0.09489309798366234,
       "mv_avg_daily_change_7d": 149972.14285714287,
-      "predicted_mv_target": 16157.53,
+      "predicted_mv_target": 20855.65,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2026,7 +2150,7 @@
       "mv_change_7d": 1419536.0,
       "mv_trend_7d": 0.1537443794559829,
       "mv_avg_daily_change_7d": 202790.85714285713,
-      "predicted_mv_target": -52821.29,
+      "predicted_mv_target": -49231.93,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2043,7 +2167,7 @@
       "mv_change_7d": 669939.0,
       "mv_trend_7d": 0.08734869697777281,
       "mv_avg_daily_change_7d": 95705.57142857143,
-      "predicted_mv_target": 52537.94,
+      "predicted_mv_target": 54490.92,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2060,7 +2184,7 @@
       "mv_change_7d": 1161132.0,
       "mv_trend_7d": 0.18605007398695556,
       "mv_avg_daily_change_7d": 165876.0,
-      "predicted_mv_target": -3927.55,
+      "predicted_mv_target": -16151.45,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2077,7 +2201,7 @@
       "mv_change_7d": 1576415.0,
       "mv_trend_7d": 1.7154468182812397,
       "mv_avg_daily_change_7d": 225202.14285714287,
-      "predicted_mv_target": 17011.87,
+      "predicted_mv_target": 2559.53,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2094,7 +2218,7 @@
       "mv_change_7d": 763121.0,
       "mv_trend_7d": 0.029367262395329816,
       "mv_avg_daily_change_7d": 109017.28571428571,
-      "predicted_mv_target": 84456.81,
+      "predicted_mv_target": 83072.98,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2111,7 +2235,7 @@
       "mv_change_7d": 298681.0,
       "mv_trend_7d": 0.01137225557394955,
       "mv_avg_daily_change_7d": 42668.71428571428,
-      "predicted_mv_target": -98285.31,
+      "predicted_mv_target": -81452.16,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2128,7 +2252,7 @@
       "mv_change_7d": 136891.0,
       "mv_trend_7d": 0.006719309462852832,
       "mv_avg_daily_change_7d": 19555.85714285714,
-      "predicted_mv_target": -41306.88,
+      "predicted_mv_target": -40407.83,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2145,7 +2269,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 65544.63,
+      "predicted_mv_target": 68040.63,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2162,7 +2286,7 @@
       "mv_change_7d": 279784.0,
       "mv_trend_7d": 0.027866815696587725,
       "mv_avg_daily_change_7d": 39969.142857142855,
-      "predicted_mv_target": -37774.71,
+      "predicted_mv_target": -38551.83,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2179,7 +2303,7 @@
       "mv_change_7d": 1101297.0,
       "mv_trend_7d": 0.12457559852273502,
       "mv_avg_daily_change_7d": 157328.14285714287,
-      "predicted_mv_target": -156415.96,
+      "predicted_mv_target": -161530.68,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2196,7 +2320,7 @@
       "mv_change_7d": -1247209.0,
       "mv_trend_7d": -0.12225181673298885,
       "mv_avg_daily_change_7d": -178172.7142857143,
-      "predicted_mv_target": -145131.66,
+      "predicted_mv_target": -148526.0,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2213,7 +2337,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -42999.82,
+      "predicted_mv_target": -38411.54,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2230,7 +2354,7 @@
       "mv_change_7d": 2338311.0,
       "mv_trend_7d": 0.3787677560217764,
       "mv_avg_daily_change_7d": 334044.4285714286,
-      "predicted_mv_target": 189222.07,
+      "predicted_mv_target": 188054.94,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2247,7 +2371,7 @@
       "mv_change_7d": 2593584.0,
       "mv_trend_7d": 0.43976663874022764,
       "mv_avg_daily_change_7d": 370512.0,
-      "predicted_mv_target": 280458.6,
+      "predicted_mv_target": 284161.88,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2264,7 +2388,7 @@
       "mv_change_7d": 2180896.0,
       "mv_trend_7d": 0.3961681933160459,
       "mv_avg_daily_change_7d": 311556.5714285714,
-      "predicted_mv_target": 171927.96,
+      "predicted_mv_target": 172624.79,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2281,7 +2405,7 @@
       "mv_change_7d": 1908639.0,
       "mv_trend_7d": 0.6954758916820072,
       "mv_avg_daily_change_7d": 272662.71428571426,
-      "predicted_mv_target": 158243.8,
+      "predicted_mv_target": 150756.18,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2298,7 +2422,7 @@
       "mv_change_7d": 1663645.0,
       "mv_trend_7d": 0.6367926514370317,
       "mv_avg_daily_change_7d": 237663.57142857142,
-      "predicted_mv_target": -57673.28,
+      "predicted_mv_target": -64139.84,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2315,7 +2439,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 271.77,
+      "predicted_mv_target": 280.72,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2332,7 +2456,7 @@
       "mv_change_7d": 30556.0,
       "mv_trend_7d": 0.00044384768296794943,
       "mv_avg_daily_change_7d": 4365.142857142857,
-      "predicted_mv_target": -64341.16,
+      "predicted_mv_target": -61695.74,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2349,7 +2473,7 @@
       "mv_change_7d": 642460.0,
       "mv_trend_7d": 0.019682970777500936,
       "mv_avg_daily_change_7d": 91780.0,
-      "predicted_mv_target": 55792.23,
+      "predicted_mv_target": 55146.14,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2366,7 +2490,7 @@
       "mv_change_7d": 294429.0,
       "mv_trend_7d": 0.009999924600387147,
       "mv_avg_daily_change_7d": 42061.28571428572,
-      "predicted_mv_target": -72667.95,
+      "predicted_mv_target": -62867.99,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2383,7 +2507,7 @@
       "mv_change_7d": -2989982.0,
       "mv_trend_7d": -0.15391537064254082,
       "mv_avg_daily_change_7d": -427140.28571428574,
-      "predicted_mv_target": -407688.04,
+      "predicted_mv_target": -406754.22,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2400,7 +2524,7 @@
       "mv_change_7d": 2262911.0,
       "mv_trend_7d": 0.30575411889155113,
       "mv_avg_daily_change_7d": 323273.0,
-      "predicted_mv_target": 254885.98,
+      "predicted_mv_target": 250167.79,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2417,7 +2541,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 62111.47,
+      "predicted_mv_target": 61253.77,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2434,7 +2558,7 @@
       "mv_change_7d": 2412587.0,
       "mv_trend_7d": 0.4689952355690267,
       "mv_avg_daily_change_7d": 344655.28571428574,
-      "predicted_mv_target": 184319.12,
+      "predicted_mv_target": 197880.81,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2451,7 +2575,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": -114107.05,
+      "predicted_mv_target": -110910.12,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2468,7 +2592,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 264650.98,
+      "predicted_mv_target": 272077.94,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2485,7 +2609,7 @@
       "mv_change_7d": 2760488.0,
       "mv_trend_7d": 5.520976,
       "mv_avg_daily_change_7d": 394355.4285714286,
-      "predicted_mv_target": 399387.26,
+      "predicted_mv_target": 396731.65,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2502,7 +2626,7 @@
       "mv_change_7d": 1648010.0,
       "mv_trend_7d": 1.5049398803908802,
       "mv_avg_daily_change_7d": 235430.0,
-      "predicted_mv_target": 64784.66,
+      "predicted_mv_target": 50989.18,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2519,7 +2643,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 280383.84,
+      "predicted_mv_target": 282494.49,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2536,7 +2660,7 @@
       "mv_change_7d": 1188136.0,
       "mv_trend_7d": 1.5053129691686886,
       "mv_avg_daily_change_7d": 169733.7142857143,
-      "predicted_mv_target": -169031.62,
+      "predicted_mv_target": -175743.42,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2553,7 +2677,7 @@
       "mv_change_7d": -2493290.0,
       "mv_trend_7d": -0.056487986019977336,
       "mv_avg_daily_change_7d": -356184.28571428574,
-      "predicted_mv_target": -315486.21,
+      "predicted_mv_target": -312873.24,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2570,7 +2694,7 @@
       "mv_change_7d": -266181.0,
       "mv_trend_7d": -0.010725815176822365,
       "mv_avg_daily_change_7d": -38025.857142857145,
-      "predicted_mv_target": -76584.71,
+      "predicted_mv_target": -74665.13,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2587,7 +2711,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 23298.34,
+      "predicted_mv_target": 25892.33,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2604,7 +2728,7 @@
       "mv_change_7d": 595407.0,
       "mv_trend_7d": 0.035459388727584515,
       "mv_avg_daily_change_7d": 85058.14285714286,
-      "predicted_mv_target": -12918.76,
+      "predicted_mv_target": -17429.05,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2621,7 +2745,7 @@
       "mv_change_7d": 1265824.0,
       "mv_trend_7d": 0.08794107434471664,
       "mv_avg_daily_change_7d": 180832.0,
-      "predicted_mv_target": 215491.8,
+      "predicted_mv_target": 217359.69,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2638,7 +2762,7 @@
       "mv_change_7d": -1175926.0,
       "mv_trend_7d": -0.07639939726437862,
       "mv_avg_daily_change_7d": -167989.42857142858,
-      "predicted_mv_target": -173275.19,
+      "predicted_mv_target": -185342.47,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2655,7 +2779,7 @@
       "mv_change_7d": 1483206.0,
       "mv_trend_7d": 0.12641501441553193,
       "mv_avg_daily_change_7d": 211886.57142857142,
-      "predicted_mv_target": 132727.1,
+      "predicted_mv_target": 130993.35,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2672,7 +2796,7 @@
       "mv_change_7d": 8623474.0,
       "mv_trend_7d": 4.76961529909812,
       "mv_avg_daily_change_7d": 1231924.857142857,
-      "predicted_mv_target": -80887.89,
+      "predicted_mv_target": -77361.03,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2689,7 +2813,7 @@
       "mv_change_7d": -1913731.0,
       "mv_trend_7d": -0.15741112937962,
       "mv_avg_daily_change_7d": -273390.14285714284,
-      "predicted_mv_target": -134583.5,
+      "predicted_mv_target": -128585.81,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2706,7 +2830,7 @@
       "mv_change_7d": -2856621.0,
       "mv_trend_7d": -0.24486411453034884,
       "mv_avg_daily_change_7d": -408088.71428571426,
-      "predicted_mv_target": -110718.59,
+      "predicted_mv_target": -116553.75,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2723,7 +2847,7 @@
       "mv_change_7d": 51724.0,
       "mv_trend_7d": 0.006230478560596114,
       "mv_avg_daily_change_7d": 7389.142857142857,
-      "predicted_mv_target": 73689.62,
+      "predicted_mv_target": 75006.87,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2740,7 +2864,7 @@
       "mv_change_7d": 126340.0,
       "mv_trend_7d": 0.0019470690946456972,
       "mv_avg_daily_change_7d": 18048.571428571428,
-      "predicted_mv_target": 5221.03,
+      "predicted_mv_target": 4671.3,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2757,7 +2881,7 @@
       "mv_change_7d": 486989.0,
       "mv_trend_7d": 0.02579065364790027,
       "mv_avg_daily_change_7d": 69569.85714285714,
-      "predicted_mv_target": -53637.07,
+      "predicted_mv_target": -63901.54,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2774,7 +2898,7 @@
       "mv_change_7d": 1507955.0,
       "mv_trend_7d": 0.09027399213682881,
       "mv_avg_daily_change_7d": 215422.14285714287,
-      "predicted_mv_target": 159171.15,
+      "predicted_mv_target": 161208.9,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2791,7 +2915,7 @@
       "mv_change_7d": 1044059.0,
       "mv_trend_7d": 0.06992381146283867,
       "mv_avg_daily_change_7d": 149151.2857142857,
-      "predicted_mv_target": 91930.11,
+      "predicted_mv_target": 93431.46,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2808,7 +2932,7 @@
       "mv_change_7d": 910804.0,
       "mv_trend_7d": 0.06057282030747421,
       "mv_avg_daily_change_7d": 130114.85714285714,
-      "predicted_mv_target": 27997.81,
+      "predicted_mv_target": 30222.6,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2825,7 +2949,7 @@
       "mv_change_7d": 1177117.0,
       "mv_trend_7d": 0.08991645552022232,
       "mv_avg_daily_change_7d": 168159.57142857142,
-      "predicted_mv_target": 75061.18,
+      "predicted_mv_target": 74418.43,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2842,7 +2966,7 @@
       "mv_change_7d": 1900559.0,
       "mv_trend_7d": 0.15587625818704276,
       "mv_avg_daily_change_7d": 271508.4285714286,
-      "predicted_mv_target": 241812.52,
+      "predicted_mv_target": 243202.74,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2859,7 +2983,7 @@
       "mv_change_7d": 1149186.0,
       "mv_trend_7d": 0.10303668740725173,
       "mv_avg_daily_change_7d": 164169.42857142858,
-      "predicted_mv_target": 76614.17,
+      "predicted_mv_target": 76480.8,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2876,7 +3000,7 @@
       "mv_change_7d": 2096396.0,
       "mv_trend_7d": 0.49747311933848576,
       "mv_avg_daily_change_7d": 299485.14285714284,
-      "predicted_mv_target": 65272.37,
+      "predicted_mv_target": 76476.91,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2893,7 +3017,7 @@
       "mv_change_7d": 565887.0,
       "mv_trend_7d": 0.10648901655068149,
       "mv_avg_daily_change_7d": 80841.0,
-      "predicted_mv_target": -167404.37,
+      "predicted_mv_target": -154622.2,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2910,7 +3034,7 @@
       "mv_change_7d": -1564942.0,
       "mv_trend_7d": -0.2448442341817722,
       "mv_avg_daily_change_7d": -223563.14285714287,
-      "predicted_mv_target": -6423.91,
+      "predicted_mv_target": -11647.84,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2927,7 +3051,7 @@
       "mv_change_7d": -562521.0,
       "mv_trend_7d": -0.3824932734694211,
       "mv_avg_daily_change_7d": -80360.14285714286,
-      "predicted_mv_target": 90255.33,
+      "predicted_mv_target": 84312.16,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2944,7 +3068,7 @@
       "mv_change_7d": -3391393.0,
       "mv_trend_7d": -0.12250188418285161,
       "mv_avg_daily_change_7d": -484484.71428571426,
-      "predicted_mv_target": -255685.87,
+      "predicted_mv_target": -255765.49,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2961,7 +3085,7 @@
       "mv_change_7d": 3626791.0,
       "mv_trend_7d": 0.30553464905297334,
       "mv_avg_daily_change_7d": 518113.0,
-      "predicted_mv_target": -138694.79,
+      "predicted_mv_target": -154326.63,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2978,7 +3102,7 @@
       "mv_change_7d": -1926870.0,
       "mv_trend_7d": -0.15161621435116354,
       "mv_avg_daily_change_7d": -275267.14285714284,
-      "predicted_mv_target": -8037.13,
+      "predicted_mv_target": -16373.78,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -2995,7 +3119,7 @@
       "mv_change_7d": 1260877.0,
       "mv_trend_7d": 0.13259629522831817,
       "mv_avg_daily_change_7d": 180125.2857142857,
-      "predicted_mv_target": -46609.23,
+      "predicted_mv_target": -65218.16,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3012,7 +3136,7 @@
       "mv_change_7d": 2362542.0,
       "mv_trend_7d": 0.3703753289423147,
       "mv_avg_daily_change_7d": 337506.0,
-      "predicted_mv_target": 190605.84,
+      "predicted_mv_target": 192797.86,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3029,7 +3153,7 @@
       "mv_change_7d": 6255101.0,
       "mv_trend_7d": 5.8698013683782815,
       "mv_avg_daily_change_7d": 893585.8571428572,
-      "predicted_mv_target": 12370.7,
+      "predicted_mv_target": 14384.39,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3046,7 +3170,7 @@
       "mv_change_7d": -1025493.0,
       "mv_trend_7d": -0.20081489694434207,
       "mv_avg_daily_change_7d": -146499.0,
-      "predicted_mv_target": -120781.87,
+      "predicted_mv_target": -121250.64,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3063,7 +3187,7 @@
       "mv_change_7d": 1942741.0,
       "mv_trend_7d": 1.6475090294343873,
       "mv_avg_daily_change_7d": 277534.4285714286,
-      "predicted_mv_target": 179481.89,
+      "predicted_mv_target": 183599.3,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3080,7 +3204,7 @@
       "mv_change_7d": 1356287.0,
       "mv_trend_7d": 0.9292367414808872,
       "mv_avg_daily_change_7d": 193755.2857142857,
-      "predicted_mv_target": 114281.68,
+      "predicted_mv_target": 110597.91,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3114,7 +3238,7 @@
       "mv_change_7d": -958651.0,
       "mv_trend_7d": -0.3121869869957232,
       "mv_avg_daily_change_7d": -136950.14285714287,
-      "predicted_mv_target": -114654.73,
+      "predicted_mv_target": -114890.24,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3131,7 +3255,7 @@
       "mv_change_7d": -856470.0,
       "mv_trend_7d": -0.32071786399288815,
       "mv_avg_daily_change_7d": -122352.85714285714,
-      "predicted_mv_target": -82838.29,
+      "predicted_mv_target": -83962.17,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3148,7 +3272,7 @@
       "mv_change_7d": -285540.0,
       "mv_trend_7d": -0.16753738699411383,
       "mv_avg_daily_change_7d": -40791.42857142857,
-      "predicted_mv_target": 115794.82,
+      "predicted_mv_target": 119913.8,
       "s_11_prob": null,
       "prediction_available": true
     },
@@ -3182,7 +3306,7 @@
       "mv_change_7d": 0.0,
       "mv_trend_7d": 0.0,
       "mv_avg_daily_change_7d": 0.0,
-      "predicted_mv_target": 271.77,
+      "predicted_mv_target": 280.72,
       "s_11_prob": null,
       "prediction_available": true
     }
@@ -3195,7 +3319,7 @@
       "squad_market_value": 212250905.0,
       "mv_change_yesterday_sum": -638676.0,
       "mv_change_7d_sum": 2063386.0,
-      "predicted_mv_change_sum": -765867.3899999999,
+      "predicted_mv_change_sum": -764633.02,
       "prediction_coverage": 1.0
     },
     {
@@ -3205,7 +3329,7 @@
       "squad_market_value": 208046165.0,
       "mv_change_yesterday_sum": -1494415.0,
       "mv_change_7d_sum": 9631851.0,
-      "predicted_mv_change_sum": -1624646.1400000001,
+      "predicted_mv_change_sum": -1618614.3800000001,
       "prediction_coverage": 0.923
     },
     {
@@ -3215,7 +3339,7 @@
       "squad_market_value": 193901302.0,
       "mv_change_yesterday_sum": 649411.0,
       "mv_change_7d_sum": 10060528.0,
-      "predicted_mv_change_sum": 446378.01999999984,
+      "predicted_mv_change_sum": 451653.97000000003,
       "prediction_coverage": 1.0
     },
     {
@@ -3225,7 +3349,7 @@
       "squad_market_value": 193107104.0,
       "mv_change_yesterday_sum": 644889.0,
       "mv_change_7d_sum": 8837829.0,
-      "predicted_mv_change_sum": 605870.3200000001,
+      "predicted_mv_change_sum": 614253.72,
       "prediction_coverage": 1.0
     },
     {
@@ -3235,7 +3359,7 @@
       "squad_market_value": 191961823.0,
       "mv_change_yesterday_sum": 898789.0,
       "mv_change_7d_sum": 8249595.0,
-      "predicted_mv_change_sum": 738479.7200000001,
+      "predicted_mv_change_sum": 748770.28,
       "prediction_coverage": 1.0
     },
     {
@@ -3245,7 +3369,7 @@
       "squad_market_value": 190915806.0,
       "mv_change_yesterday_sum": 214593.0,
       "mv_change_7d_sum": 8791351.0,
-      "predicted_mv_change_sum": -70274.55,
+      "predicted_mv_change_sum": -66885.52999999998,
       "prediction_coverage": 1.0
     },
     {
@@ -3255,7 +3379,7 @@
       "squad_market_value": 186591437.0,
       "mv_change_yesterday_sum": -602752.0,
       "mv_change_7d_sum": 3313886.0,
-      "predicted_mv_change_sum": -459247.99,
+      "predicted_mv_change_sum": -463558.2399999999,
       "prediction_coverage": 1.0
     },
     {
@@ -3265,7 +3389,7 @@
       "squad_market_value": 183587899.0,
       "mv_change_yesterday_sum": -657385.0,
       "mv_change_7d_sum": 10845503.0,
-      "predicted_mv_change_sum": -791986.38,
+      "predicted_mv_change_sum": -734496.4000000001,
       "prediction_coverage": 1.0
     },
     {
@@ -3275,7 +3399,7 @@
       "squad_market_value": 161665173.0,
       "mv_change_yesterday_sum": -802188.0,
       "mv_change_7d_sum": 5933400.0,
-      "predicted_mv_change_sum": -673925.3799999998,
+      "predicted_mv_change_sum": -685542.97,
       "prediction_coverage": 1.0
     },
     {
@@ -3285,7 +3409,7 @@
       "squad_market_value": 156194237.0,
       "mv_change_yesterday_sum": 552844.0,
       "mv_change_7d_sum": 12017640.0,
-      "predicted_mv_change_sum": 370538.02,
+      "predicted_mv_change_sum": 373972.2399999999,
       "prediction_coverage": 1.0
     },
     {
@@ -3295,7 +3419,7 @@
       "squad_market_value": 96680784.0,
       "mv_change_yesterday_sum": -297691.0,
       "mv_change_7d_sum": 8359922.0,
-      "predicted_mv_change_sum": -154495.21,
+      "predicted_mv_change_sum": -190213.13000000003,
       "prediction_coverage": 0.867
     },
     {
@@ -3305,7 +3429,7 @@
       "squad_market_value": 85676931.0,
       "mv_change_yesterday_sum": 480435.0,
       "mv_change_7d_sum": 3226638.0,
-      "predicted_mv_change_sum": 323035.98000000004,
+      "predicted_mv_change_sum": 329683.41,
       "prediction_coverage": 1.0
     }
   ],
@@ -3315,7 +3439,7 @@
       "player_name": "Stark",
       "market_value": 2911441,
       "listed_price": 2911441,
-      "expires": 74360,
+      "expires": 73699,
       "offer_count": 1,
       "my_bid": 3452552,
       "source": "market_inline"
@@ -3325,7 +3449,7 @@
       "player_name": "Gregoritsch",
       "market_value": 11982021,
       "listed_price": 11982021,
-      "expires": 61744,
+      "expires": 61083,
       "offer_count": 1,
       "my_bid": 12499999,
       "source": "market_inline"
@@ -3335,7 +3459,7 @@
       "player_name": "Scally",
       "market_value": 4266704,
       "listed_price": 4266704,
-      "expires": 34574,
+      "expires": 33913,
       "offer_count": 1,
       "my_bid": 4754252,
       "source": "market_inline"
@@ -3345,7 +3469,7 @@
       "player_name": "Atubolu",
       "market_value": 12563560,
       "listed_price": 12563560,
-      "expires": 21592,
+      "expires": 20931,
       "offer_count": 1,
       "my_bid": 12932585,
       "source": "market_inline"
@@ -3355,7 +3479,7 @@
       "player_name": "Minjae",
       "market_value": 12120859,
       "listed_price": 12120859,
-      "expires": 78552,
+      "expires": 77891,
       "offer_count": 1,
       "my_bid": 12325425,
       "source": "market_inline"
@@ -3368,8 +3492,8 @@
         "player_name": "Baack",
         "team": "Paderborn",
         "market_value": 2470621,
-        "predicted_mv_change": -72196,
-        "predicted_return_pct": -2.92,
+        "predicted_mv_change": -74378,
+        "predicted_return_pct": -3.01,
         "daily_return_pct": -2.88,
         "mv_change_7d": 1970621,
         "return_7d_pct": 394.12,
@@ -3379,7 +3503,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 2470621,
         "hard_max_bid": 2470621,
-        "capital_score": 8.937,
+        "capital_score": 8.893,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3388,8 +3512,8 @@
         "player_name": "Scally",
         "team": "M'gladbach",
         "market_value": 4266704,
-        "predicted_mv_change": 228094,
-        "predicted_return_pct": 5.35,
+        "predicted_mv_change": 227325,
+        "predicted_return_pct": 5.33,
         "daily_return_pct": 5.64,
         "mv_change_7d": 462659,
         "return_7d_pct": 12.16,
@@ -3399,7 +3523,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 4365692,
         "hard_max_bid": 4528360,
-        "capital_score": 4.713,
+        "capital_score": 4.704,
         "budget_fit": true,
         "strategy_label": "trade"
       },
@@ -3408,8 +3532,8 @@
         "player_name": "Stark",
         "team": "Bremen",
         "market_value": 2911441,
-        "predicted_mv_change": 57579,
-        "predicted_return_pct": 1.98,
+        "predicted_mv_change": 43819,
+        "predicted_return_pct": 1.51,
         "daily_return_pct": 2.01,
         "mv_change_7d": 1366250,
         "return_7d_pct": 88.42,
@@ -3418,8 +3542,8 @@
         "league_bid_sample": 94,
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 2978986,
-        "hard_max_bid": 3084177,
-        "capital_score": 4.117,
+        "hard_max_bid": 3042899,
+        "capital_score": 3.88,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3428,8 +3552,8 @@
         "player_name": "Amaimouni",
         "team": "Frankfurt",
         "market_value": 7833670,
-        "predicted_mv_change": 87878,
-        "predicted_return_pct": 1.12,
+        "predicted_mv_change": 77485,
+        "predicted_return_pct": 0.99,
         "daily_return_pct": 1.06,
         "mv_change_7d": 2193079,
         "return_7d_pct": 38.88,
@@ -3438,8 +3562,8 @@
         "league_bid_sample": 94,
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 8015411,
-        "hard_max_bid": 8097304,
-        "capital_score": 1.99,
+        "hard_max_bid": 8066126,
+        "capital_score": 1.924,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3448,8 +3572,8 @@
         "player_name": "Gregoritsch",
         "team": "Augsburg",
         "market_value": 11982021,
-        "predicted_mv_change": 117791,
-        "predicted_return_pct": 0.98,
+        "predicted_mv_change": 120620,
+        "predicted_return_pct": 1.01,
         "daily_return_pct": 1.2,
         "mv_change_7d": 1262670,
         "return_7d_pct": 11.78,
@@ -3457,9 +3581,9 @@
         "segment": "premium_over_10m",
         "league_bid_sample": 96,
         "league_median_overpay_pct": 3.41,
-        "suggested_bid": 12335395,
-        "hard_max_bid": 12335395,
-        "capital_score": 1.188,
+        "suggested_bid": 12343882,
+        "hard_max_bid": 12343882,
+        "capital_score": 1.2,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3468,8 +3592,8 @@
         "player_name": "Atubolu",
         "team": "Frankfurt",
         "market_value": 12563560,
-        "predicted_mv_change": 191640,
-        "predicted_return_pct": 1.53,
+        "predicted_mv_change": 195606,
+        "predicted_return_pct": 1.56,
         "daily_return_pct": 1.73,
         "mv_change_7d": -2977108,
         "return_7d_pct": -19.16,
@@ -3478,8 +3602,8 @@
         "league_bid_sample": 96,
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 12991977,
-        "hard_max_bid": 13138480,
-        "capital_score": 0.734,
+        "hard_max_bid": 13150377,
+        "capital_score": 0.75,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3488,8 +3612,8 @@
         "player_name": "Minjae",
         "team": "Bayern",
         "market_value": 12120859,
-        "predicted_mv_change": 39966,
-        "predicted_return_pct": 0.33,
+        "predicted_mv_change": 42578,
+        "predicted_return_pct": 0.35,
         "daily_return_pct": 0.04,
         "mv_change_7d": 1278809,
         "return_7d_pct": 11.79,
@@ -3497,9 +3621,9 @@
         "segment": "premium_over_10m",
         "league_bid_sample": 96,
         "league_median_overpay_pct": 3.41,
-        "suggested_bid": 12240757,
-        "hard_max_bid": 12240757,
-        "capital_score": 0.515,
+        "suggested_bid": 12248593,
+        "hard_max_bid": 12248593,
+        "capital_score": 0.526,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3508,8 +3632,8 @@
         "player_name": "Beier",
         "team": "Dortmund",
         "market_value": 21860036,
-        "predicted_mv_change": 89751,
-        "predicted_return_pct": 0.41,
+        "predicted_mv_change": 85033,
+        "predicted_return_pct": 0.39,
         "daily_return_pct": 0.32,
         "mv_change_7d": 362396,
         "return_7d_pct": 1.69,
@@ -3517,9 +3641,9 @@
         "segment": "premium_over_10m",
         "league_bid_sample": 96,
         "league_median_overpay_pct": 3.41,
-        "suggested_bid": 22129290,
-        "hard_max_bid": 22129290,
-        "capital_score": 0.351,
+        "suggested_bid": 22115136,
+        "hard_max_bid": 22115136,
+        "capital_score": 0.34,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3528,8 +3652,8 @@
         "player_name": "Zingerle",
         "team": "Leipzig",
         "market_value": 500000,
-        "predicted_mv_change": 272,
-        "predicted_return_pct": 0.05,
+        "predicted_mv_change": 281,
+        "predicted_return_pct": 0.06,
         "daily_return_pct": 0.0,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -3537,9 +3661,9 @@
         "segment": "cheap_under_2m",
         "league_bid_sample": 29,
         "league_median_overpay_pct": 0.24,
-        "suggested_bid": 500815,
-        "hard_max_bid": 500815,
-        "capital_score": 0.027,
+        "suggested_bid": 500842,
+        "hard_max_bid": 500842,
+        "capital_score": 0.028,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3548,7 +3672,7 @@
         "player_name": "Köbbing",
         "team": "Köln",
         "market_value": 500000,
-        "predicted_mv_change": 205,
+        "predicted_mv_change": 204,
         "predicted_return_pct": 0.04,
         "daily_return_pct": 0.0,
         "mv_change_7d": 0,
@@ -3557,9 +3681,9 @@
         "segment": "cheap_under_2m",
         "league_bid_sample": 29,
         "league_median_overpay_pct": 0.24,
-        "suggested_bid": 500616,
-        "hard_max_bid": 500616,
-        "capital_score": 0.021,
+        "suggested_bid": 500613,
+        "hard_max_bid": 500613,
+        "capital_score": 0.02,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed"
       },
@@ -3568,8 +3692,8 @@
         "player_name": "Fernández",
         "team": "Leverkusen",
         "market_value": 10652628,
-        "predicted_mv_change": -52821,
-        "predicted_return_pct": -0.5,
+        "predicted_mv_change": -49232,
+        "predicted_return_pct": -0.46,
         "daily_return_pct": -0.7,
         "mv_change_7d": 1419536,
         "return_7d_pct": 15.37,
@@ -3579,7 +3703,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 10652628,
         "hard_max_bid": 10652628,
-        "capital_score": -0.02,
+        "capital_score": -0.003,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3588,8 +3712,8 @@
         "player_name": "Ginter",
         "team": "Freiburg",
         "market_value": 26632618,
-        "predicted_mv_change": -84905,
-        "predicted_return_pct": -0.32,
+        "predicted_mv_change": -73068,
+        "predicted_return_pct": -0.27,
         "daily_return_pct": -0.08,
         "mv_change_7d": -61866,
         "return_7d_pct": -0.23,
@@ -3599,7 +3723,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 26632618,
         "hard_max_bid": 26632618,
-        "capital_score": -0.189,
+        "capital_score": -0.166,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3608,8 +3732,8 @@
         "player_name": "Latte Lath",
         "team": "Union Berlin",
         "market_value": 10733837,
-        "predicted_mv_change": -60647,
-        "predicted_return_pct": -0.57,
+        "predicted_mv_change": -60162,
+        "predicted_return_pct": -0.56,
         "daily_return_pct": -0.4,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -3619,7 +3743,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 10733837,
         "hard_max_bid": 10733837,
-        "capital_score": -0.404,
+        "capital_score": -0.401,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3628,7 +3752,7 @@
         "player_name": "Orban",
         "team": "Leipzig",
         "market_value": 30577703,
-        "predicted_mv_change": -187577,
+        "predicted_mv_change": -185744,
         "predicted_return_pct": -0.61,
         "daily_return_pct": -0.64,
         "mv_change_7d": -748651,
@@ -3639,7 +3763,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 30577703,
         "hard_max_bid": 30577703,
-        "capital_score": -0.567,
+        "capital_score": -0.564,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3648,8 +3772,8 @@
         "player_name": "Regeer",
         "team": "Bremen",
         "market_value": 5893484,
-        "predicted_mv_change": -102309,
-        "predicted_return_pct": -1.74,
+        "predicted_mv_change": -94414,
+        "predicted_return_pct": -1.6,
         "daily_return_pct": -0.24,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -3659,7 +3783,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 5893484,
         "hard_max_bid": 5893484,
-        "capital_score": -0.94,
+        "capital_score": -0.873,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3668,8 +3792,8 @@
         "player_name": "El Khannouss",
         "team": "Stuttgart",
         "market_value": 18200361,
-        "predicted_mv_change": -106883,
-        "predicted_return_pct": -0.59,
+        "predicted_mv_change": -97135,
+        "predicted_return_pct": -0.53,
         "daily_return_pct": -1.1,
         "mv_change_7d": -2739744,
         "return_7d_pct": -13.08,
@@ -3679,7 +3803,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 18200361,
         "hard_max_bid": 18200361,
-        "capital_score": -0.999,
+        "capital_score": -0.972,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3688,8 +3812,8 @@
         "player_name": "El Aynaoui",
         "team": "Leipzig",
         "market_value": 14999789,
-        "predicted_mv_change": -290825,
-        "predicted_return_pct": -1.94,
+        "predicted_mv_change": -280226,
+        "predicted_return_pct": -1.87,
         "daily_return_pct": -0.94,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -3699,7 +3823,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 14999789,
         "hard_max_bid": 14999789,
-        "capital_score": -1.251,
+        "capital_score": -1.216,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3708,8 +3832,8 @@
         "player_name": "Doué",
         "team": "Leverkusen",
         "market_value": 18225210,
-        "predicted_mv_change": -281972,
-        "predicted_return_pct": -1.55,
+        "predicted_mv_change": -276405,
+        "predicted_return_pct": -1.52,
         "daily_return_pct": -1.69,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -3719,7 +3843,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 18225210,
         "hard_max_bid": 18225210,
-        "capital_score": -1.28,
+        "capital_score": -1.265,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3728,8 +3852,8 @@
         "player_name": "Can",
         "team": "Dortmund",
         "market_value": 2192585,
-        "predicted_mv_change": -123513,
-        "predicted_return_pct": -5.63,
+        "predicted_mv_change": -122438,
+        "predicted_return_pct": -5.58,
         "daily_return_pct": -4.62,
         "mv_change_7d": 1031202,
         "return_7d_pct": 88.79,
@@ -3739,27 +3863,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 2192585,
         "hard_max_bid": 2192585,
-        "capital_score": -1.665,
-        "budget_fit": true,
-        "strategy_label": "avoid_for_trading"
-      },
-      {
-        "player_id": "8061",
-        "player_name": "Bakayoko",
-        "team": "Leipzig",
-        "market_value": 8809527,
-        "predicted_mv_change": -110719,
-        "predicted_return_pct": -1.26,
-        "daily_return_pct": -1.29,
-        "mv_change_7d": -2856621,
-        "return_7d_pct": -24.49,
-        "avg_daily_return_7d_pct": -3.5,
-        "segment": "mid_2m_to_10m",
-        "league_bid_sample": 94,
-        "league_median_overpay_pct": 2.32,
-        "suggested_bid": 8809527,
-        "hard_max_bid": 8809527,
-        "capital_score": -1.715,
+        "capital_score": -1.641,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3768,8 +3872,8 @@
         "player_name": "Höler",
         "team": "Freiburg",
         "market_value": 5661290,
-        "predicted_mv_change": -153442,
-        "predicted_return_pct": -2.71,
+        "predicted_mv_change": -146658,
+        "predicted_return_pct": -2.59,
         "daily_return_pct": -2.91,
         "mv_change_7d": 742392,
         "return_7d_pct": 15.09,
@@ -3779,7 +3883,27 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 5661290,
         "hard_max_bid": 5661290,
-        "capital_score": -1.798,
+        "capital_score": -1.738,
+        "budget_fit": true,
+        "strategy_label": "avoid_for_trading"
+      },
+      {
+        "player_id": "8061",
+        "player_name": "Bakayoko",
+        "team": "Leipzig",
+        "market_value": 8809527,
+        "predicted_mv_change": -116554,
+        "predicted_return_pct": -1.32,
+        "daily_return_pct": -1.29,
+        "mv_change_7d": -2856621,
+        "return_7d_pct": -24.49,
+        "avg_daily_return_7d_pct": -3.5,
+        "segment": "mid_2m_to_10m",
+        "league_bid_sample": 94,
+        "league_median_overpay_pct": 2.32,
+        "suggested_bid": 8809527,
+        "hard_max_bid": 8809527,
+        "capital_score": -1.748,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3788,8 +3912,8 @@
         "player_name": "Quansah",
         "team": "Leverkusen",
         "market_value": 16823335,
-        "predicted_mv_change": -310057,
-        "predicted_return_pct": -1.84,
+        "predicted_mv_change": -298358,
+        "predicted_return_pct": -1.77,
         "daily_return_pct": -2.11,
         "mv_change_7d": -2973824,
         "return_7d_pct": -15.02,
@@ -3799,7 +3923,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 16823335,
         "hard_max_bid": 16823335,
-        "capital_score": -1.985,
+        "capital_score": -1.95,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3808,8 +3932,8 @@
         "player_name": "Maksimovic",
         "team": "Leipzig",
         "market_value": 3341526,
-        "predicted_mv_change": -63796,
-        "predicted_return_pct": -1.91,
+        "predicted_mv_change": -64141,
+        "predicted_return_pct": -1.92,
         "daily_return_pct": -2.05,
         "mv_change_7d": -913517,
         "return_7d_pct": -21.47,
@@ -3819,7 +3943,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 3341526,
         "hard_max_bid": 3341526,
-        "capital_score": -2.184,
+        "capital_score": -2.189,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3828,8 +3952,8 @@
         "player_name": "Reitz",
         "team": "Leipzig",
         "market_value": 12936825,
-        "predicted_mv_change": -376428,
-        "predicted_return_pct": -2.91,
+        "predicted_mv_change": -380998,
+        "predicted_return_pct": -2.95,
         "daily_return_pct": -6.12,
         "mv_change_7d": 3493962,
         "return_7d_pct": 37.0,
@@ -3839,7 +3963,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 12936825,
         "hard_max_bid": 12936825,
-        "capital_score": -2.233,
+        "capital_score": -2.251,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3848,7 +3972,7 @@
         "player_name": "Asllani",
         "team": "Hoffenheim",
         "market_value": 18685870,
-        "predicted_mv_change": -406448,
+        "predicted_mv_change": -406931,
         "predicted_return_pct": -2.18,
         "daily_return_pct": -2.85,
         "mv_change_7d": -3818785,
@@ -3859,7 +3983,7 @@
         "league_median_overpay_pct": 3.41,
         "suggested_bid": 18685870,
         "hard_max_bid": 18685870,
-        "capital_score": -2.427,
+        "capital_score": -2.429,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3868,7 +3992,7 @@
         "player_name": "Hollerbach",
         "team": "Mainz",
         "market_value": 2590651,
-        "predicted_mv_change": -64962,
+        "predicted_mv_change": -65059,
         "predicted_return_pct": -2.51,
         "daily_return_pct": -2.67,
         "mv_change_7d": -813013,
@@ -3879,7 +4003,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 2590651,
         "hard_max_bid": 2590651,
-        "capital_score": -2.736,
+        "capital_score": -2.738,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3888,7 +4012,7 @@
         "player_name": "Inácio",
         "team": "Dortmund",
         "market_value": 6632688,
-        "predicted_mv_change": -236239,
+        "predicted_mv_change": -236354,
         "predicted_return_pct": -3.56,
         "daily_return_pct": -3.72,
         "mv_change_7d": -2113679,
@@ -3908,8 +4032,8 @@
         "player_name": "Pfeiffer",
         "team": "Elversberg",
         "market_value": 2070734,
-        "predicted_mv_change": -95615,
-        "predicted_return_pct": -4.62,
+        "predicted_mv_change": -90808,
+        "predicted_return_pct": -4.39,
         "daily_return_pct": -4.17,
         "mv_change_7d": -916040,
         "return_7d_pct": -30.67,
@@ -3919,7 +4043,7 @@
         "league_median_overpay_pct": 2.32,
         "suggested_bid": 2070734,
         "hard_max_bid": 2070734,
-        "capital_score": -4.436,
+        "capital_score": -4.32,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3928,8 +4052,8 @@
         "player_name": "Topp",
         "team": "Bremen",
         "market_value": 508550,
-        "predicted_mv_change": -1962,
-        "predicted_return_pct": -0.39,
+        "predicted_mv_change": -1888,
+        "predicted_return_pct": -0.37,
         "daily_return_pct": -9.69,
         "mv_change_7d": -645922,
         "return_7d_pct": -55.95,
@@ -3939,7 +4063,7 @@
         "league_median_overpay_pct": 0.24,
         "suggested_bid": 508550,
         "hard_max_bid": 508550,
-        "capital_score": -4.698,
+        "capital_score": -4.691,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading"
       },
@@ -3948,7 +4072,7 @@
         "player_name": "Schubert",
         "team": "Paderborn",
         "market_value": 2219332,
-        "predicted_mv_change": -132848,
+        "predicted_mv_change": -132830,
         "predicted_return_pct": -5.99,
         "daily_return_pct": -6.26,
         "mv_change_7d": -1054486,
@@ -3979,13 +4103,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -0.567,
+        "capital_score": -0.564,
         "suggested_bid": 30577703,
         "hard_max_bid": 30577703,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "startelf_target",
-        "win_score": 56.36
+        "win_score": 56.361
       },
       {
         "player_id": "49",
@@ -4001,13 +4125,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": -0.189,
+        "capital_score": -0.166,
         "suggested_bid": 26632618,
         "hard_max_bid": 26632618,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "startelf_target",
-        "win_score": 55.926
+        "win_score": 55.931
       },
       {
         "player_id": "6668",
@@ -4023,13 +4147,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 0.515,
-        "suggested_bid": 12240757,
-        "hard_max_bid": 12240757,
+        "capital_score": 0.526,
+        "suggested_bid": 12248593,
+        "hard_max_bid": 12248593,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "startelf_target",
-        "win_score": 54.247
+        "win_score": 54.25
       },
       {
         "player_id": "493",
@@ -4045,13 +4169,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": 1.188,
-        "suggested_bid": 12335395,
-        "hard_max_bid": 12335395,
+        "capital_score": 1.2,
+        "suggested_bid": 12343882,
+        "hard_max_bid": 12343882,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "startelf_target",
-        "win_score": 52.517
+        "win_score": 52.52
       },
       {
         "player_id": "2714",
@@ -4067,13 +4191,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 0.351,
-        "suggested_bid": 22129290,
-        "hard_max_bid": 22129290,
+        "capital_score": 0.34,
+        "suggested_bid": 22115136,
+        "hard_max_bid": 22115136,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "startelf_target",
-        "win_score": 47.957
+        "win_score": 47.954
       },
       {
         "player_id": "3019",
@@ -4089,13 +4213,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 0.734,
+        "capital_score": 0.75,
         "suggested_bid": 12991977,
-        "hard_max_bid": 13138480,
+        "hard_max_bid": 13150377,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "startelf_target",
-        "win_score": 40.828
+        "win_score": 40.832
       },
       {
         "player_id": "11955",
@@ -4111,13 +4235,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -0.999,
+        "capital_score": -0.972,
         "suggested_bid": 18200361,
         "hard_max_bid": 18200361,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "points_upside",
-        "win_score": 25.856
+        "win_score": 25.862
       },
       {
         "player_id": "12294",
@@ -4133,13 +4257,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 1.99,
+        "capital_score": 1.924,
         "suggested_bid": 8015411,
-        "hard_max_bid": 8097304,
+        "hard_max_bid": 8066126,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "watch_or_avoid",
-        "win_score": 20.116
+        "win_score": 20.099
       },
       {
         "player_id": "12763",
@@ -4155,13 +4279,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -0.404,
+        "capital_score": -0.401,
         "suggested_bid": 10733837,
         "hard_max_bid": 10733837,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 15.52
+        "win_score": 15.521
       },
       {
         "player_id": "3158",
@@ -4177,7 +4301,7 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": -2.427,
+        "capital_score": -2.429,
         "suggested_bid": 18685870,
         "hard_max_bid": 18685870,
         "budget_fit": true,
@@ -4199,13 +4323,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -1.985,
+        "capital_score": -1.95,
         "suggested_bid": 16823335,
         "hard_max_bid": 16823335,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 11.965
+        "win_score": 11.974
       },
       {
         "player_id": "157",
@@ -4221,13 +4345,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 4.117,
+        "capital_score": 3.88,
         "suggested_bid": 2978986,
-        "hard_max_bid": 3084177,
+        "hard_max_bid": 3042899,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "watch_or_avoid",
-        "win_score": 7.368
+        "win_score": 7.309
       },
       {
         "player_id": "11956",
@@ -4243,13 +4367,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -0.02,
+        "capital_score": -0.003,
         "suggested_bid": 10652628,
         "hard_max_bid": 10652628,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 5.858
+        "win_score": 5.862
       },
       {
         "player_id": "6111",
@@ -4265,13 +4389,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": -2.736,
+        "capital_score": -2.738,
         "suggested_bid": 2590651,
         "hard_max_bid": 2590651,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 5.78
+        "win_score": 5.779
       },
       {
         "player_id": "2941",
@@ -4287,13 +4411,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 4.713,
+        "capital_score": 4.704,
         "suggested_bid": 4365692,
         "hard_max_bid": 4528360,
         "budget_fit": true,
         "strategy_label": "trade",
         "championship_label": "watch_or_avoid",
-        "win_score": 4.892
+        "win_score": 4.89
       },
       {
         "player_id": "2498",
@@ -4309,13 +4433,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": 8.937,
+        "capital_score": 8.893,
         "suggested_bid": 2470621,
         "hard_max_bid": 2470621,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "trading_target",
-        "win_score": 4.109
+        "win_score": 4.098
       },
       {
         "player_id": "2176",
@@ -4331,13 +4455,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": -1.798,
+        "capital_score": -1.738,
         "suggested_bid": 5661290,
         "hard_max_bid": 5661290,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 2.894
+        "win_score": 2.909
       },
       {
         "player_id": "8061",
@@ -4353,13 +4477,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -1.715,
+        "capital_score": -1.748,
         "suggested_bid": 8809527,
         "hard_max_bid": 8809527,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 1.859
+        "win_score": 1.85
       },
       {
         "player_id": "9776",
@@ -4375,13 +4499,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -2.184,
+        "capital_score": -2.189,
         "suggested_bid": 3341526,
         "hard_max_bid": 3341526,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": 0.508
+        "win_score": 0.507
       },
       {
         "player_id": "1225",
@@ -4397,9 +4521,9 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": 0.027,
-        "suggested_bid": 500815,
-        "hard_max_bid": 500815,
+        "capital_score": 0.028,
+        "suggested_bid": 500842,
+        "hard_max_bid": 500842,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "watch_or_avoid",
@@ -4419,9 +4543,9 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": 0.021,
-        "suggested_bid": 500616,
-        "hard_max_bid": 500616,
+        "capital_score": 0.02,
+        "suggested_bid": 500613,
+        "hard_max_bid": 500613,
         "budget_fit": true,
         "strategy_label": "watch_trend_unconfirmed",
         "championship_label": "watch_or_avoid",
@@ -4441,13 +4565,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -4.436,
+        "capital_score": -4.32,
         "suggested_bid": 2070734,
         "hard_max_bid": 2070734,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": -0.208
+        "win_score": -0.179
       },
       {
         "player_id": "17288",
@@ -4463,13 +4587,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": true,
         "availability_factor": 1.0,
-        "capital_score": -0.94,
+        "capital_score": -0.873,
         "suggested_bid": 5893484,
         "hard_max_bid": 5893484,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": -0.235
+        "win_score": -0.218
       },
       {
         "player_id": "14249",
@@ -4485,13 +4609,13 @@
         "ligainsider_status": "available",
         "ligainsider_topelf_pool": false,
         "availability_factor": 1.0,
-        "capital_score": -1.251,
+        "capital_score": -1.216,
         "suggested_bid": 14999789,
         "hard_max_bid": 14999789,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "watch_or_avoid",
-        "win_score": -0.313
+        "win_score": -0.304
       },
       {
         "player_id": "13888",
@@ -4507,13 +4631,13 @@
         "ligainsider_status": "likely_out",
         "ligainsider_topelf_pool": false,
         "availability_factor": 0.15,
-        "capital_score": -1.28,
+        "capital_score": -1.265,
         "suggested_bid": 18225210,
         "hard_max_bid": 18225210,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "unavailable",
-        "win_score": -0.32
+        "win_score": -0.316
       },
       {
         "player_id": "54",
@@ -4529,13 +4653,13 @@
         "ligainsider_status": "injured",
         "ligainsider_topelf_pool": true,
         "availability_factor": 0.0,
-        "capital_score": -1.665,
+        "capital_score": -1.641,
         "suggested_bid": 2192585,
         "hard_max_bid": 2192585,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "unavailable",
-        "win_score": -0.416
+        "win_score": -0.41
       },
       {
         "player_id": "2897",
@@ -4551,13 +4675,13 @@
         "ligainsider_status": "injured",
         "ligainsider_topelf_pool": false,
         "availability_factor": 0.0,
-        "capital_score": -2.233,
+        "capital_score": -2.251,
         "suggested_bid": 12936825,
         "hard_max_bid": 12936825,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "unavailable",
-        "win_score": -0.558
+        "win_score": -0.563
       },
       {
         "player_id": "11100",
@@ -4595,13 +4719,13 @@
         "ligainsider_status": "injured",
         "ligainsider_topelf_pool": true,
         "availability_factor": 0.0,
-        "capital_score": -4.698,
+        "capital_score": -4.691,
         "suggested_bid": 508550,
         "hard_max_bid": 508550,
         "budget_fit": true,
         "strategy_label": "avoid_for_trading",
         "championship_label": "unavailable",
-        "win_score": -1.175
+        "win_score": -1.173
       },
       {
         "player_id": "2471",
@@ -4632,7 +4756,7 @@
         "player_name": "Eggestein",
         "team": "Freiburg",
         "market_value": 16954640,
-        "predicted_mv_change": 71818,
+        "predicted_mv_change": 72877,
         "daily_mv_change": 64358,
         "mv_change_7d": 735127,
         "return_7d_pct": 4.53,
@@ -4645,7 +4769,7 @@
         "player_name": "Hansen",
         "team": "Paderborn",
         "market_value": 4740197,
-        "predicted_mv_change": 155389,
+        "predicted_mv_change": 162263,
         "daily_mv_change": 172529,
         "mv_change_7d": 809494,
         "return_7d_pct": 20.59,
@@ -4658,7 +4782,7 @@
         "player_name": "Lemperle",
         "team": "Hoffenheim",
         "market_value": 11179586,
-        "predicted_mv_change": 142890,
+        "predicted_mv_change": 139783,
         "daily_mv_change": 140056,
         "mv_change_7d": 1372789,
         "return_7d_pct": 14.0,
@@ -4671,7 +4795,7 @@
         "player_name": "Latte Lath",
         "team": "Union Berlin",
         "market_value": 10733837,
-        "predicted_mv_change": -60647,
+        "predicted_mv_change": -60162,
         "daily_mv_change": -43326,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -4684,7 +4808,7 @@
         "player_name": "Guirassy",
         "team": "Dortmund",
         "market_value": 30542681,
-        "predicted_mv_change": 66915,
+        "predicted_mv_change": 65798,
         "daily_mv_change": 62959,
         "mv_change_7d": 615515,
         "return_7d_pct": 2.06,
@@ -4697,7 +4821,7 @@
         "player_name": "Tanaka",
         "team": "Schalke",
         "market_value": 5132506,
-        "predicted_mv_change": 48204,
+        "predicted_mv_change": 42928,
         "daily_mv_change": 98089,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -4710,7 +4834,7 @@
         "player_name": "Regeer",
         "team": "Bremen",
         "market_value": 5893484,
-        "predicted_mv_change": -102309,
+        "predicted_mv_change": -94414,
         "daily_mv_change": -14230,
         "mv_change_7d": 0,
         "return_7d_pct": 0.0,
@@ -4723,7 +4847,7 @@
         "player_name": "Labrović",
         "team": "Augsburg",
         "market_value": 500000,
-        "predicted_mv_change": 775,
+        "predicted_mv_change": 611,
         "daily_mv_change": 0,
         "mv_change_7d": -306287,
         "return_7d_pct": -37.99,
@@ -6063,23 +6187,23 @@
       "ligainsider_source": "public_web"
     },
     {
-      "player_id": "2498",
-      "player_name": "Baack",
-      "team": "Paderborn",
-      "ligainsider_status": "available",
-      "availability_factor": 1.0,
-      "ligainsider_topelf_pool": false,
-      "ligainsider_matched_name": null,
-      "ligainsider_status_raw": null,
-      "ligainsider_source": "public_web"
-    },
-    {
       "player_id": "49",
       "player_name": "Ginter",
       "team": "Freiburg",
       "ligainsider_status": "available",
       "availability_factor": 1.0,
       "ligainsider_topelf_pool": true,
+      "ligainsider_matched_name": null,
+      "ligainsider_status_raw": null,
+      "ligainsider_source": "public_web"
+    },
+    {
+      "player_id": "2498",
+      "player_name": "Baack",
+      "team": "Paderborn",
+      "ligainsider_status": "available",
+      "availability_factor": 1.0,
+      "ligainsider_topelf_pool": false,
       "ligainsider_matched_name": null,
       "ligainsider_status_raw": null,
       "ligainsider_source": "public_web"
