@@ -1,14 +1,24 @@
 from features.predictions.predictions import live_data_predictions, join_current_market, join_current_squad, join_all_manager_squads
 from features.predictions.preprocessing import preprocess_player_data, split_data
 from features.predictions.modeling import train_model, evaluate_model
-from kickbase_api.league import get_league_id, get_my_open_offers
+from kickbase_api.league import get_league_id
 from kickbase_api.user import login
 from features.notifier import send_mail
 from features.reporting import save_latest_report
 from features.transfers import build_transfer_history, summarize_manager_bidding
-from features.strategy import build_market_strategy, build_squad_signals, build_opponent_bid_profiles
+from features.strategy import (
+    build_market_strategy,
+    build_squad_signals,
+    build_opponent_bid_profiles,
+    build_market_bid_guardrails,
+)
 from features.points import build_points_profiles, build_win_ranking
 from features.ligainsider import build_ligainsider_signals
+from features.market_monitor import (
+    append_market_snapshot,
+    capture_market_snapshot,
+    visible_open_offers_from_snapshot,
+)
 from features.predictions.data_handler import (
     create_player_data_table,
     check_if_data_reload_needed,
@@ -96,27 +106,46 @@ live_predictions_df = live_data_predictions(today_df, model, features)
 market_recommendations_df = join_current_market(token, league_id, live_predictions_df)
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
 manager_squads_df = join_all_manager_squads(token, league_id, live_predictions_df)
-open_offers = get_my_open_offers(token, league_id)
 
 own_budget = None
+own_manager_name = "Fabian"
 exact_budget_rows = manager_budgets_df[manager_budgets_df["Budget Confidence"] == "exact"] if "Budget Confidence" in manager_budgets_df.columns else pd.DataFrame()
 if not exact_budget_rows.empty:
     own_budget = float(exact_budget_rows.iloc[0]["Budget"])
+    own_manager_name = str(exact_budget_rows.iloc[0].get("User") or own_manager_name)
 
 market_strategy_df = build_market_strategy(market_recommendations_df, transfer_history_df, own_budget=own_budget)
 squad_signals_df = build_squad_signals(squad_recommendations_df)
 ligainsider_signals_df = build_ligainsider_signals(market_recommendations_df, squad_recommendations_df)
 points_profiles_df = build_points_profiles(token, league_id, market_recommendations_df, squad_recommendations_df, ligainsider_signals_df)
 win_ranking_df = build_win_ranking(market_strategy_df, points_profiles_df)
+bid_guardrails_df = build_market_bid_guardrails(
+    market_recommendations_df,
+    transfer_history_df,
+    manager_budgets_df=manager_budgets_df,
+    manager_squads_df=manager_squads_df,
+    own_manager_name=own_manager_name,
+)
 
 print(f"Market analysis completed for {len(market_recommendations_df)} market players.")
 print(f"Squad analysis completed for {len(squad_recommendations_df)} players.")
 manager_count = manager_squads_df["manager_name"].nunique() if not manager_squads_df.empty else 0
 print(f"League-wide squad analysis completed for {len(manager_squads_df)} players across {manager_count} managers.")
-print(f"Visible own open offers found: {len(open_offers)}.")
 print(f"LigaInsider layer completed for {len(ligainsider_signals_df)} players.")
 print(f"Strategy layer completed for {len(market_strategy_df)} market players, {len(squad_signals_df)} squad players and {len(opponent_bid_profiles_df)} opponent bid profiles.")
+print(f"Bid guardrail layer completed for {len(bid_guardrails_df)} market players.")
 print(f"Expected-points layer completed for {len(points_profiles_df)} players and {len(win_ranking_df)} ranked market targets.")
+
+# Critical auction data is fetched again only after all slower analysis is done.
+# `market_fetched_at` in the report therefore describes the actual freshness of
+# bids/expiry/listing data instead of merely the time the report file was written.
+market_live_snapshot = capture_market_snapshot(token, league_id)
+append_market_snapshot(market_live_snapshot)
+open_offers = visible_open_offers_from_snapshot(market_live_snapshot)
+print(
+    f"Final live market refresh completed at {market_live_snapshot['fetched_at']} "
+    f"with {len(open_offers)} visible own open offers."
+)
 
 report_path = save_latest_report(
     league_name,
@@ -139,6 +168,8 @@ report_path = save_latest_report(
     win_ranking_df,
     ligainsider_signals_df,
     manager_squads_df,
+    market_live_snapshot,
+    bid_guardrails_df,
 )
 print(f"Machine-readable report written to {report_path}.")
 
