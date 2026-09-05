@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T21:01:05.874687",
+  "updated_at": "2026-09-05T04:34:40.016406",
   "transfers": [
     {
       "transfer_id": "13",
@@ -6235,9 +6235,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 500000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
       "type": "kickbase_purchase",
       "event_key": "2026-09-04T00:50:40Z|7696|Fabian||500000.00"
     },
@@ -6690,6 +6690,81 @@
       "overpay_pct": 11.63,
       "type": "kickbase_purchase",
       "event_key": "2026-09-04T20:57:04Z|4|KönigMario||2753918.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-04T21:08:38Z",
+      "date": "2026-09-04",
+      "player_id": "2762",
+      "player_name": "Becker",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 9143462.0,
+      "market_value_at_transfer": 9143462.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T21:08:38Z|2762||Fabian|9143462.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-04T23:19:23Z",
+      "date": "2026-09-04",
+      "player_id": "17306",
+      "player_name": "Imeri",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 4298937.0,
+      "market_value_at_transfer": 3980124.0,
+      "overpay": 318813.0,
+      "overpay_pct": 8.01,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-04T23:19:23Z|17306|Pedro||4298937.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-04T23:59:01Z",
+      "date": "2026-09-04",
+      "player_id": "2646",
+      "player_name": "Becker",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 14071208.0,
+      "market_value_at_transfer": 14071208.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T23:59:01Z|2646||KönigMario|14071208.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-04T23:59:12Z",
+      "date": "2026-09-04",
+      "player_id": "3471",
+      "player_name": "Hložek",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 10086184.0,
+      "market_value_at_transfer": 10086184.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-04T23:59:12Z|3471||KönigMario|10086184.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-05T02:30:46Z",
+      "date": "2026-09-05",
+      "player_id": "1671",
+      "player_name": "Prömel",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 18222222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-05T02:30:46Z|1671|Bommer||18222222.00"
     }
   ]
 }
