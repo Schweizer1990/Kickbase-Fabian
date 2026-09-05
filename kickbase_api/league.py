@@ -153,14 +153,43 @@ def get_my_open_offers(token, league_id):
 
 
 def get_league_players_on_market(token, league_id):
-    """Get all players currently available on the market in the league."""
+    """Get all players currently available on the market, including bid competition counts.
+
+    Kickbase exposes the total number of offers as `ofc`. On another manager's
+    listing, inline `ofs[]` contains our visible outgoing offer (if any), while the
+    competing managers' bid amounts remain hidden. This lets us derive the number
+    of competing offers without pretending to know their prices.
+    """
 
     result = []
     for player in get_league_market_raw(token, league_id):
+        raw_offer_count = player.get("ofc")
+        try:
+            offer_count = int(raw_offer_count or 0)
+        except (TypeError, ValueError):
+            offer_count = 0
+
+        is_own_listing = bool(player.get("iposl"))
+        visible_offers = player.get("ofs") or []
+        my_bid_present = bool(visible_offers) and not is_own_listing
+
+        # If `ofc` is unexpectedly absent, the visible offer list is still a safe
+        # lower bound. Normally `ofc` is the total count and therefore preferred.
+        if raw_offer_count is None:
+            offer_count = len(visible_offers)
+
+        competitor_offer_count = None
+        if not is_own_listing:
+            competitor_offer_count = max(offer_count - (1 if my_bid_present else 0), 0)
+
         result.append({
             "id": player.get("i"),
             "prob": player.get("prob"),
             "exp": player.get("exs"),
+            "offer_count": offer_count,
+            "my_bid_present": my_bid_present,
+            "competitor_offer_count": competitor_offer_count,
+            "is_own_listing": is_own_listing,
         })
 
     return result
