@@ -60,14 +60,11 @@ jobs:
           git config user.name "kickbase-report-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          # Preserve the freshly generated reports outside the worktree. Then
-          # rebase implicitly by resetting to the latest remote main and copying
-          # only the generated report files back. Generated JSON should replace
-          # older generated JSON rather than be line-merged.
           mkdir -p /tmp/kickbase-reports
           cp reports/latest.json /tmp/kickbase-reports/latest.json
           cp reports/transfers.json /tmp/kickbase-reports/transfers.json
           cp reports/history.json /tmp/kickbase-reports/history.json
+          cp reports/market_snapshots.json /tmp/kickbase-reports/market_snapshots.json
 
           for attempt in 1 2 3; do
             git fetch origin main
@@ -78,7 +75,8 @@ jobs:
             cp /tmp/kickbase-reports/latest.json reports/latest.json
             cp /tmp/kickbase-reports/transfers.json reports/transfers.json
             cp /tmp/kickbase-reports/history.json reports/history.json
-            git add reports/latest.json reports/transfers.json reports/history.json
+            cp /tmp/kickbase-reports/market_snapshots.json reports/market_snapshots.json
+            git add reports/latest.json reports/transfers.json reports/history.json reports/market_snapshots.json
 
             if git diff --cached --quiet; then
               echo "No report changes to publish."
