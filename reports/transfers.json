@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T10:15:11.195920",
+  "updated_at": "2026-09-06T15:55:38.263416",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7080,6 +7080,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-06T05:16:21Z|3193||Joel|8491455.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-06T10:24:15Z",
+      "date": "2026-09-06",
+      "player_id": "2038",
+      "player_name": "Laimer",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 33124345.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-06T10:24:15Z|2038|Joel||33124345.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-06T11:37:38Z",
+      "date": "2026-09-06",
+      "player_id": "49",
+      "player_name": "Ginter",
+      "buyer": "Fabian",
+      "seller": "Marc Frischiniemi",
+      "price": 28655555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-06T11:37:38Z|49|Fabian|Marc Frischiniemi|28655555.00"
     }
   ]
 }
