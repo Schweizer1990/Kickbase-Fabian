@@ -8,7 +8,7 @@ from features.market_monitor import (
     write_quick_market_report,
 )
 from kickbase_api.league import get_league_id
-from kickbase_api.user import login
+from kickbase_api.user import get_username, login
 
 
 load_dotenv()
@@ -30,8 +30,9 @@ if missing:
 
 token = login(username, password)
 league_id = get_league_id(token, league_name)
+own_manager_name = get_username(token)
 
-snapshot = capture_market_snapshot(token, league_id)
+snapshot = capture_market_snapshot(token, league_id, own_manager_name=own_manager_name)
 quick_path = write_quick_market_report(snapshot)
 history_path = append_market_snapshot(snapshot)
 
