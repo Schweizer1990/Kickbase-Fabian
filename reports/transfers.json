@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T17:02:48.962792",
+  "updated_at": "2026-09-06T19:20:30.191504",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7110,6 +7110,51 @@
       "overpay_pct": null,
       "type": "manager_to_manager",
       "event_key": "2026-09-06T11:37:38Z|49|Fabian|Marc Frischiniemi|28655555.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-06T17:29:06Z",
+      "date": "2026-09-06",
+      "player_id": "15283",
+      "player_name": "Adeline",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 5640132.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-06T17:29:06Z|15283||Thomasson|5640132.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-06T17:29:21Z",
+      "date": "2026-09-06",
+      "player_id": "7684",
+      "player_name": "Aebischer",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 4764832.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-06T17:29:21Z|7684||Thomasson|4764832.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-06T17:47:27Z",
+      "date": "2026-09-06",
+      "player_id": "3143",
+      "player_name": "Jakić",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 4161077.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-06T17:47:27Z|3143||Mario|4161077.00"
     }
   ]
 }
