@@ -139,7 +139,7 @@ print(f"Expected-points layer completed for {len(points_profiles_df)} players an
 # Critical auction data is fetched again only after all slower analysis is done.
 # `market_fetched_at` in the report therefore describes the actual freshness of
 # bids/expiry/listing data instead of merely the time the report file was written.
-market_live_snapshot = capture_market_snapshot(token, league_id)
+market_live_snapshot = capture_market_snapshot(token, league_id, own_manager_name=own_manager_name)
 append_market_snapshot(market_live_snapshot)
 open_offers = visible_open_offers_from_snapshot(market_live_snapshot)
 print(
