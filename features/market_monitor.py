@@ -30,7 +30,13 @@ def _offer_price(offer):
     return None
 
 
-def capture_market_snapshot(token, league_id):
+def _same_manager(left, right):
+    if not left or not right:
+        return False
+    return str(left).strip().casefold() == str(right).strip().casefold()
+
+
+def capture_market_snapshot(token, league_id, own_manager_name=None):
     """Fetch the market once and normalize fields needed for last-minute checks.
 
     The timestamp is created immediately after the API response arrives, so a
@@ -38,6 +44,11 @@ def capture_market_snapshot(token, league_id):
     the authenticated user's own offer on listings owned by somebody else. `ofc`
     is kept verbatim as an experimental upstream signal and is never converted
     into a claimed competitor count.
+
+    Kickbase does not always set `iposl` on the compact market payload. Therefore
+    own listings are also detected by comparing the seller name with the logged-in
+    manager name. This prevents incoming bids on our own players from being
+    misclassified as outgoing bids.
     """
     raw_market = get_league_market_raw(token, league_id)
     fetched_at_dt = datetime.now(TZ)
@@ -46,8 +57,9 @@ def capture_market_snapshot(token, league_id):
     entries = []
     for player in raw_market:
         seller = player.get("u") if isinstance(player.get("u"), dict) else {}
+        seller_name = seller.get("n")
         visible_offers = player.get("ofs") or []
-        is_own_listing = bool(player.get("iposl"))
+        is_own_listing = bool(player.get("iposl")) or _same_manager(seller_name, own_manager_name)
 
         my_bid = None
         my_offer_id = None
@@ -90,7 +102,7 @@ def capture_market_snapshot(token, league_id):
             "expires_at": expires_at,
             "listed_since": player.get("dt"),
             "seller_id": str(seller.get("i")) if seller.get("i") is not None else None,
-            "seller_name": seller.get("n"),
+            "seller_name": seller_name,
             "is_own_listing": is_own_listing,
             "my_bid_present": my_bid_present,
             "my_bid": my_bid,
