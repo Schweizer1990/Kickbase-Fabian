@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T04:38:00.828478",
+  "updated_at": "2026-09-07T10:16:03.132897",
   "transfers": [
     {
       "transfer_id": "13",
@@ -4056,7 +4056,7 @@
       "timestamp": "2026-08-25T05:52:51Z",
       "date": "2026-08-25",
       "player_id": "10106",
-      "player_name": "Ljubicic",
+      "player_name": "Ljubičić",
       "buyer": "AndiiRutz_1",
       "seller": null,
       "price": 2900002.0,
@@ -6336,7 +6336,7 @@
       "timestamp": "2026-09-04T05:05:18Z",
       "date": "2026-09-04",
       "player_id": "4296",
-      "player_name": "Pejcinovic",
+      "player_name": "Pejčinović",
       "buyer": null,
       "seller": "Marc Frischiniemi",
       "price": 10929287.0,
@@ -6846,7 +6846,7 @@
       "timestamp": "2026-09-05T16:33:09Z",
       "date": "2026-09-05",
       "player_id": "10106",
-      "player_name": "Ljubicic",
+      "player_name": "Ljubičić",
       "buyer": null,
       "seller": "AndiiRutz_1",
       "price": 5667942.0,
@@ -7215,6 +7215,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-07T04:16:38Z|14249||Bommer|14759795.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-07T07:20:28Z",
+      "date": "2026-09-07",
+      "player_id": "1553",
+      "player_name": "Haberer",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 2536556.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-07T07:20:28Z|1553|Joel||2536556.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-07T07:44:53Z",
+      "date": "2026-09-07",
+      "player_id": "2201",
+      "player_name": "Maina",
+      "buyer": "Fabian",
+      "seller": "Marc Frischiniemi",
+      "price": 8050000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-07T07:44:53Z|2201|Fabian|Marc Frischiniemi|8050000.00"
     }
   ]
 }
