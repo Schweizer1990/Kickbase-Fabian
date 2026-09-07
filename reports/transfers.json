@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T10:16:03.132897",
+  "updated_at": "2026-09-07T17:02:40.938744",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7245,6 +7245,51 @@
       "overpay_pct": null,
       "type": "manager_to_manager",
       "event_key": "2026-09-07T07:44:53Z|2201|Fabian|Marc Frischiniemi|8050000.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-07T12:36:11Z",
+      "date": "2026-09-07",
+      "player_id": "6668",
+      "player_name": "Minjae",
+      "buyer": "Fabian",
+      "seller": "Thomasson",
+      "price": 13000000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-07T12:36:11Z|6668|Fabian|Thomasson|13000000.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-07T14:27:19Z",
+      "date": "2026-09-07",
+      "player_id": "12341",
+      "player_name": "Ribeiro",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 5455555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-07T14:27:19Z|12341|Mario||5455555.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-07T15:58:11Z",
+      "date": "2026-09-07",
+      "player_id": "11161",
+      "player_name": "Machida",
+      "buyer": "Fabian",
+      "seller": "Pedro",
+      "price": 3300000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-07T15:58:11Z|11161|Fabian|Pedro|3300000.00"
     }
   ]
 }
