@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T17:02:40.938744",
+  "updated_at": "2026-09-07T19:11:55.500234",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7290,6 +7290,36 @@
       "overpay_pct": null,
       "type": "manager_to_manager",
       "event_key": "2026-09-07T15:58:11Z|11161|Fabian|Pedro|3300000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-07T17:29:44Z",
+      "date": "2026-09-07",
+      "player_id": "2126",
+      "player_name": "Kühn",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 6743030.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-07T17:29:44Z|2126||AndiiRutz_1|6743030.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-07T17:54:26Z",
+      "date": "2026-09-07",
+      "player_id": "2850",
+      "player_name": "Olschowsky",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 501100.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-07T17:54:26Z|2850|Pedro||501100.00"
     }
   ]
 }
