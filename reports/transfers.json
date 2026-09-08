@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T10:17:09.993850",
+  "updated_at": "2026-09-08T17:02:47.257055",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7425,6 +7425,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-08T08:41:20Z|1590||AndiiRutz_1|14372632.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-08T15:28:02Z",
+      "date": "2026-09-08",
+      "player_id": "8274",
+      "player_name": "El Mala",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 25272199.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-08T15:28:02Z|8274|KönigMario||25272199.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-08T16:20:28Z",
+      "date": "2026-09-08",
+      "player_id": "12321",
+      "player_name": "Simpson-Pusey",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 10655511.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-08T16:20:28Z|12321|Mario||10655511.00"
     }
   ]
 }
