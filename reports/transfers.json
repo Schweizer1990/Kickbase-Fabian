@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T04:38:01.586748",
+  "updated_at": "2026-09-08T10:17:09.993850",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7350,6 +7350,81 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-08T02:41:50Z|2491|KönigMario||6502452.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-08T07:22:03Z",
+      "date": "2026-09-08",
+      "player_id": "6168",
+      "player_name": "Fellhauer",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 10005535.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-08T07:22:03Z|6168|KönigMario||10005535.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-08T07:36:22Z",
+      "date": "2026-09-08",
+      "player_id": "2977",
+      "player_name": "Noll",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 14425622.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-08T07:36:22Z|2977|Fabian||14425622.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-08T07:57:20Z",
+      "date": "2026-09-08",
+      "player_id": "550",
+      "player_name": "Bell",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 888248.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-08T07:57:20Z|550|Thomasson||888248.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-08T08:30:24Z",
+      "date": "2026-09-08",
+      "player_id": "7696",
+      "player_name": "Labrović",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-08T08:30:24Z|7696||Fabian|500000.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-08T08:41:20Z",
+      "date": "2026-09-08",
+      "player_id": "1590",
+      "player_name": "Zentner",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 14372632.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-08T08:41:20Z|1590||AndiiRutz_1|14372632.00"
     }
   ]
 }
