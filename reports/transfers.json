@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T19:11:55.500234",
+  "updated_at": "2026-09-08T04:23:49.499066",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7210,9 +7210,9 @@
       "buyer": null,
       "seller": "Bommer",
       "price": 14759795.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 14065506.0,
+      "overpay": 694289.0,
+      "overpay_pct": 4.94,
       "type": "kickbase_sale",
       "event_key": "2026-09-07T04:16:38Z|14249||Bommer|14759795.00"
     },
@@ -7225,9 +7225,9 @@
       "buyer": "Joel",
       "seller": null,
       "price": 2536556.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2528511.0,
+      "overpay": 8045.0,
+      "overpay_pct": 0.32,
       "type": "kickbase_purchase",
       "event_key": "2026-09-07T07:20:28Z|1553|Joel||2536556.00"
     },
@@ -7240,9 +7240,9 @@
       "buyer": "Fabian",
       "seller": "Marc Frischiniemi",
       "price": 8050000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7797744.0,
+      "overpay": 252256.0,
+      "overpay_pct": 3.23,
       "type": "manager_to_manager",
       "event_key": "2026-09-07T07:44:53Z|2201|Fabian|Marc Frischiniemi|8050000.00"
     },
@@ -7255,9 +7255,9 @@
       "buyer": "Fabian",
       "seller": "Thomasson",
       "price": 13000000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 12517910.0,
+      "overpay": 482090.0,
+      "overpay_pct": 3.85,
       "type": "manager_to_manager",
       "event_key": "2026-09-07T12:36:11Z|6668|Fabian|Thomasson|13000000.00"
     },
@@ -7270,9 +7270,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 5455555.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5222289.0,
+      "overpay": 233266.0,
+      "overpay_pct": 4.47,
       "type": "kickbase_purchase",
       "event_key": "2026-09-07T14:27:19Z|12341|Mario||5455555.00"
     },
@@ -7285,9 +7285,9 @@
       "buyer": "Fabian",
       "seller": "Pedro",
       "price": 3300000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3213414.0,
+      "overpay": 86586.0,
+      "overpay_pct": 2.69,
       "type": "manager_to_manager",
       "event_key": "2026-09-07T15:58:11Z|11161|Fabian|Pedro|3300000.00"
     },
@@ -7300,9 +7300,9 @@
       "buyer": null,
       "seller": "AndiiRutz_1",
       "price": 6743030.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6159800.0,
+      "overpay": 583230.0,
+      "overpay_pct": 9.47,
       "type": "kickbase_sale",
       "event_key": "2026-09-07T17:29:44Z|2126||AndiiRutz_1|6743030.00"
     },
@@ -7315,11 +7315,41 @@
       "buyer": "Pedro",
       "seller": null,
       "price": 501100.0,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 1100.0,
+      "overpay_pct": 0.22,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-07T17:54:26Z|2850|Pedro||501100.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-08T00:40:57Z",
+      "date": "2026-09-08",
+      "player_id": "2302",
+      "player_name": "Jeong",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 4699379.0,
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
       "type": "kickbase_purchase",
-      "event_key": "2026-09-07T17:54:26Z|2850|Pedro||501100.00"
+      "event_key": "2026-09-08T00:40:57Z|2302|Thomasson||4699379.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-08T02:41:50Z",
+      "date": "2026-09-08",
+      "player_id": "2491",
+      "player_name": "Skarke",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 6502452.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-08T02:41:50Z|2491|KönigMario||6502452.00"
     }
   ]
 }
