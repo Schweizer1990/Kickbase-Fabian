@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T17:02:53.251023",
+  "updated_at": "2026-09-09T19:32:52.897278",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7650,6 +7650,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-09T16:02:58Z|16378||AndiiRutz_1|26342994.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-09T17:21:08Z",
+      "date": "2026-09-09",
+      "player_id": "4589",
+      "player_name": "Diehl",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 562193.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-09T17:21:08Z|4589|AndiiRutz_1||562193.00"
     }
   ]
 }
