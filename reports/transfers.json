@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T05:57:52.933192",
+  "updated_at": "2026-09-09T08:28:02.759958",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7560,6 +7560,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-09T05:35:08Z|32|AndiiRutz_1||17111111.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-09T06:00:08Z",
+      "date": "2026-09-09",
+      "player_id": "2261",
+      "player_name": "Neuhaus",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 3999999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-09T06:00:08Z|2261|Fabian||3999999.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-09T07:04:01Z",
+      "date": "2026-09-09",
+      "player_id": "2967",
+      "player_name": "El-Faouzi",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 12800000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-09T07:04:01Z|2967|Marc Frischiniemi||12800000.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-09T07:41:16Z",
+      "date": "2026-09-09",
+      "player_id": "6148",
+      "player_name": "Pinckert",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 13333333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-09T07:41:16Z|6148|Bommer||13333333.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-09T07:46:06Z",
+      "date": "2026-09-09",
+      "player_id": "7723",
+      "player_name": "Querfeld",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 14405283.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-09T07:46:06Z|7723||Bommer|14405283.00"
     }
   ]
 }
