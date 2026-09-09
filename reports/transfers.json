@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T04:37:13.901980",
+  "updated_at": "2026-09-09T05:57:52.933192",
   "transfers": [
     {
       "transfer_id": "13",
@@ -1866,7 +1866,7 @@
       "timestamp": "2026-08-16T08:51:15Z",
       "date": "2026-08-16",
       "player_id": "4296",
-      "player_name": "Pejcinovic",
+      "player_name": "Pejčinović",
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 5253333.0,
@@ -7530,6 +7530,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-09T03:48:29Z|10114|Pedro||4209400.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-09T04:42:35Z",
+      "date": "2026-09-09",
+      "player_id": "2399",
+      "player_name": "Maloney",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 2388653.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-09T04:42:35Z|2399||Marc Frischiniemi|2388653.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-09T05:35:08Z",
+      "date": "2026-09-09",
+      "player_id": "32",
+      "player_name": "Karius",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 17111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-09T05:35:08Z|32|AndiiRutz_1||17111111.00"
     }
   ]
 }
