@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T12:09:38.183241",
+  "updated_at": "2026-09-10T17:03:18.288645",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7755,6 +7755,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-10T11:42:51Z|8001|Flo24||12111111.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-10T16:32:05Z",
+      "date": "2026-09-10",
+      "player_id": "3183",
+      "player_name": "Kade",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 14300694.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-10T16:32:05Z|3183||Flo24|14300694.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-10T16:54:16Z",
+      "date": "2026-09-10",
+      "player_id": "1873",
+      "player_name": "Kobel",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 20480000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-10T16:54:16Z|1873|Marc Frischiniemi||20480000.00"
     }
   ]
 }
