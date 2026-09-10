@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:03:18.288645",
+  "updated_at": "2026-09-10T17:56:07.233316",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7785,6 +7785,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-10T16:54:16Z|1873|Marc Frischiniemi||20480000.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-10T17:32:00Z",
+      "date": "2026-09-10",
+      "player_id": "1257",
+      "player_name": "Kübler",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 8268697.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-10T17:32:00Z|1257|Pedro||8268697.00"
     }
   ]
 }
