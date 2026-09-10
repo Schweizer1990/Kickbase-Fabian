@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T10:16:45.287309",
+  "updated_at": "2026-09-10T12:09:38.183241",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7740,6 +7740,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-10T01:47:21Z|8292|Pedro||10619959.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-10T11:42:51Z",
+      "date": "2026-09-10",
+      "player_id": "8001",
+      "player_name": "Lochoshvili",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 12111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-10T11:42:51Z|8001|Flo24||12111111.00"
     }
   ]
 }
