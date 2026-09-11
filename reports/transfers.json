@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T04:37:18.257377",
+  "updated_at": "2026-09-11T05:34:15.089604",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7905,6 +7905,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-11T04:13:20Z|4333||Bommer|5620487.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-11T04:57:10Z",
+      "date": "2026-09-11",
+      "player_id": "2237",
+      "player_name": "Bredlow",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 12950173.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T04:57:10Z|2237||Marc Frischiniemi|12950173.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-11T04:57:14Z",
+      "date": "2026-09-11",
+      "player_id": "2714",
+      "player_name": "Beier",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 22785184.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T04:57:14Z|2714||Marc Frischiniemi|22785184.00"
     }
   ]
 }
