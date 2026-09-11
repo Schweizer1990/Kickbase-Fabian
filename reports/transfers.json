@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T10:16:08.103722",
+  "updated_at": "2026-09-11T10:54:42.293424",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8010,6 +8010,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-11T09:53:06Z|14300|AndiiRutz_1||4227580.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-11T10:52:17Z",
+      "date": "2026-09-11",
+      "player_id": "2977",
+      "player_name": "Noll",
+      "buyer": "Mario",
+      "seller": "Fabian",
+      "price": 13350000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-11T10:52:17Z|2977|Mario|Fabian|13350000.00"
     }
   ]
 }
