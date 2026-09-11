@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T10:54:42.293424",
+  "updated_at": "2026-09-11T16:12:19.548995",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8025,6 +8025,111 @@
       "overpay_pct": null,
       "type": "manager_to_manager",
       "event_key": "2026-09-11T10:52:17Z|2977|Mario|Fabian|13350000.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-11T10:54:35Z",
+      "date": "2026-09-11",
+      "player_id": "2852",
+      "player_name": "Philipp",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T10:54:35Z|2852||Mario|500000.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-11T11:02:54Z",
+      "date": "2026-09-11",
+      "player_id": "8872",
+      "player_name": "Sticker",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 2877500.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-11T11:02:54Z|8872|AndiiRutz_1||2877500.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-11T11:48:27Z",
+      "date": "2026-09-11",
+      "player_id": "11958",
+      "player_name": "Castro-Montes",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 8119904.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T11:48:27Z|11958||Mario|8119904.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-11T13:26:37Z",
+      "date": "2026-09-11",
+      "player_id": "1540",
+      "player_name": "Da Costa",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 10467656.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-11T13:26:37Z|1540|AndiiRutz_1||10467656.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-11T14:47:05Z",
+      "date": "2026-09-11",
+      "player_id": "4606",
+      "player_name": "Kuruçay",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 9363568.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T14:47:05Z|4606||Joel|9363568.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-11T14:47:09Z",
+      "date": "2026-09-11",
+      "player_id": "1553",
+      "player_name": "Haberer",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 3244196.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T14:47:09Z|1553||Joel|3244196.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-11T16:03:04Z",
+      "date": "2026-09-11",
+      "player_id": "8872",
+      "player_name": "Sticker",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 2877388.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T16:03:04Z|8872||AndiiRutz_1|2877388.00"
     }
   ]
 }
