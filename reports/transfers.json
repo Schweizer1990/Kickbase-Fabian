@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T05:34:15.089604",
+  "updated_at": "2026-09-11T10:16:08.103722",
   "transfers": [
     {
       "transfer_id": "13",
@@ -7935,6 +7935,81 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-11T04:57:14Z|2714||Marc Frischiniemi|22785184.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-11T07:51:17Z",
+      "date": "2026-09-11",
+      "player_id": "14914",
+      "player_name": "Gayret",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 500002.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-11T07:51:17Z|14914|Pedro||500002.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-11T08:25:59Z",
+      "date": "2026-09-11",
+      "player_id": "7463",
+      "player_name": "Onyeka",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 10853057.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T08:25:59Z|7463||KönigMario|10853057.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-11T08:26:03Z",
+      "date": "2026-09-11",
+      "player_id": "3139",
+      "player_name": "Itten",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 3668255.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T08:26:03Z|3139||KönigMario|3668255.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-11T08:26:06Z",
+      "date": "2026-09-11",
+      "player_id": "2491",
+      "player_name": "Skarke",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 6720998.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T08:26:06Z|2491||KönigMario|6720998.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-11T09:53:06Z",
+      "date": "2026-09-11",
+      "player_id": "14300",
+      "player_name": "Okon-Engstler",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 4227580.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-11T09:53:06Z|14300|AndiiRutz_1||4227580.00"
     }
   ]
 }
