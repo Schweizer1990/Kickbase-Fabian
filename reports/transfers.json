@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T17:03:14.470788",
+  "updated_at": "2026-09-11T19:40:53.377077",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8130,6 +8130,81 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-11T16:03:04Z|8872||AndiiRutz_1|2877388.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-11T18:35:22Z",
+      "date": "2026-09-11",
+      "player_id": "3190",
+      "player_name": "Chabot",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 23231181.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-11T18:35:22Z|3190|Joel||23231181.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-11T18:35:59Z",
+      "date": "2026-09-11",
+      "player_id": "14300",
+      "player_name": "Okon-Engstler",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 4227575.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T18:35:59Z|14300||AndiiRutz_1|4227575.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-11T18:36:07Z",
+      "date": "2026-09-11",
+      "player_id": "1540",
+      "player_name": "Da Costa",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 10465144.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T18:36:07Z|1540||AndiiRutz_1|10465144.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-11T18:38:06Z",
+      "date": "2026-09-11",
+      "player_id": "13449",
+      "player_name": "Ndiaye",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 3544452.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-11T18:38:06Z|13449||Pedro|3544452.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-11T18:53:10Z",
+      "date": "2026-09-11",
+      "player_id": "11007",
+      "player_name": "Irié",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 6121441.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-11T18:53:10Z|11007|Thomasson||6121441.00"
     }
   ]
 }
