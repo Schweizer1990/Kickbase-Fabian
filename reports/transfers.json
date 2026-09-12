@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:35:45.098018",
+  "updated_at": "2026-09-12T07:32:12.036719",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8250,6 +8250,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-12T02:55:10Z|7216||Mario|5631593.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-12T05:13:04Z",
+      "date": "2026-09-12",
+      "player_id": "3026",
+      "player_name": "Günther",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 9444435.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T05:13:04Z|3026|Simon Koller||9444435.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-12T07:16:15Z",
+      "date": "2026-09-12",
+      "player_id": "11099",
+      "player_name": "Bellingham",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 21000009.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T07:16:15Z|11099|Bommer||21000009.00"
     }
   ]
 }
