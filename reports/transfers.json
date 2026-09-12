@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T07:32:12.036719",
+  "updated_at": "2026-09-12T10:14:39.609595",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8280,6 +8280,96 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-12T07:16:15Z|11099|Bommer||21000009.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-12T07:42:59Z",
+      "date": "2026-09-12",
+      "player_id": "2201",
+      "player_name": "Maina",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7920960.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T07:42:59Z|2201||Fabian|7920960.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-12T07:55:38Z",
+      "date": "2026-09-12",
+      "player_id": "157",
+      "player_name": "Stark",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 4340876.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T07:55:38Z|157||Fabian|4340876.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-12T09:14:53Z",
+      "date": "2026-09-12",
+      "player_id": "1961",
+      "player_name": "Gnabry",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 12783008.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T09:14:53Z|1961|Thomasson||12783008.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-12T09:51:33Z",
+      "date": "2026-09-12",
+      "player_id": "4589",
+      "player_name": "Diehl",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T09:51:33Z|4589||AndiiRutz_1|500000.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-12T10:08:36Z",
+      "date": "2026-09-12",
+      "player_id": "6197",
+      "player_name": "Curda",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 10549502.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T10:08:36Z|6197||AndiiRutz_1|10549502.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-12T10:08:51Z",
+      "date": "2026-09-12",
+      "player_id": "7441",
+      "player_name": "Campbell",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 9883514.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T10:08:51Z|7441||AndiiRutz_1|9883514.00"
     }
   ]
 }
