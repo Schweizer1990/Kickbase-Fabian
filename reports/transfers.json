@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T10:14:39.609595",
+  "updated_at": "2026-09-12T17:03:07.964248",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8370,6 +8370,111 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-12T10:08:51Z|7441||AndiiRutz_1|9883514.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-12T11:33:22Z",
+      "date": "2026-09-12",
+      "player_id": "7721",
+      "player_name": "Grüll",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 10424242.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T11:33:22Z|7721|AndiiRutz_1||10424242.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-12T13:07:07Z",
+      "date": "2026-09-12",
+      "player_id": "2395",
+      "player_name": "Ryerson",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 24750000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T13:07:07Z|2395|Mario||24750000.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-12T13:12:13Z",
+      "date": "2026-09-12",
+      "player_id": "2939",
+      "player_name": "Dinkçi",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 7125000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T13:12:13Z|2939|Thomasson||7125000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-12T14:46:20Z",
+      "date": "2026-09-12",
+      "player_id": "849",
+      "player_name": "Kleindienst",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 16743029.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T14:46:20Z|849||Thomasson|16743029.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-12T15:53:40Z",
+      "date": "2026-09-12",
+      "player_id": "11955",
+      "player_name": "El Khannouss",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 19373020.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T15:53:40Z|11955||AndiiRutz_1|19373020.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-12T16:01:37Z",
+      "date": "2026-09-12",
+      "player_id": "7320",
+      "player_name": "Scheller",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 9405508.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-12T16:01:37Z|7320||Mario|9405508.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-12T16:48:18Z",
+      "date": "2026-09-12",
+      "player_id": "14251",
+      "player_name": "Saibari",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 29209555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-12T16:48:18Z|14251|KönigMario||29209555.00"
     }
   ]
 }
