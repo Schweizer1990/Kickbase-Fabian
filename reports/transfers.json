@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T10:20:22.890864",
+  "updated_at": "2026-09-13T12:58:19.038502",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8640,6 +8640,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-13T08:57:33Z|2694||Bommer|30262001.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-13T12:22:10Z",
+      "date": "2026-09-13",
+      "player_id": "3307",
+      "player_name": "Bachmann",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 2318988.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-13T12:22:10Z|3307|Pedro||2318988.00"
     }
   ]
 }
