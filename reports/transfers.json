@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T15:44:26.648860",
+  "updated_at": "2026-09-13T16:24:05.480400",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8685,6 +8685,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-13T14:58:26Z|2038||Joel|29887435.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-13T15:56:06Z",
+      "date": "2026-09-13",
+      "player_id": "3176",
+      "player_name": "Ibrahimović",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 9539389.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-13T15:56:06Z|3176|KönigMario||9539389.00"
     }
   ]
 }
