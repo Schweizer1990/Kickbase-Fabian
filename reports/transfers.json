@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T12:58:19.038502",
+  "updated_at": "2026-09-13T15:44:26.648860",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8655,6 +8655,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-13T12:22:10Z|3307|Pedro||2318988.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-13T14:23:49Z",
+      "date": "2026-09-13",
+      "player_id": "8061",
+      "player_name": "Bakayoko",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 6878594.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-13T14:23:49Z|8061||Simon Koller|6878594.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-13T14:58:26Z",
+      "date": "2026-09-13",
+      "player_id": "2038",
+      "player_name": "Laimer",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 29887435.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-13T14:58:26Z|2038||Joel|29887435.00"
     }
   ]
 }
