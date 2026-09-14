@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T14:28:39.037092",
+  "updated_at": "2026-09-14T17:02:30.305295",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8895,6 +8895,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-14T14:18:13Z|9684|Fabian||9333333.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-14T14:28:56Z",
+      "date": "2026-09-14",
+      "player_id": "3209",
+      "player_name": "Engelhardt",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 12510000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-14T14:28:56Z|3209|Marc Frischiniemi||12510000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-14T14:34:31Z",
+      "date": "2026-09-14",
+      "player_id": "3129",
+      "player_name": "Itakura",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 8743752.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-14T14:34:31Z|3129||Marc Frischiniemi|8743752.00"
     }
   ]
 }
