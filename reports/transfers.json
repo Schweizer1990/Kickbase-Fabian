@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T17:02:30.305295",
+  "updated_at": "2026-09-14T18:04:35.145539",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8925,6 +8925,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-14T14:34:31Z|3129||Marc Frischiniemi|8743752.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-14T18:00:07Z",
+      "date": "2026-09-14",
+      "player_id": "7745",
+      "player_name": "Coufal",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 25121652.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-14T18:00:07Z|7745||Flo24|25121652.00"
     }
   ]
 }
