@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T10:16:28.664138",
+  "updated_at": "2026-09-14T14:28:39.037092",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8850,6 +8850,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-14T06:07:49Z|6300||Pedro|10228388.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-14T12:17:54Z",
+      "date": "2026-09-14",
+      "player_id": "1639",
+      "player_name": "Amiri",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 35333333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-14T12:17:54Z|1639|Flo24||35333333.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-14T12:21:58Z",
+      "date": "2026-09-14",
+      "player_id": "859",
+      "player_name": "Gyamerah",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 8055555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-14T12:21:58Z|859|Fabian||8055555.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-14T14:18:13Z",
+      "date": "2026-09-14",
+      "player_id": "9684",
+      "player_name": "Claude-Maurice",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 9333333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-14T14:18:13Z|9684|Fabian||9333333.00"
     }
   ]
 }
