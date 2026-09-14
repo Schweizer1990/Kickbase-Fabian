@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T06:01:29.462192",
+  "updated_at": "2026-09-14T07:20:01.956481",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8835,6 +8835,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-14T03:14:24Z|3120|Joel||17655167.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-14T06:07:49Z",
+      "date": "2026-09-14",
+      "player_id": "6300",
+      "player_name": "Ouédraogo",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 10228388.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-14T06:07:49Z|6300||Pedro|10228388.00"
     }
   ]
 }
