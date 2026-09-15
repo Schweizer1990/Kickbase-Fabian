@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T15:07:38.712749",
+  "updated_at": "2026-09-15T17:02:44.545965",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9090,6 +9090,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-15T13:51:53Z|12284|Marc Frischiniemi||9230000.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-15T16:33:25Z",
+      "date": "2026-09-15",
+      "player_id": "1704",
+      "player_name": "Anton",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 34125252.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-15T16:33:25Z|1704|AndiiRutz_1||34125252.00"
     }
   ]
 }
