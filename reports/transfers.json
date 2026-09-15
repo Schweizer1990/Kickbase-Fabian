@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T04:38:26.838739",
+  "updated_at": "2026-09-15T06:57:34.769559",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8985,6 +8985,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-15T04:11:45Z|2928|Marc Frischiniemi||14100088.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-15T04:57:26Z",
+      "date": "2026-09-15",
+      "player_id": "7219",
+      "player_name": "Jóhannesson",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 9991469.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-15T04:57:26Z|7219||Bommer|9991469.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-15T06:02:39Z",
+      "date": "2026-09-15",
+      "player_id": "3307",
+      "player_name": "Bachmann",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 1853741.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-15T06:02:39Z|3307||Pedro|1853741.00"
     }
   ]
 }
