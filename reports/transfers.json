@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T20:32:08.792530",
+  "updated_at": "2026-09-15T04:38:26.838739",
   "transfers": [
     {
       "transfer_id": "13",
@@ -8940,6 +8940,51 @@
       "overpay_pct": 2.56,
       "type": "kickbase_sale",
       "event_key": "2026-09-14T18:00:07Z|7745||Flo24|25121652.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-15T00:28:08Z",
+      "date": "2026-09-15",
+      "player_id": "2702",
+      "player_name": "Martel",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 2586658.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-15T00:28:08Z|2702|Joel||2586658.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-15T00:59:13Z",
+      "date": "2026-09-15",
+      "player_id": "8984",
+      "player_name": "Awortwie-Grant",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 500001.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-15T00:59:13Z|8984|Pedro||500001.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-15T04:11:45Z",
+      "date": "2026-09-15",
+      "player_id": "2928",
+      "player_name": "Petkov",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 14100088.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-15T04:11:45Z|2928|Marc Frischiniemi||14100088.00"
     }
   ]
 }
