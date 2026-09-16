@@ -199061,6 +199061,2426 @@
           "model_confidence": "medium_high"
         }
       ]
+    },
+    {
+      "generated_at": "2026-09-16T06:38:18.981985+02:00",
+      "market_fetched_at": "2026-09-16T06:38:18.934651+02:00",
+      "manager_budgets": [
+        {
+          "user": "Pedro",
+          "budget": 108727476.22705771,
+          "budget_confidence": "estimated",
+          "team_value": 196444285.0
+        },
+        {
+          "user": "Joel",
+          "budget": 89109821.79880165,
+          "budget_confidence": "estimated",
+          "team_value": 216895300.0
+        },
+        {
+          "user": "Marc Frischiniemi",
+          "budget": 71847755.20372123,
+          "budget_confidence": "estimated",
+          "team_value": 219120573.0
+        },
+        {
+          "user": "Bommer",
+          "budget": 77122964.65878272,
+          "budget_confidence": "estimated",
+          "team_value": 165065214.0
+        },
+        {
+          "user": "Simon Koller",
+          "budget": 75919123.18353832,
+          "budget_confidence": "estimated",
+          "team_value": 168981694.0
+        },
+        {
+          "user": "Thomasson",
+          "budget": 64267335.805739515,
+          "budget_confidence": "estimated",
+          "team_value": 215351359.0
+        },
+        {
+          "user": "Flo24",
+          "budget": 74028069.07631662,
+          "budget_confidence": "estimated",
+          "team_value": 163973405.0
+        },
+        {
+          "user": "KönigMario",
+          "budget": 35305699.32229581,
+          "budget_confidence": "estimated",
+          "team_value": 219892426.0
+        },
+        {
+          "user": "baumimario",
+          "budget": 54192209.08230842,
+          "budget_confidence": "estimated",
+          "team_value": 105125138.0
+        },
+        {
+          "user": "AndiiRutz_1",
+          "budget": 2121710.2598549356,
+          "budget_confidence": "estimated",
+          "team_value": 234121109.0
+        },
+        {
+          "user": "Mario",
+          "budget": -712820.5666982019,
+          "budget_confidence": "estimated",
+          "team_value": 176793872.0
+        },
+        {
+          "user": "Fabian",
+          "budget": -5114352.0,
+          "budget_confidence": "exact",
+          "team_value": 167736426.0
+        }
+      ],
+      "manager_squad_summary": [
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_count": 13,
+          "squad_market_value": 234121109.0,
+          "mv_change_yesterday_sum": 1571859.0,
+          "mv_change_7d_sum": 9451182.0,
+          "predicted_mv_change_sum": 1456772.1500000001,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_count": 12,
+          "squad_market_value": 219892426.0,
+          "mv_change_yesterday_sum": 343630.0,
+          "mv_change_7d_sum": -5767123.0,
+          "predicted_mv_change_sum": 438136.67999999993,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_count": 13,
+          "squad_market_value": 219120573.0,
+          "mv_change_yesterday_sum": 1531887.0,
+          "mv_change_7d_sum": 6728236.0,
+          "predicted_mv_change_sum": 1253893.79,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_count": 13,
+          "squad_market_value": 216895300.0,
+          "mv_change_yesterday_sum": 749817.0,
+          "mv_change_7d_sum": -3977971.0,
+          "predicted_mv_change_sum": 770118.86,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_count": 13,
+          "squad_market_value": 215351359.0,
+          "mv_change_yesterday_sum": 1249433.0,
+          "mv_change_7d_sum": 9612477.0,
+          "predicted_mv_change_sum": 859019.66,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_count": 13,
+          "squad_market_value": 196444285.0,
+          "mv_change_yesterday_sum": 1880173.0,
+          "mv_change_7d_sum": 8402612.0,
+          "predicted_mv_change_sum": 1610695.0500000003,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_count": 12,
+          "squad_market_value": 176793872.0,
+          "mv_change_yesterday_sum": 278575.0,
+          "mv_change_7d_sum": 3293602.0,
+          "predicted_mv_change_sum": 374520.6,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_count": 11,
+          "squad_market_value": 168981694.0,
+          "mv_change_yesterday_sum": -1718171.0,
+          "mv_change_7d_sum": -12873414.0,
+          "predicted_mv_change_sum": -1240306.3599999999,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_count": 14,
+          "squad_market_value": 167736426.0,
+          "mv_change_yesterday_sum": 3489990.0,
+          "mv_change_7d_sum": 22028245.0,
+          "predicted_mv_change_sum": 3087711.7600000002,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_count": 10,
+          "squad_market_value": 165065214.0,
+          "mv_change_yesterday_sum": 729043.0,
+          "mv_change_7d_sum": 3470441.0,
+          "predicted_mv_change_sum": 757979.0,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_count": 11,
+          "squad_market_value": 163973405.0,
+          "mv_change_yesterday_sum": 681707.0,
+          "mv_change_7d_sum": 118430.0,
+          "predicted_mv_change_sum": 440450.2,
+          "prediction_coverage": 1.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_count": 15,
+          "squad_market_value": 105125138.0,
+          "mv_change_yesterday_sum": 862239.0,
+          "mv_change_7d_sum": 4625623.0,
+          "predicted_mv_change_sum": 803360.5299999999,
+          "prediction_coverage": 0.933
+        }
+      ],
+      "market": [
+        {
+          "player_id": "2120",
+          "name": "Nartey",
+          "mv": 4430579.0,
+          "mv_change_yesterday": 280358.0,
+          "mv_change_7d": 209944.0,
+          "mv_trend_7d": 0.04974227811691843,
+          "predicted_mv_target": 289908.04
+        },
+        {
+          "player_id": "2065",
+          "name": "Uduokhai",
+          "mv": 7321684.0,
+          "mv_change_yesterday": 262506.0,
+          "mv_change_7d": 1407739.0,
+          "mv_trend_7d": 0.23803721542895648,
+          "predicted_mv_target": 245319.99
+        },
+        {
+          "player_id": "2006",
+          "name": "Posch",
+          "mv": 9456533.0,
+          "mv_change_yesterday": 262214.0,
+          "mv_change_7d": 832388.0,
+          "mv_trend_7d": 0.0965183215263658,
+          "predicted_mv_target": 245218.78
+        },
+        {
+          "player_id": "9384",
+          "name": "Darvich",
+          "mv": 3850969.0,
+          "mv_change_yesterday": 123376.0,
+          "mv_change_7d": -490864.0,
+          "mv_trend_7d": -0.11305455552988795,
+          "predicted_mv_target": 226964.75
+        },
+        {
+          "player_id": "2941",
+          "name": "Scally",
+          "mv": 7360472.0,
+          "mv_change_yesterday": 225365.0,
+          "mv_change_7d": 1622489.0,
+          "mv_trend_7d": 0.2827629499773701,
+          "predicted_mv_target": 188940.88
+        },
+        {
+          "player_id": "11513",
+          "name": "Kofane",
+          "mv": 10327454.0,
+          "mv_change_yesterday": 165249.0,
+          "mv_change_7d": -110440.0,
+          "mv_trend_7d": -0.010580678439539623,
+          "predicted_mv_target": 164457.65
+        },
+        {
+          "player_id": "2967",
+          "name": "El-Faouzi",
+          "mv": 13332379.0,
+          "mv_change_yesterday": 181933.0,
+          "mv_change_7d": 719480.0,
+          "mv_trend_7d": 0.057043190467155884,
+          "predicted_mv_target": 159776.98
+        },
+        {
+          "player_id": "3284",
+          "name": "Rohr",
+          "mv": 10799910.0,
+          "mv_change_yesterday": 140972.0,
+          "mv_change_7d": 291140.0,
+          "mv_trend_7d": 0.027704479211173146,
+          "predicted_mv_target": 153889.12
+        },
+        {
+          "player_id": "11556",
+          "name": "Massengo",
+          "mv": 12967723.0,
+          "mv_change_yesterday": 180368.0,
+          "mv_change_7d": 1242980.0,
+          "mv_trend_7d": 0.10601341112551464,
+          "predicted_mv_target": 146208.82
+        },
+        {
+          "player_id": "8307",
+          "name": "Sano",
+          "mv": 19086138.0,
+          "mv_change_yesterday": 132801.0,
+          "mv_change_7d": 856449.0,
+          "mv_trend_7d": 0.046980998962736005,
+          "predicted_mv_target": 113993.92
+        },
+        {
+          "player_id": "1996",
+          "name": "Friedl",
+          "mv": 10444780.0,
+          "mv_change_yesterday": 71408.0,
+          "mv_change_7d": -1030567.0,
+          "mv_trend_7d": -0.08980704461486001,
+          "predicted_mv_target": 97407.65
+        },
+        {
+          "player_id": "6319",
+          "name": "Honorat",
+          "mv": 11339101.0,
+          "mv_change_yesterday": 110245.0,
+          "mv_change_7d": 891907.0,
+          "mv_trend_7d": 0.08537287620005908,
+          "predicted_mv_target": 90170.41
+        },
+        {
+          "player_id": "49",
+          "name": "Ginter",
+          "mv": 27039409.0,
+          "mv_change_yesterday": 67085.0,
+          "mv_change_7d": 196792.0,
+          "mv_trend_7d": 0.007331326897075646,
+          "predicted_mv_target": 71016.64
+        },
+        {
+          "player_id": "2552",
+          "name": "Bülter",
+          "mv": 4393729.0,
+          "mv_change_yesterday": 10260.0,
+          "mv_change_7d": -934433.0,
+          "mv_trend_7d": -0.17537623668349422,
+          "predicted_mv_target": 59015.92
+        },
+        {
+          "player_id": "6160",
+          "name": "Kristof",
+          "mv": 11905760.0,
+          "mv_change_yesterday": 46245.0,
+          "mv_change_7d": -115317.0,
+          "mv_trend_7d": -0.009592900869031952,
+          "predicted_mv_target": 58424.15
+        },
+        {
+          "player_id": "1225",
+          "name": "Zingerle",
+          "mv": 500000.0,
+          "mv_change_yesterday": 0.0,
+          "mv_change_7d": 0.0,
+          "mv_trend_7d": 0.0,
+          "predicted_mv_target": 232.64
+        },
+        {
+          "player_id": "10112",
+          "name": "Jaquez",
+          "mv": 1155443.0,
+          "mv_change_yesterday": -81865.0,
+          "mv_change_7d": -564259.0,
+          "mv_trend_7d": -0.3281144058679934,
+          "predicted_mv_target": -77609.24
+        },
+        {
+          "player_id": "3089",
+          "name": "Ito",
+          "mv": 3299968.0,
+          "mv_change_yesterday": -94726.0,
+          "mv_change_7d": -680985.0,
+          "mv_trend_7d": -0.17106079875848823,
+          "predicted_mv_target": -92828.91
+        },
+        {
+          "player_id": "1954",
+          "name": "Bernardo",
+          "mv": 4373012.0,
+          "mv_change_yesterday": -101086.0,
+          "mv_change_7d": -1518882.0,
+          "mv_trend_7d": -0.2577918068451333,
+          "predicted_mv_target": -99972.56
+        },
+        {
+          "player_id": "15613",
+          "name": "Hashioka",
+          "mv": 4314319.0,
+          "mv_change_yesterday": -115361.0,
+          "mv_change_7d": -1596193.0,
+          "mv_trend_7d": -0.2700600218728936,
+          "predicted_mv_target": -110133.99
+        },
+        {
+          "player_id": "89",
+          "name": "Günter",
+          "mv": 3008660.0,
+          "mv_change_yesterday": -120945.0,
+          "mv_change_7d": -910069.0,
+          "mv_trend_7d": -0.2322357580735999,
+          "predicted_mv_target": -120092.78
+        },
+        {
+          "player_id": "9283",
+          "name": "Zeitler",
+          "mv": 1556193.0,
+          "mv_change_yesterday": -140740.0,
+          "mv_change_7d": -1011861.0,
+          "mv_trend_7d": -0.39401858372137033,
+          "predicted_mv_target": -134180.77
+        },
+        {
+          "player_id": "51",
+          "name": "Khedira",
+          "mv": 5410046.0,
+          "mv_change_yesterday": -171353.0,
+          "mv_change_7d": -1498760.0,
+          "mv_trend_7d": -0.21693473517710585,
+          "predicted_mv_target": -165152.63
+        },
+        {
+          "player_id": "2560",
+          "name": "Sander",
+          "mv": 7955994.0,
+          "mv_change_yesterday": -197884.0,
+          "mv_change_7d": -1629231.0,
+          "mv_trend_7d": -0.16997316181936262,
+          "predicted_mv_target": -178316.22
+        },
+        {
+          "player_id": "3026",
+          "name": "Günther",
+          "mv": 8039325.0,
+          "mv_change_yesterday": -249765.0,
+          "mv_change_7d": -552143.0,
+          "mv_trend_7d": -0.064266432698114,
+          "predicted_mv_target": -247769.07
+        },
+        {
+          "player_id": "6183",
+          "name": "Futkeu",
+          "mv": 6586425.0,
+          "mv_change_yesterday": -261144.0,
+          "mv_change_7d": -396002.0,
+          "mv_trend_7d": -0.056714090960063024,
+          "predicted_mv_target": -252920.9
+        },
+        {
+          "player_id": "2855",
+          "name": "Ache",
+          "mv": 11245185.0,
+          "mv_change_yesterday": -504767.0,
+          "mv_change_7d": -2985333.0,
+          "mv_trend_7d": -0.20978386029236604,
+          "predicted_mv_target": -437365.3
+        }
+      ],
+      "market_live": [
+        {
+          "player_id": "49",
+          "player_name": "Ginter",
+          "market_value": 27039409,
+          "expires_seconds": null,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 1,
+          "seller_name": "Fabian"
+        },
+        {
+          "player_id": "51",
+          "player_name": "Khedira",
+          "market_value": 5410046,
+          "expires_seconds": 68615,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "89",
+          "player_name": "Günter",
+          "market_value": 3008660,
+          "expires_seconds": 82953,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "1225",
+          "player_name": "Zingerle",
+          "market_value": 500000,
+          "expires_seconds": null,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": "baumimario"
+        },
+        {
+          "player_id": "1954",
+          "player_name": "Bernardo",
+          "market_value": 4373012,
+          "expires_seconds": 123793,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "1996",
+          "player_name": "Friedl",
+          "market_value": 10444780,
+          "expires_seconds": 63936,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2006",
+          "player_name": "Posch",
+          "market_value": 9456533,
+          "expires_seconds": 113482,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2065",
+          "player_name": "Uduokhai",
+          "market_value": 7321684,
+          "expires_seconds": 66956,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2120",
+          "player_name": "Nartey",
+          "market_value": 4430579,
+          "expires_seconds": 124985,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2552",
+          "player_name": "Bülter",
+          "market_value": 4393729,
+          "expires_seconds": 11895,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2560",
+          "player_name": "Sander",
+          "market_value": 7955994,
+          "expires_seconds": 99792,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2855",
+          "player_name": "Ache",
+          "market_value": 11245185,
+          "expires_seconds": 13451,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "2941",
+          "player_name": "Scally",
+          "market_value": 7360472,
+          "expires_seconds": null,
+          "my_bid": 7777777,
+          "my_bid_present": true,
+          "ofc_raw": 1,
+          "seller_name": "Marc Frischiniemi"
+        },
+        {
+          "player_id": "2967",
+          "player_name": "El-Faouzi",
+          "market_value": 13332379,
+          "expires_seconds": null,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": "Marc Frischiniemi"
+        },
+        {
+          "player_id": "3026",
+          "player_name": "Günther",
+          "market_value": 8039325,
+          "expires_seconds": null,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": "Simon Koller"
+        },
+        {
+          "player_id": "3089",
+          "player_name": "Ito",
+          "market_value": 3299968,
+          "expires_seconds": 90917,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "3284",
+          "player_name": "Rohr",
+          "market_value": 10799910,
+          "expires_seconds": 69124,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "6160",
+          "player_name": "Kristof",
+          "market_value": 11905760,
+          "expires_seconds": 105702,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "6183",
+          "player_name": "Futkeu",
+          "market_value": 6586425,
+          "expires_seconds": 40370,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "6319",
+          "player_name": "Honorat",
+          "market_value": 11339101,
+          "expires_seconds": null,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": "Flo24"
+        },
+        {
+          "player_id": "8307",
+          "player_name": "Sano",
+          "market_value": 19086138,
+          "expires_seconds": 32771,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "9283",
+          "player_name": "Zeitler",
+          "market_value": 1556193,
+          "expires_seconds": 56486,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "9384",
+          "player_name": "Darvich",
+          "market_value": 3850969,
+          "expires_seconds": 24045,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "10112",
+          "player_name": "Jaquez",
+          "market_value": 1155443,
+          "expires_seconds": 53661,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "11513",
+          "player_name": "Kofane",
+          "market_value": 10327454,
+          "expires_seconds": 37361,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "11556",
+          "player_name": "Massengo",
+          "market_value": 12967723,
+          "expires_seconds": 57820,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        },
+        {
+          "player_id": "15613",
+          "player_name": "Hashioka",
+          "market_value": 4314319,
+          "expires_seconds": 64921,
+          "my_bid": null,
+          "my_bid_present": false,
+          "ofc_raw": 0,
+          "seller_name": null
+        }
+      ],
+      "squad": [
+        {
+          "player_id": "1645",
+          "name": "Eggestein",
+          "position": 3,
+          "mv": 18688336.0,
+          "mv_change_yesterday": 212558.0,
+          "mv_change_7d": 1100279.0,
+          "mv_trend_7d": 0.06255830305758049,
+          "predicted_mv_target": 198661.76
+        },
+        {
+          "player_id": "6292",
+          "name": "Hansen",
+          "position": 2,
+          "mv": 7395392.0,
+          "mv_change_yesterday": 251615.0,
+          "mv_change_7d": 1450589.0,
+          "mv_trend_7d": 0.24400959964527,
+          "predicted_mv_target": 229205.58
+        },
+        {
+          "player_id": "2803",
+          "name": "Lemperle",
+          "position": 4,
+          "mv": 13563301.0,
+          "mv_change_yesterday": 223221.0,
+          "mv_change_7d": 1550364.0,
+          "mv_trend_7d": 0.12905786486685147,
+          "predicted_mv_target": 198197.54
+        },
+        {
+          "player_id": "1920",
+          "name": "Guirassy",
+          "position": 4,
+          "mv": 31688311.0,
+          "mv_change_yesterday": 111883.0,
+          "mv_change_7d": 729430.0,
+          "mv_trend_7d": 0.02356125210081075,
+          "predicted_mv_target": 96115.65
+        },
+        {
+          "player_id": "49",
+          "name": "Ginter",
+          "position": 2,
+          "mv": 27039409.0,
+          "mv_change_yesterday": 67085.0,
+          "mv_change_7d": 196792.0,
+          "mv_trend_7d": 0.007331326897075646,
+          "predicted_mv_target": 71016.64
+        },
+        {
+          "player_id": "12297",
+          "name": "Tanaka",
+          "position": 3,
+          "mv": 8604380.0,
+          "mv_change_yesterday": 326346.0,
+          "mv_change_7d": 2223136.0,
+          "mv_trend_7d": 0.34838598868809906,
+          "predicted_mv_target": 284516.88
+        },
+        {
+          "player_id": "11161",
+          "name": "Machida",
+          "position": 2,
+          "mv": 5054437.0,
+          "mv_change_yesterday": 333517.0,
+          "mv_change_7d": 1580860.0,
+          "mv_trend_7d": 0.4551101069589072,
+          "predicted_mv_target": 310767.64
+        },
+        {
+          "player_id": "17288",
+          "name": "Regeer",
+          "position": 3,
+          "mv": 8364866.0,
+          "mv_change_yesterday": 119796.0,
+          "mv_change_7d": 1474213.0,
+          "mv_trend_7d": 0.21394387440493665,
+          "predicted_mv_target": 70232.96
+        },
+        {
+          "player_id": "6668",
+          "name": "Minjae",
+          "position": 2,
+          "mv": 13316701.0,
+          "mv_change_yesterday": 81750.0,
+          "mv_change_7d": 650691.0,
+          "mv_trend_7d": 0.05137300539001627,
+          "predicted_mv_target": 69227.29
+        },
+        {
+          "player_id": "2261",
+          "name": "Neuhaus",
+          "position": 3,
+          "mv": 4900871.0,
+          "mv_change_yesterday": 316981.0,
+          "mv_change_7d": 1623020.0,
+          "mv_trend_7d": 0.49514758297433287,
+          "predicted_mv_target": 293541.48
+        },
+        {
+          "player_id": "620",
+          "name": "Schwolow",
+          "position": 1,
+          "mv": 5411987.0,
+          "mv_change_yesterday": 343368.0,
+          "mv_change_7d": 2484764.0,
+          "mv_trend_7d": 0.8488468422118848,
+          "predicted_mv_target": 280668.07
+        },
+        {
+          "player_id": "8252",
+          "name": "Krattenmacher",
+          "position": 3,
+          "mv": 6226376.0,
+          "mv_change_yesterday": 424329.0,
+          "mv_change_7d": 2940042.0,
+          "mv_trend_7d": 0.8946266569374872,
+          "predicted_mv_target": 384431.98
+        },
+        {
+          "player_id": "859",
+          "name": "Gyamerah",
+          "position": 2,
+          "mv": 8178051.0,
+          "mv_change_yesterday": 359407.0,
+          "mv_change_7d": 1829946.0,
+          "mv_trend_7d": 0.2882664984274835,
+          "predicted_mv_target": 331180.67
+        },
+        {
+          "player_id": "9684",
+          "name": "Claude-Maurice",
+          "position": 3,
+          "mv": 9304008.0,
+          "mv_change_yesterday": 318134.0,
+          "mv_change_7d": 2194119.0,
+          "mv_trend_7d": 0.3086010203534823,
+          "predicted_mv_target": 269947.62
+        }
+      ],
+      "manager_squads": [
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "11675",
+          "name": "Díaz",
+          "position": 4.0,
+          "mv": 51847130.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "1704",
+          "name": "Anton",
+          "position": 2.0,
+          "mv": 34038690.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "2373",
+          "name": "Kabak",
+          "position": 2.0,
+          "mv": 23803304.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "2141",
+          "name": "Baku",
+          "position": 2.0,
+          "mv": 21836194.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "32",
+          "name": "Karius",
+          "position": 1.0,
+          "mv": 17358644.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "2366",
+          "name": "Davies",
+          "position": 2.0,
+          "mv": 16236830.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "17285",
+          "name": "Brassier",
+          "position": 2.0,
+          "mv": 13140008.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "13448",
+          "name": "Aouchiche",
+          "position": 3.0,
+          "mv": 11445572.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "9698",
+          "name": "Fábio Silva",
+          "position": 4.0,
+          "mv": 10948741.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "7721",
+          "name": "Grüll",
+          "position": 3.0,
+          "mv": 10338816.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "2279",
+          "name": "Rönnow",
+          "position": 1.0,
+          "mv": 10252137.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "11008",
+          "name": "Banzuzi",
+          "position": 3.0,
+          "mv": 10027080.0
+        },
+        {
+          "manager_id": "1265077",
+          "manager_name": "AndiiRutz_1",
+          "player_id": "8374",
+          "name": "Terrier",
+          "position": 4.0,
+          "mv": 2847963.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "2255",
+          "name": "Burkardt",
+          "position": 4.0,
+          "mv": 24357989.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "3304",
+          "name": "Matanović",
+          "position": 4.0,
+          "mv": 23289155.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "11099",
+          "name": "Bellingham",
+          "position": 3.0,
+          "mv": 19995805.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "1671",
+          "name": "Prömel",
+          "position": 3.0,
+          "mv": 16990041.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "2030",
+          "name": "Tietz",
+          "position": 4.0,
+          "mv": 16676226.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "1580",
+          "name": "Schwäbe",
+          "position": 1.0,
+          "mv": 15842358.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "7673",
+          "name": "Hajdari",
+          "position": 2.0,
+          "mv": 12783774.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "2294",
+          "name": "Pieper",
+          "position": 2.0,
+          "mv": 12437998.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "13442",
+          "name": "Bolin",
+          "position": 3.0,
+          "mv": 11364945.0
+        },
+        {
+          "manager_id": "1324695",
+          "manager_name": "Bommer",
+          "player_id": "6148",
+          "name": "Pinckert",
+          "position": 2.0,
+          "mv": 11326923.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "1920",
+          "name": "Guirassy",
+          "position": 4.0,
+          "mv": 31688311.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "49",
+          "name": "Ginter",
+          "position": 2.0,
+          "mv": 27039409.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "1645",
+          "name": "Eggestein",
+          "position": 3.0,
+          "mv": 18688336.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "2803",
+          "name": "Lemperle",
+          "position": 4.0,
+          "mv": 13563301.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "6668",
+          "name": "Minjae",
+          "position": 2.0,
+          "mv": 13316701.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "9684",
+          "name": "Claude-Maurice",
+          "position": 3.0,
+          "mv": 9304008.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "12297",
+          "name": "Tanaka",
+          "position": 3.0,
+          "mv": 8604380.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "17288",
+          "name": "Regeer",
+          "position": 3.0,
+          "mv": 8364866.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "859",
+          "name": "Gyamerah",
+          "position": 2.0,
+          "mv": 8178051.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "6292",
+          "name": "Hansen",
+          "position": 2.0,
+          "mv": 7395392.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "8252",
+          "name": "Krattenmacher",
+          "position": 3.0,
+          "mv": 6226376.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "620",
+          "name": "Schwolow",
+          "position": 1.0,
+          "mv": 5411987.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "11161",
+          "name": "Machida",
+          "position": 2.0,
+          "mv": 5054437.0
+        },
+        {
+          "manager_id": "4052902",
+          "manager_name": "Fabian",
+          "player_id": "2261",
+          "name": "Neuhaus",
+          "position": 3.0,
+          "mv": 4900871.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "1639",
+          "name": "Amiri",
+          "position": 3.0,
+          "mv": 34818663.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "173",
+          "name": "Tah",
+          "position": 2.0,
+          "mv": 29330075.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "2887",
+          "name": "Dōan",
+          "position": 3.0,
+          "mv": 16766019.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "2125",
+          "name": "Beste",
+          "position": 3.0,
+          "mv": 14695444.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "11959",
+          "name": "Daghim",
+          "position": 4.0,
+          "mv": 12117183.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "6319",
+          "name": "Honorat",
+          "position": 3.0,
+          "mv": 11339101.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "1863",
+          "name": "Heuer Fernandes",
+          "position": 1.0,
+          "mv": 10952837.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "14140",
+          "name": "Mensah",
+          "position": 2.0,
+          "mv": 10747015.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "7278",
+          "name": "Poreba",
+          "position": 3.0,
+          "mv": 10200840.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "11512",
+          "name": "Capaldo",
+          "position": 2.0,
+          "mv": 7389486.0
+        },
+        {
+          "manager_id": "1961307",
+          "manager_name": "Flo24",
+          "player_id": "6172",
+          "name": "Adamu",
+          "position": 4.0,
+          "mv": 5616742.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "4199",
+          "name": "García",
+          "position": 3.0,
+          "mv": 38830581.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "6081",
+          "name": "Uzun",
+          "position": 3.0,
+          "mv": 25522517.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "15211",
+          "name": "Gadou",
+          "position": 2.0,
+          "mv": 23057205.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "3190",
+          "name": "Chabot",
+          "position": 2.0,
+          "mv": 21379529.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "3120",
+          "name": "Bischof",
+          "position": 3.0,
+          "mv": 17020740.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "11162",
+          "name": "Avdullahu",
+          "position": 3.0,
+          "mv": 16750418.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "2084",
+          "name": "Lienhart",
+          "position": 2.0,
+          "mv": 14819628.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "493",
+          "name": "Gregoritsch",
+          "position": 4.0,
+          "mv": 14236271.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "10049",
+          "name": "Behrens",
+          "position": 2.0,
+          "mv": 13238241.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "9513",
+          "name": "Hein",
+          "position": 1.0,
+          "mv": 12453579.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "9605",
+          "name": "Grønbæk",
+          "position": 3.0,
+          "mv": 8526322.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "6174",
+          "name": "Arthur",
+          "position": 2.0,
+          "mv": 8519093.0
+        },
+        {
+          "manager_id": "1561152",
+          "manager_name": "Joel",
+          "player_id": "2702",
+          "name": "Martel",
+          "position": 3.0,
+          "mv": 2541176.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "2522",
+          "name": "Raum",
+          "position": 2.0,
+          "mv": 32978668.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "14251",
+          "name": "Saibari",
+          "position": 4.0,
+          "mv": 27664328.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "3069",
+          "name": "Nmecha",
+          "position": 3.0,
+          "mv": 25558787.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "2383",
+          "name": "Schlotterbeck",
+          "position": 2.0,
+          "mv": 25504554.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "8274",
+          "name": "El Mala",
+          "position": 3.0,
+          "mv": 23811808.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "4596",
+          "name": "Gruda",
+          "position": 3.0,
+          "mv": 20325214.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "11631",
+          "name": "Burger",
+          "position": 3.0,
+          "mv": 17787092.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "72",
+          "name": "Flekken",
+          "position": 1.0,
+          "mv": 12888710.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "9995",
+          "name": "Mokwa",
+          "position": 4.0,
+          "mv": 9320742.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "3176",
+          "name": "Ibrahimović",
+          "position": 3.0,
+          "mv": 9253628.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "11665",
+          "name": "Potulski",
+          "position": 2.0,
+          "mv": 8905598.0
+        },
+        {
+          "manager_id": "1905750",
+          "manager_name": "KönigMario",
+          "player_id": "11748",
+          "name": "Mohya",
+          "position": 3.0,
+          "mv": 5893297.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "1685",
+          "name": "Kimmich",
+          "position": 3.0,
+          "mv": 59943513.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "2687",
+          "name": "Nkunku",
+          "position": 4.0,
+          "mv": 26276237.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "2195",
+          "name": "Dahmen",
+          "position": 1.0,
+          "mv": 17107165.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "608",
+          "name": "Füllkrug",
+          "position": 4.0,
+          "mv": 13802362.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "2476",
+          "name": "Lee",
+          "position": 3.0,
+          "mv": 13740782.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "10122",
+          "name": "Gruber",
+          "position": 2.0,
+          "mv": 13668395.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "2967",
+          "name": "El-Faouzi",
+          "position": 3.0,
+          "mv": 13332379.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "2928",
+          "name": "Petkov",
+          "position": 3.0,
+          "mv": 12764435.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "11956",
+          "name": "Fernández",
+          "position": 3.0,
+          "mv": 12258291.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "3209",
+          "name": "Engelhardt",
+          "position": 3.0,
+          "mv": 10971335.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "3350",
+          "name": "Keidel",
+          "position": 2.0,
+          "mv": 9444536.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "12284",
+          "name": "Kosugi",
+          "position": 2.0,
+          "mv": 8450671.0
+        },
+        {
+          "manager_id": "981911",
+          "manager_name": "Marc Frischiniemi",
+          "player_id": "2941",
+          "name": "Scally",
+          "position": 2.0,
+          "mv": 7360472.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "9507",
+          "name": "Nusa",
+          "position": 3.0,
+          "mv": 27299949.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "1664",
+          "name": "Mittelstädt",
+          "position": 2.0,
+          "mv": 27242096.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "2395",
+          "name": "Ryerson",
+          "position": 2.0,
+          "mv": 22770238.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "10789",
+          "name": "Karl",
+          "position": 3.0,
+          "mv": 21010417.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "2977",
+          "name": "Noll",
+          "position": 1.0,
+          "mv": 13122765.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "2199",
+          "name": "Vagnoman",
+          "position": 2.0,
+          "mv": 11680462.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "14241",
+          "name": "Medina",
+          "position": 2.0,
+          "mv": 11625456.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "7282",
+          "name": "Deman",
+          "position": 2.0,
+          "mv": 10566033.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "10113",
+          "name": "Gomis",
+          "position": 4.0,
+          "mv": 10174468.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "12321",
+          "name": "Simpson-Pusey",
+          "position": 2.0,
+          "mv": 9805433.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "3281",
+          "name": "Reis",
+          "position": 3.0,
+          "mv": 9326877.0
+        },
+        {
+          "manager_id": "1042307",
+          "manager_name": "Mario",
+          "player_id": "1745",
+          "name": "Condé",
+          "position": 3.0,
+          "mv": 2169678.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "7226",
+          "name": "Kane",
+          "position": 4.0,
+          "mv": 65919605.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "6080",
+          "name": "Pavlović",
+          "position": 3.0,
+          "mv": 33936336.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "2746",
+          "name": "Schick",
+          "position": 4.0,
+          "mv": 30445059.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "2736",
+          "name": "Bensebaini",
+          "position": 2.0,
+          "mv": 13791510.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "4335",
+          "name": "Scherhant",
+          "position": 3.0,
+          "mv": 12057037.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "1809",
+          "name": "Wolf",
+          "position": 3.0,
+          "mv": 10148063.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "8166",
+          "name": "Chuki",
+          "position": 3.0,
+          "mv": 10047284.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "10114",
+          "name": "Chukwuemeka",
+          "position": 3.0,
+          "mv": 5916708.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "11186",
+          "name": "Maluze",
+          "position": 2.0,
+          "mv": 5642672.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "3027",
+          "name": "Pieringer",
+          "position": 4.0,
+          "mv": 4177946.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "12367",
+          "name": "Spalt",
+          "position": 3.0,
+          "mv": 2088542.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "9615",
+          "name": "Al Dakhil",
+          "position": 2.0,
+          "mv": 1773523.0
+        },
+        {
+          "manager_id": "1249198",
+          "manager_name": "Pedro",
+          "player_id": "2850",
+          "name": "Olschowsky",
+          "position": 1.0,
+          "mv": 500000.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "7158",
+          "name": "Undav",
+          "position": 4.0,
+          "mv": 33577020.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "3759",
+          "name": "Gutiérrez",
+          "position": 2.0,
+          "mv": 23578039.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "15199",
+          "name": "Moreira",
+          "position": 4.0,
+          "mv": 20099148.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "11006",
+          "name": "Suzuki",
+          "position": 3.0,
+          "mv": 17612263.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "8227",
+          "name": "Vandevoordt",
+          "position": 1.0,
+          "mv": 15296360.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "7325",
+          "name": "Baum",
+          "position": 2.0,
+          "mv": 13670780.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "6209",
+          "name": "Treu",
+          "position": 2.0,
+          "mv": 10836265.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "16369",
+          "name": "Onyedika",
+          "position": 3.0,
+          "mv": 9994660.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "2015",
+          "name": "Obermair",
+          "position": 3.0,
+          "mv": 8405062.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "3026",
+          "name": "Günther",
+          "position": 2.0,
+          "mv": 8039325.0
+        },
+        {
+          "manager_id": "1449989",
+          "manager_name": "Simon Koller",
+          "player_id": "3124",
+          "name": "Wimmer",
+          "position": 3.0,
+          "mv": 7872772.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "8329",
+          "name": "Olise",
+          "position": 3.0,
+          "mv": 65089670.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "10115",
+          "name": "Svensson",
+          "position": 2.0,
+          "mv": 20469944.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "7676",
+          "name": "Rieder",
+          "position": 3.0,
+          "mv": 17571580.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "10004",
+          "name": "Ebnoutalib",
+          "position": 4.0,
+          "mv": 16282033.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "7349",
+          "name": "Jeltsch",
+          "position": 2.0,
+          "mv": 15983860.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "9642",
+          "name": "Matsima",
+          "position": 2.0,
+          "mv": 15844154.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "3019",
+          "name": "Atubolu",
+          "position": 1.0,
+          "mv": 14215077.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "1961",
+          "name": "Gnabry",
+          "position": 3.0,
+          "mv": 13347699.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "3470",
+          "name": "Caci",
+          "position": 2.0,
+          "mv": 11317132.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "16945",
+          "name": "Dallinga",
+          "position": 4.0,
+          "mv": 10032574.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "2939",
+          "name": "Dinkçi",
+          "position": 3.0,
+          "mv": 7845243.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "1689",
+          "name": "Henrichs",
+          "position": 2.0,
+          "mv": 5398123.0
+        },
+        {
+          "manager_id": "2589586",
+          "manager_name": "Thomasson",
+          "player_id": "550",
+          "name": "Bell",
+          "position": 2.0,
+          "mv": 1954270.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "2804",
+          "name": "Musiala",
+          "position": 3.0,
+          "mv": 25476173.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "3218",
+          "name": "Backhaus",
+          "position": 1.0,
+          "mv": 15494432.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "2232",
+          "name": "Mwene",
+          "position": 2.0,
+          "mv": 12136730.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "8355",
+          "name": "Banks",
+          "position": 2.0,
+          "mv": 11705059.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "2718",
+          "name": "Skhiri",
+          "position": 3.0,
+          "mv": 8307794.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "14917",
+          "name": "Van den Bosch",
+          "position": 2.0,
+          "mv": 7245784.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "6217",
+          "name": "Philippe",
+          "position": 4.0,
+          "mv": 5644811.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "78",
+          "name": "Hofmann",
+          "position": 3.0,
+          "mv": 4365950.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "8364",
+          "name": "Ogbus",
+          "position": 2.0,
+          "mv": 3796299.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "3453",
+          "name": "Köhn",
+          "position": 2.0,
+          "mv": 3725678.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "2876",
+          "name": "Schallenberg",
+          "position": 3.0,
+          "mv": 2760024.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "11570",
+          "name": "Sebulonsen",
+          "position": 2.0,
+          "mv": 1704620.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "11752",
+          "name": "Omari",
+          "position": 2.0,
+          "mv": 1186737.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "12296",
+          "name": "Okpala",
+          "position": 4.0,
+          "mv": 1075047.0
+        },
+        {
+          "manager_id": "3049968",
+          "manager_name": "baumimario",
+          "player_id": "1225",
+          "name": "Zingerle",
+          "position": 1.0,
+          "mv": 500000.0
+        }
+      ],
+      "my_open_offers": [
+        {
+          "player_id": "2941",
+          "player_name": "Scally",
+          "market_value": 7360472,
+          "listed_price": 6896102,
+          "expires": null,
+          "expires_at": null,
+          "offer_count": null,
+          "ofc_raw": 1,
+          "my_bid": 7777777,
+          "competition_visibility": "competitor_bids_hidden",
+          "source": "live_market_snapshot"
+        }
+      ],
+      "top_win_targets": [
+        {
+          "player_id": "49",
+          "player_name": "Ginter",
+          "team": "Freiburg",
+          "market_value": 27039409,
+          "expected_points_next": 168.23,
+          "expected_points_per_million": 6.222,
+          "expected_minutes_next": 90.0,
+          "starter_probability_proxy": 1.0,
+          "role_signal": "starter",
+          "xp_confidence": "high",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": 0.227,
+          "suggested_bid": 27252459,
+          "hard_max_bid": 27252459,
+          "budget_fit": false,
+          "strategy_label": "watch_trend_unconfirmed",
+          "championship_label": "startelf_target",
+          "win_score": 101.928
+        },
+        {
+          "player_id": "3284",
+          "player_name": "Rohr",
+          "team": "Elversberg",
+          "market_value": 10799910,
+          "expected_points_next": 111.08,
+          "expected_points_per_million": 10.285,
+          "expected_minutes_next": 90.0,
+          "starter_probability_proxy": 1.0,
+          "role_signal": "starter",
+          "xp_confidence": "high",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": false,
+          "availability_factor": 1.0,
+          "capital_score": 1.183,
+          "suggested_bid": 11215707,
+          "hard_max_bid": 11261577,
+          "budget_fit": false,
+          "strategy_label": "watch_trend_unconfirmed",
+          "championship_label": "startelf_target",
+          "win_score": 68.486
+        },
+        {
+          "player_id": "8307",
+          "player_name": "Sano",
+          "team": "Mainz",
+          "market_value": 19086138,
+          "expected_points_next": 111.22,
+          "expected_points_per_million": 5.827,
+          "expected_minutes_next": 90.0,
+          "starter_probability_proxy": 1.0,
+          "role_signal": "starter",
+          "xp_confidence": "high",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": true,
+          "availability_factor": 1.0,
+          "capital_score": 0.642,
+          "suggested_bid": 19428120,
+          "hard_max_bid": 19428120,
+          "budget_fit": false,
+          "strategy_label": "watch_trend_unconfirmed",
+          "championship_label": "startelf_target",
+          "win_score": 67.767
+        },
+        {
+          "player_id": "11556",
+          "player_name": "Massengo",
+          "team": "Augsburg",
+          "market_value": 12967723,
+          "expected_points_next": 92.02,
+          "expected_points_per_million": 7.096,
+          "expected_minutes_next": 90.0,
+          "starter_probability_proxy": 1.0,
+          "role_signal": "starter",
+          "xp_confidence": "high",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": false,
+          "availability_factor": 1.0,
+          "capital_score": 1.284,
+          "suggested_bid": 13406349,
+          "hard_max_bid": 13406349,
+          "budget_fit": false,
+          "strategy_label": "watch_trend_unconfirmed",
+          "championship_label": "startelf_target",
+          "win_score": 56.597
+        },
+        {
+          "player_id": "6160",
+          "player_name": "Kristof",
+          "team": "Elversberg",
+          "market_value": 11905760,
+          "expected_points_next": 85.05,
+          "expected_points_per_million": 7.144,
+          "expected_minutes_next": 90.0,
+          "starter_probability_proxy": 1.0,
+          "role_signal": "starter",
+          "xp_confidence": "high",
+          "ligainsider_status": "available",
+          "ligainsider_topelf_pool": false,
+          "availability_factor": 1.0,
+          "capital_score": 0.334,
+          "suggested_bid": 12081032,
+          "hard_max_bid": 12081032,
+          "budget_fit": false,
+          "strategy_label": "watch_trend_unconfirmed",
+          "championship_label": "startelf_target",
+          "win_score": 52.185
+        }
+      ],
+      "top_bid_guardrails": [
+        {
+          "player_id": "49",
+          "player_name": "Ginter",
+          "team": "Freiburg",
+          "market_value": 27039409,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 28080426,
+          "shadow_bid_p75": 31179143,
+          "shadow_bid_p90": 31133716,
+          "rival_candidates": 9,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 31179143,
+          "roi_guardrail_bid": 27252459,
+          "trade_protection_bid": 27252459,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "8307",
+          "player_name": "Sano",
+          "team": "Mainz",
+          "market_value": 19086138,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 19820954,
+          "shadow_bid_p75": 22008226,
+          "shadow_bid_p90": 21976161,
+          "rival_candidates": 9,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 22008226,
+          "roi_guardrail_bid": 19428120,
+          "trade_protection_bid": 19428120,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "2967",
+          "player_name": "El-Faouzi",
+          "team": "Schalke",
+          "market_value": 13332379,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 13845676,
+          "shadow_bid_p75": 15373566,
+          "shadow_bid_p90": 15351168,
+          "rival_candidates": 10,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 15373566,
+          "roi_guardrail_bid": 13811710,
+          "trade_protection_bid": 13811710,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "11556",
+          "player_name": "Massengo",
+          "team": "Augsburg",
+          "market_value": 12967723,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 13466980,
+          "shadow_bid_p75": 14953081,
+          "shadow_bid_p90": 14931296,
+          "rival_candidates": 9,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 14953081,
+          "roi_guardrail_bid": 13406349,
+          "trade_protection_bid": 13406349,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "6160",
+          "player_name": "Kristof",
+          "team": "Elversberg",
+          "market_value": 11905760,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 12364132,
+          "shadow_bid_p75": 13728532,
+          "shadow_bid_p90": 13708530,
+          "rival_candidates": 10,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 13728532,
+          "roi_guardrail_bid": 12081032,
+          "trade_protection_bid": 12081032,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "6319",
+          "player_name": "Honorat",
+          "team": "M'gladbach",
+          "market_value": 11339101,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 11775656,
+          "shadow_bid_p75": 13075117,
+          "shadow_bid_p90": 13056068,
+          "rival_candidates": 11,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 13075117,
+          "roi_guardrail_bid": 11609612,
+          "trade_protection_bid": 11609612,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "2855",
+          "player_name": "Ache",
+          "team": "Köln",
+          "market_value": 11245185,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 11678125,
+          "shadow_bid_p75": 12966823,
+          "shadow_bid_p90": 12947931,
+          "rival_candidates": 10,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 12966823,
+          "roi_guardrail_bid": 11245185,
+          "trade_protection_bid": 11245185,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "3284",
+          "player_name": "Rohr",
+          "team": "Elversberg",
+          "market_value": 10799910,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 11215707,
+          "shadow_bid_p75": 12453376,
+          "shadow_bid_p90": 12435232,
+          "rival_candidates": 10,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 12453376,
+          "roi_guardrail_bid": 11261577,
+          "trade_protection_bid": 11261577,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "1996",
+          "player_name": "Friedl",
+          "team": "Bremen",
+          "market_value": 10444780,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 10846904,
+          "shadow_bid_p75": 12043876,
+          "shadow_bid_p90": 12026329,
+          "rival_candidates": 9,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 12043876,
+          "roi_guardrail_bid": 10737003,
+          "trade_protection_bid": 10737003,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        },
+        {
+          "player_id": "11513",
+          "player_name": "Kofane",
+          "team": "Leverkusen",
+          "market_value": 10327454,
+          "segment": "premium_over_10m",
+          "league_sample": 135,
+          "league_median_overpay_pct": 3.85,
+          "league_p75_overpay_pct": 9.65,
+          "league_p90_overpay_pct": 15.14,
+          "shadow_bid_median": 10725061,
+          "shadow_bid_p75": 11908587,
+          "shadow_bid_p90": 11891237,
+          "rival_candidates": 10,
+          "top_rival": "Flo24",
+          "top_rival_sample": 13,
+          "top_rival_p75_overpay_pct": 15.31,
+          "top_rival_shadow_bid": 11908587,
+          "roi_guardrail_bid": 10820827,
+          "trade_protection_bid": 10820827,
+          "competition_risk": "high",
+          "model_confidence": "medium_high"
+        }
+      ]
     }
   ]
 }
