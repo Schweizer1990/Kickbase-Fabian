@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T10:16:32.857064",
+  "updated_at": "2026-09-16T12:24:00.555400",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9165,6 +9165,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-16T03:06:20Z|11748|KönigMario||5893999.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-16T11:19:29Z",
+      "date": "2026-09-16",
+      "player_id": "9384",
+      "player_name": "Darvich",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 4310969.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-16T11:19:29Z|9384|Pedro||4310969.00"
     }
   ]
 }
