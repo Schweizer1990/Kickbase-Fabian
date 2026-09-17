@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T04:36:59.225334",
+  "updated_at": "2026-09-17T10:15:39.115355",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9315,6 +9315,36 @@
       "overpay_pct": 1.89,
       "type": "kickbase_purchase",
       "event_key": "2026-09-16T23:50:32Z|3284|Thomasson||11150000.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-17T05:34:29Z",
+      "date": "2026-09-17",
+      "player_id": "10122",
+      "player_name": "Gruber",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 13814221.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-17T05:34:29Z|10122||Marc Frischiniemi|13814221.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-17T10:00:13Z",
+      "date": "2026-09-17",
+      "player_id": "6160",
+      "player_name": "Kristof",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 12003454.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-17T10:00:13Z|6160|Pedro||12003454.00"
     }
   ]
 }
