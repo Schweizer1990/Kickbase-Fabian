@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:22:03.996982",
+  "updated_at": "2026-09-17T17:02:23.967111",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9375,6 +9375,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-17T14:03:37Z|2069|Simon Koller||3052338.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-17T15:01:40Z",
+      "date": "2026-09-17",
+      "player_id": "1954",
+      "player_name": "Bernardo",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 4663333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-17T15:01:40Z|1954|Flo24||4663333.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-17T15:30:03Z",
+      "date": "2026-09-17",
+      "player_id": "3027",
+      "player_name": "Pieringer",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 4151964.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-17T15:30:03Z|3027||Pedro|4151964.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-17T16:15:04Z",
+      "date": "2026-09-17",
+      "player_id": "13448",
+      "player_name": "Aouchiche",
+      "buyer": "Mario",
+      "seller": "AndiiRutz_1",
+      "price": 12100000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-09-17T16:15:04Z|13448|Mario|AndiiRutz_1|12100000.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-17T16:21:22Z",
+      "date": "2026-09-17",
+      "player_id": "1745",
+      "player_name": "Condé",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 2001489.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-17T16:21:22Z|1745||Mario|2001489.00"
     }
   ]
 }
