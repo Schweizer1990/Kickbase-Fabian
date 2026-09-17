@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:15:39.115355",
+  "updated_at": "2026-09-17T14:22:03.996982",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9345,6 +9345,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-17T10:00:13Z|6160|Pedro||12003454.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-17T12:10:06Z",
+      "date": "2026-09-17",
+      "player_id": "2006",
+      "player_name": "Posch",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 10111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-17T12:10:06Z|2006|Mario||10111111.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-17T14:03:37Z",
+      "date": "2026-09-17",
+      "player_id": "2069",
+      "player_name": "Hübers",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 3052338.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-17T14:03:37Z|2069|Simon Koller||3052338.00"
     }
   ]
 }
