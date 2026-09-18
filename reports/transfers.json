@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T17:02:49.428093",
+  "updated_at": "2026-09-18T17:39:36.392915",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9705,6 +9705,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-18T15:25:44Z|14251||KönigMario|27676496.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-18T17:30:21Z",
+      "date": "2026-09-18",
+      "player_id": "3120",
+      "player_name": "Bischof",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 17122353.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-18T17:30:21Z|3120||Joel|17122353.00"
     }
   ]
 }
