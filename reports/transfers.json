@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T14:07:29.219541",
+  "updated_at": "2026-09-18T17:02:49.428093",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9690,6 +9690,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-18T13:29:38Z|2850||Pedro|500000.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-18T15:25:44Z",
+      "date": "2026-09-18",
+      "player_id": "14251",
+      "player_name": "Saibari",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 27676496.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-18T15:25:44Z|14251||KönigMario|27676496.00"
     }
   ]
 }
