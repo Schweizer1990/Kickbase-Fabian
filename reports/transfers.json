@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T04:36:07.430186",
+  "updated_at": "2026-09-18T10:15:20.195229",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9555,6 +9555,81 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-18T04:28:43Z|2967||Marc Frischiniemi|13640220.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-18T05:22:51Z",
+      "date": "2026-09-18",
+      "player_id": "2261",
+      "player_name": "Neuhaus",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5333774.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-18T05:22:51Z|2261||Fabian|5333774.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-18T06:20:58Z",
+      "date": "2026-09-18",
+      "player_id": "1961",
+      "player_name": "Gnabry",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 13585346.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-18T06:20:58Z|1961||Thomasson|13585346.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-18T06:21:10Z",
+      "date": "2026-09-18",
+      "player_id": "16945",
+      "player_name": "Dallinga",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 10325018.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-18T06:21:10Z|16945||Thomasson|10325018.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-18T09:27:53Z",
+      "date": "2026-09-18",
+      "player_id": "17179",
+      "player_name": "Nakuzola",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 704748.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-18T09:27:53Z|17179|Pedro||704748.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-18T09:46:39Z",
+      "date": "2026-09-18",
+      "player_id": "118",
+      "player_name": "Grifo",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 6791550.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-18T09:46:39Z|118|Thomasson||6791550.00"
     }
   ]
 }
