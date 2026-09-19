@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T16:16:18.312745",
+  "updated_at": "2026-09-19T17:02:54.709079",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9915,6 +9915,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-19T14:50:45Z|11255|Mario||12900111.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-19T16:50:08Z",
+      "date": "2026-09-19",
+      "player_id": "2822",
+      "player_name": "Silas",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 1555555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T16:50:08Z|2822|Fabian||1555555.00"
     }
   ]
 }
