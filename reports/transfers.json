@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:10:43.641667",
+  "updated_at": "2026-09-19T16:16:18.312745",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9870,6 +9870,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-19T08:15:59Z|12158|Thomasson||1050000.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-19T11:47:31Z",
+      "date": "2026-09-19",
+      "player_id": "6668",
+      "player_name": "Minjae",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 13125127.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-19T11:47:31Z|6668||Fabian|13125127.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-19T12:17:06Z",
+      "date": "2026-09-19",
+      "player_id": "7417",
+      "player_name": "Aséko",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 6411121.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T12:17:06Z|7417|AndiiRutz_1||6411121.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-19T14:50:45Z",
+      "date": "2026-09-19",
+      "player_id": "11255",
+      "player_name": "Katic",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 12900111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T14:50:45Z|11255|Mario||12900111.00"
     }
   ]
 }
