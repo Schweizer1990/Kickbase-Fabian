@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T20:55:37.175080",
+  "updated_at": "2026-09-19T04:35:19.634775",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9685,9 +9685,9 @@
       "buyer": null,
       "seller": "Pedro",
       "price": 500000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-09-18T13:29:38Z|2850||Pedro|500000.00"
     },
@@ -9765,6 +9765,66 @@
       "overpay_pct": 14.28,
       "type": "kickbase_purchase",
       "event_key": "2026-09-18T19:41:33Z|7242|AndiiRutz_1||11521212.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-18T22:09:37Z",
+      "date": "2026-09-18",
+      "player_id": "6292",
+      "player_name": "Hansen",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7211331.0,
+      "market_value_at_transfer": 7211331.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-18T22:09:37Z|6292||Fabian|7211331.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-18T23:15:11Z",
+      "date": "2026-09-18",
+      "player_id": "1333",
+      "player_name": "Klostermann",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 3408769.0,
+      "market_value_at_transfer": 2684677.0,
+      "overpay": 724092.0,
+      "overpay_pct": 26.97,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-18T23:15:11Z|1333|Pedro||3408769.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-18T23:23:50Z",
+      "date": "2026-09-18",
+      "player_id": "2864",
+      "player_name": "Collins",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 7322222.0,
+      "market_value_at_transfer": 6096427.0,
+      "overpay": 1225795.0,
+      "overpay_pct": 20.11,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-18T23:23:50Z|2864|AndiiRutz_1||7322222.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-19T03:15:56Z",
+      "date": "2026-09-19",
+      "player_id": "15193",
+      "player_name": "Rots",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 11282451.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T03:15:56Z|15193|Pedro||11282451.00"
     }
   ]
 }
