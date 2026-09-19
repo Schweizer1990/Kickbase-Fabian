@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T04:35:19.634775",
+  "updated_at": "2026-09-19T08:16:58.898493",
   "transfers": [
     {
       "transfer_id": "13",
@@ -9825,6 +9825,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-19T03:15:56Z|15193|Pedro||11282451.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-19T05:34:43Z",
+      "date": "2026-09-19",
+      "player_id": "9540",
+      "player_name": "Lidberg",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 5566666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T05:34:43Z|9540|Flo24||5566666.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-19T06:09:19Z",
+      "date": "2026-09-19",
+      "player_id": "2275",
+      "player_name": "Baumgartner",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 9558000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T06:09:19Z|2275|Thomasson||9558000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-19T08:15:59Z",
+      "date": "2026-09-19",
+      "player_id": "12158",
+      "player_name": "Vozar",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 1050000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-19T08:15:59Z|12158|Thomasson||1050000.00"
     }
   ]
 }
