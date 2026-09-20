@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T08:03:25.999395",
+  "updated_at": "2026-09-20T10:15:01.176533",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10035,6 +10035,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-20T06:45:36Z|11875|Mario||2500000.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-20T10:11:14Z",
+      "date": "2026-09-20",
+      "player_id": "7737",
+      "player_name": "Veerman",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 15784946.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-20T10:11:14Z|7737|Joel||15784946.00"
     }
   ]
 }
