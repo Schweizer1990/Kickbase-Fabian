@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T17:02:13.051719",
+  "updated_at": "2026-09-20T19:33:07.210469",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10065,6 +10065,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-20T16:59:18Z|859||Fabian|8583111.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-20T17:30:16Z",
+      "date": "2026-09-20",
+      "player_id": "6172",
+      "player_name": "Adamu",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 6018583.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-20T17:30:16Z|6172||Flo24|6018583.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-20T17:56:30Z",
+      "date": "2026-09-20",
+      "player_id": "6061",
+      "player_name": "Maza",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 30222222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-20T17:56:30Z|6061|AndiiRutz_1||30222222.00"
     }
   ]
 }
