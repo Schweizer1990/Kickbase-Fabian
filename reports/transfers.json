@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T04:36:16.224024",
+  "updated_at": "2026-09-20T08:03:25.999395",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10005,6 +10005,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-20T04:09:25Z|2300|Flo24||16250000.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-20T06:43:03Z",
+      "date": "2026-09-20",
+      "player_id": "2661",
+      "player_name": "Diaby",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 22134544.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-20T06:43:03Z|2661|Joel||22134544.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-20T06:45:36Z",
+      "date": "2026-09-20",
+      "player_id": "11875",
+      "player_name": "van den Berg",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 2500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-20T06:45:36Z|11875|Mario||2500000.00"
     }
   ]
 }
