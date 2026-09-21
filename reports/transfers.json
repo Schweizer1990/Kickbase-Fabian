@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T10:15:23.145310",
+  "updated_at": "2026-09-21T17:03:11.585120",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10170,6 +10170,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-21T07:25:35Z|12297||Fabian|9046993.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-21T11:04:21Z",
+      "date": "2026-09-21",
+      "player_id": "1954",
+      "player_name": "Bernardo",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 3999527.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-21T11:04:21Z|1954||Flo24|3999527.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-21T13:16:07Z",
+      "date": "2026-09-21",
+      "player_id": "7774",
+      "player_name": "Konoplia",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 1999999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-21T13:16:07Z|7774|KönigMario||1999999.00"
     }
   ]
 }
