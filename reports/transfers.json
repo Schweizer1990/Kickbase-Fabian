@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T17:03:11.585120",
+  "updated_at": "2026-09-21T18:02:22.954616",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10200,6 +10200,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-21T13:16:07Z|7774|KönigMario||1999999.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-21T17:42:28Z",
+      "date": "2026-09-21",
+      "player_id": "14140",
+      "player_name": "Mensah",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 9526046.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-21T17:42:28Z|14140||Flo24|9526046.00"
     }
   ]
 }
