@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T04:38:29.204464",
+  "updated_at": "2026-09-21T10:15:23.145310",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10155,6 +10155,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-21T04:22:04Z|13438|AndiiRutz_1||3612121.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-21T07:25:35Z",
+      "date": "2026-09-21",
+      "player_id": "12297",
+      "player_name": "Tanaka",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 9046993.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-21T07:25:35Z|12297||Fabian|9046993.00"
     }
   ]
 }
