@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T04:36:24.674031",
+  "updated_at": "2026-09-22T10:16:07.578851",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10320,6 +10320,81 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-22T04:31:14Z|3470||Thomasson|9220793.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-22T04:56:16Z",
+      "date": "2026-09-22",
+      "player_id": "6199",
+      "player_name": "Machino",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 4325525.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-22T04:56:16Z|6199|AndiiRutz_1||4325525.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-22T05:34:56Z",
+      "date": "2026-09-22",
+      "player_id": "2783",
+      "player_name": "Tapsoba",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 25739623.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-22T05:34:56Z|2783|Thomasson||25739623.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-22T05:42:29Z",
+      "date": "2026-09-22",
+      "player_id": "9698",
+      "player_name": "Fábio Silva",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 12316738.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-22T05:42:29Z|9698||AndiiRutz_1|12316738.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-22T07:22:49Z",
+      "date": "2026-09-22",
+      "player_id": "2895",
+      "player_name": "Nebel",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 6507174.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-22T07:22:49Z|2895|Pedro||6507174.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-22T09:42:15Z",
+      "date": "2026-09-22",
+      "player_id": "2803",
+      "player_name": "Lemperle",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 14157392.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-22T09:42:15Z|2803||Fabian|14157392.00"
     }
   ]
 }
