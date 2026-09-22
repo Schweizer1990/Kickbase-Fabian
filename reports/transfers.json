@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T10:16:07.578851",
+  "updated_at": "2026-09-22T12:41:00.735631",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10395,6 +10395,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-22T09:42:15Z|2803||Fabian|14157392.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-22T12:09:17Z",
+      "date": "2026-09-22",
+      "player_id": "2144",
+      "player_name": "Koch",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 25899999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-22T12:09:17Z|2144|Fabian||25899999.00"
     }
   ]
 }
