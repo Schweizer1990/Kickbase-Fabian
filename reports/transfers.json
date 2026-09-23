@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T04:37:08.769965",
+  "updated_at": "2026-09-23T10:15:34.651317",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10500,6 +10500,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-23T02:16:44Z|7215|Marc Frischiniemi||13880888.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-23T06:14:19Z",
+      "date": "2026-09-23",
+      "player_id": "2476",
+      "player_name": "Lee",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 10282433.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-23T06:14:19Z|2476||Marc Frischiniemi|10282433.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-23T07:31:52Z",
+      "date": "2026-09-23",
+      "player_id": "15478",
+      "player_name": "Nadir",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 3231373.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-23T07:31:52Z|15478|KönigMario||3231373.00"
     }
   ]
 }
