@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T15:43:38.784142",
+  "updated_at": "2026-09-24T17:02:41.113201",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10755,6 +10755,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-24T15:33:35Z|3471|Mario||12001111.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-24T15:45:11Z",
+      "date": "2026-09-24",
+      "player_id": "11556",
+      "player_name": "Massengo",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 10477605.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-24T15:45:11Z|11556||Bommer|10477605.00"
     }
   ]
 }
