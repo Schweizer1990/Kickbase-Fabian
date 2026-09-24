@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T05:24:37.014881",
+  "updated_at": "2026-09-24T10:15:47.646095",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10650,6 +10650,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-24T04:26:47Z|1865|Fabian||2888888.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-09-24T06:36:48Z",
+      "date": "2026-09-24",
+      "player_id": "4406",
+      "player_name": "Dina Ebimbe",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 9140000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T06:36:48Z|4406|Marc Frischiniemi||9140000.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-24T07:00:10Z",
+      "date": "2026-09-24",
+      "player_id": "6111",
+      "player_name": "Hollerbach",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 4450000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T07:00:10Z|6111|Marc Frischiniemi||4450000.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-24T07:00:10Z",
+      "date": "2026-09-24",
+      "player_id": "6085",
+      "player_name": "Seimen",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 10093876.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T07:00:10Z|6085|KönigMario||10093876.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-24T07:41:50Z",
+      "date": "2026-09-24",
+      "player_id": "2928",
+      "player_name": "Petkov",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 12623522.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-24T07:41:50Z|2928||Marc Frischiniemi|12623522.00"
     }
   ]
 }
