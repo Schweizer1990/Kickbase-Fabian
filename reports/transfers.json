@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:02:41.113201",
+  "updated_at": "2026-09-24T19:40:11.367599",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10770,6 +10770,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-24T15:45:11Z|11556||Bommer|10477605.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-24T17:08:33Z",
+      "date": "2026-09-24",
+      "player_id": "11100",
+      "player_name": "Inácio",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 6255555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T17:08:33Z|11100|Mario||6255555.00"
     }
   ]
 }
