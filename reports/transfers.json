@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T10:15:47.646095",
+  "updated_at": "2026-09-24T15:43:38.784142",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10710,6 +10710,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-24T07:41:50Z|2928||Marc Frischiniemi|12623522.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-24T11:34:54Z",
+      "date": "2026-09-24",
+      "player_id": "2897",
+      "player_name": "Reitz",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 10483558.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T11:34:54Z|2897|Pedro||10483558.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-24T14:45:19Z",
+      "date": "2026-09-24",
+      "player_id": "3336",
+      "player_name": "Marino",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 4569826.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T14:45:19Z|3336|Joel||4569826.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-24T15:33:35Z",
+      "date": "2026-09-24",
+      "player_id": "3471",
+      "player_name": "Hložek",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 12001111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-24T15:33:35Z|3471|Mario||12001111.00"
     }
   ]
 }
