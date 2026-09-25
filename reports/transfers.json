@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T07:52:26.845005",
+  "updated_at": "2026-09-25T10:15:48.859795",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10845,6 +10845,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T05:17:09Z|54|Marc Frischiniemi||1240000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-25T09:53:23Z",
+      "date": "2026-09-25",
+      "player_id": "11010",
+      "player_name": "Diks",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 9149410.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-25T09:53:23Z|11010|Flo24||9149410.00"
     }
   ]
 }
