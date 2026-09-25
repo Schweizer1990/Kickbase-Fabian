@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T17:03:02.637214",
+  "updated_at": "2026-09-25T20:48:06.073597",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10825,9 +10825,9 @@
       "buyer": "Joel",
       "seller": null,
       "price": 28068236.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 27954622.0,
+      "overpay": 113614.0,
+      "overpay_pct": 0.41,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T02:26:42Z|1246|Joel||28068236.00"
     },
@@ -10840,9 +10840,9 @@
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 1240000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 1298758.0,
+      "overpay": -58758.0,
+      "overpay_pct": -4.52,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T05:17:09Z|54|Marc Frischiniemi||1240000.00"
     },
@@ -10855,9 +10855,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 9149410.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9119257.0,
+      "overpay": 30153.0,
+      "overpay_pct": 0.33,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T09:53:23Z|11010|Flo24||9149410.00"
     },
@@ -10870,9 +10870,9 @@
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 2880000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2837823.0,
+      "overpay": 42177.0,
+      "overpay_pct": 1.49,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T10:38:04Z|2400|Marc Frischiniemi||2880000.00"
     },
@@ -10885,9 +10885,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 5644444.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4910620.0,
+      "overpay": 733824.0,
+      "overpay_pct": 14.94,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T12:09:29Z|3081|Fabian||5644444.00"
     },
@@ -10900,9 +10900,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 3333333.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3095069.0,
+      "overpay": 238264.0,
+      "overpay_pct": 7.7,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T15:48:53Z|7717|Fabian||3333333.00"
     },
@@ -10915,11 +10915,26 @@
       "buyer": null,
       "seller": "Fabian",
       "price": 10457774.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9890653.0,
+      "overpay": 567121.0,
+      "overpay_pct": 5.73,
       "type": "kickbase_sale",
       "event_key": "2026-09-25T15:49:27Z|9684||Fabian|10457774.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-25T19:40:00Z",
+      "date": "2026-09-25",
+      "player_id": "8367",
+      "player_name": "Sambi Lokonga",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 8388487.0,
+      "market_value_at_transfer": 8301670.0,
+      "overpay": 86817.0,
+      "overpay_pct": 1.05,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-25T19:40:00Z|8367|Simon Koller||8388487.00"
     }
   ]
 }
