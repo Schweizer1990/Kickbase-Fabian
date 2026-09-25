@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T04:38:08.377418",
+  "updated_at": "2026-09-25T07:52:26.845005",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10830,6 +10830,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T02:26:42Z|1246|Joel||28068236.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-25T05:17:09Z",
+      "date": "2026-09-25",
+      "player_id": "54",
+      "player_name": "Can",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 1240000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-25T05:17:09Z|54|Marc Frischiniemi||1240000.00"
     }
   ]
 }
