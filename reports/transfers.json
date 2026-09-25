@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T15:46:34.178957",
+  "updated_at": "2026-09-25T17:03:02.637214",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10890,6 +10890,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-25T12:09:29Z|3081|Fabian||5644444.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-25T15:48:53Z",
+      "date": "2026-09-25",
+      "player_id": "7717",
+      "player_name": "Prass",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 3333333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-25T15:48:53Z|7717|Fabian||3333333.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-09-25T15:49:27Z",
+      "date": "2026-09-25",
+      "player_id": "9684",
+      "player_name": "Claude-Maurice",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 10457774.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-25T15:49:27Z|9684||Fabian|10457774.00"
     }
   ]
 }
