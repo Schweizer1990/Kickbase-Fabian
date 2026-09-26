@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T04:36:44.468821",
+  "updated_at": "2026-09-26T10:14:51.756130",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10980,6 +10980,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-26T02:11:32Z|7156|KönigMario||6550006.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-26T05:02:55Z",
+      "date": "2026-09-26",
+      "player_id": "3204",
+      "player_name": "Conté",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 10521804.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-26T05:02:55Z|3204||Bommer|10521804.00"
     }
   ]
 }
