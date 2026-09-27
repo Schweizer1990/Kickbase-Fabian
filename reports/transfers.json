@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T04:38:19.645293",
+  "updated_at": "2026-09-27T10:14:34.535045",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11100,6 +11100,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-27T03:06:58Z|12314|Mario||2907173.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-27T06:35:21Z",
+      "date": "2026-09-27",
+      "player_id": "12284",
+      "player_name": "Kosugi",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 10330510.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-27T06:35:21Z|12284||Marc Frischiniemi|10330510.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-27T09:18:40Z",
+      "date": "2026-09-27",
+      "player_id": "9605",
+      "player_name": "Grønbæk",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 8438329.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-27T09:18:40Z|9605||Joel|8438329.00"
     }
   ]
 }
