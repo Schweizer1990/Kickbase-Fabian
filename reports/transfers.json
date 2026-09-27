@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:07:59.059541",
+  "updated_at": "2026-09-27T15:58:52.225959",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11145,6 +11145,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-27T10:17:09Z|16378|AndiiRutz_1||25010101.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-09-27T12:47:19Z",
+      "date": "2026-09-27",
+      "player_id": "620",
+      "player_name": "Schwolow",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7637583.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-27T12:47:19Z|620||Fabian|7637583.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-27T12:47:57Z",
+      "date": "2026-09-27",
+      "player_id": "2144",
+      "player_name": "Koch",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 24323238.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-27T12:47:57Z|2144||Fabian|24323238.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-27T13:49:47Z",
+      "date": "2026-09-27",
+      "player_id": "7723",
+      "player_name": "Querfeld",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 12525000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-27T13:49:47Z|7723|Marc Frischiniemi||12525000.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-09-27T14:52:11Z",
+      "date": "2026-09-27",
+      "player_id": "12285",
+      "player_name": "Arrhov",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 3449999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-27T14:52:11Z|12285|Fabian||3449999.00"
     }
   ]
 }
