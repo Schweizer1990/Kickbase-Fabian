@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T17:02:21.744228",
+  "updated_at": "2026-09-27T04:38:19.645293",
   "transfers": [
     {
       "transfer_id": "13",
@@ -10975,9 +10975,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 6550006.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6489624.0,
+      "overpay": 60382.0,
+      "overpay_pct": 0.93,
       "type": "kickbase_purchase",
       "event_key": "2026-09-26T02:11:32Z|7156|KönigMario||6550006.00"
     },
@@ -10990,9 +10990,9 @@
       "buyer": null,
       "seller": "Bommer",
       "price": 10521804.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 10244354.0,
+      "overpay": 277450.0,
+      "overpay_pct": 2.71,
       "type": "kickbase_sale",
       "event_key": "2026-09-26T05:02:55Z|3204||Bommer|10521804.00"
     },
@@ -11005,9 +11005,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 500555.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 555.0,
+      "overpay_pct": 0.11,
       "type": "kickbase_purchase",
       "event_key": "2026-09-26T12:03:13Z|3232|KönigMario||500555.00"
     },
@@ -11020,9 +11020,9 @@
       "buyer": null,
       "seller": "Mario",
       "price": 6135209.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6055997.0,
+      "overpay": 79212.0,
+      "overpay_pct": 1.31,
       "type": "kickbase_sale",
       "event_key": "2026-09-26T15:49:58Z|11100||Mario|6135209.00"
     },
@@ -11035,11 +11035,71 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 3777777.0,
+      "market_value_at_transfer": 3788103.0,
+      "overpay": -10326.0,
+      "overpay_pct": -0.27,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-26T16:54:41Z|2068|Fabian||3777777.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-26T17:40:23Z",
+      "date": "2026-09-26",
+      "player_id": "14249",
+      "player_name": "El Aynaoui",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 13444444.0,
+      "market_value_at_transfer": 12112970.0,
+      "overpay": 1331474.0,
+      "overpay_pct": 10.99,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-26T17:40:23Z|14249|Bommer||13444444.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-26T18:53:31Z",
+      "date": "2026-09-26",
+      "player_id": "3102",
+      "player_name": "Rothe",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 10444444.0,
+      "market_value_at_transfer": 10240875.0,
+      "overpay": 203569.0,
+      "overpay_pct": 1.99,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-26T18:53:31Z|3102|Bommer||10444444.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-09-26T18:54:03Z",
+      "date": "2026-09-26",
+      "player_id": "7673",
+      "player_name": "Hajdari",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 11498637.0,
+      "market_value_at_transfer": 10692414.0,
+      "overpay": 806223.0,
+      "overpay_pct": 7.54,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-26T18:54:03Z|7673||Bommer|11498637.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-09-27T03:06:58Z",
+      "date": "2026-09-27",
+      "player_id": "12314",
+      "player_name": "Ndiaye",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 2907173.0,
       "market_value_at_transfer": null,
       "overpay": null,
       "overpay_pct": null,
       "type": "kickbase_purchase",
-      "event_key": "2026-09-26T16:54:41Z|2068|Fabian||3777777.00"
+      "event_key": "2026-09-27T03:06:58Z|12314|Mario||2907173.00"
     }
   ]
 }
