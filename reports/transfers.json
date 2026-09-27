@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:14:34.535045",
+  "updated_at": "2026-09-27T12:07:59.059541",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11130,6 +11130,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-27T09:18:40Z|9605||Joel|8438329.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-09-27T10:17:09Z",
+      "date": "2026-09-27",
+      "player_id": "16378",
+      "player_name": "Karetsas",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 25010101.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-27T10:17:09Z|16378|AndiiRutz_1||25010101.00"
     }
   ]
 }
