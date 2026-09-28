@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T15:19:42.336587",
+  "updated_at": "2026-09-28T16:06:52.193697",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11430,6 +11430,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-28T15:16:57Z|43|Simon Koller||8666667.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-09-28T15:38:51Z",
+      "date": "2026-09-28",
+      "player_id": "1689",
+      "player_name": "Henrichs",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7428945.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T15:38:51Z|1689||Fabian|7428945.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-28T15:39:13Z",
+      "date": "2026-09-28",
+      "player_id": "2065",
+      "player_name": "Uduokhai",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 10036248.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T15:39:13Z|2065||Fabian|10036248.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-09-28T15:39:28Z",
+      "date": "2026-09-28",
+      "player_id": "10024",
+      "player_name": "Schmied",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5919568.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T15:39:28Z|10024||Fabian|5919568.00"
     }
   ]
 }
