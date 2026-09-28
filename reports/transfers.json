@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T10:17:27.840945",
+  "updated_at": "2026-09-28T15:19:42.336587",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11400,6 +11400,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-28T07:31:34Z|3350||Marc Frischiniemi|10399672.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-28T15:13:55Z",
+      "date": "2026-09-28",
+      "player_id": "14425",
+      "player_name": "Møller Wolfe",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 5630000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-28T15:13:55Z|14425|Marc Frischiniemi||5630000.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-28T15:16:57Z",
+      "date": "2026-09-28",
+      "player_id": "43",
+      "player_name": "Weiser",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 8666667.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-28T15:16:57Z|43|Simon Koller||8666667.00"
     }
   ]
 }
