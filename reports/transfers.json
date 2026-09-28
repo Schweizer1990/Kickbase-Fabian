@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T16:06:52.193697",
+  "updated_at": "2026-09-28T17:04:37.209610",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11475,6 +11475,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-09-28T15:39:28Z|10024||Fabian|5919568.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-09-28T16:24:38Z",
+      "date": "2026-09-28",
+      "player_id": "1645",
+      "player_name": "Eggestein",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 20050223.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T16:24:38Z|1645||Fabian|20050223.00"
     }
   ]
 }
