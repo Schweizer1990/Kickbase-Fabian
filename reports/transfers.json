@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T04:40:07.112096",
+  "updated_at": "2026-09-28T10:17:27.840945",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11385,6 +11385,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-28T00:44:22Z|2214|Pedro||5701872.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-28T07:31:34Z",
+      "date": "2026-09-28",
+      "player_id": "3350",
+      "player_name": "Keidel",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 10399672.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T07:31:34Z|3350||Marc Frischiniemi|10399672.00"
     }
   ]
 }
