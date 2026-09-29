@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T19:54:53.653071",
+  "updated_at": "2026-09-29T21:08:09.628783",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11560,11 +11560,26 @@
       "buyer": "Thomasson",
       "seller": null,
       "price": 7465363.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7368912.0,
+      "overpay": 96451.0,
+      "overpay_pct": 1.31,
       "type": "kickbase_purchase",
       "event_key": "2026-09-29T06:51:42Z|4333|Thomasson||7465363.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-29T20:22:14Z",
+      "date": "2026-09-29",
+      "player_id": "3193",
+      "player_name": "Tiago Tomás",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 7510428.0,
+      "market_value_at_transfer": 7510428.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-29T20:22:14Z|3193||AndiiRutz_1|7510428.00"
     }
   ]
 }
