@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T20:41:07.385857",
+  "updated_at": "2026-09-29T04:38:57.781816",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11505,6 +11505,51 @@
       "overpay_pct": 3.43,
       "type": "kickbase_purchase",
       "event_key": "2026-09-28T18:56:09Z|8292|Flo24||9335555.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-28T20:48:18Z",
+      "date": "2026-09-28",
+      "player_id": "9384",
+      "player_name": "Darvich",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 7037306.0,
+      "market_value_at_transfer": 7037306.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T20:48:18Z|9384||Pedro|7037306.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-09-28T20:55:01Z",
+      "date": "2026-09-28",
+      "player_id": "8252",
+      "player_name": "Krattenmacher",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 9773850.0,
+      "market_value_at_transfer": 9773850.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-09-28T20:55:01Z|8252||Fabian|9773850.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-09-28T22:00:19Z",
+      "date": "2026-09-28",
+      "player_id": "14926",
+      "player_name": "Soylu",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 5552225.0,
+      "market_value_at_transfer": 4949356.0,
+      "overpay": 602869.0,
+      "overpay_pct": 12.18,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-28T22:00:19Z|14926|AndiiRutz_1||5552225.00"
     }
   ]
 }
