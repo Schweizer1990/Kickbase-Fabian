@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T04:38:57.781816",
+  "updated_at": "2026-09-29T15:11:41.413367",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11550,6 +11550,21 @@
       "overpay_pct": 12.18,
       "type": "kickbase_purchase",
       "event_key": "2026-09-28T22:00:19Z|14926|AndiiRutz_1||5552225.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-09-29T06:51:42Z",
+      "date": "2026-09-29",
+      "player_id": "4333",
+      "player_name": "Ullrich",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 7465363.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-29T06:51:42Z|4333|Thomasson||7465363.00"
     }
   ]
 }
