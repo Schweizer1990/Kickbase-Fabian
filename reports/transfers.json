@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T15:22:03.575571",
+  "updated_at": "2026-09-30T16:20:20.187381",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11625,6 +11625,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-30T08:02:30Z|7394|Thomasson||5250000.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-09-30T15:36:43Z",
+      "date": "2026-09-30",
+      "player_id": "2172",
+      "player_name": "Führich",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 16575569.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-30T15:36:43Z|2172|Joel||16575569.00"
     }
   ]
 }
