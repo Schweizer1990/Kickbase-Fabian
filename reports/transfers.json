@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T21:08:09.628783",
+  "updated_at": "2026-09-30T07:23:07.169858",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11580,6 +11580,36 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-09-29T20:22:14Z|3193||AndiiRutz_1|7510428.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-09-29T21:27:19Z",
+      "date": "2026-09-29",
+      "player_id": "11756",
+      "player_name": "Culbreath",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 5009483.0,
+      "market_value_at_transfer": 4307483.0,
+      "overpay": 702000.0,
+      "overpay_pct": 16.3,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-29T21:27:19Z|11756|Pedro||5009483.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-09-30T04:32:05Z",
+      "date": "2026-09-30",
+      "player_id": "1955",
+      "player_name": "Burke",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 910000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-30T04:32:05Z|1955|AndiiRutz_1||910000.00"
     }
   ]
 }
