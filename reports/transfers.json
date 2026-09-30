@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T07:23:07.169858",
+  "updated_at": "2026-09-30T10:37:11.238740",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11610,6 +11610,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-09-30T04:32:05Z|1955|AndiiRutz_1||910000.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-09-30T08:02:30Z",
+      "date": "2026-09-30",
+      "player_id": "7394",
+      "player_name": "Amoako",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 5250000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-30T08:02:30Z|7394|Thomasson||5250000.00"
     }
   ]
 }
