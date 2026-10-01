@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T06:23:50.401072",
+  "updated_at": "2026-10-01T11:04:49.748284",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11775,6 +11775,81 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-01T06:22:06Z|6168|Mario||10400000.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-01T08:27:14Z",
+      "date": "2026-10-01",
+      "player_id": "1333",
+      "player_name": "Klostermann",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 5675441.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-01T08:27:14Z|1333||Pedro|5675441.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-01T08:48:21Z",
+      "date": "2026-10-01",
+      "player_id": "7320",
+      "player_name": "Scheller",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 5580538.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-01T08:48:21Z|7320|Pedro||5580538.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-01T09:13:09Z",
+      "date": "2026-10-01",
+      "player_id": "4333",
+      "player_name": "Ullrich",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 7429164.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-01T09:13:09Z|4333||Thomasson|7429164.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-01T09:24:32Z",
+      "date": "2026-10-01",
+      "player_id": "11591",
+      "player_name": "Lenz",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 4250000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-01T09:24:32Z|11591|Marc Frischiniemi||4250000.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-01T10:01:32Z",
+      "date": "2026-10-01",
+      "player_id": "849",
+      "player_name": "Kleindienst",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 10680000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-01T10:01:32Z|849|Thomasson||10680000.00"
     }
   ]
 }
