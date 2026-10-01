@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T20:22:01.932626",
+  "updated_at": "2026-10-01T21:28:17.329707",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11865,6 +11865,21 @@
       "overpay_pct": 9.99,
       "type": "kickbase_sale",
       "event_key": "2026-10-01T14:54:38Z|7156||KönigMario|6763739.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-01T20:33:51Z",
+      "date": "2026-10-01",
+      "player_id": "461",
+      "player_name": "Chandler",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5355212.0,
+      "market_value_at_transfer": 5355212.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-01T20:33:51Z|461||Fabian|5355212.00"
     }
   ]
 }
