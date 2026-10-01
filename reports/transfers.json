@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T21:05:52.160779",
+  "updated_at": "2026-10-01T06:23:50.401072",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11685,6 +11685,96 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-09-30T20:54:49Z|3281||Mario|5098736.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-09-30T23:34:24Z",
+      "date": "2026-09-30",
+      "player_id": "6197",
+      "player_name": "Curda",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 7850000.0,
+      "market_value_at_transfer": 6986214.0,
+      "overpay": 863786.0,
+      "overpay_pct": 12.36,
+      "type": "kickbase_purchase",
+      "event_key": "2026-09-30T23:34:24Z|6197|Thomasson||7850000.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-01T03:39:45Z",
+      "date": "2026-10-01",
+      "player_id": "7616",
+      "player_name": "ter Horst",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 8199999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-01T03:39:45Z|7616|Fabian||8199999.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-01T03:55:41Z",
+      "date": "2026-10-01",
+      "player_id": "7723",
+      "player_name": "Querfeld",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 12764200.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-01T03:55:41Z|7723||Marc Frischiniemi|12764200.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-01T04:08:54Z",
+      "date": "2026-10-01",
+      "player_id": "12158",
+      "player_name": "Vozar",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 3839541.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-01T04:08:54Z|12158||Thomasson|3839541.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-01T06:12:58Z",
+      "date": "2026-10-01",
+      "player_id": "237",
+      "player_name": "Neuer",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 12639901.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-01T06:12:58Z|237|Thomasson||12639901.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-01T06:22:06Z",
+      "date": "2026-10-01",
+      "player_id": "6168",
+      "player_name": "Fellhauer",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 10400000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-01T06:22:06Z|6168|Mario||10400000.00"
     }
   ]
 }
