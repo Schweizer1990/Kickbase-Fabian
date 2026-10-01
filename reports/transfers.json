@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T14:38:02.680632",
+  "updated_at": "2026-10-01T16:57:45.799342",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11850,6 +11850,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-01T10:01:32Z|849|Thomasson||10680000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-01T14:54:38Z",
+      "date": "2026-10-01",
+      "player_id": "7156",
+      "player_name": "Wöber",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 6763739.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-01T14:54:38Z|7156||KönigMario|6763739.00"
     }
   ]
 }
