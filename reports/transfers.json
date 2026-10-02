@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T17:59:55.997597",
+  "updated_at": "2026-10-02T21:05:58.456642",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11890,9 +11890,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 8099999.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7663434.0,
+      "overpay": 436565.0,
+      "overpay_pct": 5.7,
       "type": "kickbase_purchase",
       "event_key": "2026-10-02T04:23:48Z|7441|Fabian||8099999.00"
     },
@@ -11905,9 +11905,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 7359000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6956263.0,
+      "overpay": 402737.0,
+      "overpay_pct": 5.79,
       "type": "kickbase_purchase",
       "event_key": "2026-10-02T10:00:33Z|2725|Fabian||7359000.00"
     },
@@ -11920,9 +11920,9 @@
       "buyer": null,
       "seller": "AndiiRutz_1",
       "price": 6079806.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6156866.0,
+      "overpay": -77060.0,
+      "overpay_pct": -1.25,
       "type": "kickbase_sale",
       "event_key": "2026-10-02T10:39:03Z|13438||AndiiRutz_1|6079806.00"
     }
