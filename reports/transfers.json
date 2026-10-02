@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T21:28:17.329707",
+  "updated_at": "2026-10-02T06:44:08.186846",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11880,6 +11880,21 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-01T20:33:51Z|461||Fabian|5355212.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-02T04:23:48Z",
+      "date": "2026-10-02",
+      "player_id": "7441",
+      "player_name": "Campbell",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 8099999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-02T04:23:48Z|7441|Fabian||8099999.00"
     }
   ]
 }
