@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T06:44:08.186846",
+  "updated_at": "2026-10-02T10:37:45.121594",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11895,6 +11895,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-02T04:23:48Z|7441|Fabian||8099999.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-02T10:00:33Z",
+      "date": "2026-10-02",
+      "player_id": "2725",
+      "player_name": "Bornauw",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 7359000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-02T10:00:33Z|2725|Fabian||7359000.00"
     }
   ]
 }
