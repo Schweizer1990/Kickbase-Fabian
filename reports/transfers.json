@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T10:37:45.121594",
+  "updated_at": "2026-10-02T16:11:00.006749",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11910,6 +11910,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-02T10:00:33Z|2725|Fabian||7359000.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-02T10:39:03Z",
+      "date": "2026-10-02",
+      "player_id": "13438",
+      "player_name": "Ruoppi",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 6079806.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-02T10:39:03Z|13438||AndiiRutz_1|6079806.00"
     }
   ]
 }
