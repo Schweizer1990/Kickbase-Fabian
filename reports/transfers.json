@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T07:15:26.036876",
+  "updated_at": "2026-10-03T09:58:45.665108",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11970,6 +11970,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-03T04:52:33Z|3129|Fabian||8911111.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-03T09:56:13Z",
+      "date": "2026-10-03",
+      "player_id": "2863",
+      "player_name": "Knauff",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 7388888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-03T09:56:13Z|2863|Fabian||7388888.00"
     }
   ]
 }
