@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:35:15.274602",
+  "updated_at": "2026-10-03T20:42:53.577369",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11950,9 +11950,9 @@
       "buyer": "Pedro",
       "seller": null,
       "price": 20600831.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 20565092.0,
+      "overpay": 35739.0,
+      "overpay_pct": 0.17,
       "type": "kickbase_purchase",
       "event_key": "2026-10-03T03:34:40Z|7745|Pedro||20600831.00"
     },
@@ -11965,9 +11965,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 8911111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 8405768.0,
+      "overpay": 505343.0,
+      "overpay_pct": 6.01,
       "type": "kickbase_purchase",
       "event_key": "2026-10-03T04:52:33Z|3129|Fabian||8911111.00"
     },
@@ -11980,11 +11980,41 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 7388888.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7077552.0,
+      "overpay": 311336.0,
+      "overpay_pct": 4.4,
       "type": "kickbase_purchase",
       "event_key": "2026-10-03T09:56:13Z|2863|Fabian||7388888.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-03T20:27:00Z",
+      "date": "2026-10-03",
+      "player_id": "14926",
+      "player_name": "Soylu",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 6013395.0,
+      "market_value_at_transfer": 6013395.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-03T20:27:00Z|14926||AndiiRutz_1|6013395.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-03T20:28:32Z",
+      "date": "2026-10-03",
+      "player_id": "6199",
+      "player_name": "Machino",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 6651790.0,
+      "market_value_at_transfer": 6651790.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-03T20:28:32Z|6199||AndiiRutz_1|6651790.00"
     }
   ]
 }
