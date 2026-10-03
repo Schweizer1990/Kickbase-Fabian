@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T21:05:58.456642",
+  "updated_at": "2026-10-03T07:15:26.036876",
   "transfers": [
     {
       "transfer_id": "13",
@@ -11925,6 +11925,51 @@
       "overpay_pct": -1.25,
       "type": "kickbase_sale",
       "event_key": "2026-10-02T10:39:03Z|13438||AndiiRutz_1|6079806.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-02T21:25:45Z",
+      "date": "2026-10-02",
+      "player_id": "9615",
+      "player_name": "Al Dakhil",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 6023652.0,
+      "market_value_at_transfer": 6023652.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-02T21:25:45Z|9615||Pedro|6023652.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-03T03:34:40Z",
+      "date": "2026-10-03",
+      "player_id": "7745",
+      "player_name": "Coufal",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 20600831.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-03T03:34:40Z|7745|Pedro||20600831.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-03T04:52:33Z",
+      "date": "2026-10-03",
+      "player_id": "3129",
+      "player_name": "Itakura",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 8911111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-03T04:52:33Z|3129|Fabian||8911111.00"
     }
   ]
 }
