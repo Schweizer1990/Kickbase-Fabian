@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T15:13:02.422965",
+  "updated_at": "2026-10-04T16:32:31.799936",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12105,6 +12105,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-04T14:19:23Z|14923|Fabian||5555555.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-04T15:32:45Z",
+      "date": "2026-10-04",
+      "player_id": "2862",
+      "player_name": "Castrop",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 6310522.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-04T15:32:45Z|2862|Pedro||6310522.00"
     }
   ]
 }
