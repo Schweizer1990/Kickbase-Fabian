@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T20:42:53.577369",
+  "updated_at": "2026-10-04T08:45:33.367253",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12015,6 +12015,66 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-03T20:28:32Z|6199||AndiiRutz_1|6651790.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-03T20:55:57Z",
+      "date": "2026-10-03",
+      "player_id": "3559",
+      "player_name": "Ulrich",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 8777779.0,
+      "market_value_at_transfer": 8608722.0,
+      "overpay": 169057.0,
+      "overpay_pct": 1.96,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-03T20:55:57Z|3559|Simon Koller||8777779.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-04T05:36:32Z",
+      "date": "2026-10-04",
+      "player_id": "2214",
+      "player_name": "Karazor",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 6728739.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-04T05:36:32Z|2214||Pedro|6728739.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-04T05:40:46Z",
+      "date": "2026-10-04",
+      "player_id": "2897",
+      "player_name": "Reitz",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 10928878.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-04T05:40:46Z|2897||Pedro|10928878.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-04T07:44:41Z",
+      "date": "2026-10-04",
+      "player_id": "1873",
+      "player_name": "Kobel",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 21222222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-04T07:44:41Z|1873|Fabian||21222222.00"
     }
   ]
 }
