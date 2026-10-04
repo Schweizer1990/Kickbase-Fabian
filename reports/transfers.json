@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T10:41:45.617272",
+  "updated_at": "2026-10-04T15:13:02.422965",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12075,6 +12075,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-04T07:44:41Z|1873|Fabian||21222222.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-04T10:59:57Z",
+      "date": "2026-10-04",
+      "player_id": "4598",
+      "player_name": "Juranović",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 7009817.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-04T10:59:57Z|4598|Pedro||7009817.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-04T14:19:23Z",
+      "date": "2026-10-04",
+      "player_id": "14923",
+      "player_name": "Quetant",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 5555555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-04T14:19:23Z|14923|Fabian||5555555.00"
     }
   ]
 }
