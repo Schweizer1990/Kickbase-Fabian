@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T12:39:59.696407",
+  "updated_at": "2026-10-05T19:09:52.779534",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12180,6 +12180,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-05T11:32:07Z|13442|AndiiRutz_1||8812121.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-05T15:07:08Z",
+      "date": "2026-10-05",
+      "player_id": "11875",
+      "player_name": "van den Berg",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 6147757.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-05T15:07:08Z|11875||Mario|6147757.00"
     }
   ]
 }
