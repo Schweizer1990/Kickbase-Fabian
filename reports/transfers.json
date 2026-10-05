@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T05:56:53.686653",
+  "updated_at": "2026-10-05T11:41:57.225133",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12135,6 +12135,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-04T20:36:34Z|2275||Thomasson|12002849.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-05T06:08:54Z",
+      "date": "2026-10-05",
+      "player_id": "2068",
+      "player_name": "Zagadou",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5850052.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-05T06:08:54Z|2068||Fabian|5850052.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-05T10:15:13Z",
+      "date": "2026-10-05",
+      "player_id": "7269",
+      "player_name": "Tella",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 5712121.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-05T10:15:13Z|7269|AndiiRutz_1||5712121.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-05T11:32:07Z",
+      "date": "2026-10-05",
+      "player_id": "13442",
+      "player_name": "Bolin",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 8812121.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-05T11:32:07Z|13442|AndiiRutz_1||8812121.00"
     }
   ]
 }
