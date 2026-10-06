@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T05:40:03.010332",
+  "updated_at": "2026-10-06T11:24:40.268177",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12330,6 +12330,81 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-06T05:17:21Z|7417||AndiiRutz_1|9456206.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-06T07:49:17Z",
+      "date": "2026-10-06",
+      "player_id": "17285",
+      "player_name": "Brassier",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 16000888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-06T07:49:17Z|17285|Marc Frischiniemi||16000888.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-06T08:01:12Z",
+      "date": "2026-10-06",
+      "player_id": "7215",
+      "player_name": "Makengo",
+      "buyer": "Thomasson",
+      "seller": "Marc Frischiniemi",
+      "price": 14350000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-10-06T08:01:12Z|7215|Thomasson|Marc Frischiniemi|14350000.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-06T08:36:20Z",
+      "date": "2026-10-06",
+      "player_id": "1961",
+      "player_name": "Gnabry",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 15589150.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-06T08:36:20Z|1961|KönigMario||15589150.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-06T08:45:25Z",
+      "date": "2026-10-06",
+      "player_id": "10122",
+      "player_name": "Gruber",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 10341326.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-06T08:45:25Z|10122|Pedro||10341326.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-06T10:05:28Z",
+      "date": "2026-10-06",
+      "player_id": "3027",
+      "player_name": "Pieringer",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 4264302.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-06T10:05:28Z|3027|KönigMario||4264302.00"
     }
   ]
 }
