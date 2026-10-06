@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T22:58:57.649912",
+  "updated_at": "2026-10-06T05:40:03.010332",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12300,6 +12300,36 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-05T21:34:48Z|8235||KönigMario|5318429.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-06T04:04:13Z",
+      "date": "2026-10-06",
+      "player_id": "8001",
+      "player_name": "Lochoshvili",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 9444444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-06T04:04:13Z|8001|Fabian||9444444.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-06T05:17:21Z",
+      "date": "2026-10-06",
+      "player_id": "7417",
+      "player_name": "Aséko",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 9456206.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-06T05:17:21Z|7417||AndiiRutz_1|9456206.00"
     }
   ]
 }
