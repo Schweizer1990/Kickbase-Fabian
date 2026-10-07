@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:20:57.725063",
+  "updated_at": "2026-10-07T07:01:15.197784",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12475,9 +12475,9 @@
       "buyer": "Pedro",
       "seller": null,
       "price": 503000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 3000.0,
+      "overpay_pct": 0.6,
       "type": "kickbase_purchase",
       "event_key": "2026-10-06T19:53:07Z|13431|Pedro||503000.00"
     },
@@ -12510,6 +12510,66 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-06T20:36:17Z|15256||Pedro|6088674.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-06T22:31:58Z",
+      "date": "2026-10-06",
+      "player_id": "2552",
+      "player_name": "Bülter",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 5111111.0,
+      "market_value_at_transfer": 4635754.0,
+      "overpay": 475357.0,
+      "overpay_pct": 10.25,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-06T22:31:58Z|2552|Flo24||5111111.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-07T06:11:28Z",
+      "date": "2026-10-07",
+      "player_id": "10121",
+      "player_name": "Rondic",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 1659767.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-07T06:11:28Z|10121|Thomasson||1659767.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-07T06:28:40Z",
+      "date": "2026-10-07",
+      "player_id": "2736",
+      "player_name": "Bensebaini",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 10126303.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-07T06:28:40Z|2736|Pedro||10126303.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-07T06:30:41Z",
+      "date": "2026-10-07",
+      "player_id": "8363",
+      "player_name": "Yilmaz",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 561524.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-07T06:30:41Z|8363|Thomasson||561524.00"
     }
   ]
 }
