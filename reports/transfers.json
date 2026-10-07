@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T11:12:34.893792",
+  "updated_at": "2026-10-07T17:21:57.861841",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12585,6 +12585,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-07T09:00:01Z|1865||Fabian|6706072.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-07T14:05:05Z",
+      "date": "2026-10-07",
+      "player_id": "11253",
+      "player_name": "Mickelson",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 885522.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-07T14:05:05Z|11253|AndiiRutz_1||885522.00"
     }
   ]
 }
