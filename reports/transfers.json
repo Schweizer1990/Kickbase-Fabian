@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T21:40:59.164993",
+  "updated_at": "2026-10-08T05:52:30.528479",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12660,6 +12660,81 @@
       "overpay_pct": 7.99,
       "type": "kickbase_purchase",
       "event_key": "2026-10-07T21:00:01Z|32|Pedro||15109168.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-08T00:23:19Z",
+      "date": "2026-10-08",
+      "player_id": "3284",
+      "player_name": "Rohr",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 14444444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-08T00:23:19Z|3284|Fabian||14444444.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-08T00:52:32Z",
+      "date": "2026-10-08",
+      "player_id": "43",
+      "player_name": "Weiser",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 9555047.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-08T00:52:32Z|43||Simon Koller|9555047.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-08T01:25:00Z",
+      "date": "2026-10-08",
+      "player_id": "3120",
+      "player_name": "Bischof",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 17050000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-08T01:25:00Z|3120|Thomasson||17050000.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-08T03:14:46Z",
+      "date": "2026-10-08",
+      "player_id": "1856",
+      "player_name": "Sabitzer",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 4183157.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-08T03:14:46Z|1856|Simon Koller||4183157.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-08T04:30:08Z",
+      "date": "2026-10-08",
+      "player_id": "15181",
+      "player_name": "Leszczynski",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 8888988.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-08T04:30:08Z|15181|Joel||8888988.00"
     }
   ]
 }
