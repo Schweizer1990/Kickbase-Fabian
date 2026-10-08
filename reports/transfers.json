@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T15:59:42.281860",
+  "updated_at": "2026-10-08T17:18:25.550408",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12735,6 +12735,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-08T04:30:08Z|15181|Joel||8888988.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-08T16:42:24Z",
+      "date": "2026-10-08",
+      "player_id": "13806",
+      "player_name": "Seol",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 1311111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-08T16:42:24Z|13806|AndiiRutz_1||1311111.00"
     }
   ]
 }
