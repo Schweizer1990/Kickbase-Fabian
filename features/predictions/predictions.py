@@ -22,11 +22,6 @@ def live_data_predictions(today_df, model, features):
     today_df_results["predicted_mv_target"] = np.round(model.predict(today_df_features), 2)
     today_df_results = today_df_results.sort_values("predicted_mv_target", ascending=False)
 
-    now = datetime.now(ZoneInfo("Europe/Berlin"))
-    cutoff_time = now.replace(hour=22, minute=15, second=0, microsecond=0)
-    date = (now - timedelta(days=1)) if now <= cutoff_time else now
-    date = date.date()
-
     today_df_results = today_df_results.dropna(subset=["mv"])
     today_df_results = today_df_results[[
         "player_id", "first_name", "last_name", "position", "team_name", "date",

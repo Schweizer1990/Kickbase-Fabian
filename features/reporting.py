@@ -79,6 +79,8 @@ def _write_history_snapshot(report):
     snapshot = {
         "generated_at": report["generated_at"],
         "market_fetched_at": report.get("market_fetched_at"),
+        "market_update": report.get("market_update"),
+        "live_forecast_evaluation": report.get("live_forecast_evaluation"),
         "manager_budgets": [
             {
                 "user": row.get("User"),
@@ -155,6 +157,7 @@ def save_latest_report(
     manager_squads_df=None,
     market_live_snapshot=None,
     bid_guardrails_df=None,
+    forecast_audit=None,
 ):
     market_live_snapshot = market_live_snapshot or {}
     report = {
@@ -198,6 +201,8 @@ def save_latest_report(
         },
     }
 
+    report.update(forecast_audit or {})
+    report["notes"]["live_forecast_evaluation"] = "First forecast per player/MV date, evaluated against the next calendar-day observed MV; separate from model holdout metrics. Cohorts may overlap; 90 base dates retained."
     output = Path("reports/latest.json")
     report["strategy"]["decision_plan"] = build_decision_plan(report)
     auction_bids = {

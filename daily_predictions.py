@@ -1,6 +1,7 @@
 from features.predictions.predictions import live_data_predictions, join_current_market, join_current_squad, join_all_manager_squads
 from features.predictions.preprocessing import preprocess_player_data, split_data
 from features.predictions.modeling import train_model, evaluate_model
+from features.predictions.audit import update_forecast_audit
 from kickbase_api.league import get_league_id
 from kickbase_api.user import login
 from features.notifier import send_mail
@@ -103,6 +104,7 @@ signs_percent, rmse, mae, r2 = evaluate_model(model, X_test, y_test)
 print(f"Model evaluation: direction accuracy={signs_percent:.2f}%, RMSE={rmse:.2f}, MAE={mae:.2f}, R2={r2:.2f}")
 
 live_predictions_df = live_data_predictions(today_df, model, features)
+forecast_audit = update_forecast_audit(player_df, live_predictions_df)
 market_recommendations_df = join_current_market(token, league_id, live_predictions_df)
 squad_recommendations_df = join_current_squad(token, league_id, live_predictions_df)
 manager_squads_df = join_all_manager_squads(token, league_id, live_predictions_df)
@@ -170,6 +172,7 @@ report_path = save_latest_report(
     manager_squads_df,
     market_live_snapshot,
     bid_guardrails_df,
+    forecast_audit=forecast_audit,
 )
 print(f"Machine-readable report written to {report_path}.")
 

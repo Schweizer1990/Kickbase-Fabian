@@ -65,6 +65,7 @@ jobs:
           cp reports/transfers.json /tmp/kickbase-reports/transfers.json
           cp reports/history.json /tmp/kickbase-reports/history.json
           cp reports/market_snapshots.json /tmp/kickbase-reports/market_snapshots.json
+          cp reports/forecast_audit.json /tmp/kickbase-reports/forecast_audit.json
 
           for attempt in 1 2 3; do
             git fetch origin main
@@ -76,7 +77,8 @@ jobs:
             cp /tmp/kickbase-reports/transfers.json reports/transfers.json
             cp /tmp/kickbase-reports/history.json reports/history.json
             cp /tmp/kickbase-reports/market_snapshots.json reports/market_snapshots.json
-            git add reports/latest.json reports/transfers.json reports/history.json reports/market_snapshots.json
+            cp /tmp/kickbase-reports/forecast_audit.json reports/forecast_audit.json
+            git add reports/latest.json reports/transfers.json reports/history.json reports/market_snapshots.json reports/forecast_audit.json
 
             if git diff --cached --quiet; then
               echo "No report changes to publish."
