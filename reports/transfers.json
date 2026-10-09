@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T20:13:41.710925",
+  "updated_at": "2026-10-09T20:35:56.256412",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13230,6 +13230,66 @@
       "overpay_pct": 0.32,
       "type": "kickbase_sale",
       "event_key": "2026-10-09T18:29:05Z|7737||Joel|17087099.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-09T20:25:36Z",
+      "date": "2026-10-09",
+      "player_id": "14923",
+      "player_name": "Quetant",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5786846.0,
+      "market_value_at_transfer": 5786846.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T20:25:36Z|14923||Fabian|5786846.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-09T20:25:48Z",
+      "date": "2026-10-09",
+      "player_id": "7717",
+      "player_name": "Prass",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 6482065.0,
+      "market_value_at_transfer": 6482065.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T20:25:48Z|7717||Fabian|6482065.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-09T20:26:04Z",
+      "date": "2026-10-09",
+      "player_id": "3081",
+      "player_name": "Vidović",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7934096.0,
+      "market_value_at_transfer": 7934096.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T20:26:04Z|3081||Fabian|7934096.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-09T20:26:29Z",
+      "date": "2026-10-09",
+      "player_id": "2863",
+      "player_name": "Knauff",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7624879.0,
+      "market_value_at_transfer": 7624879.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T20:26:29Z|2863||Fabian|7624879.00"
     }
   ]
 }
