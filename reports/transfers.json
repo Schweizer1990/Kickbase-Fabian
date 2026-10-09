@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T05:28:58.444804",
+  "updated_at": "2026-10-09T11:26:12.010038",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12930,6 +12930,66 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-09T05:00:12Z|2749||Pedro|6616428.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-09T05:47:03Z",
+      "date": "2026-10-09",
+      "player_id": "14048",
+      "player_name": "Goto",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 925446.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-09T05:47:03Z|14048|Pedro||925446.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-09T06:11:21Z",
+      "date": "2026-10-09",
+      "player_id": "6292",
+      "player_name": "Hansen",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 4308599.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-09T06:11:21Z|6292|Pedro||4308599.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-09T06:20:13Z",
+      "date": "2026-10-09",
+      "player_id": "12285",
+      "player_name": "Arrhov",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 6041472.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T06:20:13Z|12285||Fabian|6041472.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-09T10:51:25Z",
+      "date": "2026-10-09",
+      "player_id": "4598",
+      "player_name": "Juranović",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 8028811.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T10:51:25Z|4598||Pedro|8028811.00"
     }
   ]
 }
