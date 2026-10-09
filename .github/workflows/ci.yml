@@ -14,3 +14,6 @@ jobs:
           python-version: '3.11'
       - name: Compile Python sources
         run: python -m compileall -q .
+      - name: Test auction pricing and squad planning
+        run: python -m unittest discover -s tests -v
+

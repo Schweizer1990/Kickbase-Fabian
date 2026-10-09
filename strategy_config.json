@@ -1,0 +1,12 @@
+{
+  "max_squad_size": 15,
+  "max_players_per_club": 2,
+  "market_update_hour": 22,
+  "market_update_minute": 0,
+  "holding_updates": 3,
+  "growth_discount": 0.75,
+  "max_replacements": 2,
+  "max_expected_points_loss": 15,
+  "points_core_threshold": 60,
+  "protected_player_ids": ["49", "1920", "1873", "3284"]
+}

@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
+from features.decision_plan import build_decision_plan
 
 
 def _records(df):
@@ -198,7 +199,30 @@ def save_latest_report(
     }
 
     output = Path("reports/latest.json")
+    report["strategy"]["decision_plan"] = build_decision_plan(report)
+    auction_bids = {
+        row["player_id"]: row
+        for row in report["strategy"]["decision_plan"].get("auction_bids", [])
+    }
+    # Keep downstream ranking consumers on the same auction-aware price basis.
+    for section in ("market_ranking", "win_ranking", "bid_guardrails"):
+        for row in report["strategy"][section]:
+            auction = auction_bids.get(str(row.get("player_id")))
+            if auction is None:
+                continue
+            row["auction_eligible"] = auction["eligible"]
+            row["auction_exclusion_reason"] = auction["reason"]
+            row["updates_before_expiry"] = auction["updates_before_expiry"]
+            row["projected_mv_at_expiry"] = auction.get("projected_mv_at_expiry")
+            row["suggested_bid"] = auction["suggested_bid"]
+            row["hard_max_bid"] = auction["hard_max_bid"]
+            if section == "bid_guardrails":
+                row["roi_guardrail_bid"] = auction["hard_max_bid"]
+                row["trade_protection_bid"] = auction["suggested_bid"]
+                row["shadow_price_basis"] = "current_mv_historical_comparison_only"
+    report["notes"]["decision_plan"] = "Auction-aware discounted growth scenarios, profitable trader replacements and all-wins slot simulation; no actions are executed"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     _write_history_snapshot(report)
     return output
+
