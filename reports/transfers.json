@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T21:37:17.707910",
+  "updated_at": "2026-10-09T05:28:58.444804",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12855,6 +12855,81 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-08T20:15:04Z|13806||AndiiRutz_1|1574882.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-09T03:27:49Z",
+      "date": "2026-10-09",
+      "player_id": "8367",
+      "player_name": "Sambi Lokonga",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 7284249.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T03:27:49Z|8367||Simon Koller|7284249.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-09T04:53:24Z",
+      "date": "2026-10-09",
+      "player_id": "12314",
+      "player_name": "Ndiaye",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 5592726.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T04:53:24Z|12314||Mario|5592726.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-09T04:56:09Z",
+      "date": "2026-10-09",
+      "player_id": "13431",
+      "player_name": "Siebeking",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T04:56:09Z|13431||Pedro|500000.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-09T04:59:30Z",
+      "date": "2026-10-09",
+      "player_id": "11756",
+      "player_name": "Culbreath",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 5760163.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T04:59:30Z|11756||Pedro|5760163.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-09T05:00:12Z",
+      "date": "2026-10-09",
+      "player_id": "2749",
+      "player_name": "Tigges",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 6616428.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-09T05:00:12Z|2749||Pedro|6616428.00"
     }
   ]
 }
