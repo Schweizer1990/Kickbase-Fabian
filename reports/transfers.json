@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T20:09:15.345746",
+  "updated_at": "2026-10-10T20:22:47.799210",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13425,6 +13425,51 @@
       "overpay_pct": 6.21,
       "type": "kickbase_sale",
       "event_key": "2026-10-10T19:31:29Z|3336||Joel|7857985.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-10T20:16:52Z",
+      "date": "2026-10-10",
+      "player_id": "3129",
+      "player_name": "Itakura",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 8917379.0,
+      "market_value_at_transfer": 8917379.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-10T20:16:52Z|3129||Fabian|8917379.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-10T20:17:11Z",
+      "date": "2026-10-10",
+      "player_id": "2725",
+      "player_name": "Bornauw",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 8205186.0,
+      "market_value_at_transfer": 8205186.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-10T20:17:11Z|2725||Fabian|8205186.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-10T20:17:28Z",
+      "date": "2026-10-10",
+      "player_id": "7441",
+      "player_name": "Campbell",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 9534573.0,
+      "market_value_at_transfer": 9534573.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-10T20:17:28Z|7441||Fabian|9534573.00"
     }
   ]
 }
