@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T21:22:55.126890",
+  "updated_at": "2026-10-10T10:43:54.605690",
   "transfers": [
     {
       "transfer_id": "13",
@@ -12895,9 +12895,9 @@
       "buyer": null,
       "seller": "Pedro",
       "price": 500000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-09T04:56:09Z|13431||Pedro|500000.00"
     },
@@ -13290,6 +13290,36 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-09T20:26:29Z|2863||Fabian|7624879.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-10T07:12:56Z",
+      "date": "2026-10-10",
+      "player_id": "17309",
+      "player_name": "Nwaneri",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 12120000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T07:12:56Z|17309|Thomasson||12120000.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-10T09:51:33Z",
+      "date": "2026-10-10",
+      "player_id": "3041",
+      "player_name": "Widmer",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 1119337.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T09:51:33Z|3041|Pedro||1119337.00"
     }
   ]
 }
