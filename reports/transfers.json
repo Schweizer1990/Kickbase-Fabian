@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:43:54.605690",
+  "updated_at": "2026-10-10T14:28:17.486326",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13320,6 +13320,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-10T09:51:33Z|3041|Pedro||1119337.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-10T12:08:23Z",
+      "date": "2026-10-10",
+      "player_id": "9600",
+      "player_name": "Schlager",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 2150000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T12:08:23Z|9600|Thomasson||2150000.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-10T12:21:34Z",
+      "date": "2026-10-10",
+      "player_id": "1809",
+      "player_name": "Wolf",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6499999.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T12:21:34Z|1809|Fabian||6499999.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-10T13:06:08Z",
+      "date": "2026-10-10",
+      "player_id": "12367",
+      "player_name": "Spalt",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 1710781.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T13:06:08Z|12367|Pedro||1710781.00"
     }
   ]
 }
