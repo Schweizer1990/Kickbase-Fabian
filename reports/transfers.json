@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T07:15:09.174577",
+  "updated_at": "2026-10-11T10:56:08.831410",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13560,6 +13560,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-11T05:01:06Z|3176|Fabian||6944444.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-11T07:59:07Z",
+      "date": "2026-10-11",
+      "player_id": "3124",
+      "player_name": "Wimmer",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 5917918.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-11T07:59:07Z|3124||Simon Koller|5917918.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-11T08:36:03Z",
+      "date": "2026-10-11",
+      "player_id": "8301",
+      "player_name": "Sirch",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 4121212.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T08:36:03Z|8301|AndiiRutz_1||4121212.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-11T09:23:39Z",
+      "date": "2026-10-11",
+      "player_id": "2476",
+      "player_name": "Lee",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 8816847.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T09:23:39Z|2476|Thomasson||8816847.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-11T10:17:19Z",
+      "date": "2026-10-11",
+      "player_id": "7224",
+      "player_name": "Castello Jr.",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 15105337.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T10:17:19Z|7224|Pedro||15105337.00"
     }
   ]
 }
