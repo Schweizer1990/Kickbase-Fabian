@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T20:22:47.799210",
+  "updated_at": "2026-10-11T07:15:09.174577",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13470,6 +13470,96 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-10T20:17:28Z|7441||Fabian|9534573.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-10T20:26:12Z",
+      "date": "2026-10-10",
+      "player_id": "6292",
+      "player_name": "Hansen",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 4474744.0,
+      "market_value_at_transfer": 4474744.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-10T20:26:12Z|6292||Pedro|4474744.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-10T20:49:53Z",
+      "date": "2026-10-10",
+      "player_id": "13442",
+      "player_name": "Bolin",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 9917608.0,
+      "market_value_at_transfer": 9917608.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-10T20:49:53Z|13442||AndiiRutz_1|9917608.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-10T21:40:25Z",
+      "date": "2026-10-10",
+      "player_id": "2803",
+      "player_name": "Lemperle",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 9835000.0,
+      "market_value_at_transfer": 9118584.0,
+      "overpay": 716416.0,
+      "overpay_pct": 7.86,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T21:40:25Z|2803|Thomasson||9835000.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-10T23:56:13Z",
+      "date": "2026-10-10",
+      "player_id": "12297",
+      "player_name": "Tanaka",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 7111111.0,
+      "market_value_at_transfer": 6265675.0,
+      "overpay": 845436.0,
+      "overpay_pct": 13.49,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-10T23:56:13Z|12297|Fabian||7111111.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-11T02:58:19Z",
+      "date": "2026-10-11",
+      "player_id": "11680",
+      "player_name": "Eichhorn",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 2512121.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T02:58:19Z|11680|AndiiRutz_1||2512121.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-11T05:01:06Z",
+      "date": "2026-10-11",
+      "player_id": "3176",
+      "player_name": "Ibrahimović",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6944444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T05:01:06Z|3176|Fabian||6944444.00"
     }
   ]
 }
