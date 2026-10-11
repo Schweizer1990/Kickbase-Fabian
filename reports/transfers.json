@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T11:14:31.056527",
+  "updated_at": "2026-10-11T16:13:00.658803",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13620,6 +13620,81 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-11T10:17:19Z|7224|Pedro||15105337.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-11T11:29:17Z",
+      "date": "2026-10-11",
+      "player_id": "11665",
+      "player_name": "Potulski",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 7521212.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T11:29:17Z|11665|AndiiRutz_1||7521212.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-11T12:01:42Z",
+      "date": "2026-10-11",
+      "player_id": "3754",
+      "player_name": "Vázquez",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 1866458.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T12:01:42Z|3754|Fabian||1866458.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-11T13:18:11Z",
+      "date": "2026-10-11",
+      "player_id": "3470",
+      "player_name": "Caci",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 9912212.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T13:18:11Z|3470|AndiiRutz_1||9912212.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-11T13:31:33Z",
+      "date": "2026-10-11",
+      "player_id": "2864",
+      "player_name": "Collins",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 10842028.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-11T13:31:33Z|2864||AndiiRutz_1|10842028.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-11T14:39:27Z",
+      "date": "2026-10-11",
+      "player_id": "7283",
+      "player_name": "Brackelmann",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 10888853.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-11T14:39:27Z|7283|AndiiRutz_1||10888853.00"
     }
   ]
 }
