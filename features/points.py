@@ -3,6 +3,7 @@ import math
 import pandas as pd
 
 from kickbase_api.config import BASE_URL, get_json_with_token
+from features.matchday_points import player_matchday_history
 
 
 def _num(value, default=None):
@@ -181,11 +182,13 @@ def build_points_profiles(token, league_id, market_df, squad_df, ligainsider_df=
         li_lookup = {str(r["player_id"]): r for _, r in ligainsider_df.iterrows()}
 
     raw_profiles = {}
+    matchday_histories = {}
     failures = set()
     for player_id in source:
         try:
             payload = get_json_with_token(f"{BASE_URL}/leagues/{league_id}/players/{player_id}/performance", token)
             raw_profiles[player_id] = _raw_performance(payload)
+            matchday_histories[player_id] = player_matchday_history(payload)
         except Exception as exc:
             print(f"Warning: Could not fetch league performance for player {player_id}: {exc}")
             raw_profiles[player_id] = ([], [])
@@ -224,6 +227,7 @@ def build_points_profiles(token, league_id, market_df, squad_df, ligainsider_df=
         rows.append({
             **base,
             **profile,
+            "matchday_history": matchday_histories.get(player_id, []),
             "league_p90_prior": round(baseline_p90, 2),
             "expected_points_per_million": round(ppm, 3) if ppm is not None else None,
             "ligainsider_status": li_status,
@@ -296,3 +300,4 @@ def build_win_ranking(market_strategy_df, points_df):
         })
 
     return pd.DataFrame(rows).sort_values(["budget_fit", "win_score"], ascending=[False, False], ignore_index=True)
+

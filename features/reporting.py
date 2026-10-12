@@ -91,6 +91,12 @@ def _write_history_snapshot(report):
             for row in report.get("manager_budgets", [])
         ],
         "manager_squad_summary": report.get("manager_squad_summary", []),
+        "own_matchday_points": report.get("own_matchday_points", {}),
+        "player_matchday_results": [
+            {"player_id": row.get("player_id"), "player_name": row.get("player_name"),
+             "in_squad": row.get("in_squad"), "matchday_history": row.get("matchday_history", [])}
+            for row in report.get("points_profiles", [])
+        ],
         "market": [
             {
                 "player_id": row.get("player_id"),
@@ -158,12 +164,14 @@ def save_latest_report(
     market_live_snapshot=None,
     bid_guardrails_df=None,
     forecast_audit=None,
+    own_matchday_points=None,
 ):
     market_live_snapshot = market_live_snapshot or {}
     report = {
         "generated_at": datetime.now(ZoneInfo("Europe/Zurich")).isoformat(),
         "market_fetched_at": market_live_snapshot.get("fetched_at"),
         "league": league_name,
+        "own_matchday_points": own_matchday_points or {"status": "not_collected"},
         "model": metrics,
         "manager_budgets": _records(manager_df),
         "market": _records(market_df),
@@ -193,6 +201,7 @@ def save_latest_report(
             "bidding_behavior": "based on completed/winning transfers only; losing/open competing bids are not visible",
             "bid_guardrails": "shadow bidding ranges derived from completed winning transfers, estimated rival spending power and club-limit eligibility; they are not observations of live rival bids",
             "market_strategy": "capital-growth and bid-discipline layer based on MV model plus observed completed winning transfers",
+            "actual_points": "own_matchday_points comes directly from manager scoring, not the current squad sum; player matchday_history describes player results and does not prove historical lineup membership; completed anchor relies on explicit player matchday status, live scoring can still be revised",
             "expected_points": "transparent heuristic from Kickbase points/minutes, stabilized for small samples and adjusted by LigaInsider availability signals",
             "ligainsider": "public LigaInsider injury/suspension status and Topelf-page presence. Topelf presence can include an alternative and is therefore only a moderate positive signal, never a guaranteed start",
             "win_ranking": "combines expected next-match points, points-per-million, availability and capital-growth score; decision aid, not a guaranteed forecast",
@@ -230,4 +239,5 @@ def save_latest_report(
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     _write_history_snapshot(report)
     return output
+
 

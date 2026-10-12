@@ -14,6 +14,7 @@ from features.strategy import (
     build_market_bid_guardrails,
 )
 from features.points import build_points_profiles, build_win_ranking
+from features.matchday_points import build_own_matchday_report
 from features.ligainsider import build_ligainsider_signals
 from features.market_monitor import (
     append_market_snapshot,
@@ -120,6 +121,7 @@ market_strategy_df = build_market_strategy(market_recommendations_df, transfer_h
 squad_signals_df = build_squad_signals(squad_recommendations_df)
 ligainsider_signals_df = build_ligainsider_signals(market_recommendations_df, squad_recommendations_df)
 points_profiles_df = build_points_profiles(token, league_id, market_recommendations_df, squad_recommendations_df, ligainsider_signals_df)
+own_matchday_points = build_own_matchday_report(token, league_id, points_profiles_df)
 win_ranking_df = build_win_ranking(market_strategy_df, points_profiles_df)
 bid_guardrails_df = build_market_bid_guardrails(
     market_recommendations_df,
@@ -173,6 +175,7 @@ report_path = save_latest_report(
     market_live_snapshot,
     bid_guardrails_df,
     forecast_audit=forecast_audit,
+    own_matchday_points=own_matchday_points,
 )
 print(f"Machine-readable report written to {report_path}.")
 
@@ -180,3 +183,4 @@ if email_enabled:
     send_mail(manager_budgets_df, market_recommendations_df, squad_recommendations_df, email)
 else:
     print("Email delivery disabled (ENABLE_EMAIL=false).")
+
