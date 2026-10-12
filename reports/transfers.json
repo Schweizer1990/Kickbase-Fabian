@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T12:30:25.817368",
+  "updated_at": "2026-10-12T16:03:42.768599",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13770,6 +13770,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-12T07:56:55Z|7283||AndiiRutz_1|11110544.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-12T12:53:44Z",
+      "date": "2026-10-12",
+      "player_id": "9776",
+      "player_name": "Maksimović",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 4733333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T12:53:44Z|9776|Fabian||4733333.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-12T14:02:39Z",
+      "date": "2026-10-12",
+      "player_id": "3158",
+      "player_name": "Asllani",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 12912122.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T14:02:39Z|3158|AndiiRutz_1||12912122.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-12T15:26:14Z",
+      "date": "2026-10-12",
+      "player_id": "2126",
+      "player_name": "Kühn",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 974114.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T15:26:14Z|2126|Fabian||974114.00"
     }
   ]
 }
