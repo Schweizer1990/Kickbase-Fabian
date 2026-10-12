@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T19:42:58.001743",
+  "updated_at": "2026-10-12T20:03:43.715294",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13780,9 +13780,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 4733333.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4688334.0,
+      "overpay": 44999.0,
+      "overpay_pct": 0.96,
       "type": "kickbase_purchase",
       "event_key": "2026-10-12T12:53:44Z|9776|Fabian||4733333.00"
     },
@@ -13810,9 +13810,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 974114.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 1215128.0,
+      "overpay": -241014.0,
+      "overpay_pct": -19.83,
       "type": "kickbase_purchase",
       "event_key": "2026-10-12T15:26:14Z|2126|Fabian||974114.00"
     },
@@ -13840,9 +13840,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 1018899.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 1281802.0,
+      "overpay": -262903.0,
+      "overpay_pct": -20.51,
       "type": "kickbase_purchase",
       "event_key": "2026-10-12T17:29:35Z|13433|Fabian||1018899.00"
     },
@@ -13855,9 +13855,9 @@
       "buyer": null,
       "seller": "Marc Frischiniemi",
       "price": 4554509.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4349553.0,
+      "overpay": 204956.0,
+      "overpay_pct": 4.71,
       "type": "kickbase_sale",
       "event_key": "2026-10-12T17:41:05Z|11591||Marc Frischiniemi|4554509.00"
     },
@@ -13870,9 +13870,9 @@
       "buyer": null,
       "seller": "Marc Frischiniemi",
       "price": 6285385.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5883023.0,
+      "overpay": 402362.0,
+      "overpay_pct": 6.84,
       "type": "kickbase_sale",
       "event_key": "2026-10-12T17:42:16Z|14425||Marc Frischiniemi|6285385.00"
     }
