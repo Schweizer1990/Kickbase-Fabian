@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T16:03:42.768599",
+  "updated_at": "2026-10-12T18:36:00.270958",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13815,6 +13815,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-12T15:26:14Z|2126|Fabian||974114.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-12T17:28:47Z",
+      "date": "2026-10-12",
+      "player_id": "2928",
+      "player_name": "Petkov",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 11000001.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T17:28:47Z|2928|Mario||11000001.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-12T17:29:35Z",
+      "date": "2026-10-12",
+      "player_id": "13433",
+      "player_name": "Lemke",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 1018899.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T17:29:35Z|13433|Fabian||1018899.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-12T17:41:05Z",
+      "date": "2026-10-12",
+      "player_id": "11591",
+      "player_name": "Lenz",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 4554509.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-12T17:41:05Z|11591||Marc Frischiniemi|4554509.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-12T17:42:16Z",
+      "date": "2026-10-12",
+      "player_id": "14425",
+      "player_name": "Møller Wolfe",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 6285385.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-12T17:42:16Z|14425||Marc Frischiniemi|6285385.00"
     }
   ]
 }
