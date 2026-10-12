@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T20:11:01.164601",
+  "updated_at": "2026-10-12T23:19:16.126969",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13875,6 +13875,36 @@
       "overpay_pct": 6.84,
       "type": "kickbase_sale",
       "event_key": "2026-10-12T17:42:16Z|14425||Marc Frischiniemi|6285385.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-12T20:51:08Z",
+      "date": "2026-10-12",
+      "player_id": "3543",
+      "player_name": "Brown",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 15567894.0,
+      "market_value_at_transfer": 15337348.0,
+      "overpay": 230546.0,
+      "overpay_pct": 1.5,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T20:51:08Z|3543|Joel||15567894.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-12T21:18:31Z",
+      "date": "2026-10-12",
+      "player_id": "11556",
+      "player_name": "Massengo",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 9012334.0,
+      "market_value_at_transfer": 8867585.0,
+      "overpay": 144749.0,
+      "overpay_pct": 1.63,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-12T21:18:31Z|11556|Joel||9012334.00"
     }
   ]
 }
