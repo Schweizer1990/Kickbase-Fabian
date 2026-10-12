@@ -3,11 +3,11 @@
   "market_update": {
     "status": "not_confirmed",
     "confirmed": false,
-    "advanced_player_count": 72,
+    "advanced_player_count": 0,
     "compared_player_count": 463,
     "required_player_count": 232,
     "same_date_revision_count": 0,
-    "observed_at": "2026-10-12T07:33:02.051972+02:00",
+    "observed_at": "2026-10-12T13:12:39.650772+02:00",
     "last_confirmed_at": "2026-10-11T22:13:05.992345+02:00",
     "latest_mv_date": "2026-10-11",
     "evidence": "dated_market_value_history; at least half of comparable players advance"
@@ -721,6 +721,10 @@
       "date": "2026-10-11",
       "mv": 3414794.0
     },
+    "15301": {
+      "date": "2026-10-11",
+      "mv": 500000.0
+    },
     "17306": {
       "date": "2026-10-11",
       "mv": 1833174.0
@@ -1232,6 +1236,10 @@
     "11748": {
       "date": "2026-10-11",
       "mv": 4267743.0
+    },
+    "12243": {
+      "date": "2026-10-11",
+      "mv": 500000.0
     },
     "13442": {
       "date": "2026-10-11",
@@ -1894,7 +1902,7 @@
         "rmse": 159185.78
       }
     },
-    "pending_count": 463,
+    "pending_count": 465,
     "invalid_count": 0
   },
   "forecasts": [
@@ -24193,6 +24201,32 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-12T07:33:02.051972+02:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "15301",
+      "base_date": "2026-10-11",
+      "target_date": "2026-10-12",
+      "base_mv": 500000.0,
+      "predicted_change": 4386.19,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-12T13:12:39.650772+02:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "12243",
+      "base_date": "2026-10-11",
+      "target_date": "2026-10-12",
+      "base_mv": 500000.0,
+      "predicted_change": 913.63,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-12T13:12:39.650772+02:00",
       "status": "pending"
     }
   ]

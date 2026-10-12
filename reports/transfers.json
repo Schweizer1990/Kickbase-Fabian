@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:31:49.843222",
+  "updated_at": "2026-10-12T11:11:44.926628",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13755,6 +13755,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-12T02:58:51Z|6174|KönigMario||7696948.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-12T07:56:55Z",
+      "date": "2026-10-12",
+      "player_id": "7283",
+      "player_name": "Brackelmann",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 11110544.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-12T07:56:55Z|7283||AndiiRutz_1|11110544.00"
     }
   ]
 }
