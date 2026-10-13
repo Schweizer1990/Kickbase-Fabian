@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T05:19:34.918361",
+  "updated_at": "2026-10-13T08:25:32.920168",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13950,6 +13950,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-13T04:37:24Z|7242|Joel||8345678.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-13T05:23:51Z",
+      "date": "2026-10-13",
+      "player_id": "7320",
+      "player_name": "Scheller",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 8136244.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-13T05:23:51Z|7320||Pedro|8136244.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-13T05:45:46Z",
+      "date": "2026-10-13",
+      "player_id": "2939",
+      "player_name": "Dinkçi",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6911111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-13T05:45:46Z|2939|Fabian||6911111.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-13T07:25:35Z",
+      "date": "2026-10-13",
+      "player_id": "15193",
+      "player_name": "Rots",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6735555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-13T07:25:35Z|15193|Fabian||6735555.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-13T07:59:56Z",
+      "date": "2026-10-13",
+      "player_id": "11006",
+      "player_name": "Suzuki",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 19831222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-13T07:59:56Z|11006||Simon Koller|19831222.00"
     }
   ]
 }
