@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T23:19:16.126969",
+  "updated_at": "2026-10-13T05:19:34.918361",
   "transfers": [
     {
       "transfer_id": "13",
@@ -13905,6 +13905,51 @@
       "overpay_pct": 1.63,
       "type": "kickbase_purchase",
       "event_key": "2026-10-12T21:18:31Z|11556|Joel||9012334.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-13T02:01:49Z",
+      "date": "2026-10-13",
+      "player_id": "9684",
+      "player_name": "Claude-Maurice",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 7111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-13T02:01:49Z|9684|Simon Koller||7111111.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-13T04:33:51Z",
+      "date": "2026-10-13",
+      "player_id": "2074",
+      "player_name": "Hack",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 3789456.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-13T04:33:51Z|2074|Joel||3789456.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-13T04:37:24Z",
+      "date": "2026-10-13",
+      "player_id": "7242",
+      "player_name": "Gosens",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 8345678.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-13T04:37:24Z|7242|Joel||8345678.00"
     }
   ]
 }
