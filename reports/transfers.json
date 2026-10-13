@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T12:40:45.613936",
+  "updated_at": "2026-10-13T17:27:27.540327",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14055,6 +14055,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-13T12:31:32Z|3204|Pedro||13113057.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-13T16:00:58Z",
+      "date": "2026-10-13",
+      "player_id": "7684",
+      "player_name": "Aebischer",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 6222222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-13T16:00:58Z|7684|Bommer||6222222.00"
     }
   ]
 }
