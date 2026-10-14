@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T15:28:42.723310",
+  "updated_at": "2026-10-14T18:41:43.808251",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14160,6 +14160,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-14T13:33:27Z|3072|Simon Koller||4968713.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-14T18:21:20Z",
+      "date": "2026-10-14",
+      "player_id": "7963",
+      "player_name": "Quansah",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 18520000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-14T18:21:20Z|7963|Marc Frischiniemi||18520000.00"
     }
   ]
 }
