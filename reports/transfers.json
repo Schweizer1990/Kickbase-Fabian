@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T18:41:43.808251",
+  "updated_at": "2026-10-14T20:23:23.416845",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14125,9 +14125,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 3214712.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3282816.0,
+      "overpay": -68104.0,
+      "overpay_pct": -2.07,
       "type": "kickbase_purchase",
       "event_key": "2026-10-14T12:56:57Z|8374|Mario||3214712.00"
     },
@@ -14140,9 +14140,9 @@
       "buyer": "Simon Koller",
       "seller": null,
       "price": 5317849.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5423725.0,
+      "overpay": -105876.0,
+      "overpay_pct": -1.95,
       "type": "kickbase_purchase",
       "event_key": "2026-10-14T13:19:46Z|8222|Simon Koller||5317849.00"
     },
@@ -14155,9 +14155,9 @@
       "buyer": "Simon Koller",
       "seller": null,
       "price": 4968713.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4977750.0,
+      "overpay": -9037.0,
+      "overpay_pct": -0.18,
       "type": "kickbase_purchase",
       "event_key": "2026-10-14T13:33:27Z|3072|Simon Koller||4968713.00"
     },
@@ -14170,11 +14170,26 @@
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 18520000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 16456839.0,
+      "overpay": 2063161.0,
+      "overpay_pct": 12.54,
       "type": "kickbase_purchase",
       "event_key": "2026-10-14T18:21:20Z|7963|Marc Frischiniemi||18520000.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-14T18:57:52Z",
+      "date": "2026-10-14",
+      "player_id": "11956",
+      "player_name": "Fernández",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 15645391.0,
+      "market_value_at_transfer": 15623990.0,
+      "overpay": 21401.0,
+      "overpay_pct": 0.14,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-14T18:57:52Z|11956||Marc Frischiniemi|15645391.00"
     }
   ]
 }
