@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T20:23:23.416845",
+  "updated_at": "2026-10-15T09:16:24.283058",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14190,6 +14190,51 @@
       "overpay_pct": 0.14,
       "type": "kickbase_sale",
       "event_key": "2026-10-14T18:57:52Z|11956||Marc Frischiniemi|15645391.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-14T21:39:52Z",
+      "date": "2026-10-14",
+      "player_id": "849",
+      "player_name": "Kleindienst",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 9270451.0,
+      "market_value_at_transfer": 9270451.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-14T21:39:52Z|849||Mario|9270451.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-14T22:51:18Z",
+      "date": "2026-10-14",
+      "player_id": "15283",
+      "player_name": "Adeline",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 3933333.0,
+      "market_value_at_transfer": 3573228.0,
+      "overpay": 360105.0,
+      "overpay_pct": 10.08,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-14T22:51:18Z|15283|Fabian||3933333.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-15T05:59:24Z",
+      "date": "2026-10-15",
+      "player_id": "10122",
+      "player_name": "Gruber",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 11005724.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T05:59:24Z|10122||Pedro|11005724.00"
     }
   ]
 }
