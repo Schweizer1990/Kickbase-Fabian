@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T14:46:52.641938",
+  "updated_at": "2026-10-15T15:09:48.221199",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14265,6 +14265,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-15T11:48:56Z|8247|Pedro||7349760.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-15T15:04:36Z",
+      "date": "2026-10-15",
+      "player_id": "11162",
+      "player_name": "Avdullahu",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 13111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-15T15:04:36Z|11162|Bommer||13111111.00"
     }
   ]
 }
