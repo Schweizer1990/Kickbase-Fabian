@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T15:09:48.221199",
+  "updated_at": "2026-10-15T20:07:14.259888",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14230,9 +14230,9 @@
       "buyer": null,
       "seller": "Pedro",
       "price": 11005724.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 11089287.0,
+      "overpay": -83563.0,
+      "overpay_pct": -0.75,
       "type": "kickbase_sale",
       "event_key": "2026-10-15T05:59:24Z|10122||Pedro|11005724.00"
     },
@@ -14245,9 +14245,9 @@
       "buyer": null,
       "seller": "Simon Koller",
       "price": 5423725.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5380968.0,
+      "overpay": 42757.0,
+      "overpay_pct": 0.79,
       "type": "kickbase_sale",
       "event_key": "2026-10-15T09:40:58Z|8222||Simon Koller|5423725.00"
     },
@@ -14260,9 +14260,9 @@
       "buyer": "Pedro",
       "seller": null,
       "price": 7349760.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5996296.0,
+      "overpay": 1353464.0,
+      "overpay_pct": 22.57,
       "type": "kickbase_purchase",
       "event_key": "2026-10-15T11:48:56Z|8247|Pedro||7349760.00"
     },
@@ -14275,11 +14275,56 @@
       "buyer": "Bommer",
       "seller": null,
       "price": 13111111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 12646000.0,
+      "overpay": 465111.0,
+      "overpay_pct": 3.68,
       "type": "kickbase_purchase",
       "event_key": "2026-10-15T15:04:36Z|11162|Bommer||13111111.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-15T15:53:06Z",
+      "date": "2026-10-15",
+      "player_id": "2300",
+      "player_name": "Stanišić",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 14085182.0,
+      "market_value_at_transfer": 14159125.0,
+      "overpay": -73943.0,
+      "overpay_pct": -0.52,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-15T15:53:06Z|2300|Mario||14085182.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-15T20:05:36Z",
+      "date": "2026-10-15",
+      "player_id": "11665",
+      "player_name": "Potulski",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 8654940.0,
+      "market_value_at_transfer": 8654940.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T20:05:36Z|11665||AndiiRutz_1|8654940.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-15T20:05:54Z",
+      "date": "2026-10-15",
+      "player_id": "8301",
+      "player_name": "Sirch",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 5138842.0,
+      "market_value_at_transfer": 5138842.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T20:05:54Z|8301||AndiiRutz_1|5138842.00"
     }
   ]
 }
