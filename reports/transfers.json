@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T20:07:14.259888",
+  "updated_at": "2026-10-15T20:16:18.916416",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14325,6 +14325,36 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-15T20:05:54Z|8301||AndiiRutz_1|5138842.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-15T20:07:34Z",
+      "date": "2026-10-15",
+      "player_id": "1883",
+      "player_name": "Nicolas",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 13195276.0,
+      "market_value_at_transfer": 13195276.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T20:07:34Z|1883||Mario|13195276.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-15T20:08:02Z",
+      "date": "2026-10-15",
+      "player_id": "8374",
+      "player_name": "Terrier",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 3331388.0,
+      "market_value_at_transfer": 3331388.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T20:08:02Z|8374||Mario|3331388.00"
     }
   ]
 }
