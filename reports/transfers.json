@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T17:04:16.381175",
+  "updated_at": "2026-10-16T19:45:58.208539",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14610,6 +14610,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-16T16:54:48Z|173||Flo24|28407702.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-16T17:34:30Z",
+      "date": "2026-10-16",
+      "player_id": "3543",
+      "player_name": "Brown",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 15670851.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T17:34:30Z|3543||Joel|15670851.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-16T19:42:50Z",
+      "date": "2026-10-16",
+      "player_id": "12297",
+      "player_name": "Tanaka",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7682498.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T19:42:50Z|12297||Fabian|7682498.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-16T19:42:59Z",
+      "date": "2026-10-16",
+      "player_id": "1809",
+      "player_name": "Wolf",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7679884.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T19:42:59Z|1809||Fabian|7679884.00"
     }
   ]
 }
