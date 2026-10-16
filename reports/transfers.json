@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T09:09:25.962961",
+  "updated_at": "2026-10-16T14:41:22.408689",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14460,6 +14460,96 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-16T08:48:57Z|14140||KönigMario|7139947.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-16T10:52:31Z",
+      "date": "2026-10-16",
+      "player_id": "9684",
+      "player_name": "Claude-Maurice",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 7506039.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T10:52:31Z|9684||Simon Koller|7506039.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-16T11:16:33Z",
+      "date": "2026-10-16",
+      "player_id": "3063",
+      "player_name": "Chiarodia",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 2666666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-16T11:16:33Z|3063|Flo24||2666666.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-16T12:37:32Z",
+      "date": "2026-10-16",
+      "player_id": "1671",
+      "player_name": "Prömel",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 14642396.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T12:37:32Z|1671||Bommer|14642396.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-16T12:37:40Z",
+      "date": "2026-10-16",
+      "player_id": "7684",
+      "player_name": "Aebischer",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 6419357.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T12:37:40Z|7684||Bommer|6419357.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-10-16T12:43:34Z",
+      "date": "2026-10-16",
+      "player_id": "3350",
+      "player_name": "Keidel",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 9545938.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-16T12:43:34Z|3350|Simon Koller||9545938.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-16T13:59:32Z",
+      "date": "2026-10-16",
+      "player_id": "8166",
+      "player_name": "Chuki",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 12404755.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T13:59:32Z|8166||Pedro|12404755.00"
     }
   ]
 }
