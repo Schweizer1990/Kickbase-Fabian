@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T20:16:18.916416",
+  "updated_at": "2026-10-16T09:09:25.962961",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14355,6 +14355,111 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-15T20:08:02Z|8374||Mario|3331388.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-15T21:18:04Z",
+      "date": "2026-10-15",
+      "player_id": "9600",
+      "player_name": "Schlager",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 3369636.0,
+      "market_value_at_transfer": 3369636.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T21:18:04Z|9600||Thomasson|3369636.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-15T21:18:07Z",
+      "date": "2026-10-15",
+      "player_id": "2476",
+      "player_name": "Lee",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 9499153.0,
+      "market_value_at_transfer": 9499153.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T21:18:07Z|2476||Thomasson|9499153.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-15T21:18:10Z",
+      "date": "2026-10-15",
+      "player_id": "3120",
+      "player_name": "Bischof",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 17568751.0,
+      "market_value_at_transfer": 17568751.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-15T21:18:10Z|3120||Thomasson|17568751.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-15T23:11:57Z",
+      "date": "2026-10-15",
+      "player_id": "118",
+      "player_name": "Grifo",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 5555555.0,
+      "market_value_at_transfer": 5530881.0,
+      "overpay": 24674.0,
+      "overpay_pct": 0.45,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-15T23:11:57Z|118|Joel||5555555.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-16T00:54:12Z",
+      "date": "2026-10-16",
+      "player_id": "2065",
+      "player_name": "Uduokhai",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 10456600.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-16T00:54:12Z|2065|Flo24||10456600.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-16T04:41:43Z",
+      "date": "2026-10-16",
+      "player_id": "2144",
+      "player_name": "Koch",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 24022222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-16T04:41:43Z|2144|Flo24||24022222.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-16T08:48:57Z",
+      "date": "2026-10-16",
+      "player_id": "14140",
+      "player_name": "Mensah",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 7139947.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T08:48:57Z|14140||KönigMario|7139947.00"
     }
   ]
 }
