@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T14:41:22.408689",
+  "updated_at": "2026-10-16T17:04:16.381175",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14550,6 +14550,66 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-16T13:59:32Z|8166||Pedro|12404755.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-16T15:03:43Z",
+      "date": "2026-10-16",
+      "player_id": "10049",
+      "player_name": "Behrens",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 12000005.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-16T15:03:43Z|10049|Bommer||12000005.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-16T15:23:21Z",
+      "date": "2026-10-16",
+      "player_id": "2294",
+      "player_name": "Pieper",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 11542104.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T15:23:21Z|2294||Bommer|11542104.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-16T16:54:45Z",
+      "date": "2026-10-16",
+      "player_id": "2762",
+      "player_name": "Becker",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 7236868.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T16:54:45Z|2762||Flo24|7236868.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-10-16T16:54:48Z",
+      "date": "2026-10-16",
+      "player_id": "173",
+      "player_name": "Tah",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 28407702.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-16T16:54:48Z|173||Flo24|28407702.00"
     }
   ]
 }
