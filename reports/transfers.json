@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T13:33:01.594387",
+  "updated_at": "2026-10-17T16:03:17.151633",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14850,6 +14850,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-17T13:04:34Z|8252|Thomasson||8080153.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-17T15:59:15Z",
+      "date": "2026-10-17",
+      "player_id": "15373",
+      "player_name": "Heskey",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 2290749.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-17T15:59:15Z|15373|Thomasson||2290749.00"
     }
   ]
 }
