@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T16:03:17.151633",
+  "updated_at": "2026-10-17T18:56:35.597664",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14865,6 +14865,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-17T15:59:15Z|15373|Thomasson||2290749.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-17T16:49:12Z",
+      "date": "2026-10-17",
+      "player_id": "1955",
+      "player_name": "Burke",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 4654666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-17T16:49:12Z|1955||AndiiRutz_1|4654666.00"
     }
   ]
 }
