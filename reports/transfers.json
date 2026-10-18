@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:58:05.953363",
+  "updated_at": "2026-10-18T13:51:21.337627",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14970,6 +14970,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-18T08:47:42Z|10113||Mario|9552203.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-18T12:43:14Z",
+      "date": "2026-10-18",
+      "player_id": "11886",
+      "player_name": "Rômulo",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 13655555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-18T12:43:14Z|11886|Mario||13655555.00"
     }
   ]
 }
