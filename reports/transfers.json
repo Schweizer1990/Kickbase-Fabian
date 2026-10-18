@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T13:51:21.337627",
+  "updated_at": "2026-10-18T19:03:57.991054",
   "transfers": [
     {
       "transfer_id": "13",
@@ -14985,6 +14985,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-18T12:43:14Z|11886|Mario||13655555.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-18T15:01:31Z",
+      "date": "2026-10-18",
+      "player_id": "3281",
+      "player_name": "Reis",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 9355555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-18T15:01:31Z|3281|Mario||9355555.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-18T19:01:55Z",
+      "date": "2026-10-18",
+      "player_id": "72",
+      "player_name": "Flekken",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 11976869.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-18T19:01:55Z|72||KönigMario|11976869.00"
     }
   ]
 }
