@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T05:47:46.041768",
+  "updated_at": "2026-10-19T10:06:32.903295",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15105,6 +15105,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-19T05:31:30Z|1540|AndiiRutz_1||5095999.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-19T08:29:35Z",
+      "date": "2026-10-19",
+      "player_id": "11955",
+      "player_name": "El Khannouss",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 14212121.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-19T08:29:35Z|11955|AndiiRutz_1||14212121.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-19T09:13:35Z",
+      "date": "2026-10-19",
+      "player_id": "4333",
+      "player_name": "Ullrich",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6666666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-19T09:13:35Z|4333|Fabian||6666666.00"
     }
   ]
 }
