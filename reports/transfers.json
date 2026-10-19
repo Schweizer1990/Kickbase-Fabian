@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T20:15:35.919171",
+  "updated_at": "2026-10-19T21:18:29.833607",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15150,6 +15150,21 @@
       "overpay_pct": -0.64,
       "type": "kickbase_purchase",
       "event_key": "2026-10-19T17:57:22Z|2358|Bommer||8000872.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-19T20:38:00Z",
+      "date": "2026-10-19",
+      "player_id": "3041",
+      "player_name": "Widmer",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 2115906.0,
+      "market_value_at_transfer": 2115906.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-19T20:38:00Z|3041||Pedro|2115906.00"
     }
   ]
 }
