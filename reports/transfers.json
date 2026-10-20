@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T12:20:25.555616",
+  "updated_at": "2026-10-20T14:51:23.595013",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15225,6 +15225,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-20T11:29:41Z|7277|Pedro||6323151.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-20T12:49:12Z",
+      "date": "2026-10-20",
+      "player_id": "2302",
+      "player_name": "Jeong",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 5455555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-20T12:49:12Z|2302|Mario||5455555.00"
     }
   ]
 }
