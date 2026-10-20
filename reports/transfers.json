@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T14:51:23.595013",
+  "updated_at": "2026-10-20T20:05:58.195574",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15175,9 +15175,9 @@
       "buyer": null,
       "seller": "Simon Koller",
       "price": 7296264.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6980591.0,
+      "overpay": 315673.0,
+      "overpay_pct": 4.52,
       "type": "kickbase_sale",
       "event_key": "2026-10-20T06:28:41Z|7325||Simon Koller|7296264.00"
     },
@@ -15190,9 +15190,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 2150000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2344956.0,
+      "overpay": -194956.0,
+      "overpay_pct": -8.31,
       "type": "kickbase_purchase",
       "event_key": "2026-10-20T08:33:01Z|2399|Mario||2150000.00"
     },
@@ -15205,9 +15205,9 @@
       "buyer": null,
       "seller": "Mario",
       "price": 9910542.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9673068.0,
+      "overpay": 237474.0,
+      "overpay_pct": 2.46,
       "type": "kickbase_sale",
       "event_key": "2026-10-20T08:33:47Z|17282||Mario|9910542.00"
     },
@@ -15220,9 +15220,9 @@
       "buyer": "Pedro",
       "seller": null,
       "price": 6323151.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4683693.0,
+      "overpay": 1639458.0,
+      "overpay_pct": 35.0,
       "type": "kickbase_purchase",
       "event_key": "2026-10-20T11:29:41Z|7277|Pedro||6323151.00"
     },
@@ -15235,9 +15235,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 5455555.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5384113.0,
+      "overpay": 71442.0,
+      "overpay_pct": 1.33,
       "type": "kickbase_purchase",
       "event_key": "2026-10-20T12:49:12Z|2302|Mario||5455555.00"
     }
