@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T09:33:05.170936",
+  "updated_at": "2026-10-20T12:20:25.555616",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15210,6 +15210,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-20T08:33:47Z|17282||Mario|9910542.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-10-20T11:29:41Z",
+      "date": "2026-10-20",
+      "player_id": "7277",
+      "player_name": "Chaïbi",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 6323151.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-20T11:29:41Z|7277|Pedro||6323151.00"
     }
   ]
 }
