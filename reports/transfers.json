@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T16:14:40.643867",
+  "updated_at": "2026-10-21T20:19:26.435603",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15250,9 +15250,9 @@
       "buyer": "AndiiRutz_1",
       "seller": null,
       "price": 29215858.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 28089179.0,
+      "overpay": 1126679.0,
+      "overpay_pct": 4.01,
       "type": "kickbase_purchase",
       "event_key": "2026-10-21T02:11:52Z|2694|AndiiRutz_1||29215858.00"
     },
@@ -15265,9 +15265,9 @@
       "buyer": "Simon Koller",
       "seller": null,
       "price": 4549604.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4841715.0,
+      "overpay": -292111.0,
+      "overpay_pct": -6.03,
       "type": "kickbase_purchase",
       "event_key": "2026-10-21T04:46:44Z|15202|Simon Koller||4549604.00"
     },
@@ -15280,11 +15280,26 @@
       "buyer": "AndiiRutz_1",
       "seller": null,
       "price": 12525255.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9059077.0,
+      "overpay": 3466178.0,
+      "overpay_pct": 38.26,
       "type": "kickbase_purchase",
       "event_key": "2026-10-21T13:49:21Z|2275|AndiiRutz_1||12525255.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-21T16:46:37Z",
+      "date": "2026-10-21",
+      "player_id": "2373",
+      "player_name": "Kabak",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 21621198.0,
+      "market_value_at_transfer": 21589876.0,
+      "overpay": 31322.0,
+      "overpay_pct": 0.15,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-21T16:46:37Z|2373||AndiiRutz_1|21621198.00"
     }
   ]
 }
