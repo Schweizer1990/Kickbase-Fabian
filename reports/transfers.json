@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T20:12:36.229934",
+  "updated_at": "2026-10-21T09:28:36.970177",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15240,6 +15240,36 @@
       "overpay_pct": 1.33,
       "type": "kickbase_purchase",
       "event_key": "2026-10-20T12:49:12Z|2302|Mario||5455555.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-21T02:11:52Z",
+      "date": "2026-10-21",
+      "player_id": "2694",
+      "player_name": "Stiller",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 29215858.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-21T02:11:52Z|2694|AndiiRutz_1||29215858.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-21T04:46:44Z",
+      "date": "2026-10-21",
+      "player_id": "15202",
+      "player_name": "Uno",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 4549604.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-21T04:46:44Z|15202|Simon Koller||4549604.00"
     }
   ]
 }
