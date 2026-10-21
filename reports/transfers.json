@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T09:28:36.970177",
+  "updated_at": "2026-10-21T14:58:18.318132",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15270,6 +15270,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-21T04:46:44Z|15202|Simon Koller||4549604.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-21T13:49:21Z",
+      "date": "2026-10-21",
+      "player_id": "2275",
+      "player_name": "Baumgartner",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 12525255.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-21T13:49:21Z|2275|AndiiRutz_1||12525255.00"
     }
   ]
 }
