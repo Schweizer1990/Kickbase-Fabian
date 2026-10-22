@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T09:31:44.318901",
+  "updated_at": "2026-10-22T10:40:18.562714",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15330,6 +15330,21 @@
       "overpay_pct": 11.66,
       "type": "kickbase_purchase",
       "event_key": "2026-10-21T22:16:25Z|2897|Pedro||12014812.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-22T09:49:22Z",
+      "date": "2026-10-22",
+      "player_id": "2199",
+      "player_name": "Vagnoman",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 15239130.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-22T09:49:22Z|2199||Mario|15239130.00"
     }
   ]
 }
