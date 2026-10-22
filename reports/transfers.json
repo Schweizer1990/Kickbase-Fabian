@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T20:25:07.032812",
+  "updated_at": "2026-10-22T09:31:44.318901",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15300,6 +15300,36 @@
       "overpay_pct": 0.15,
       "type": "kickbase_sale",
       "event_key": "2026-10-21T16:46:37Z|2373||AndiiRutz_1|21621198.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-21T22:11:21Z",
+      "date": "2026-10-21",
+      "player_id": "7219",
+      "player_name": "Jóhannesson",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 7555556.0,
+      "market_value_at_transfer": 7238211.0,
+      "overpay": 317345.0,
+      "overpay_pct": 4.38,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-21T22:11:21Z|7219|Simon Koller||7555556.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-21T22:16:25Z",
+      "date": "2026-10-21",
+      "player_id": "2897",
+      "player_name": "Reitz",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 12014812.0,
+      "market_value_at_transfer": 10759823.0,
+      "overpay": 1254989.0,
+      "overpay_pct": 11.66,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-21T22:16:25Z|2897|Pedro||12014812.00"
     }
   ]
 }
