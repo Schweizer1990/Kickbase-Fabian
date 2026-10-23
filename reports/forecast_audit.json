@@ -3,11 +3,11 @@
   "market_update": {
     "status": "not_confirmed",
     "confirmed": false,
-    "advanced_player_count": 77,
+    "advanced_player_count": 0,
     "compared_player_count": 467,
     "required_player_count": 234,
     "same_date_revision_count": 0,
-    "observed_at": "2026-10-23T05:50:30.278193+02:00",
+    "observed_at": "2026-10-23T11:28:32.953735+02:00",
     "last_confirmed_at": "2026-10-22T22:23:04.008736+02:00",
     "latest_mv_date": "2026-10-22",
     "evidence": "dated_market_value_history; at least half of comparable players advance"
@@ -1265,6 +1265,10 @@
       "date": "2026-10-22",
       "mv": 2967745.0
     },
+    "16567": {
+      "date": "2026-10-22",
+      "mv": 500000.0
+    },
     "54": {
       "date": "2026-10-22",
       "mv": 800457.0
@@ -1910,7 +1914,7 @@
         "rmse": 98255.59
       }
     },
-    "pending_count": 467,
+    "pending_count": 468,
     "invalid_count": 0
   },
   "forecasts": [
@@ -108160,6 +108164,19 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-23T05:50:30.278193+02:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "16567",
+      "base_date": "2026-10-22",
+      "target_date": "2026-10-23",
+      "base_mv": 500000.0,
+      "predicted_change": 250.85,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-23T11:28:32.953735+02:00",
       "status": "pending"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:49:22.004654",
+  "updated_at": "2026-10-23T09:27:42.743070",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15510,6 +15510,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-22T21:34:12Z|7349||Thomasson|15488118.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-23T05:18:31Z",
+      "date": "2026-10-23",
+      "player_id": "15613",
+      "player_name": "Hashioka",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 6038342.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-23T05:18:31Z|15613||AndiiRutz_1|6038342.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-23T05:18:54Z",
+      "date": "2026-10-23",
+      "player_id": "4654",
+      "player_name": "Kömür",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 5481228.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-23T05:18:54Z|4654||AndiiRutz_1|5481228.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-23T07:04:37Z",
+      "date": "2026-10-23",
+      "player_id": "11043",
+      "player_name": "Assignon",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 4222271.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-23T07:04:37Z|11043|Bommer||4222271.00"
     }
   ]
 }
