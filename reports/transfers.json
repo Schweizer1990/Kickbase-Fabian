@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T20:21:57.223363",
+  "updated_at": "2026-10-23T03:49:22.004654",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15450,6 +15450,66 @@
       "overpay_pct": -0.45,
       "type": "kickbase_purchase",
       "event_key": "2026-10-22T18:16:20Z|15613|AndiiRutz_1||6011010.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-22T20:28:28Z",
+      "date": "2026-10-22",
+      "player_id": "12341",
+      "player_name": "Ribeiro",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 5379809.0,
+      "market_value_at_transfer": 5379809.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-22T20:28:28Z|12341||Pedro|5379809.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-22T21:34:05Z",
+      "date": "2026-10-22",
+      "player_id": "4654",
+      "player_name": "Kömür",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 5555555.0,
+      "market_value_at_transfer": 5481228.0,
+      "overpay": 74327.0,
+      "overpay_pct": 1.36,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-22T21:34:05Z|4654|AndiiRutz_1||5555555.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-22T21:34:09Z",
+      "date": "2026-10-22",
+      "player_id": "3277",
+      "player_name": "Muheim",
+      "buyer": "Pedro",
+      "seller": "Thomasson",
+      "price": 7107828.0,
+      "market_value_at_transfer": 6420196.0,
+      "overpay": 687632.0,
+      "overpay_pct": 10.71,
+      "type": "manager_to_manager",
+      "event_key": "2026-10-22T21:34:09Z|3277|Pedro|Thomasson|7107828.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-22T21:34:12Z",
+      "date": "2026-10-22",
+      "player_id": "7349",
+      "player_name": "Jeltsch",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 15488118.0,
+      "market_value_at_transfer": 15488118.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-22T21:34:12Z|7349||Thomasson|15488118.00"
     }
   ]
 }
