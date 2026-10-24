@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T20:36:56.718924",
+  "updated_at": "2026-10-24T07:07:54.191052",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15690,6 +15690,66 @@
       "overpay_pct": 2.9,
       "type": "kickbase_sale",
       "event_key": "2026-10-23T19:26:01Z|15193||Fabian|8604538.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-23T20:43:03Z",
+      "date": "2026-10-23",
+      "player_id": "4333",
+      "player_name": "Ullrich",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7326513.0,
+      "market_value_at_transfer": 7326513.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-23T20:43:03Z|4333||Fabian|7326513.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-23T20:43:14Z",
+      "date": "2026-10-23",
+      "player_id": "15283",
+      "player_name": "Adeline",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5899865.0,
+      "market_value_at_transfer": 5899865.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-23T20:43:14Z|15283||Fabian|5899865.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-23T20:43:29Z",
+      "date": "2026-10-23",
+      "player_id": "2126",
+      "player_name": "Kühn",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 4298036.0,
+      "market_value_at_transfer": 4298036.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-23T20:43:29Z|2126||Fabian|4298036.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-23T23:25:23Z",
+      "date": "2026-10-23",
+      "player_id": "7394",
+      "player_name": "Amoako",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 4039445.0,
+      "market_value_at_transfer": 4039445.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-23T23:25:23Z|7394|Mario||4039445.00"
     }
   ]
 }
