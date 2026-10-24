@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:07:54.191052",
+  "updated_at": "2026-10-24T08:59:13.028845",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15750,6 +15750,21 @@
       "overpay_pct": 0.0,
       "type": "kickbase_purchase",
       "event_key": "2026-10-23T23:25:23Z|7394|Mario||4039445.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-24T08:09:06Z",
+      "date": "2026-10-24",
+      "player_id": "2176",
+      "player_name": "Höler",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 5094421.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-24T08:09:06Z|2176||Simon Koller|5094421.00"
     }
   ]
 }
