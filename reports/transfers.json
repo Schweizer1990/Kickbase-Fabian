@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T09:37:27.507513",
+  "updated_at": "2026-10-24T13:54:34.269393",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15765,6 +15765,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-24T08:09:06Z|2176||Simon Koller|5094421.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-10-24T09:46:17Z",
+      "date": "2026-10-24",
+      "player_id": "2939",
+      "player_name": "Dinkçi",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 9434560.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-24T09:46:17Z|2939||Fabian|9434560.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-24T09:46:32Z",
+      "date": "2026-10-24",
+      "player_id": "2201",
+      "player_name": "Maina",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 11134863.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-24T09:46:32Z|2201||Fabian|11134863.00"
     }
   ]
 }
