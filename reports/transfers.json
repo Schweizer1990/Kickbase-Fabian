@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T12:27:17.673431",
+  "updated_at": "2026-10-25T14:11:09.527517",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15975,6 +15975,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-25T10:15:42Z|7242||Joel|9549112.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-25T13:14:53Z",
+      "date": "2026-10-25",
+      "player_id": "4406",
+      "player_name": "Dina Ebimbe",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 4609576.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-25T13:14:53Z|4406|Fabian||4609576.00"
     }
   ]
 }
