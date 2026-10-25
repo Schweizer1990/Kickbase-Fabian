@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T21:28:41.503851",
+  "updated_at": "2026-10-25T09:09:21.590177",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15870,6 +15870,66 @@
       "overpay_pct": 8.85,
       "type": "kickbase_purchase",
       "event_key": "2026-10-24T21:11:02Z|1865|KönigMario||7575960.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-24T22:09:23Z",
+      "date": "2026-10-24",
+      "player_id": "14048",
+      "player_name": "Goto",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 4807584.0,
+      "market_value_at_transfer": 4807584.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-24T22:09:23Z|14048||Pedro|4807584.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-24T22:32:21Z",
+      "date": "2026-10-24",
+      "player_id": "3187",
+      "player_name": "Schäfer",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 6506281.0,
+      "market_value_at_transfer": 6256281.0,
+      "overpay": 250000.0,
+      "overpay_pct": 4.0,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-24T22:32:21Z|3187|Pedro||6506281.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-25T04:18:14Z",
+      "date": "2026-10-25",
+      "player_id": "2895",
+      "player_name": "Nebel",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6411111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-25T04:18:14Z|2895|Fabian||6411111.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-10-25T06:00:37Z",
+      "date": "2026-10-25",
+      "player_id": "3183",
+      "player_name": "Kade",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 13611111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-25T06:00:37Z|3183|Fabian||13611111.00"
     }
   ]
 }
