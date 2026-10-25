@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T17:24:21.354860",
+  "updated_at": "2026-10-25T19:23:02.558834",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15990,6 +15990,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-25T13:14:53Z|4406|Fabian||4609576.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-25T18:41:45Z",
+      "date": "2026-10-25",
+      "player_id": "7781",
+      "player_name": "Sauer",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 3165866.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-25T18:41:45Z|7781|Fabian||3165866.00"
     }
   ]
 }
