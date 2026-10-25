@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T09:16:15.290128",
+  "updated_at": "2026-10-25T12:27:17.673431",
   "transfers": [
     {
       "transfer_id": "13",
@@ -15930,6 +15930,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-25T06:00:37Z|3183|Fabian||13611111.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-25T10:15:21Z",
+      "date": "2026-10-25",
+      "player_id": "118",
+      "player_name": "Grifo",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 6542591.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-25T10:15:21Z|118||Joel|6542591.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-25T10:15:28Z",
+      "date": "2026-10-25",
+      "player_id": "2074",
+      "player_name": "Hack",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 4900688.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-25T10:15:28Z|2074||Joel|4900688.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-25T10:15:42Z",
+      "date": "2026-10-25",
+      "player_id": "7242",
+      "player_name": "Gosens",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 9549112.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-25T10:15:42Z|7242||Joel|9549112.00"
     }
   ]
 }
