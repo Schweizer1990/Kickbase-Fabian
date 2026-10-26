@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T16:40:47.702805",
+  "updated_at": "2026-10-26T20:16:10.956952",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16110,6 +16110,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-26T16:12:20Z|15478||Fabian|4975324.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-26T19:16:29Z",
+      "date": "2026-10-26",
+      "player_id": "2661",
+      "player_name": "Diaby",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 24815202.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-26T19:16:29Z|2661||Joel|24815202.00"
     }
   ]
 }
