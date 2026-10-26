@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T10:20:39.216326",
+  "updated_at": "2026-10-26T15:20:43.360371",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16080,6 +16080,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-26T10:19:41Z|15478|Fabian||5211111.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-26T14:03:40Z",
+      "date": "2026-10-26",
+      "player_id": "2854",
+      "player_name": "Demirović",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 14500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-26T14:03:40Z|2854|AndiiRutz_1||14500000.00"
     }
   ]
 }
