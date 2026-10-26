@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:23:05.015764",
+  "updated_at": "2026-10-26T10:20:39.216326",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16065,6 +16065,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-10-26T08:21:01Z|11955||AndiiRutz_1|14377287.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-26T10:19:41Z",
+      "date": "2026-10-26",
+      "player_id": "15478",
+      "player_name": "Nadir",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 5211111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-26T10:19:41Z|15478|Fabian||5211111.00"
     }
   ]
 }
