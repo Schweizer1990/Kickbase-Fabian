@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T21:32:09.097853",
+  "updated_at": "2026-10-26T07:36:16.817389",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16005,6 +16005,36 @@
       "overpay_pct": -1.42,
       "type": "kickbase_purchase",
       "event_key": "2026-10-25T18:41:45Z|7781|Fabian||3165866.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-10-25T22:15:20Z",
+      "date": "2026-10-25",
+      "player_id": "17306",
+      "player_name": "Imeri",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 4114189.0,
+      "market_value_at_transfer": 4114189.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-25T22:15:20Z|17306||KönigMario|4114189.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-26T02:45:46Z",
+      "date": "2026-10-26",
+      "player_id": "2749",
+      "player_name": "Tigges",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6411111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-26T02:45:46Z|2749|Fabian||6411111.00"
     }
   ]
 }
