@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T15:48:14.264235",
+  "updated_at": "2026-10-27T21:03:02.003755",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16195,9 +16195,9 @@
       "buyer": null,
       "seller": "Mario",
       "price": 4074072.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3949069.0,
+      "overpay": 125003.0,
+      "overpay_pct": 3.17,
       "type": "kickbase_sale",
       "event_key": "2026-10-27T06:49:31Z|7394||Mario|4074072.00"
     },
@@ -16260,6 +16260,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-27T15:14:34Z|7717|AndiiRutz_1||6625222.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-27T16:05:41Z",
+      "date": "2026-10-27",
+      "player_id": "10114",
+      "player_name": "Chukwuemeka",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 2520852.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-27T16:05:41Z|10114|AndiiRutz_1||2520852.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-27T16:34:03Z",
+      "date": "2026-10-27",
+      "player_id": "7269",
+      "player_name": "Tella",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 4554672.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-27T16:34:03Z|7269|KönigMario||4554672.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-27T16:59:21Z",
+      "date": "2026-10-27",
+      "player_id": "6197",
+      "player_name": "Curda",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 11235556.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-27T16:59:21Z|6197|Joel||11235556.00"
     }
   ]
 }
