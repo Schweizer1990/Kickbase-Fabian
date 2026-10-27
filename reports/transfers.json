@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T21:16:17.322419",
+  "updated_at": "2026-10-27T08:00:35.444782",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16125,6 +16125,96 @@
       "overpay_pct": 1.68,
       "type": "kickbase_sale",
       "event_key": "2026-10-26T19:16:29Z|2661||Joel|24815202.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-26T21:59:04Z",
+      "date": "2026-10-26",
+      "player_id": "8367",
+      "player_name": "Sambi Lokonga",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 5234567.0,
+      "market_value_at_transfer": 5140762.0,
+      "overpay": 93805.0,
+      "overpay_pct": 1.82,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-26T21:59:04Z|8367|Joel||5234567.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-26T22:17:29Z",
+      "date": "2026-10-26",
+      "player_id": "15376",
+      "player_name": "Estève",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 5611111.0,
+      "market_value_at_transfer": 5441280.0,
+      "overpay": 169831.0,
+      "overpay_pct": 3.12,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-26T22:17:29Z|15376|Fabian||5611111.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-27T00:19:16Z",
+      "date": "2026-10-27",
+      "player_id": "3559",
+      "player_name": "Ulrich",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 6897543.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-27T00:19:16Z|3559|Joel||6897543.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-27T06:30:25Z",
+      "date": "2026-10-27",
+      "player_id": "2395",
+      "player_name": "Ryerson",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 19325000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-27T06:30:25Z|2395|Marc Frischiniemi||19325000.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-27T06:49:31Z",
+      "date": "2026-10-27",
+      "player_id": "7394",
+      "player_name": "Amoako",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 4074072.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-27T06:49:31Z|7394||Mario|4074072.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-27T07:28:31Z",
+      "date": "2026-10-27",
+      "player_id": "2141",
+      "player_name": "Baku",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 16369306.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-27T07:28:31Z|2141||Marc Frischiniemi|16369306.00"
     }
   ]
 }
