@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T21:16:53.878801",
+  "updated_at": "2026-10-28T10:17:20.038302",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16305,6 +16305,66 @@
       "overpay_pct": 4.18,
       "type": "kickbase_purchase",
       "event_key": "2026-10-27T16:59:21Z|6197|Joel||11235556.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-27T21:36:47Z",
+      "date": "2026-10-27",
+      "player_id": "2897",
+      "player_name": "Reitz",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 12115514.0,
+      "market_value_at_transfer": 12115514.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-27T21:36:47Z|2897||Pedro|12115514.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-10-28T02:50:34Z",
+      "date": "2026-10-28",
+      "player_id": "2247",
+      "player_name": "Sosa",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 11183573.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-28T02:50:34Z|2247|Pedro||11183573.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-28T03:03:44Z",
+      "date": "2026-10-28",
+      "player_id": "7737",
+      "player_name": "Veerman",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 12789545.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-28T03:03:44Z|7737|Joel||12789545.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-28T08:55:23Z",
+      "date": "2026-10-28",
+      "player_id": "1246",
+      "player_name": "Orban",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 35111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-28T08:55:23Z|1246|Fabian||35111111.00"
     }
   ]
 }
