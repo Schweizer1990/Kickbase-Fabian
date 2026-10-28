@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T10:43:08.659619",
+  "updated_at": "2026-10-28T16:09:19.180042",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16365,6 +16365,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-28T08:55:23Z|1246|Fabian||35111111.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-28T12:33:07Z",
+      "date": "2026-10-28",
+      "player_id": "11008",
+      "player_name": "Banzuzi",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 12109309.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-28T12:33:07Z|11008|Pedro||12109309.00"
     }
   ]
 }
