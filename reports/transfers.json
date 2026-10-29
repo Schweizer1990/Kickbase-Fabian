@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:46:29.721735",
+  "updated_at": "2026-10-29T21:29:42.277788",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16450,9 +16450,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 8332695.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 8418353.0,
+      "overpay": -85658.0,
+      "overpay_pct": -1.02,
       "type": "kickbase_purchase",
       "event_key": "2026-10-29T07:53:41Z|2725|KönigMario||8332695.00"
     },
@@ -16465,9 +16465,9 @@
       "buyer": null,
       "seller": "Fabian",
       "price": 5420836.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5085345.0,
+      "overpay": 335491.0,
+      "overpay_pct": 6.6,
       "type": "kickbase_sale",
       "event_key": "2026-10-29T07:55:04Z|13433||Fabian|5420836.00"
     },
@@ -16480,9 +16480,9 @@
       "buyer": "Thomasson",
       "seller": null,
       "price": 7522728.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7760445.0,
+      "overpay": -237717.0,
+      "overpay_pct": -3.06,
       "type": "kickbase_purchase",
       "event_key": "2026-10-29T07:55:42Z|7616|Thomasson||7522728.00"
     },
@@ -16495,9 +16495,9 @@
       "buyer": null,
       "seller": "Flo24",
       "price": 10280748.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9913939.0,
+      "overpay": 366809.0,
+      "overpay_pct": 3.7,
       "type": "kickbase_sale",
       "event_key": "2026-10-29T09:44:53Z|11512||Flo24|10280748.00"
     },
@@ -16510,9 +16510,9 @@
       "buyer": null,
       "seller": "Fabian",
       "price": 3441566.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3322244.0,
+      "overpay": 119322.0,
+      "overpay_pct": 3.59,
       "type": "kickbase_sale",
       "event_key": "2026-10-29T13:27:35Z|7781||Fabian|3441566.00"
     },
@@ -16525,9 +16525,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 6833333.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6727553.0,
+      "overpay": 105780.0,
+      "overpay_pct": 1.57,
       "type": "kickbase_purchase",
       "event_key": "2026-10-29T13:44:32Z|6292|Flo24||6833333.00"
     },
@@ -16540,11 +16540,26 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 711111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 793325.0,
+      "overpay": -82214.0,
+      "overpay_pct": -10.36,
       "type": "kickbase_purchase",
       "event_key": "2026-10-29T14:37:08Z|12263|Fabian||711111.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-29T17:29:37Z",
+      "date": "2026-10-29",
+      "player_id": "2694",
+      "player_name": "Stiller",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 28547534.0,
+      "market_value_at_transfer": 28042599.0,
+      "overpay": 504935.0,
+      "overpay_pct": 1.8,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-29T17:29:37Z|2694||AndiiRutz_1|28547534.00"
     }
   ]
 }
