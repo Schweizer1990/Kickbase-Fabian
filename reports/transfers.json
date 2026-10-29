@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:15:52.647574",
+  "updated_at": "2026-10-29T11:00:14.492566",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16440,6 +16440,66 @@
       "overpay_pct": 0.0,
       "type": "kickbase_purchase",
       "event_key": "2026-10-28T23:07:26Z|524|Mario||11150000.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-29T07:53:41Z",
+      "date": "2026-10-29",
+      "player_id": "2725",
+      "player_name": "Bornauw",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 8332695.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-29T07:53:41Z|2725|KönigMario||8332695.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-29T07:55:04Z",
+      "date": "2026-10-29",
+      "player_id": "13433",
+      "player_name": "Lemke",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5420836.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-29T07:55:04Z|13433||Fabian|5420836.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-29T07:55:42Z",
+      "date": "2026-10-29",
+      "player_id": "7616",
+      "player_name": "ter Horst",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 7522728.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-29T07:55:42Z|7616|Thomasson||7522728.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-29T09:44:53Z",
+      "date": "2026-10-29",
+      "player_id": "11512",
+      "player_name": "Capaldo",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 10280748.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-29T09:44:53Z|11512||Flo24|10280748.00"
     }
   ]
 }
