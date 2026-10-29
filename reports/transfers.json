@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T21:29:42.277788",
+  "updated_at": "2026-10-29T22:23:07.630587",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16560,6 +16560,21 @@
       "overpay_pct": 1.8,
       "type": "kickbase_sale",
       "event_key": "2026-10-29T17:29:37Z|2694||AndiiRutz_1|28547534.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-10-29T21:40:06Z",
+      "date": "2026-10-29",
+      "player_id": "11006",
+      "player_name": "Suzuki",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 18900000.0,
+      "market_value_at_transfer": 17911976.0,
+      "overpay": 988024.0,
+      "overpay_pct": 5.52,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-29T21:40:06Z|11006|AndiiRutz_1||18900000.00"
     }
   ]
 }
