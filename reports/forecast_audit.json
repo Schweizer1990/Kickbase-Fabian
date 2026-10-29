@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "market_update": {
-    "status": "confirmed",
-    "confirmed": true,
-    "advanced_player_count": 389,
+    "status": "not_confirmed",
+    "confirmed": false,
+    "advanced_player_count": 80,
     "compared_player_count": 469,
     "required_player_count": 235,
     "same_date_revision_count": 0,
-    "observed_at": "2026-10-28T22:25:50.532499+01:00",
+    "observed_at": "2026-10-29T08:16:53.097175+01:00",
     "last_confirmed_at": "2026-10-28T22:25:50.532499+01:00",
     "latest_mv_date": "2026-10-28",
     "evidence": "dated_market_value_history; at least half of comparable players advance"
@@ -22,7 +22,7 @@
       "mv": 7575048.0
     },
     "383": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1685": {
@@ -106,7 +106,7 @@
       "mv": 29033664.0
     },
     "15502": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1664": {
@@ -142,7 +142,7 @@
       "mv": 3374254.0
     },
     "2445": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2694": {
@@ -170,7 +170,7 @@
       "mv": 7975684.0
     },
     "4589": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "6085": {
@@ -182,7 +182,7 @@
       "mv": 28488890.0
     },
     "7257": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "7349": {
@@ -222,11 +222,11 @@
       "mv": 3382269.0
     },
     "1745": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2495": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2928": {
@@ -238,7 +238,7 @@
       "mv": 6536988.0
     },
     "3232": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3284": {
@@ -254,7 +254,7 @@
       "mv": 14446686.0
     },
     "6149": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "6158": {
@@ -282,7 +282,7 @@
       "mv": 4665744.0
     },
     "7514": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "8252": {
@@ -318,7 +318,7 @@
       "mv": 3054992.0
     },
     "4": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "72": {
@@ -362,7 +362,7 @@
       "mv": 38851184.0
     },
     "4318": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "4563": {
@@ -406,7 +406,7 @@
       "mv": 14235752.0
     },
     "11957": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13888": {
@@ -422,7 +422,7 @@
       "mv": 17546128.0
     },
     "417": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "737": {
@@ -434,7 +434,7 @@
       "mv": 12964639.0
     },
     "2069": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2201": {
@@ -450,7 +450,7 @@
       "mv": 9550028.0
     },
     "2536": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2552": {
@@ -486,7 +486,7 @@
       "mv": 1398284.0
     },
     "10121": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "11570": {
@@ -546,7 +546,7 @@
       "mv": 8577057.0
     },
     "2852": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3124": {
@@ -586,7 +586,7 @@
       "mv": 4859557.0
     },
     "8289": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "9598": {
@@ -626,7 +626,7 @@
       "mv": 4884462.0
     },
     "1223": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1553": {
@@ -658,7 +658,7 @@
       "mv": 4458283.0
     },
     "2717": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3102": {
@@ -670,19 +670,19 @@
       "mv": 7243385.0
     },
     "3364": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3419": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3453": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "4352": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "4446": {
@@ -710,7 +710,7 @@
       "mv": 1784914.0
     },
     "10106": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "12763": {
@@ -718,7 +718,7 @@
       "mv": 3447764.0
     },
     "13629": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "14917": {
@@ -734,7 +734,7 @@
       "mv": 3558536.0
     },
     "357": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "461": {
@@ -774,7 +774,7 @@
       "mv": 23581026.0
     },
     "7275": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "7277": {
@@ -814,7 +814,7 @@
       "mv": 738922.0
     },
     "14920": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "15589": {
@@ -830,7 +830,7 @@
       "mv": 17275528.0
     },
     "60": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "550": {
@@ -914,7 +914,7 @@
       "mv": 6863632.0
     },
     "11261": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "11665": {
@@ -922,7 +922,7 @@
       "mv": 9330012.0
     },
     "11666": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13438": {
@@ -930,7 +930,7 @@
       "mv": 1246904.0
     },
     "17179": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "168": {
@@ -946,11 +946,11 @@
       "mv": 7072376.0
     },
     "2301": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2471": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2498": {
@@ -978,11 +978,11 @@
       "mv": 6713898.0
     },
     "3491": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3492": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3559": {
@@ -1002,7 +1002,7 @@
       "mv": 6530975.0
     },
     "6751": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "7320": {
@@ -1022,35 +1022,35 @@
       "mv": 1696264.0
     },
     "8984": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "9283": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "10048": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "11170": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "12262": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "14911": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "14914": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1225": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1246": {
@@ -1094,7 +1094,7 @@
       "mv": 17585564.0
     },
     "6104": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "6176": {
@@ -1154,7 +1154,7 @@
       "mv": 5973811.0
     },
     "577": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "619": {
@@ -1186,7 +1186,7 @@
       "mv": 9069818.0
     },
     "2850": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2862": {
@@ -1206,7 +1206,7 @@
       "mv": 4844757.0
     },
     "3516": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "4292": {
@@ -1242,7 +1242,7 @@
       "mv": 7300058.0
     },
     "12243": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13442": {
@@ -1266,15 +1266,15 @@
       "mv": 2222721.0
     },
     "16567": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "54": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "75": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1704": {
@@ -1294,7 +1294,7 @@
       "mv": 33397391.0
     },
     "2148": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2383": {
@@ -1354,11 +1354,11 @@
       "mv": 1819362.0
     },
     "14662": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "14899": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "15211": {
@@ -1386,7 +1386,7 @@
       "mv": 8173245.0
     },
     "1889": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1978": {
@@ -1442,7 +1442,7 @@
       "mv": 11260061.0
     },
     "12368": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13433": {
@@ -1494,15 +1494,15 @@
       "mv": 21165710.0
     },
     "1767": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1858": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1910": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2084": {
@@ -1554,7 +1554,7 @@
       "mv": 602568.0
     },
     "8364": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "11006": {
@@ -1578,7 +1578,7 @@
       "mv": 9262773.0
     },
     "157": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "608": {
@@ -1606,7 +1606,7 @@
       "mv": 745373.0
     },
     "3166": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3228": {
@@ -1618,7 +1618,7 @@
       "mv": 11015131.0
     },
     "3450": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "3481": {
@@ -1662,11 +1662,11 @@
       "mv": 1039983.0
     },
     "11262": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13449": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "14923": {
@@ -1730,7 +1730,7 @@
       "mv": 11036241.0
     },
     "7336": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "7676": {
@@ -1738,7 +1738,7 @@
       "mv": 21924997.0
     },
     "7696": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "8355": {
@@ -1758,7 +1758,7 @@
       "mv": 4107360.0
     },
     "9965": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "10049": {
@@ -1778,11 +1778,11 @@
       "mv": 4187556.0
     },
     "13479": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13671": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13806": {
@@ -1798,7 +1798,7 @@
       "mv": 6313376.0
     },
     "755": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "1012": {
@@ -1806,7 +1806,7 @@
       "mv": 2658992.0
     },
     "1691": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2449": {
@@ -1818,7 +1818,7 @@
       "mv": 5926856.0
     },
     "2876": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "2967": {
@@ -1866,7 +1866,7 @@
       "mv": 998217.0
     },
     "10916": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "11255": {
@@ -1874,7 +1874,7 @@
       "mv": 16469639.0
     },
     "12158": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "12297": {
@@ -1882,7 +1882,7 @@
       "mv": 6253055.0
     },
     "13431": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "mv": 500000.0
     },
     "13448": {
@@ -1892,17 +1892,17 @@
   },
   "summary": {
     "overall": {
-      "count": 8853,
-      "direction_accuracy_percent": 79.79,
-      "mae": 30871.06,
-      "rmse": 69806.74
+      "count": 8933,
+      "direction_accuracy_percent": 79.08,
+      "mae": 30615.83,
+      "rmse": 69498.62
     },
     "cohorts": {
       "traders": {
-        "count": 5771,
-        "direction_accuracy_percent": 72.5,
-        "mae": 21269.66,
-        "rmse": 41142.03
+        "count": 5849,
+        "direction_accuracy_percent": 71.53,
+        "mae": 21015.89,
+        "rmse": 40879.73
       },
       "flattening": {
         "count": 2884,
@@ -1912,10 +1912,10 @@
         "flattening_accuracy_percent": 68.31
       },
       "losses": {
-        "count": 3082,
-        "direction_accuracy_percent": 93.45,
-        "mae": 48849.55,
-        "rmse": 104058.04
+        "count": 3084,
+        "direction_accuracy_percent": 93.39,
+        "mae": 48822.71,
+        "rmse": 104024.63
       }
     },
     "pending_count": 469,
@@ -140088,7 +140088,10 @@
       ],
       "previous_daily_change": -107605.0,
       "created_at": "2026-10-27T22:04:01.542475+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2764",
@@ -146478,7 +146481,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "10916",
@@ -146491,7 +146497,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "12158",
@@ -146504,7 +146513,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "54",
@@ -146517,7 +146529,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "8364",
@@ -146530,7 +146545,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "383",
@@ -146543,7 +146561,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2852",
@@ -146556,7 +146577,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1910",
@@ -146569,7 +146593,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1767",
@@ -146582,7 +146609,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "4",
@@ -146595,7 +146625,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "8289",
@@ -146608,7 +146641,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "4318",
@@ -146621,7 +146657,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "15502",
@@ -146634,7 +146673,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "11957",
@@ -146647,7 +146689,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1858",
@@ -146660,7 +146705,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1889",
@@ -146673,7 +146721,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3453",
@@ -146686,7 +146737,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3491",
@@ -146699,7 +146753,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "6104",
@@ -146712,7 +146769,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "7275",
@@ -146725,7 +146785,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "13479",
@@ -146738,7 +146801,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3166",
@@ -146751,7 +146817,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "4352",
@@ -146764,7 +146833,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "13629",
@@ -146777,7 +146849,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "14920",
@@ -146790,7 +146865,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "12368",
@@ -146803,7 +146881,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2069",
@@ -146816,7 +146897,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "417",
@@ -146829,7 +146913,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "357",
@@ -146842,7 +146929,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2717",
@@ -146855,7 +146945,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2536",
@@ -146868,7 +146961,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1223",
@@ -146881,7 +146977,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "10121",
@@ -146894,7 +146993,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3364",
@@ -146907,7 +147009,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3516",
@@ -146920,7 +147025,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3419",
@@ -146933,7 +147041,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "12243",
@@ -146946,7 +147057,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2850",
@@ -146959,7 +147073,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2445",
@@ -146972,7 +147089,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "16567",
@@ -146985,7 +147105,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "7257",
@@ -146998,7 +147121,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "577",
@@ -147011,7 +147137,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1225",
@@ -147024,7 +147153,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2148",
@@ -147037,7 +147169,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "12262",
@@ -147050,7 +147185,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "10048",
@@ -147063,7 +147201,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "9283",
@@ -147076,7 +147217,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "11170",
@@ -147089,7 +147233,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "7696",
@@ -147102,7 +147249,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "75",
@@ -147115,7 +147265,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "7336",
@@ -147128,7 +147281,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "755",
@@ -147141,7 +147297,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "14662",
@@ -147154,7 +147313,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "14899",
@@ -147167,7 +147329,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "13671",
@@ -147180,7 +147345,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "157",
@@ -147193,7 +147361,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "9965",
@@ -147206,7 +147377,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "6751",
@@ -147219,7 +147393,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "13431",
@@ -147232,7 +147409,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "13449",
@@ -147245,7 +147425,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "14911",
@@ -147258,7 +147441,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "8984",
@@ -147271,7 +147457,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "14914",
@@ -147284,7 +147473,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3450",
@@ -147297,7 +147489,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3492",
@@ -147310,7 +147505,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2471",
@@ -147323,7 +147521,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "11261",
@@ -147336,7 +147537,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "7514",
@@ -147349,7 +147553,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "3232",
@@ -147362,7 +147569,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "2495",
@@ -147375,7 +147585,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "11666",
@@ -147388,7 +147601,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1745",
@@ -147401,7 +147617,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "60",
@@ -147414,7 +147633,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "6149",
@@ -147427,7 +147649,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "4589",
@@ -147440,7 +147665,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "1691",
@@ -147453,7 +147681,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "11262",
@@ -147466,7 +147697,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "17179",
@@ -147479,7 +147713,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "10106",
@@ -147492,7 +147729,10 @@
       ],
       "previous_daily_change": 0.0,
       "created_at": "2026-10-28T11:18:20.927839+01:00",
-      "status": "pending"
+      "status": "evaluated",
+      "actual_mv": 500000.0,
+      "actual_change": 0.0,
+      "evaluated_at": "2026-10-29T08:16:53.097175+01:00"
     },
     {
       "player_id": "10114",
@@ -152746,6 +152986,1046 @@
       ],
       "previous_daily_change": -606449.0,
       "created_at": "2026-10-28T22:25:50.532499+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1889",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 38755.22,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "54",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 19649.64,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2301",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 3468.05,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2876",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 2927.82,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3453",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 2842.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "15502",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 2724.33,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "8364",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 2484.73,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3491",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 2475.37,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "7275",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 723.44,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "4318",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1910",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2852",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "8289",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1767",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "4",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "383",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 601.81,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "6104",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 555.16,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "11957",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 537.79,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "13479",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 465.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1858",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 418.51,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3516",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 353.9,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "4352",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 350.99,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3166",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 242.37,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "60",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2495",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "11666",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "6149",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1745",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "7514",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3232",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 228.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "13449",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "9965",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "10048",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "75",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "14899",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "7336",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "755",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "7696",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2471",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2148",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "13671",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "13431",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "6751",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "14911",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "14914",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "14662",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3450",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3492",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1225",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "157",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "12262",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "11170",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "9283",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "8984",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 208.07,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "10121",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "14920",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1223",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "12368",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2069",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2536",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2717",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "417",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "357",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "13629",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 207.8,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2850",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 204.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "12243",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 204.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "16567",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 204.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "2445",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 204.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "7257",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 204.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "577",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 204.76,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "4589",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 195.54,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3419",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 189.85,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "17179",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 187.27,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "11261",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 184.43,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "10916",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 176.21,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "12158",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 176.21,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "11262",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 173.01,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "1691",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 173.01,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "3364",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": 160.08,
+      "cohorts": [
+        "traders"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
+      "status": "pending"
+    },
+    {
+      "player_id": "10106",
+      "base_date": "2026-10-28",
+      "target_date": "2026-10-29",
+      "base_mv": 500000.0,
+      "predicted_change": -654.26,
+      "cohorts": [
+        "losses"
+      ],
+      "previous_daily_change": 0.0,
+      "created_at": "2026-10-29T08:16:53.097175+01:00",
       "status": "pending"
     }
   ]

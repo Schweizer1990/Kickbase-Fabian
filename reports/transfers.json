@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T21:24:59.892715",
+  "updated_at": "2026-10-29T07:15:52.647574",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16410,6 +16410,36 @@
       "overpay_pct": -2.26,
       "type": "kickbase_purchase",
       "event_key": "2026-10-28T20:10:50Z|13442|Thomasson||9728923.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-28T22:14:48Z",
+      "date": "2026-10-28",
+      "player_id": "3129",
+      "player_name": "Itakura",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 4888888.0,
+      "market_value_at_transfer": 4844757.0,
+      "overpay": 44131.0,
+      "overpay_pct": 0.91,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-28T22:14:48Z|3129|Bommer||4888888.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-28T23:07:26Z",
+      "date": "2026-10-28",
+      "player_id": "524",
+      "player_name": "Baumann",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 11150000.0,
+      "market_value_at_transfer": 11149970.0,
+      "overpay": 30.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-28T23:07:26Z|524|Mario||11150000.00"
     }
   ]
 }
