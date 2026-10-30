@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T16:36:31.319981",
+  "updated_at": "2026-10-30T18:43:39.170849",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16620,6 +16620,66 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-30T06:22:40Z|11513|Thomasson||4489965.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-30T16:39:08Z",
+      "date": "2026-10-30",
+      "player_id": "8247",
+      "player_name": "Hendriks",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 10189985.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T16:39:08Z|8247||Pedro|10189985.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-30T18:37:23Z",
+      "date": "2026-10-30",
+      "player_id": "11043",
+      "player_name": "Assignon",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 6357878.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T18:37:23Z|11043||Bommer|6357878.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-10-30T18:41:12Z",
+      "date": "2026-10-30",
+      "player_id": "17309",
+      "player_name": "Nwaneri",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 13327323.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T18:41:12Z|17309||Thomasson|13327323.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-10-30T18:41:34Z",
+      "date": "2026-10-30",
+      "player_id": "13442",
+      "player_name": "Bolin",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 10168230.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T18:41:34Z|13442||Thomasson|10168230.00"
     }
   ]
 }
