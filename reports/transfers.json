@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:23:07.630587",
+  "updated_at": "2026-10-30T10:57:39.535043",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16575,6 +16575,51 @@
       "overpay_pct": 5.52,
       "type": "kickbase_purchase",
       "event_key": "2026-10-29T21:40:06Z|11006|AndiiRutz_1||18900000.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-30T05:25:55Z",
+      "date": "2026-10-30",
+      "player_id": "524",
+      "player_name": "Baumann",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 11202828.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T05:25:55Z|524||Mario|11202828.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-10-30T06:07:18Z",
+      "date": "2026-10-30",
+      "player_id": "1865",
+      "player_name": "Poulsen",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 8172346.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T06:07:18Z|1865||KönigMario|8172346.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-30T06:22:40Z",
+      "date": "2026-10-30",
+      "player_id": "11513",
+      "player_name": "Kofane",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 4489965.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-30T06:22:40Z|11513|Thomasson||4489965.00"
     }
   ]
 }
