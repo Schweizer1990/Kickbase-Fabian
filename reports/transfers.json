@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T21:11:42.221953",
+  "updated_at": "2026-10-30T21:47:08.245909",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16710,6 +16710,21 @@
       "overpay_pct": 2.0,
       "type": "kickbase_purchase",
       "event_key": "2026-10-30T20:25:33Z|9995|Thomasson||5688555.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-30T21:24:26Z",
+      "date": "2026-10-30",
+      "player_id": "2006",
+      "player_name": "Posch",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 11643330.0,
+      "market_value_at_transfer": 11643330.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T21:24:26Z|2006||Marc Frischiniemi|11643330.00"
     }
   ]
 }
