@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:36:03.157374",
+  "updated_at": "2026-10-31T20:22:00.091030",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16845,6 +16845,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T16:11:06Z|168|Fabian||1253425.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-31T17:37:17Z",
+      "date": "2026-10-31",
+      "player_id": "11956",
+      "player_name": "Fernández",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 15360000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-31T17:37:17Z|11956|Marc Frischiniemi||15360000.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-31T18:40:22Z",
+      "date": "2026-10-31",
+      "player_id": "11161",
+      "player_name": "Machida",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 9888888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-31T18:40:22Z|11161|Flo24||9888888.00"
     }
   ]
 }
