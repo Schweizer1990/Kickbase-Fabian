@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T21:47:08.245909",
+  "updated_at": "2026-10-31T10:30:26.484145",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16725,6 +16725,81 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-10-30T21:24:26Z|2006||Marc Frischiniemi|11643330.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-30T22:30:30Z",
+      "date": "2026-10-30",
+      "player_id": "15376",
+      "player_name": "Estève",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 6179314.0,
+      "market_value_at_transfer": 6179314.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T22:30:30Z|15376||Fabian|6179314.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-10-30T22:30:51Z",
+      "date": "2026-10-30",
+      "player_id": "7750",
+      "player_name": "Hranác",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5011658.0,
+      "market_value_at_transfer": 5011658.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T22:30:51Z|7750||Fabian|5011658.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-10-30T22:31:15Z",
+      "date": "2026-10-30",
+      "player_id": "4406",
+      "player_name": "Dina Ebimbe",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5583011.0,
+      "market_value_at_transfer": 5583011.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-30T22:31:15Z|4406||Fabian|5583011.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-31T02:37:05Z",
+      "date": "2026-10-31",
+      "player_id": "1590",
+      "player_name": "Zentner",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 6859830.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-31T02:37:05Z|1590|KönigMario||6859830.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-10-31T07:28:25Z",
+      "date": "2026-10-31",
+      "player_id": "11957",
+      "player_name": "Ben Seghir",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-31T07:28:25Z|11957|Fabian||500000.00"
     }
   ]
 }
