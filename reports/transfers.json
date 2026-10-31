@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T20:22:00.091030",
+  "updated_at": "2026-10-31T21:20:40.129062",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16780,9 +16780,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 6859830.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6242288.0,
+      "overpay": 617542.0,
+      "overpay_pct": 9.89,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T02:37:05Z|1590|KönigMario||6859830.00"
     },
@@ -16810,9 +16810,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 2211111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2321055.0,
+      "overpay": -109944.0,
+      "overpay_pct": -4.74,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T11:25:40Z|14896|Fabian||2211111.00"
     },
@@ -16825,9 +16825,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 13666666.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 12755612.0,
+      "overpay": 911054.0,
+      "overpay_pct": 7.14,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T15:11:04Z|2988|Flo24||13666666.00"
     },
@@ -16840,9 +16840,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 1253425.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 1213965.0,
+      "overpay": 39460.0,
+      "overpay_pct": 3.25,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T16:11:06Z|168|Fabian||1253425.00"
     },
@@ -16855,9 +16855,9 @@
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 15360000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 14569901.0,
+      "overpay": 790099.0,
+      "overpay_pct": 5.42,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T17:37:17Z|11956|Marc Frischiniemi||15360000.00"
     },
@@ -16870,9 +16870,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 9888888.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 8534767.0,
+      "overpay": 1354121.0,
+      "overpay_pct": 15.87,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T18:40:22Z|11161|Flo24||9888888.00"
     }
