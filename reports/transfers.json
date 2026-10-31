@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T10:41:21.930925",
+  "updated_at": "2026-10-31T15:39:51.210295",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16800,6 +16800,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T07:28:25Z|11957|Fabian||500000.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-10-31T11:25:40Z",
+      "date": "2026-10-31",
+      "player_id": "14896",
+      "player_name": "Koné",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 2211111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-31T11:25:40Z|14896|Fabian||2211111.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-10-31T15:11:04Z",
+      "date": "2026-10-31",
+      "player_id": "2988",
+      "player_name": "Leweling",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 13666666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-10-31T15:11:04Z|2988|Flo24||13666666.00"
     }
   ]
 }
