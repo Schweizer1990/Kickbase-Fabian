@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T11:24:45.890650",
+  "updated_at": "2026-11-01T16:40:55.289088",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16920,6 +16920,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-01T10:39:18Z|1671|Fabian||9488888.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-01T13:16:34Z",
+      "date": "2026-11-01",
+      "player_id": "11665",
+      "player_name": "Potulski",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 9708604.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-01T13:16:34Z|11665|Thomasson||9708604.00"
     }
   ]
 }
