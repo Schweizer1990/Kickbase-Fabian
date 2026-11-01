@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T20:54:31.064032",
+  "updated_at": "2026-11-01T21:10:07.115509",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16915,9 +16915,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 9488888.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9433632.0,
+      "overpay": 55256.0,
+      "overpay_pct": 0.59,
       "type": "kickbase_purchase",
       "event_key": "2026-11-01T10:39:18Z|1671|Fabian||9488888.00"
     },
@@ -16930,9 +16930,9 @@
       "buyer": "Thomasson",
       "seller": null,
       "price": 9708604.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9860186.0,
+      "overpay": -151582.0,
+      "overpay_pct": -1.54,
       "type": "kickbase_purchase",
       "event_key": "2026-11-01T13:16:34Z|11665|Thomasson||9708604.00"
     },
@@ -16945,9 +16945,9 @@
       "buyer": null,
       "seller": "KönigMario",
       "price": 17132926.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 16665989.0,
+      "overpay": 466937.0,
+      "overpay_pct": 2.8,
       "type": "kickbase_sale",
       "event_key": "2026-11-01T16:43:04Z|1961||KönigMario|17132926.00"
     }
