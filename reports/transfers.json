@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T21:20:40.129062",
+  "updated_at": "2026-11-01T08:04:37.677374",
   "transfers": [
     {
       "transfer_id": "13",
@@ -16795,9 +16795,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 500000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 500000.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T07:28:25Z|11957|Fabian||500000.00"
     },
@@ -16875,6 +16875,36 @@
       "overpay_pct": 15.87,
       "type": "kickbase_purchase",
       "event_key": "2026-10-31T18:40:22Z|11161|Flo24||9888888.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-10-31T21:30:41Z",
+      "date": "2026-10-31",
+      "player_id": "2749",
+      "player_name": "Tigges",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7695163.0,
+      "market_value_at_transfer": 7695163.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-31T21:30:41Z|2749||Fabian|7695163.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-10-31T23:22:56Z",
+      "date": "2026-10-31",
+      "player_id": "1540",
+      "player_name": "Da Costa",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 8480977.0,
+      "market_value_at_transfer": 8480977.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-10-31T23:22:56Z|1540||AndiiRutz_1|8480977.00"
     }
   ]
 }
