@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T12:42:39.681847",
+  "updated_at": "2026-11-02T20:07:10.673202",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17130,6 +17130,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-02T09:43:39Z|1811|Bommer||6666669.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-11-02T14:51:11Z",
+      "date": "2026-11-02",
+      "player_id": "2714",
+      "player_name": "Beier",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 23666666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-02T14:51:11Z|2714|Bommer||23666666.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-02T15:46:32Z",
+      "date": "2026-11-02",
+      "player_id": "3102",
+      "player_name": "Rothe",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 9728152.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-02T15:46:32Z|3102||Bommer|9728152.00"
     }
   ]
 }
