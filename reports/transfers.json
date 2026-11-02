@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T21:16:00.906878",
+  "updated_at": "2026-11-02T23:45:20.454454",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17190,6 +17190,81 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-02T21:13:14Z|11007||Mario|4734339.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-02T21:27:34Z",
+      "date": "2026-11-02",
+      "player_id": "2895",
+      "player_name": "Nebel",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 8453381.0,
+      "market_value_at_transfer": 8453381.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-02T21:27:34Z|2895||Fabian|8453381.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-02T21:51:45Z",
+      "date": "2026-11-02",
+      "player_id": "7616",
+      "player_name": "ter Horst",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 7979667.0,
+      "market_value_at_transfer": 7979667.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-02T21:51:45Z|7616||Thomasson|7979667.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-02T23:15:03Z",
+      "date": "2026-11-02",
+      "player_id": "7219",
+      "player_name": "Jóhannesson",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 9011062.0,
+      "market_value_at_transfer": 9011062.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-02T23:15:03Z|7219||Simon Koller|9011062.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-11-02T23:15:25Z",
+      "date": "2026-11-02",
+      "player_id": "6209",
+      "player_name": "Treu",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 11667317.0,
+      "market_value_at_transfer": 11667317.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-02T23:15:25Z|6209||Simon Koller|11667317.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-02T23:18:51Z",
+      "date": "2026-11-02",
+      "player_id": "10024",
+      "player_name": "Schmied",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 1800111.0,
+      "market_value_at_transfer": 1588941.0,
+      "overpay": 211170.0,
+      "overpay_pct": 13.29,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-02T23:18:51Z|10024|Mario||1800111.00"
     }
   ]
 }
