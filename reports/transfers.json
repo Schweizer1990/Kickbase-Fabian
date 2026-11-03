@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T12:31:40.155827",
+  "updated_at": "2026-11-03T17:39:45.400829",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17370,6 +17370,51 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-03T12:22:42Z|3063||Flo24|5354487.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-03T12:41:40Z",
+      "date": "2026-11-03",
+      "player_id": "8001",
+      "player_name": "Lochoshvili",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 8356595.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T12:41:40Z|8001|Thomasson||8356595.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-03T14:47:07Z",
+      "date": "2026-11-03",
+      "player_id": "173",
+      "player_name": "Tah",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 29018155.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T14:47:07Z|173|Flo24||29018155.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-03T16:11:38Z",
+      "date": "2026-11-03",
+      "player_id": "1553",
+      "player_name": "Haberer",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 5841355.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T16:11:38Z|1553|Simon Koller||5841355.00"
     }
   ]
 }
