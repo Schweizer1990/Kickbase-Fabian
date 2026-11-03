@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T23:45:20.454454",
+  "updated_at": "2026-11-03T12:08:22.673231",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17265,6 +17265,81 @@
       "overpay_pct": 13.29,
       "type": "kickbase_purchase",
       "event_key": "2026-11-02T23:18:51Z|10024|Mario||1800111.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-03T02:37:58Z",
+      "date": "2026-11-03",
+      "player_id": "3120",
+      "player_name": "Bischof",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 19200670.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T02:37:58Z|3120|KönigMario||19200670.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-03T03:49:20Z",
+      "date": "2026-11-03",
+      "player_id": "15472",
+      "player_name": "Daka",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 1948545.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T03:49:20Z|15472|Fabian||1948545.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-03T04:14:38Z",
+      "date": "2026-11-03",
+      "player_id": "15301",
+      "player_name": "Gray",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 2000000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T04:14:38Z|15301|Mario||2000000.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-03T10:48:51Z",
+      "date": "2026-11-03",
+      "player_id": "2498",
+      "player_name": "Baack",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 2500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-03T10:48:51Z|2498|Mario||2500000.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-03T11:28:56Z",
+      "date": "2026-11-03",
+      "player_id": "43",
+      "player_name": "Weiser",
+      "buyer": null,
+      "seller": "Pedro",
+      "price": 10291079.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-03T11:28:56Z|43||Pedro|10291079.00"
     }
   ]
 }
