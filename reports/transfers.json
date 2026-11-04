@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T17:52:35.111072",
+  "updated_at": "2026-11-04T21:10:27.180628",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17425,9 +17425,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 3219367.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3116866.0,
+      "overpay": 102501.0,
+      "overpay_pct": 3.29,
       "type": "kickbase_purchase",
       "event_key": "2026-11-04T01:08:00Z|8277|KönigMario||3219367.00"
     },
@@ -17440,9 +17440,9 @@
       "buyer": null,
       "seller": "Thomasson",
       "price": 8431385.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 8465264.0,
+      "overpay": -33879.0,
+      "overpay_pct": -0.4,
       "type": "kickbase_sale",
       "event_key": "2026-11-04T05:39:14Z|8001||Thomasson|8431385.00"
     },
@@ -17455,9 +17455,9 @@
       "buyer": null,
       "seller": "Joel",
       "price": 7790324.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7483261.0,
+      "overpay": 307063.0,
+      "overpay_pct": 4.1,
       "type": "kickbase_sale",
       "event_key": "2026-11-04T11:28:51Z|3559||Joel|7790324.00"
     },
@@ -17470,9 +17470,9 @@
       "buyer": "Simon Koller",
       "seller": null,
       "price": 9869465.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 10044408.0,
+      "overpay": -174943.0,
+      "overpay_pct": -1.74,
       "type": "kickbase_purchase",
       "event_key": "2026-11-04T11:34:53Z|3176|Simon Koller||9869465.00"
     },
@@ -17485,11 +17485,26 @@
       "buyer": null,
       "seller": "Simon Koller",
       "price": 5473502.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5337410.0,
+      "overpay": 136092.0,
+      "overpay_pct": 2.55,
       "type": "kickbase_sale",
       "event_key": "2026-11-04T16:05:52Z|1856||Simon Koller|5473502.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-04T18:58:48Z",
+      "date": "2026-11-04",
+      "player_id": "10113",
+      "player_name": "Gomis",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 14111169.0,
+      "market_value_at_transfer": 12492423.0,
+      "overpay": 1618746.0,
+      "overpay_pct": 12.96,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-04T18:58:48Z|10113|Simon Koller||14111169.00"
     }
   ]
 }
