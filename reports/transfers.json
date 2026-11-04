@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:10:27.180628",
+  "updated_at": "2026-11-04T22:17:47.016839",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17505,6 +17505,36 @@
       "overpay_pct": 12.96,
       "type": "kickbase_purchase",
       "event_key": "2026-11-04T18:58:48Z|10113|Simon Koller||14111169.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-04T21:21:13Z",
+      "date": "2026-11-04",
+      "player_id": "3176",
+      "player_name": "Ibrahimović",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 10044408.0,
+      "market_value_at_transfer": 10044408.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-04T21:21:13Z|3176||Simon Koller|10044408.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-11-04T21:29:30Z",
+      "date": "2026-11-04",
+      "player_id": "16378",
+      "player_name": "Karetsas",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 18307702.0,
+      "market_value_at_transfer": 17555061.0,
+      "overpay": 752641.0,
+      "overpay_pct": 4.29,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-04T21:29:30Z|16378|Simon Koller||18307702.00"
     }
   ]
 }
