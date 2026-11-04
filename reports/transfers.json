@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:21:03.261916",
+  "updated_at": "2026-11-04T17:52:35.111072",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17475,6 +17475,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-04T11:34:53Z|3176|Simon Koller||9869465.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-11-04T16:05:52Z",
+      "date": "2026-11-04",
+      "player_id": "1856",
+      "player_name": "Sabitzer",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 5473502.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-04T16:05:52Z|1856||Simon Koller|5473502.00"
     }
   ]
 }
