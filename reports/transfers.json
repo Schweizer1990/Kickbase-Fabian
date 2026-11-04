@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T22:07:31.580119",
+  "updated_at": "2026-11-04T12:21:03.261916",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17415,6 +17415,66 @@
       "overpay_pct": 2.56,
       "type": "kickbase_purchase",
       "event_key": "2026-11-03T16:11:38Z|1553|Simon Koller||5841355.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-11-04T01:08:00Z",
+      "date": "2026-11-04",
+      "player_id": "8277",
+      "player_name": "Becker",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 3219367.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-04T01:08:00Z|8277|KönigMario||3219367.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-04T05:39:14Z",
+      "date": "2026-11-04",
+      "player_id": "8001",
+      "player_name": "Lochoshvili",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 8431385.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-04T05:39:14Z|8001||Thomasson|8431385.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-04T11:28:51Z",
+      "date": "2026-11-04",
+      "player_id": "3559",
+      "player_name": "Ulrich",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 7790324.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-04T11:28:51Z|3559||Joel|7790324.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-04T11:34:53Z",
+      "date": "2026-11-04",
+      "player_id": "3176",
+      "player_name": "Ibrahimović",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 9869465.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-04T11:34:53Z|3176|Simon Koller||9869465.00"
     }
   ]
 }
