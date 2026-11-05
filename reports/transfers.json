@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:35:40.236064",
+  "updated_at": "2026-11-05T17:39:52.622710",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17595,6 +17595,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-05T12:31:33Z|1689|Pedro||7642693.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-05T14:23:44Z",
+      "date": "2026-11-05",
+      "player_id": "15529",
+      "player_name": "Ilicevic",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 865284.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-05T14:23:44Z|15529|Fabian||865284.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-05T17:02:28Z",
+      "date": "2026-11-05",
+      "player_id": "3471",
+      "player_name": "Hložek",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 11208101.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-05T17:02:28Z|3471||Mario|11208101.00"
     }
   ]
 }
