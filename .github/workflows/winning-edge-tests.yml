@@ -1,0 +1,27 @@
+name: Winning Edge regression tests
+on:
+  push:
+    branches: [main, feature/winning-edge-risk-lineup-20261105]
+    paths:
+      - 'features/winning_edge.py'
+      - 'features/reporting.py'
+      - 'tests/test_winning_edge.py'
+      - '.github/workflows/winning-edge-tests.yml'
+  pull_request:
+    paths:
+      - 'features/winning_edge.py'
+      - 'features/reporting.py'
+      - 'tests/test_winning_edge.py'
+      - '.github/workflows/winning-edge-tests.yml'
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run standard library unit tests
+        run: python -m unittest discover -s tests -p test_winning_edge.py -v
+      - name: Compile changed modules
+        run: python -m py_compile features/winning_edge.py features/reporting.py
