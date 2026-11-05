@@ -122,7 +122,8 @@ def build_winning_edge(report, overrides=None):
                     "players": [{"player_id": p["player_id"], "name": p["player_name"],
                                  "position": p["position"],
                                  "expected_points": p["expected_points_risk_adjusted"],
-                                 "availability_flag": p["availability_flag"]}
+                                 "availability_flag": p["availability_flag"],
+                                 "availability_evidence": p["availability_evidence"]}
                                 for p in picked]}
     unverified = [p["player_name"] for p in (best or {}).get("players", [])
                   if p["availability_flag"] != "confirmed_unavailable"
