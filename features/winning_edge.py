@@ -125,7 +125,7 @@ def build_winning_edge(report, overrides=None):
                                  "availability_flag": p["availability_flag"],
                                  "availability_evidence": p["availability_evidence"]}
                                 for p in picked]}
-    unverified = [p["player_name"] for p in (best or {}).get("players", [])
+    unverified = [p["name"] for p in (best or {}).get("players", [])
                   if p["availability_flag"] != "confirmed_unavailable"
                   and p["availability_evidence"] == "unconfirmed"]
     budget_rows = [r for r in report.get("manager_budgets", [])
