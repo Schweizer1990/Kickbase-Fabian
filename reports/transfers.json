@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T22:17:47.016839",
+  "updated_at": "2026-11-05T06:57:19.381621",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17535,6 +17535,21 @@
       "overpay_pct": 4.29,
       "type": "kickbase_purchase",
       "event_key": "2026-11-04T21:29:30Z|16378|Simon Koller||18307702.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-04T22:51:53Z",
+      "date": "2026-11-04",
+      "player_id": "8273",
+      "player_name": "El Mala",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 1495725.0,
+      "market_value_at_transfer": 1275561.0,
+      "overpay": 220164.0,
+      "overpay_pct": 17.26,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-04T22:51:53Z|8273|Fabian||1495725.00"
     }
   ]
 }
