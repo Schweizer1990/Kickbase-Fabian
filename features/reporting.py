@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 from features.decision_plan import build_decision_plan
+from features.winning_edge import build_winning_edge
 
 
 def _records(df):
@@ -137,6 +138,7 @@ def _write_history_snapshot(report):
         "my_open_offers": report.get("my_open_offers", []),
         "top_win_targets": report.get("strategy", {}).get("win_ranking", [])[:5],
         "top_bid_guardrails": report.get("strategy", {}).get("bid_guardrails", [])[:10],
+        "winning_edge": report.get("strategy", {}).get("winning_edge"),
     }
 
     snapshots.append(snapshot)
@@ -235,6 +237,7 @@ def save_latest_report(
                 row["trade_protection_bid"] = auction["suggested_bid"]
                 row["shadow_price_basis"] = "current_mv_historical_comparison_only"
     report["notes"]["decision_plan"] = "Auction-aware discounted growth scenarios, profitable trader replacements and all-wins slot simulation; no actions are executed"
+    report["strategy"]["winning_edge"] = build_winning_edge(report)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     _write_history_snapshot(report)

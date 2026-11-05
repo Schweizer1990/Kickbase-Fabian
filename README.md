@@ -68,3 +68,32 @@
   <li>Overpay calculator, based on budget and more</li>
   <li>Improve the notifier; using email is not optimal</li>
 </ul>
+
+
+## Winning Edge: matchday and trading decisions (2026)
+
+The latest JSON report now includes `strategy.winning_edge`. It is **read-only** and does not place bids, sell players, or set a lineup.
+
+- `lineup`: strongest modelled legal eleven among 3-4-3, 4-4-2, 4-3-3, 3-5-2, 5-3-2, 4-5-1, 5-4-1 and 5-2-3; exactly one goalkeeper. Expected points are heuristic, **not certified team news**.
+- `player_decisions`: separate trading momentum, points contribution, and availability evidence. A player gaining substantial market value is not marked for sale solely because he has few predicted points; a points contributor is not automatically sold because of one softening MV estimate.
+- `deadline`, `cash_to_recover_for_deadline`, `free_slots`, `open_bid_commitment`: Friday at 20:30 Europe/Zurich is the deadline. Negative cash earlier in the week can be deliberately tolerated, but no future sale proceeds are guaranteed.
+- `lineup_unverified_players`: the injury-page scraper's absence of a player **does not prove that the player is fit**. Check current club/medical news before confirming a Friday lineup. The upstream points model might still use stale injury information.
+
+### Optional verified availability overrides
+
+Create `reports/availability_overrides.json` with data **confirmed and updated by a human**, keyed by Kickbase player ID, for example:
+
+```json
+{
+  "1920": {
+    "status": "doubtful",
+    "expires_at": "2026-11-07T20:30:00+01:00"
+  }
+}
+```
+
+The example is illustrative only, **not a claim about a player's actual condition**. Supported statuses: `injured`, `out`, `suspended`, `likely_out`, `rehab`, `doubtful`, `slight_knock`, `available`. Manual overrides must be kept current and backed by verified reporting; omit an override if status is unclear. No screenshot, rumour or scraped omission should silently become a confirmed medical status.
+
+Regression tests: `python -m unittest discover -s tests -p test_winning_edge.py -v`. The GitHub Actions workflow `winning-edge-tests.yml` runs on edits to these modules.
+
+Official Kickbase **Transfergewinn** is not yet retrieved by the current API integration. Realized profit derived from the transfer activity feed is incomplete and must never be shown as the official profile statistic. Rival budgets are estimates, whereas our own budget is read as exact.
