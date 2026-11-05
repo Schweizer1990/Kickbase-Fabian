@@ -66,7 +66,7 @@ def build_winning_edge(report, overrides=None):
         if isinstance(verified, dict):
             until = verified.get("expires_at")
             active = not until or datetime.fromisoformat(until).astimezone(TZ) > now
-            if active and verified.get("status") in RISK_FACTORS | {"available"}:
+            if active and verified.get("status") in (set(RISK_FACTORS) | {"available"}):
                 state = verified["status"]
                 factor = RISK_FACTORS.get(state, 1.0)
                 source = "manual_override"
