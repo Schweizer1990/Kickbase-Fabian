@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T12:18:53.745267",
+  "updated_at": "2026-11-06T17:16:56.161189",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17745,6 +17745,51 @@
       "overpay_pct": null,
       "type": "manager_to_manager",
       "event_key": "2026-11-06T12:16:45Z|2255|KönigMario|Bommer|27200000.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-06T13:53:48Z",
+      "date": "2026-11-06",
+      "player_id": "7269",
+      "player_name": "Tella",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 6901250.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-06T13:53:48Z|7269||KönigMario|6901250.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-06T13:56:07Z",
+      "date": "2026-11-06",
+      "player_id": "6085",
+      "player_name": "Seimen",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 12181897.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-06T13:56:07Z|6085||KönigMario|12181897.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-06T16:52:16Z",
+      "date": "2026-11-06",
+      "player_id": "173",
+      "player_name": "Tah",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 29128977.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-06T16:52:16Z|173||Flo24|29128977.00"
     }
   ]
 }
