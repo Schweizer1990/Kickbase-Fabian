@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:37:59.567259",
+  "updated_at": "2026-11-06T12:18:53.745267",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17715,6 +17715,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-06T05:30:08Z|1257||Thomasson|4052866.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-11-06T12:16:04Z",
+      "date": "2026-11-06",
+      "player_id": "8277",
+      "player_name": "Becker",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 3458483.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-06T12:16:04Z|8277||KönigMario|3458483.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-06T12:16:45Z",
+      "date": "2026-11-06",
+      "player_id": "2255",
+      "player_name": "Burkardt",
+      "buyer": "KönigMario",
+      "seller": "Bommer",
+      "price": 27200000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "manager_to_manager",
+      "event_key": "2026-11-06T12:16:45Z|2255|KönigMario|Bommer|27200000.00"
     }
   ]
 }
