@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:26:40.148266",
+  "updated_at": "2026-11-06T06:37:59.567259",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17670,6 +17670,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-05T21:39:58Z|11006||AndiiRutz_1|19393595.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-05T22:58:36Z",
+      "date": "2026-11-05",
+      "player_id": "3754",
+      "player_name": "Vázquez",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 3333333.0,
+      "market_value_at_transfer": 1824051.0,
+      "overpay": 1509282.0,
+      "overpay_pct": 82.74,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-05T22:58:36Z|3754|Flo24||3333333.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-06T03:27:13Z",
+      "date": "2026-11-06",
+      "player_id": "17203",
+      "player_name": "Moffi",
+      "buyer": "Pedro",
+      "seller": null,
+      "price": 5102649.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-06T03:27:13Z|17203|Pedro||5102649.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-11-06T05:30:08Z",
+      "date": "2026-11-06",
+      "player_id": "1257",
+      "player_name": "Kübler",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 4052866.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-06T05:30:08Z|1257||Thomasson|4052866.00"
     }
   ]
 }
