@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T11:14:00.480855",
+  "updated_at": "2026-11-07T16:12:59.078007",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17925,6 +17925,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-07T10:52:14Z|3129||Bommer|6587376.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-07T12:44:11Z",
+      "date": "2026-11-07",
+      "player_id": "2373",
+      "player_name": "Kabak",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 21350000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-07T12:44:11Z|2373|Mario||21350000.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-11-07T15:04:33Z",
+      "date": "2026-11-07",
+      "player_id": "10114",
+      "player_name": "Chukwuemeka",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 6512520.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-07T15:04:33Z|10114||AndiiRutz_1|6512520.00"
     }
   ]
 }
