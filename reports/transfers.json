@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T16:12:59.078007",
+  "updated_at": "2026-11-07T19:51:45.626248",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17955,6 +17955,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-07T15:04:33Z|10114||AndiiRutz_1|6512520.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-07T17:24:15Z",
+      "date": "2026-11-07",
+      "player_id": "6168",
+      "player_name": "Fellhauer",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 9556827.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-07T17:24:15Z|6168||Mario|9556827.00"
     }
   ]
 }
