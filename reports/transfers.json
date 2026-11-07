@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T08:15:15.125221",
+  "updated_at": "2026-11-07T11:14:00.480855",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17880,6 +17880,51 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-07T07:49:13Z|12367|AndiiRutz_1||2500088.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-07T08:20:39Z",
+      "date": "2026-11-07",
+      "player_id": "14896",
+      "player_name": "Koné",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 4054596.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-07T08:20:39Z|14896||Fabian|4054596.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-07T08:51:27Z",
+      "date": "2026-11-07",
+      "player_id": "2120",
+      "player_name": "Nartey",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 2977555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-07T08:51:27Z|2120|Fabian||2977555.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-07T10:52:14Z",
+      "date": "2026-11-07",
+      "player_id": "3129",
+      "player_name": "Itakura",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 6587376.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-07T10:52:14Z|3129||Bommer|6587376.00"
     }
   ]
 }
