@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T20:51:01.420715",
+  "updated_at": "2026-11-08T21:10:14.670795",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17995,9 +17995,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 8100000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7331640.0,
+      "overpay": 768360.0,
+      "overpay_pct": 10.48,
       "type": "kickbase_purchase",
       "event_key": "2026-11-08T16:47:04Z|2803|Mario||8100000.00"
     }
