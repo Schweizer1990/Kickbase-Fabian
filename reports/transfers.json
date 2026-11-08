@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T16:34:40.976221",
+  "updated_at": "2026-11-08T20:51:01.420715",
   "transfers": [
     {
       "transfer_id": "13",
@@ -17985,6 +17985,21 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-07T21:26:37Z|11665||Thomasson|10105645.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-08T16:47:04Z",
+      "date": "2026-11-08",
+      "player_id": "2803",
+      "player_name": "Lemperle",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 8100000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-08T16:47:04Z|2803|Mario||8100000.00"
     }
   ]
 }
