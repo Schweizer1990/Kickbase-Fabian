@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:08:05.136753",
+  "updated_at": "2026-11-09T20:33:31.297307",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18060,6 +18060,66 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T12:35:00Z|7684||Simon Koller|5350791.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-09T15:03:47Z",
+      "date": "2026-11-09",
+      "player_id": "3041",
+      "player_name": "Widmer",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 2552524.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-09T15:03:47Z|3041|KönigMario||2552524.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-09T17:43:37Z",
+      "date": "2026-11-09",
+      "player_id": "14300",
+      "player_name": "Okon-Engstler",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 4620000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-09T17:43:37Z|14300|Fabian||4620000.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-09T19:10:39Z",
+      "date": "2026-11-09",
+      "player_id": "11556",
+      "player_name": "Massengo",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 11041123.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-09T19:10:39Z|11556||Joel|11041123.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-09T19:11:02Z",
+      "date": "2026-11-09",
+      "player_id": "14908",
+      "player_name": "Abraha",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 2550495.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-09T19:11:02Z|14908||Joel|2550495.00"
     }
   ]
 }
