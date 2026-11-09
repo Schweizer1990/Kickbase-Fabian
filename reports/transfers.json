@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T21:10:14.670795",
+  "updated_at": "2026-11-09T13:08:05.136753",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18000,6 +18000,66 @@
       "overpay_pct": 10.48,
       "type": "kickbase_purchase",
       "event_key": "2026-11-08T16:47:04Z|2803|Mario||8100000.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-08T21:15:09Z",
+      "date": "2026-11-08",
+      "player_id": "7325",
+      "player_name": "Baum",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 9382142.0,
+      "market_value_at_transfer": 9382142.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-08T21:15:09Z|7325||Fabian|9382142.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-08T22:30:19Z",
+      "date": "2026-11-08",
+      "player_id": "10112",
+      "player_name": "Jaquez",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 4787243.0,
+      "market_value_at_transfer": 4787243.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-08T22:30:19Z|10112||Mario|4787243.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-09T06:20:34Z",
+      "date": "2026-11-09",
+      "player_id": "4296",
+      "player_name": "Pejčinović",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 5940319.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-09T06:20:34Z|4296||KönigMario|5940319.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-09T12:35:00Z",
+      "date": "2026-11-09",
+      "player_id": "7684",
+      "player_name": "Aebischer",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 5350791.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-09T12:35:00Z|7684||Simon Koller|5350791.00"
     }
   ]
 }
