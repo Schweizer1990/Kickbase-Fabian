@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:33:31.297307",
+  "updated_at": "2026-11-09T21:09:08.096294",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18040,9 +18040,9 @@
       "buyer": null,
       "seller": "KönigMario",
       "price": 5940319.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5633804.0,
+      "overpay": 306515.0,
+      "overpay_pct": 5.44,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T06:20:34Z|4296||KönigMario|5940319.00"
     },
@@ -18055,9 +18055,9 @@
       "buyer": null,
       "seller": "Simon Koller",
       "price": 5350791.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4841642.0,
+      "overpay": 509149.0,
+      "overpay_pct": 10.52,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T12:35:00Z|7684||Simon Koller|5350791.00"
     },
@@ -18070,9 +18070,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 2552524.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2695983.0,
+      "overpay": -143459.0,
+      "overpay_pct": -5.32,
       "type": "kickbase_purchase",
       "event_key": "2026-11-09T15:03:47Z|3041|KönigMario||2552524.00"
     },
@@ -18085,9 +18085,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 4620000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4693491.0,
+      "overpay": -73491.0,
+      "overpay_pct": -1.57,
       "type": "kickbase_purchase",
       "event_key": "2026-11-09T17:43:37Z|14300|Fabian||4620000.00"
     },
@@ -18100,9 +18100,9 @@
       "buyer": null,
       "seller": "Joel",
       "price": 11041123.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 10417082.0,
+      "overpay": 624041.0,
+      "overpay_pct": 5.99,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T19:10:39Z|11556||Joel|11041123.00"
     },
@@ -18115,9 +18115,9 @@
       "buyer": null,
       "seller": "Joel",
       "price": 2550495.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2527188.0,
+      "overpay": 23307.0,
+      "overpay_pct": 0.92,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T19:11:02Z|14908||Joel|2550495.00"
     }
