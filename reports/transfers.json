@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:02:49.930578",
+  "updated_at": "2026-11-10T12:50:27.313974",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18180,6 +18180,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-10T06:00:44Z|15502|KönigMario||2555626.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-10T09:55:03Z",
+      "date": "2026-11-10",
+      "player_id": "2939",
+      "player_name": "Dinkçi",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 9888888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-10T09:55:03Z|2939|Bommer||9888888.00"
     }
   ]
 }
