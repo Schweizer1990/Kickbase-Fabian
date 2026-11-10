@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:34:55.312589",
+  "updated_at": "2026-11-10T21:16:24.440414",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18145,9 +18145,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 13333331.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 13071864.0,
+      "overpay": 261467.0,
+      "overpay_pct": 2.0,
       "type": "kickbase_purchase",
       "event_key": "2026-11-10T02:47:54Z|3281|Mario||13333331.00"
     },
@@ -18160,9 +18160,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 18333333.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 17844078.0,
+      "overpay": 489255.0,
+      "overpay_pct": 2.74,
       "type": "kickbase_purchase",
       "event_key": "2026-11-10T05:44:02Z|7224|Flo24||18333333.00"
     },
@@ -18175,9 +18175,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 2555626.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2465580.0,
+      "overpay": 90046.0,
+      "overpay_pct": 3.65,
       "type": "kickbase_purchase",
       "event_key": "2026-11-10T06:00:44Z|15502|KönigMario||2555626.00"
     },
@@ -18190,11 +18190,26 @@
       "buyer": "Bommer",
       "seller": null,
       "price": 9888888.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9174531.0,
+      "overpay": 714357.0,
+      "overpay_pct": 7.79,
       "type": "kickbase_purchase",
       "event_key": "2026-11-10T09:55:03Z|2939|Bommer||9888888.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-10T19:58:43Z",
+      "date": "2026-11-10",
+      "player_id": "2887",
+      "player_name": "Dōan",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 16790545.0,
+      "market_value_at_transfer": 16018625.0,
+      "overpay": 771920.0,
+      "overpay_pct": 4.82,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-10T19:58:43Z|2887||Flo24|16790545.00"
     }
   ]
 }
