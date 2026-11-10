@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T00:30:03.412790",
+  "updated_at": "2026-11-10T08:02:49.930578",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18135,6 +18135,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T21:14:58Z|15301||Mario|2954205.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-10T02:47:54Z",
+      "date": "2026-11-10",
+      "player_id": "3281",
+      "player_name": "Reis",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 13333331.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-10T02:47:54Z|3281|Mario||13333331.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-10T05:44:02Z",
+      "date": "2026-11-10",
+      "player_id": "7224",
+      "player_name": "Castello Jr.",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 18333333.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-10T05:44:02Z|7224|Flo24||18333333.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-10T06:00:44Z",
+      "date": "2026-11-10",
+      "player_id": "15502",
+      "player_name": "Binder",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 2555626.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-10T06:00:44Z|15502|KönigMario||2555626.00"
     }
   ]
 }
