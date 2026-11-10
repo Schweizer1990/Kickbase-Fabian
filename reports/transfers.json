@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T21:09:08.096294",
+  "updated_at": "2026-11-10T00:30:03.412790",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18120,6 +18120,21 @@
       "overpay_pct": 0.92,
       "type": "kickbase_sale",
       "event_key": "2026-11-09T19:11:02Z|14908||Joel|2550495.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-09T21:14:58Z",
+      "date": "2026-11-09",
+      "player_id": "15301",
+      "player_name": "Gray",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 2954205.0,
+      "market_value_at_transfer": 2954205.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-09T21:14:58Z|15301||Mario|2954205.00"
     }
   ]
 }
