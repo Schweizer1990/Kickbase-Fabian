@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T17:48:14.738547",
+  "updated_at": "2026-11-11T21:34:55.734161",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18235,9 +18235,9 @@
       "buyer": "Simon Koller",
       "seller": null,
       "price": 9328875.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9620873.0,
+      "overpay": -291998.0,
+      "overpay_pct": -3.04,
       "type": "kickbase_purchase",
       "event_key": "2026-11-11T10:37:55Z|15193|Simon Koller||9328875.00"
     },
@@ -18250,9 +18250,9 @@
       "buyer": "KönigMario",
       "seller": null,
       "price": 5661276.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5903560.0,
+      "overpay": -242284.0,
+      "overpay_pct": -4.1,
       "type": "kickbase_purchase",
       "event_key": "2026-11-11T17:14:38Z|2967|KönigMario||5661276.00"
     },
@@ -18265,11 +18265,26 @@
       "buyer": "Mario",
       "seller": null,
       "price": 3311111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3442762.0,
+      "overpay": -131651.0,
+      "overpay_pct": -3.82,
       "type": "kickbase_purchase",
       "event_key": "2026-11-11T17:31:37Z|2176|Mario||3311111.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-11T19:08:48Z",
+      "date": "2026-11-11",
+      "player_id": "2068",
+      "player_name": "Zagadou",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 689415.0,
+      "market_value_at_transfer": 914506.0,
+      "overpay": -225091.0,
+      "overpay_pct": -24.61,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-11T19:08:48Z|2068|Thomasson||689415.00"
     }
   ]
 }
