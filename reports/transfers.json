@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:01:44.363269",
+  "updated_at": "2026-11-11T12:00:01.388276",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18210,6 +18210,36 @@
       "overpay_pct": 4.82,
       "type": "kickbase_sale",
       "event_key": "2026-11-10T19:58:43Z|2887||Flo24|16790545.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-10T23:26:05Z",
+      "date": "2026-11-10",
+      "player_id": "6300",
+      "player_name": "Ouédraogo",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 4500488.0,
+      "market_value_at_transfer": 954594.0,
+      "overpay": 3545894.0,
+      "overpay_pct": 371.46,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-10T23:26:05Z|6300|AndiiRutz_1||4500488.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-11T10:37:55Z",
+      "date": "2026-11-11",
+      "player_id": "15193",
+      "player_name": "Rots",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 9328875.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-11T10:37:55Z|15193|Simon Koller||9328875.00"
     }
   ]
 }
