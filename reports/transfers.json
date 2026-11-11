@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T12:00:01.388276",
+  "updated_at": "2026-11-11T17:48:14.738547",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18240,6 +18240,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-11T10:37:55Z|15193|Simon Koller||9328875.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-11-11T17:14:38Z",
+      "date": "2026-11-11",
+      "player_id": "2967",
+      "player_name": "El-Faouzi",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 5661276.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-11T17:14:38Z|2967|KönigMario||5661276.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-11-11T17:31:37Z",
+      "date": "2026-11-11",
+      "player_id": "2176",
+      "player_name": "Höler",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 3311111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-11T17:31:37Z|2176|Mario||3311111.00"
     }
   ]
 }
