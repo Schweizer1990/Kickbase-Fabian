@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T23:11:23.927388",
+  "updated_at": "2026-11-12T13:00:20.772900",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18285,6 +18285,21 @@
       "overpay_pct": -24.61,
       "type": "kickbase_purchase",
       "event_key": "2026-11-11T19:08:48Z|2068|Thomasson||689415.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-12T07:48:30Z",
+      "date": "2026-11-12",
+      "player_id": "2065",
+      "player_name": "Uduokhai",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 5444444.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-12T07:48:30Z|2065|Bommer||5444444.00"
     }
   ]
 }
