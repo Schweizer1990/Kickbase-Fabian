@@ -3,11 +3,11 @@
   "market_update": {
     "status": "not_confirmed",
     "confirmed": false,
-    "advanced_player_count": 107,
-    "compared_player_count": 473,
+    "advanced_player_count": 0,
+    "compared_player_count": 474,
     "required_player_count": 237,
     "same_date_revision_count": 0,
-    "observed_at": "2026-11-12T14:02:17.691534+01:00",
+    "observed_at": "2026-11-12T19:01:57.591875+01:00",
     "last_confirmed_at": "2026-11-11T22:36:58.544857+01:00",
     "latest_mv_date": "2026-11-11",
     "evidence": "dated_market_value_history; at least half of comparable players advance"
