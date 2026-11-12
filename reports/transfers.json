@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:01:00.085576",
+  "updated_at": "2026-11-12T22:29:58.804377",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18295,11 +18295,26 @@
       "buyer": "Bommer",
       "seller": null,
       "price": 5444444.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5634869.0,
+      "overpay": -190425.0,
+      "overpay_pct": -3.38,
       "type": "kickbase_purchase",
       "event_key": "2026-11-12T07:48:30Z|2065|Bommer||5444444.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-12T21:25:22Z",
+      "date": "2026-11-12",
+      "player_id": "9642",
+      "player_name": "Matsima",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 16265697.0,
+      "market_value_at_transfer": 16265697.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-12T21:25:22Z|9642||Thomasson|16265697.00"
     }
   ]
 }
