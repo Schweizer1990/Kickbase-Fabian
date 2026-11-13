@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T22:29:58.804377",
+  "updated_at": "2026-11-13T09:45:26.416900",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18315,6 +18315,21 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-12T21:25:22Z|9642||Thomasson|16265697.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-13T00:32:07Z",
+      "date": "2026-11-13",
+      "player_id": "6197",
+      "player_name": "Curda",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 10544040.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-13T00:32:07Z|6197||Joel|10544040.00"
     }
   ]
 }
