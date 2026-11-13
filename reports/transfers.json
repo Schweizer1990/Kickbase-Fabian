@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:35:39.893826",
+  "updated_at": "2026-11-13T22:18:00.382359",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18325,9 +18325,9 @@
       "buyer": null,
       "seller": "Joel",
       "price": 10544040.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 10188360.0,
+      "overpay": 355680.0,
+      "overpay_pct": 3.49,
       "type": "kickbase_sale",
       "event_key": "2026-11-13T00:32:07Z|6197||Joel|10544040.00"
     },
@@ -18340,9 +18340,9 @@
       "buyer": "Joel",
       "seller": null,
       "price": 2367668.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 2076685.0,
+      "overpay": 290983.0,
+      "overpay_pct": 14.01,
       "type": "kickbase_purchase",
       "event_key": "2026-11-13T10:14:52Z|7514|Joel||2367668.00"
     }
