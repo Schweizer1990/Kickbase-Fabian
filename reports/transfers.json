@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:45:26.416900",
+  "updated_at": "2026-11-13T12:25:44.171431",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18330,6 +18330,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-13T00:32:07Z|6197||Joel|10544040.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-11-13T10:14:52Z",
+      "date": "2026-11-13",
+      "player_id": "7514",
+      "player_name": "Le Joncour",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 2367668.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-13T10:14:52Z|7514|Joel||2367668.00"
     }
   ]
 }
