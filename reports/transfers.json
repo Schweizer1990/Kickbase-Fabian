@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T08:24:04.904895",
+  "updated_at": "2026-11-14T11:39:33.738303",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18465,6 +18465,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-14T06:25:13Z|3481|Fabian||2607000.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-14T08:39:01Z",
+      "date": "2026-11-14",
+      "player_id": "15529",
+      "player_name": "Ilicevic",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 3293714.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-14T08:39:01Z|15529||Fabian|3293714.00"
     }
   ]
 }
