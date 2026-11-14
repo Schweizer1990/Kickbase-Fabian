@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T21:12:06.905141",
+  "updated_at": "2026-11-14T22:02:59.898163",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18525,6 +18525,36 @@
       "overpay_pct": 0.45,
       "type": "kickbase_purchase",
       "event_key": "2026-11-14T19:04:10Z|2141|Thomasson||17100000.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-14T21:19:08Z",
+      "date": "2026-11-14",
+      "player_id": "14300",
+      "player_name": "Okon-Engstler",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 6191176.0,
+      "market_value_at_transfer": 6191176.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-14T21:19:08Z|14300||Fabian|6191176.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-14T21:28:49Z",
+      "date": "2026-11-14",
+      "player_id": "11967",
+      "player_name": "Vieira",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 7899999.0,
+      "market_value_at_transfer": 7568182.0,
+      "overpay": 331817.0,
+      "overpay_pct": 4.38,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-14T21:28:49Z|11967|Fabian||7899999.00"
     }
   ]
 }
