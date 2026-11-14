@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T11:39:33.738303",
+  "updated_at": "2026-11-14T15:26:44.134755",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18480,6 +18480,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-14T08:39:01Z|15529||Fabian|3293714.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-14T12:50:10Z",
+      "date": "2026-11-14",
+      "player_id": "11756",
+      "player_name": "Culbreath",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 2258454.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-14T12:50:10Z|11756|Fabian||2258454.00"
     }
   ]
 }
