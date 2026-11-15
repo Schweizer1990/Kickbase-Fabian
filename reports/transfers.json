@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:58:51.025266",
+  "updated_at": "2026-11-15T16:53:38.395191",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18555,6 +18555,21 @@
       "overpay_pct": 4.38,
       "type": "kickbase_purchase",
       "event_key": "2026-11-14T21:28:49Z|11967|Fabian||7899999.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-15T14:05:35Z",
+      "date": "2026-11-15",
+      "player_id": "1671",
+      "player_name": "Prömel",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 12395561.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-15T14:05:35Z|1671||Fabian|12395561.00"
     }
   ]
 }
