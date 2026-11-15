@@ -3144140,8 +3144140,8 @@
       }
     },
     {
-      "generated_at": "2026-11-15T22:27:46.543358+01:00",
-      "market_fetched_at": "2026-11-15T22:27:46.434832+01:00",
+      "generated_at": "2026-11-15T22:32:31.033620+01:00",
+      "market_fetched_at": "2026-11-15T22:32:30.888247+01:00",
       "market_update": {
         "status": "confirmed",
         "confirmed": true,
@@ -3144149,8 +3144149,8 @@
         "compared_player_count": 474,
         "required_player_count": 237,
         "same_date_revision_count": 0,
-        "observed_at": "2026-11-15T22:27:15.616376+01:00",
-        "last_confirmed_at": "2026-11-15T22:27:15.616376+01:00",
+        "observed_at": "2026-11-15T22:32:01.480765+01:00",
+        "last_confirmed_at": "2026-11-15T22:32:01.480765+01:00",
         "latest_mv_date": "2026-11-15",
         "evidence": "dated_market_value_history; at least half of comparable players advance"
       },
@@ -3144267,7 +3144267,7 @@
           "squad_market_value": 295979201.0,
           "mv_change_yesterday_sum": -102054.0,
           "mv_change_7d_sum": 9262403.0,
-          "predicted_mv_change_sum": -333483.8800000002,
+          "predicted_mv_change_sum": -322548.13,
           "prediction_coverage": 1.0
         },
         {
@@ -3144277,7 +3144277,7 @@
           "squad_market_value": 284480221.0,
           "mv_change_yesterday_sum": -651226.0,
           "mv_change_7d_sum": 4026665.0,
-          "predicted_mv_change_sum": -747440.5700000002,
+          "predicted_mv_change_sum": -740048.4700000001,
           "prediction_coverage": 1.0
         },
         {
@@ -3144287,7 +3144287,7 @@
           "squad_market_value": 266018084.0,
           "mv_change_yesterday_sum": 1289972.0,
           "mv_change_7d_sum": 12790749.0,
-          "predicted_mv_change_sum": 977408.21,
+          "predicted_mv_change_sum": 966010.23,
           "prediction_coverage": 1.0
         },
         {
@@ -3144297,7 +3144297,7 @@
           "squad_market_value": 257738450.0,
           "mv_change_yesterday_sum": 400903.0,
           "mv_change_7d_sum": 14005716.0,
-          "predicted_mv_change_sum": -168372.0799999999,
+          "predicted_mv_change_sum": -157146.57,
           "prediction_coverage": 1.0
         },
         {
@@ -3144307,7 +3144307,7 @@
           "squad_market_value": 251535174.0,
           "mv_change_yesterday_sum": -1087411.0,
           "mv_change_7d_sum": -2900969.0,
-          "predicted_mv_change_sum": -1017850.1499999999,
+          "predicted_mv_change_sum": -1015872.36,
           "prediction_coverage": 1.0
         },
         {
@@ -3144317,7 +3144317,7 @@
           "squad_market_value": 242064455.0,
           "mv_change_yesterday_sum": 1185033.0,
           "mv_change_7d_sum": 13343587.0,
-          "predicted_mv_change_sum": 810707.87,
+          "predicted_mv_change_sum": 810280.59,
           "prediction_coverage": 1.0
         },
         {
@@ -3144327,7 +3144327,7 @@
           "squad_market_value": 229270241.0,
           "mv_change_yesterday_sum": 615696.0,
           "mv_change_7d_sum": 11980465.0,
-          "predicted_mv_change_sum": 161370.53000000003,
+          "predicted_mv_change_sum": 148453.7800000001,
           "prediction_coverage": 1.0
         },
         {
@@ -3144337,7 +3144337,7 @@
           "squad_market_value": 222958507.0,
           "mv_change_yesterday_sum": 1642514.0,
           "mv_change_7d_sum": 14165936.0,
-          "predicted_mv_change_sum": 1369639.9700000002,
+          "predicted_mv_change_sum": 1378593.7899999998,
           "prediction_coverage": 1.0
         },
         {
@@ -3144347,7 +3144347,7 @@
           "squad_market_value": 217859815.0,
           "mv_change_yesterday_sum": -317788.0,
           "mv_change_7d_sum": 5264110.0,
-          "predicted_mv_change_sum": -840524.37,
+          "predicted_mv_change_sum": -831688.0199999999,
           "prediction_coverage": 1.0
         },
         {
@@ -3144357,7 +3144357,7 @@
           "squad_market_value": 214244281.0,
           "mv_change_yesterday_sum": 828485.0,
           "mv_change_7d_sum": 13234082.0,
-          "predicted_mv_change_sum": 296459.87999999995,
+          "predicted_mv_change_sum": 289859.69000000006,
           "prediction_coverage": 1.0
         },
         {
@@ -3144367,7 +3144367,7 @@
           "squad_market_value": 196496127.0,
           "mv_change_yesterday_sum": -480310.0,
           "mv_change_7d_sum": 4992239.0,
-          "predicted_mv_change_sum": -880231.2200000001,
+          "predicted_mv_change_sum": -863407.5299999999,
           "prediction_coverage": 1.0
         },
         {
@@ -3144377,7 +3144377,7 @@
           "squad_market_value": 71643894.0,
           "mv_change_yesterday_sum": -609961.0,
           "mv_change_7d_sum": -3901144.0,
-          "predicted_mv_change_sum": -424162.29999999993,
+          "predicted_mv_change_sum": -433204.99999999994,
           "prediction_coverage": 0.933
         }
       ],
@@ -3159009,7 +3159009,7 @@
           "mv_change_yesterday": 377316.0,
           "mv_change_7d": 2724856.0,
           "mv_trend_7d": 0.9447367408292419,
-          "predicted_mv_target": 355700.07
+          "predicted_mv_target": 356993.37
         },
         {
           "player_id": "11170",
@@ -3159018,7 +3159018,7 @@
           "mv_change_yesterday": 258231.0,
           "mv_change_7d": 1356929.0,
           "mv_trend_7d": 2.713858,
-          "predicted_mv_target": 257403.18
+          "predicted_mv_target": 256153.14
         },
         {
           "player_id": "11512",
@@ -3159027,7 +3159027,7 @@
           "mv_change_yesterday": 201266.0,
           "mv_change_7d": 28978.0,
           "mv_trend_7d": 0.004412745338849291,
-          "predicted_mv_target": 225693.73
+          "predicted_mv_target": 226853.23
         },
         {
           "player_id": "1223",
@@ -3159036,7 +3159036,7 @@
           "mv_change_yesterday": 237060.0,
           "mv_change_7d": 2749994.0,
           "mv_trend_7d": 1.0121122497500998,
-          "predicted_mv_target": 212382.03
+          "predicted_mv_target": 214290.51
         },
         {
           "player_id": "9698",
@@ -3159045,7 +3159045,7 @@
           "mv_change_yesterday": 153095.0,
           "mv_change_7d": 1485510.0,
           "mv_trend_7d": 0.13015837245213743,
-          "predicted_mv_target": 153288.74
+          "predicted_mv_target": 156480.79
         },
         {
           "player_id": "2694",
@@ -3159054,7 +3159054,7 @@
           "mv_change_yesterday": 99047.0,
           "mv_change_7d": -859749.0,
           "mv_trend_7d": -0.04233560863386439,
-          "predicted_mv_target": 118477.31
+          "predicted_mv_target": 116856.17
         },
         {
           "player_id": "2939",
@@ -3159063,7 +3159063,7 @@
           "mv_change_yesterday": 143869.0,
           "mv_change_7d": 1804746.0,
           "mv_trend_7d": 0.21114200496844357,
-          "predicted_mv_target": 101109.1
+          "predicted_mv_target": 100361.4
         },
         {
           "player_id": "2065",
@@ -3159072,16 +3159072,7 @@
           "mv_change_yesterday": 148254.0,
           "mv_change_7d": 1570291.0,
           "mv_trend_7d": 0.33657716444920566,
-          "predicted_mv_target": 90334.6
-        },
-        {
-          "player_id": "3029",
-          "name": "Ljubičić",
-          "mv": 5977273.0,
-          "mv_change_yesterday": 98540.0,
-          "mv_change_7d": 1759531.0,
-          "mv_trend_7d": 0.4171736915155076,
-          "predicted_mv_target": 20546.9
+          "predicted_mv_target": 92608.75
         },
         {
           "player_id": "9224",
@@ -3159090,7 +3159081,16 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": -498715.0,
           "mv_trend_7d": -0.49935667332522293,
-          "predicted_mv_target": 16949.11
+          "predicted_mv_target": 16606.95
+        },
+        {
+          "player_id": "3029",
+          "name": "Ljubičić",
+          "mv": 5977273.0,
+          "mv_change_yesterday": 98540.0,
+          "mv_change_7d": 1759531.0,
+          "mv_trend_7d": 0.4171736915155076,
+          "predicted_mv_target": 16531.27
         },
         {
           "player_id": "12285",
@@ -3159099,7 +3159099,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": -37339.0,
           "mv_trend_7d": -0.06948872127279054,
-          "predicted_mv_target": 1161.44
+          "predicted_mv_target": 902.77
         },
         {
           "player_id": "11262",
@@ -3159108,7 +3159108,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 1130.33
+          "predicted_mv_target": 857.37
         },
         {
           "player_id": "13806",
@@ -3159117,7 +3159117,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": -694667.0,
           "mv_trend_7d": -0.5814733310621286,
-          "predicted_mv_target": 429.61
+          "predicted_mv_target": 568.34
         },
         {
           "player_id": "12314",
@@ -3159126,7 +3159126,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": -306390.0,
           "mv_trend_7d": -0.3799526283808083,
-          "predicted_mv_target": 330.82
+          "predicted_mv_target": 283.98
         },
         {
           "player_id": "1767",
@@ -3159135,7 +3159135,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 256.03
+          "predicted_mv_target": 282.08
         },
         {
           "player_id": "1225",
@@ -3159144,7 +3159144,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 241.26
+          "predicted_mv_target": 249.61
         },
         {
           "player_id": "14899",
@@ -3159153,7 +3159153,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 241.26
+          "predicted_mv_target": 249.61
         },
         {
           "player_id": "2864",
@@ -3159162,7 +3159162,7 @@
           "mv_change_yesterday": -99813.0,
           "mv_change_7d": -1772449.0,
           "mv_trend_7d": -0.27740990453068404,
-          "predicted_mv_target": -93196.55
+          "predicted_mv_target": -93453.76
         },
         {
           "player_id": "1954",
@@ -3159171,7 +3159171,7 @@
           "mv_change_yesterday": -129316.0,
           "mv_change_7d": -901336.0,
           "mv_trend_7d": -0.24969852040212792,
-          "predicted_mv_target": -126675.87
+          "predicted_mv_target": -126819.83
         },
         {
           "player_id": "13433",
@@ -3159180,16 +3159180,7 @@
           "mv_change_yesterday": -129478.0,
           "mv_change_7d": -850341.0,
           "mv_trend_7d": -0.2722776271779079,
-          "predicted_mv_target": -126975.4
-        },
-        {
-          "player_id": "9440",
-          "name": "Mane",
-          "mv": 1046421.0,
-          "mv_change_yesterday": -130714.0,
-          "mv_change_7d": -900895.0,
-          "mv_trend_7d": -0.4626342103695548,
-          "predicted_mv_target": -127401.36
+          "predicted_mv_target": -127008.4
         },
         {
           "player_id": "11043",
@@ -3159198,7 +3159189,16 @@
           "mv_change_yesterday": -129817.0,
           "mv_change_7d": -928918.0,
           "mv_trend_7d": -0.23245911148737164,
-          "predicted_mv_target": -127443.13
+          "predicted_mv_target": -127341.37
+        },
+        {
+          "player_id": "9440",
+          "name": "Mane",
+          "mv": 1046421.0,
+          "mv_change_yesterday": -130714.0,
+          "mv_change_7d": -900895.0,
+          "mv_trend_7d": -0.4626342103695548,
+          "predicted_mv_target": -127414.72
         },
         {
           "player_id": "12763",
@@ -3159207,7 +3159207,7 @@
           "mv_change_yesterday": -134030.0,
           "mv_change_7d": -1006210.0,
           "mv_trend_7d": -0.2554220806665785,
-          "predicted_mv_target": -131516.6
+          "predicted_mv_target": -131663.96
         },
         {
           "player_id": "1865",
@@ -3159216,7 +3159216,7 @@
           "mv_change_yesterday": -137863.0,
           "mv_change_7d": -712896.0,
           "mv_trend_7d": -0.15694586779179293,
-          "predicted_mv_target": -135357.22
+          "predicted_mv_target": -136053.55
         },
         {
           "player_id": "9995",
@@ -3159225,7 +3159225,7 @@
           "mv_change_yesterday": -9808.0,
           "mv_change_7d": 1288909.0,
           "mv_trend_7d": 0.16153818774193274,
-          "predicted_mv_target": -221620.53
+          "predicted_mv_target": -214564.0
         }
       ],
       "market_live": [
@@ -3159233,7 +3159233,7 @@
           "player_id": "1223",
           "player_name": "Friedrich",
           "market_value": 5467078,
-          "expires_seconds": 29259,
+          "expires_seconds": 28975,
           "my_bid": 5776508,
           "my_bid_present": true,
           "ofc_raw": 1,
@@ -3159253,7 +3159253,7 @@
           "player_id": "1767",
           "player_name": "Huth",
           "market_value": 500000,
-          "expires_seconds": 13166,
+          "expires_seconds": 12882,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159263,7 +3159263,7 @@
           "player_id": "1865",
           "player_name": "Poulsen",
           "market_value": 3829409,
-          "expires_seconds": 14705,
+          "expires_seconds": 14421,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159273,7 +3159273,7 @@
           "player_id": "1954",
           "player_name": "Bernardo",
           "market_value": 2708361,
-          "expires_seconds": 109399,
+          "expires_seconds": 109115,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159293,7 +3159293,7 @@
           "player_id": "2694",
           "player_name": "Stiller",
           "market_value": 19448191,
-          "expires_seconds": 12431,
+          "expires_seconds": 12147,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159303,7 +3159303,7 @@
           "player_id": "2864",
           "player_name": "Collins",
           "market_value": 4616829,
-          "expires_seconds": 56552,
+          "expires_seconds": 56268,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159323,7 +3159323,7 @@
           "player_id": "3029",
           "player_name": "Ljubičić",
           "market_value": 5977273,
-          "expires_seconds": 54244,
+          "expires_seconds": 53960,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159333,7 +3159333,7 @@
           "player_id": "9224",
           "player_name": "Zimmerschied",
           "market_value": 500000,
-          "expires_seconds": 117950,
+          "expires_seconds": 117666,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159343,7 +3159343,7 @@
           "player_id": "9440",
           "player_name": "Mane",
           "market_value": 1046421,
-          "expires_seconds": 54158,
+          "expires_seconds": 53874,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159353,7 +3159353,7 @@
           "player_id": "9698",
           "player_name": "Fábio Silva",
           "market_value": 12898606,
-          "expires_seconds": 4015,
+          "expires_seconds": 3731,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159363,7 +3159363,7 @@
           "player_id": "9754",
           "player_name": "Bah",
           "market_value": 5609105,
-          "expires_seconds": 28093,
+          "expires_seconds": 27809,
           "my_bid": 5958895,
           "my_bid_present": true,
           "ofc_raw": 1,
@@ -3159383,7 +3159383,7 @@
           "player_id": "11043",
           "player_name": "Assignon",
           "market_value": 3067131,
-          "expires_seconds": 74292,
+          "expires_seconds": 74008,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159393,7 +3159393,7 @@
           "player_id": "11170",
           "player_name": "Müller",
           "market_value": 1856929,
-          "expires_seconds": 98734,
+          "expires_seconds": 98450,
           "my_bid": 2154855,
           "my_bid_present": true,
           "ofc_raw": 1,
@@ -3159403,7 +3159403,7 @@
           "player_id": "11262",
           "player_name": "Musah",
           "market_value": 500000,
-          "expires_seconds": 10900,
+          "expires_seconds": 10616,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159413,7 +3159413,7 @@
           "player_id": "11512",
           "player_name": "Capaldo",
           "market_value": 6595865,
-          "expires_seconds": 60718,
+          "expires_seconds": 60434,
           "my_bid": 6778252,
           "my_bid_present": true,
           "ofc_raw": 1,
@@ -3159423,7 +3159423,7 @@
           "player_id": "12285",
           "player_name": "Arrhov",
           "market_value": 500000,
-          "expires_seconds": 1784,
+          "expires_seconds": 1500,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159433,7 +3159433,7 @@
           "player_id": "12314",
           "player_name": "Ndiaye",
           "market_value": 500000,
-          "expires_seconds": 4292,
+          "expires_seconds": 4008,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159443,7 +3159443,7 @@
           "player_id": "12763",
           "player_name": "Latte Lath",
           "market_value": 2933191,
-          "expires_seconds": 77691,
+          "expires_seconds": 77407,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159453,7 +3159453,7 @@
           "player_id": "13433",
           "player_name": "Lemke",
           "market_value": 2272725,
-          "expires_seconds": 66592,
+          "expires_seconds": 66308,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159463,7 +3159463,7 @@
           "player_id": "13806",
           "player_name": "Seol",
           "market_value": 500000,
-          "expires_seconds": 152054,
+          "expires_seconds": 151770,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159473,7 +3159473,7 @@
           "player_id": "14899",
           "player_name": "Prates",
           "market_value": 500000,
-          "expires_seconds": 159173,
+          "expires_seconds": 158889,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3159489,7 +3159489,7 @@
           "mv_change_yesterday": 5020.0,
           "mv_change_7d": 78443.0,
           "mv_trend_7d": 0.0023456840257192442,
-          "predicted_mv_target": -14624.28
+          "predicted_mv_target": -13696.03
         },
         {
           "player_id": "49",
@@ -3159499,7 +3159499,7 @@
           "mv_change_yesterday": 33026.0,
           "mv_change_7d": 400686.0,
           "mv_trend_7d": 0.013923359703506517,
-          "predicted_mv_target": 36056.43
+          "predicted_mv_target": 36892.28
         },
         {
           "player_id": "1873",
@@ -3159509,7 +3159509,7 @@
           "mv_change_yesterday": 24264.0,
           "mv_change_7d": 462101.0,
           "mv_trend_7d": 0.02430918480658721,
-          "predicted_mv_target": 21619.21
+          "predicted_mv_target": 19306.94
         },
         {
           "player_id": "3284",
@@ -3159519,7 +3159519,7 @@
           "mv_change_yesterday": 26470.0,
           "mv_change_7d": 531274.0,
           "mv_trend_7d": 0.03266217366122031,
-          "predicted_mv_target": 22020.79
+          "predicted_mv_target": 22658.29
         },
         {
           "player_id": "1645",
@@ -3159529,7 +3159529,7 @@
           "mv_change_yesterday": 30358.0,
           "mv_change_7d": 477844.0,
           "mv_trend_7d": 0.021569888716303536,
-          "predicted_mv_target": 28619.55
+          "predicted_mv_target": 27556.7
         },
         {
           "player_id": "1991",
@@ -3159539,7 +3159539,7 @@
           "mv_change_yesterday": 87665.0,
           "mv_change_7d": 819984.0,
           "mv_trend_7d": 0.02546064325645249,
-          "predicted_mv_target": 81734.53
+          "predicted_mv_target": 79532.27
         },
         {
           "player_id": "1246",
@@ -3159549,7 +3159549,7 @@
           "mv_change_yesterday": 28431.0,
           "mv_change_7d": 290243.0,
           "mv_trend_7d": 0.009472510259114733,
-          "predicted_mv_target": 26884.48
+          "predicted_mv_target": 27612.69
         },
         {
           "player_id": "10122",
@@ -3159559,7 +3159559,7 @@
           "mv_change_yesterday": 56949.0,
           "mv_change_7d": 1815295.0,
           "mv_trend_7d": 0.21161926194067276,
-          "predicted_mv_target": -36074.88
+          "predicted_mv_target": -33302.06
         },
         {
           "player_id": "8273",
@@ -3159569,7 +3159569,7 @@
           "mv_change_yesterday": 190132.0,
           "mv_change_7d": 1457112.0,
           "mv_trend_7d": 0.5413778549263456,
-          "predicted_mv_target": 170913.71
+          "predicted_mv_target": 173003.75
         },
         {
           "player_id": "2120",
@@ -3159579,7 +3159579,7 @@
           "mv_change_yesterday": 174659.0,
           "mv_change_7d": 2275725.0,
           "mv_trend_7d": 0.6663598971526655,
-          "predicted_mv_target": 121327.35
+          "predicted_mv_target": 119237.6
         },
         {
           "player_id": "6172",
@@ -3159589,7 +3159589,7 @@
           "mv_change_yesterday": 190085.0,
           "mv_change_7d": 1286978.0,
           "mv_trend_7d": 0.5129926477768942,
-          "predicted_mv_target": 162840.65
+          "predicted_mv_target": 163907.93
         },
         {
           "player_id": "3481",
@@ -3159599,7 +3159599,7 @@
           "mv_change_yesterday": 281188.0,
           "mv_change_7d": 2176721.0,
           "mv_trend_7d": 2.665299765271725,
-          "predicted_mv_target": 264338.4
+          "predicted_mv_target": 267731.36
         },
         {
           "player_id": "11756",
@@ -3159609,7 +3159609,7 @@
           "mv_change_yesterday": 232538.0,
           "mv_change_7d": 1207782.0,
           "mv_trend_7d": 0.9122434135542449,
-          "predicted_mv_target": 212640.37
+          "predicted_mv_target": 216288.47
         },
         {
           "player_id": "11967",
@@ -3159619,7 +3159619,7 @@
           "mv_change_yesterday": 281729.0,
           "mv_change_7d": 885748.0,
           "mv_trend_7d": 0.1271865692977031,
-          "predicted_mv_target": 271343.66
+          "predicted_mv_target": 271863.6
         }
       ],
       "manager_squads": [
@@ -3161006,8 +3161006,8 @@
           "player_name": "Friedrich",
           "market_value": 5467078,
           "listed_price": 5467078,
-          "expires": 29259,
-          "expires_at": "2026-11-16T06:35:25.434832+01:00",
+          "expires": 28975,
+          "expires_at": "2026-11-16T06:35:25.888247+01:00",
           "offer_count": null,
           "ofc_raw": 1,
           "my_bid": 5776508,
@@ -3161019,8 +3161019,8 @@
           "player_name": "Bah",
           "market_value": 5609105,
           "listed_price": 5609105,
-          "expires": 28093,
-          "expires_at": "2026-11-16T06:15:59.434832+01:00",
+          "expires": 27809,
+          "expires_at": "2026-11-16T06:15:59.888247+01:00",
           "offer_count": null,
           "ofc_raw": 1,
           "my_bid": 5958895,
@@ -3161032,8 +3161032,8 @@
           "player_name": "Müller",
           "market_value": 1856929,
           "listed_price": 1856929,
-          "expires": 98734,
-          "expires_at": "2026-11-17T01:53:20.434832+01:00",
+          "expires": 98450,
+          "expires_at": "2026-11-17T01:53:20.888247+01:00",
           "offer_count": null,
           "ofc_raw": 1,
           "my_bid": 2154855,
@@ -3161045,8 +3161045,8 @@
           "player_name": "Capaldo",
           "market_value": 6595865,
           "listed_price": 6595865,
-          "expires": 60718,
-          "expires_at": "2026-11-16T15:19:44.434832+01:00",
+          "expires": 60434,
+          "expires_at": "2026-11-16T15:19:44.888247+01:00",
           "offer_count": null,
           "ofc_raw": 1,
           "my_bid": 6778252,
@@ -3161095,13 +3161095,13 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": false,
           "availability_factor": 1.0,
-          "capital_score": 0.336,
-          "suggested_bid": 19585180,
-          "hard_max_bid": 19585180,
+          "capital_score": 0.332,
+          "suggested_bid": 19583305,
+          "hard_max_bid": 19583305,
           "budget_fit": true,
           "strategy_label": "watch_trend_unconfirmed",
           "championship_label": "startelf_target",
-          "win_score": 63.487,
+          "win_score": 63.486,
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
@@ -3161121,13 +3161121,13 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": false,
           "availability_factor": 1.0,
-          "capital_score": 2.639,
-          "suggested_bid": 6856823,
-          "hard_max_bid": 6856823,
+          "capital_score": 2.648,
+          "suggested_bid": 6858164,
+          "hard_max_bid": 6858164,
           "budget_fit": true,
           "strategy_label": "trade",
           "championship_label": "startelf_target",
-          "win_score": 55.075,
+          "win_score": 55.077,
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
@@ -3161147,13 +3161147,13 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": true,
           "availability_factor": 1.0,
-          "capital_score": 1.509,
+          "capital_score": 1.505,
           "suggested_bid": null,
           "hard_max_bid": null,
           "budget_fit": true,
           "strategy_label": "watch_trend_unconfirmed",
           "championship_label": "startelf_target",
-          "win_score": 54.372,
+          "win_score": 54.371,
           "auction_eligible": false,
           "auction_exclusion_reason": "manager_listing_excluded",
           "updates_before_expiry": null,
@@ -3161173,17 +3161173,17 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": false,
           "availability_factor": 1.0,
-          "capital_score": 0.268,
-          "suggested_bid": 531647,
-          "hard_max_bid": 531647,
+          "capital_score": 0.234,
+          "suggested_bid": 531008,
+          "hard_max_bid": 531008,
           "budget_fit": true,
           "strategy_label": "watch_trend_unconfirmed",
           "championship_label": "startelf_target",
-          "win_score": 45.294,
+          "win_score": 45.285,
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 516949
+          "projected_mv_at_expiry": 516607
         }
       ],
       "top_bid_guardrails": [
@@ -3161205,16 +3161205,16 @@
           "top_rival_sample": 22,
           "top_rival_p75_overpay_pct": 12.21,
           "top_rival_shadow_bid": 21822329,
-          "roi_guardrail_bid": 19585180,
-          "trade_protection_bid": 19585180,
+          "roi_guardrail_bid": 19583305,
+          "trade_protection_bid": 19583305,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 19448191,
-          "suggested_bid": 19585180,
-          "hard_max_bid": 19585180,
+          "suggested_bid": 19583305,
+          "hard_max_bid": 19583305,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3161325,16 +3161325,16 @@
           "top_rival_sample": 12,
           "top_rival_p75_overpay_pct": 16.57,
           "top_rival_shadow_bid": 7689130,
-          "roi_guardrail_bid": 6856823,
-          "trade_protection_bid": 6856823,
+          "roi_guardrail_bid": 6858164,
+          "trade_protection_bid": 6858164,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 6595865,
-          "suggested_bid": 6856823,
-          "hard_max_bid": 6856823,
+          "suggested_bid": 6858164,
+          "hard_max_bid": 6858164,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3161385,16 +3161385,16 @@
           "top_rival_sample": 12,
           "top_rival_p75_overpay_pct": 16.57,
           "top_rival_shadow_bid": 6968006,
-          "roi_guardrail_bid": 6001030,
-          "trade_protection_bid": 6001030,
+          "roi_guardrail_bid": 5996387,
+          "trade_protection_bid": 5996387,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 5977273,
-          "suggested_bid": 6001030,
-          "hard_max_bid": 6001030,
+          "suggested_bid": 5996387,
+          "hard_max_bid": 5996387,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3161415,16 +3161415,16 @@
           "top_rival_sample": 12,
           "top_rival_p75_overpay_pct": 16.57,
           "top_rival_shadow_bid": 6538814,
-          "roi_guardrail_bid": 6020383,
-          "trade_protection_bid": 6020383,
+          "roi_guardrail_bid": 6021878,
+          "trade_protection_bid": 6021878,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 5609105,
-          "suggested_bid": 6020383,
-          "hard_max_bid": 6020383,
+          "suggested_bid": 6021878,
+          "hard_max_bid": 6021878,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3161445,16 +3161445,16 @@
           "top_rival_sample": 12,
           "top_rival_p75_overpay_pct": 16.57,
           "top_rival_shadow_bid": 6373246,
-          "roi_guardrail_bid": 5712644,
-          "trade_protection_bid": 5712644,
+          "roi_guardrail_bid": 5714851,
+          "trade_protection_bid": 5714851,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 5467078,
-          "suggested_bid": 5712644,
-          "hard_max_bid": 5712644,
+          "suggested_bid": 5714851,
+          "hard_max_bid": 5714851,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3161489,9 +3161489,9 @@
         }
       ],
       "winning_edge": {
-        "generated_at": "2026-11-15T22:27:46.543358+01:00",
+        "generated_at": "2026-11-15T22:32:31.033620+01:00",
         "deadline": "2026-11-20T20:30:00+01:00",
-        "deadline_hours_remaining": 118.04,
+        "deadline_hours_remaining": 117.96,
         "cash_now": 45343435.0,
         "positive_cash_now": true,
         "cash_to_recover_for_deadline": 0,
@@ -3161617,7 +3161617,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 5020.0,
-            "mv_change_predicted": -14624.28,
+            "mv_change_predicted": -13696.03,
             "momentum": "reversal_watch",
             "decision": "protect_points_watch_trend"
           },
@@ -3161632,7 +3161632,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 33026.0,
-            "mv_change_predicted": 36056.43,
+            "mv_change_predicted": 36892.28,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161647,7 +3161647,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 24264.0,
-            "mv_change_predicted": 21619.21,
+            "mv_change_predicted": 19306.94,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161662,7 +3161662,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 26470.0,
-            "mv_change_predicted": 22020.79,
+            "mv_change_predicted": 22658.29,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161677,7 +3161677,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 30358.0,
-            "mv_change_predicted": 28619.55,
+            "mv_change_predicted": 27556.7,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161692,7 +3161692,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 87665.0,
-            "mv_change_predicted": 81734.53,
+            "mv_change_predicted": 79532.27,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161707,7 +3161707,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 28431.0,
-            "mv_change_predicted": 26884.48,
+            "mv_change_predicted": 27612.69,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161722,7 +3161722,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 56949.0,
-            "mv_change_predicted": -36074.88,
+            "mv_change_predicted": -33302.06,
             "momentum": "reversal_watch",
             "decision": "protect_points_watch_trend"
           },
@@ -3161737,7 +3161737,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 190132.0,
-            "mv_change_predicted": 170913.71,
+            "mv_change_predicted": 173003.75,
             "momentum": "growing",
             "decision": "hold_for_trading"
           },
@@ -3161752,7 +3161752,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 174659.0,
-            "mv_change_predicted": 121327.35,
+            "mv_change_predicted": 119237.6,
             "momentum": "growing",
             "decision": "hold_for_trading"
           },
@@ -3161767,7 +3161767,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 190085.0,
-            "mv_change_predicted": 162840.65,
+            "mv_change_predicted": 163907.93,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161782,7 +3161782,7 @@
             "availability_evidence": "ligainsider_structured_injury_table",
             "availability_flag": "confirmed_unavailable",
             "mv_change_last": 281188.0,
-            "mv_change_predicted": 264338.4,
+            "mv_change_predicted": 267731.36,
             "momentum": "growing",
             "decision": "hold_for_trading"
           },
@@ -3161797,7 +3161797,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 232538.0,
-            "mv_change_predicted": 212640.37,
+            "mv_change_predicted": 216288.47,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3161812,7 +3161812,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 281729.0,
-            "mv_change_predicted": 271343.66,
+            "mv_change_predicted": 271863.6,
             "momentum": "growing",
             "decision": "hold"
           }
