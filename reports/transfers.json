@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T16:53:38.395191",
+  "updated_at": "2026-11-15T21:25:16.035812",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18565,11 +18565,41 @@
       "buyer": null,
       "seller": "Fabian",
       "price": 12395561.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 12499135.0,
+      "overpay": -103574.0,
+      "overpay_pct": -0.83,
       "type": "kickbase_sale",
       "event_key": "2026-11-15T14:05:35Z|1671||Fabian|12395561.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-15T17:27:04Z",
+      "date": "2026-11-15",
+      "player_id": "7283",
+      "player_name": "Brackelmann",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 8895555.0,
+      "market_value_at_transfer": 8752863.0,
+      "overpay": 142692.0,
+      "overpay_pct": 1.63,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-15T17:27:04Z|7283|Marc Frischiniemi||8895555.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-15T20:40:09Z",
+      "date": "2026-11-15",
+      "player_id": "12367",
+      "player_name": "Spalt",
+      "buyer": null,
+      "seller": "AndiiRutz_1",
+      "price": 5291491.0,
+      "market_value_at_transfer": 5540574.0,
+      "overpay": -249083.0,
+      "overpay_pct": -4.5,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-15T20:40:09Z|12367||AndiiRutz_1|5291491.00"
     }
   ]
 }
