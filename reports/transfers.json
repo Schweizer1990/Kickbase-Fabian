@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:29:55.632415",
+  "updated_at": "2026-11-16T12:59:49.057536",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18600,6 +18600,111 @@
       "overpay_pct": -4.5,
       "type": "kickbase_sale",
       "event_key": "2026-11-15T20:40:09Z|12367||AndiiRutz_1|5291491.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-15T21:36:26Z",
+      "date": "2026-11-15",
+      "player_id": "10122",
+      "player_name": "Gruber",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 10393413.0,
+      "market_value_at_transfer": 10393413.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-15T21:36:26Z|10122||Fabian|10393413.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-11-15T22:17:23Z",
+      "date": "2026-11-15",
+      "player_id": "9995",
+      "player_name": "Mokwa",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 9267883.0,
+      "market_value_at_transfer": 9267883.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-15T22:17:23Z|9995||Thomasson|9267883.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-11-15T22:34:55Z",
+      "date": "2026-11-15",
+      "player_id": "9698",
+      "player_name": "Fábio Silva",
+      "buyer": "AndiiRutz_1",
+      "seller": null,
+      "price": 16258405.0,
+      "market_value_at_transfer": 12898606.0,
+      "overpay": 3359799.0,
+      "overpay_pct": 26.05,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-15T22:34:55Z|9698|AndiiRutz_1||16258405.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-16T00:55:05Z",
+      "date": "2026-11-16",
+      "player_id": "2694",
+      "player_name": "Stiller",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 19500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-16T00:55:05Z|2694|Fabian||19500000.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-16T05:16:18Z",
+      "date": "2026-11-16",
+      "player_id": "9754",
+      "player_name": "Bah",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 6028588.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-16T05:16:18Z|9754|Fabian||6028588.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-16T05:35:31Z",
+      "date": "2026-11-16",
+      "player_id": "1223",
+      "player_name": "Friedrich",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 5467078.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-16T05:35:31Z|1223|Thomasson||5467078.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-16T12:26:43Z",
+      "date": "2026-11-16",
+      "player_id": "2261",
+      "player_name": "Neuhaus",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 6765224.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-16T12:26:43Z|2261||Flo24|6765224.00"
     }
   ]
 }
