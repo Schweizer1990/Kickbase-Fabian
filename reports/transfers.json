@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:07:41.878330",
+  "updated_at": "2026-11-16T21:10:43.164831",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18655,9 +18655,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 19500000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 19580571.0,
+      "overpay": -80571.0,
+      "overpay_pct": -0.41,
       "type": "kickbase_purchase",
       "event_key": "2026-11-16T00:55:05Z|2694|Fabian||19500000.00"
     },
@@ -18670,9 +18670,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 6028588.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5990107.0,
+      "overpay": 38481.0,
+      "overpay_pct": 0.64,
       "type": "kickbase_purchase",
       "event_key": "2026-11-16T05:16:18Z|9754|Fabian||6028588.00"
     },
@@ -18685,9 +18685,9 @@
       "buyer": "Thomasson",
       "seller": null,
       "price": 5467078.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5697777.0,
+      "overpay": -230699.0,
+      "overpay_pct": -4.05,
       "type": "kickbase_purchase",
       "event_key": "2026-11-16T05:35:31Z|1223|Thomasson||5467078.00"
     },
@@ -18700,9 +18700,9 @@
       "buyer": null,
       "seller": "Flo24",
       "price": 6765224.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6487394.0,
+      "overpay": 277830.0,
+      "overpay_pct": 4.28,
       "type": "kickbase_sale",
       "event_key": "2026-11-16T12:26:43Z|2261||Flo24|6765224.00"
     }
