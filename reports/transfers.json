@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T21:09:29.356566",
+  "updated_at": "2026-11-17T23:42:29.428046",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18870,6 +18870,36 @@
       "overpay_pct": 18.02,
       "type": "kickbase_purchase",
       "event_key": "2026-11-17T20:32:46Z|8247|Fabian||13888888.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-17T22:20:24Z",
+      "date": "2026-11-17",
+      "player_id": "3754",
+      "player_name": "Vázquez",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 5121093.0,
+      "market_value_at_transfer": 5121093.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-17T22:20:24Z|3754||Flo24|5121093.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-17T22:20:33Z",
+      "date": "2026-11-17",
+      "player_id": "577",
+      "player_name": "Batz",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 5614059.0,
+      "market_value_at_transfer": 5614059.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-17T22:20:33Z|577||Flo24|5614059.00"
     }
   ]
 }
