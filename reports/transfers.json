@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T21:10:43.164831",
+  "updated_at": "2026-11-17T00:33:38.566021",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18705,6 +18705,51 @@
       "overpay_pct": 4.28,
       "type": "kickbase_sale",
       "event_key": "2026-11-16T12:26:43Z|2261||Flo24|6765224.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-16T21:17:27Z",
+      "date": "2026-11-16",
+      "player_id": "2120",
+      "player_name": "Nartey",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 5842800.0,
+      "market_value_at_transfer": 5842800.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-16T21:17:27Z|2120||Fabian|5842800.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-16T21:18:23Z",
+      "date": "2026-11-16",
+      "player_id": "11949",
+      "player_name": "Nandja",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 5904482.0,
+      "market_value_at_transfer": 5904482.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-16T21:18:23Z|11949||Joel|5904482.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-16T21:18:31Z",
+      "date": "2026-11-16",
+      "player_id": "12321",
+      "player_name": "Simpson-Pusey",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 11754244.0,
+      "market_value_at_transfer": 11754244.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-16T21:18:31Z|12321||Joel|11754244.00"
     }
   ]
 }
