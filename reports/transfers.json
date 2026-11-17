@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T12:15:05.523860",
+  "updated_at": "2026-11-17T13:41:39.374041",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18810,6 +18810,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-17T10:12:30Z|14256|Joel||7689967.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-17T12:21:09Z",
+      "date": "2026-11-17",
+      "player_id": "8273",
+      "player_name": "El Mala",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 4308569.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-17T12:21:09Z|8273||Fabian|4308569.00"
     }
   ]
 }
