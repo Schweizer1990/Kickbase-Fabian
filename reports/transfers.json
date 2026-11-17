@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T00:33:38.566021",
+  "updated_at": "2026-11-17T08:27:06.301450",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18750,6 +18750,36 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-16T21:18:31Z|12321||Joel|11754244.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-17T00:53:28Z",
+      "date": "2026-11-17",
+      "player_id": "11170",
+      "player_name": "Müller",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 2516428.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-17T00:53:28Z|11170|Fabian||2516428.00"
+    },
+    {
+      "transfer_id": "3",
+      "timestamp": "2026-11-17T06:13:44Z",
+      "date": "2026-11-17",
+      "player_id": "2395",
+      "player_name": "Ryerson",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 13511456.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-17T06:13:44Z|2395||Marc Frischiniemi|13511456.00"
     }
   ]
 }
