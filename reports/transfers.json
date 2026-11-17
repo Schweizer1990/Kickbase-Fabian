@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T08:27:06.301450",
+  "updated_at": "2026-11-17T12:15:05.523860",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18780,6 +18780,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-17T06:13:44Z|2395||Marc Frischiniemi|13511456.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-17T09:07:47Z",
+      "date": "2026-11-17",
+      "player_id": "2300",
+      "player_name": "Stanišić",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 16574262.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-17T09:07:47Z|2300|Joel||16574262.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-17T10:12:30Z",
+      "date": "2026-11-17",
+      "player_id": "14256",
+      "player_name": "El Ouahdi",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 7689967.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-17T10:12:30Z|14256|Joel||7689967.00"
     }
   ]
 }
