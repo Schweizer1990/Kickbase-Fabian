@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T13:41:39.374041",
+  "updated_at": "2026-11-17T19:01:19.821616",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18825,6 +18825,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-17T12:21:09Z|8273||Fabian|4308569.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-17T14:41:42Z",
+      "date": "2026-11-17",
+      "player_id": "1553",
+      "player_name": "Haberer",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 7609997.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-17T14:41:42Z|1553||Simon Koller|7609997.00"
     }
   ]
 }
