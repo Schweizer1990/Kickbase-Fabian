@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T18:45:19.833414",
+  "updated_at": "2026-11-18T21:26:23.088449",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18910,9 +18910,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 8888888.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 8421351.0,
+      "overpay": 467537.0,
+      "overpay_pct": 5.55,
       "type": "kickbase_purchase",
       "event_key": "2026-11-18T02:32:44Z|2006|Flo24||8888888.00"
     },
@@ -18925,9 +18925,9 @@
       "buyer": null,
       "seller": "Bommer",
       "price": 6452922.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6436623.0,
+      "overpay": 16299.0,
+      "overpay_pct": 0.25,
       "type": "kickbase_sale",
       "event_key": "2026-11-18T06:07:38Z|2065||Bommer|6452922.00"
     },
@@ -18940,11 +18940,26 @@
       "buyer": "Bommer",
       "seller": null,
       "price": 3003037.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3306449.0,
+      "overpay": -303412.0,
+      "overpay_pct": -9.18,
       "type": "kickbase_purchase",
       "event_key": "2026-11-18T06:48:19Z|4563|Bommer||3003037.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-18T21:12:51Z",
+      "date": "2026-11-18",
+      "player_id": "3089",
+      "player_name": "Ito",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 4206667.0,
+      "market_value_at_transfer": 4206667.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-18T21:12:51Z|3089||Joel|4206667.00"
     }
   ]
 }
