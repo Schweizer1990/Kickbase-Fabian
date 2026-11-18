@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:42:29.428046",
+  "updated_at": "2026-11-18T07:45:14.933888",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18900,6 +18900,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-17T22:20:33Z|577||Flo24|5614059.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-18T02:32:44Z",
+      "date": "2026-11-18",
+      "player_id": "2006",
+      "player_name": "Posch",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 8888888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-18T02:32:44Z|2006|Flo24||8888888.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-18T06:07:38Z",
+      "date": "2026-11-18",
+      "player_id": "2065",
+      "player_name": "Uduokhai",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 6452922.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-18T06:07:38Z|2065||Bommer|6452922.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-18T06:48:19Z",
+      "date": "2026-11-18",
+      "player_id": "4563",
+      "player_name": "Badé",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 3003037.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-18T06:48:19Z|4563|Bommer||3003037.00"
     }
   ]
 }
