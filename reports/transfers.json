@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T18:56:07.823269",
+  "updated_at": "2026-11-19T22:00:37.828721",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18970,9 +18970,9 @@
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 7737269.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7258966.0,
+      "overpay": 478303.0,
+      "overpay_pct": 6.59,
       "type": "kickbase_purchase",
       "event_key": "2026-11-19T01:05:07Z|670|Marc Frischiniemi||7737269.00"
     },
@@ -18985,9 +18985,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 12666666.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 11167107.0,
+      "overpay": 1499559.0,
+      "overpay_pct": 13.43,
       "type": "kickbase_purchase",
       "event_key": "2026-11-19T10:20:17Z|9605|Flo24||12666666.00"
     },
@@ -19000,11 +19000,26 @@
       "buyer": "Mario",
       "seller": null,
       "price": 3700000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 3847359.0,
+      "overpay": -147359.0,
+      "overpay_pct": -3.83,
       "type": "kickbase_purchase",
       "event_key": "2026-11-19T11:06:43Z|8351|Mario||3700000.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-19T19:05:58Z",
+      "date": "2026-11-19",
+      "player_id": "6292",
+      "player_name": "Hansen",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 9762748.0,
+      "market_value_at_transfer": 9636840.0,
+      "overpay": 125908.0,
+      "overpay_pct": 1.31,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-19T19:05:58Z|6292||Flo24|9762748.00"
     }
   ]
 }
