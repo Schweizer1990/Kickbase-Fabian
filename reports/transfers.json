@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T23:12:51.062239",
+  "updated_at": "2026-11-19T13:37:34.729658",
   "transfers": [
     {
       "transfer_id": "13",
@@ -18960,6 +18960,51 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-18T21:12:51Z|3089||Joel|4206667.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-11-19T01:05:07Z",
+      "date": "2026-11-19",
+      "player_id": "670",
+      "player_name": "Karaman",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 7737269.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-19T01:05:07Z|670|Marc Frischiniemi||7737269.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-19T10:20:17Z",
+      "date": "2026-11-19",
+      "player_id": "9605",
+      "player_name": "Grønbæk",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 12666666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-19T10:20:17Z|9605|Flo24||12666666.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-19T11:06:43Z",
+      "date": "2026-11-19",
+      "player_id": "8351",
+      "player_name": "Højlund",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 3700000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-19T11:06:43Z|8351|Mario||3700000.00"
     }
   ]
 }
