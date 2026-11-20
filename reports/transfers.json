@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:49:10.702903",
+  "updated_at": "2026-11-20T18:26:22.212936",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19125,6 +19125,36 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-20T10:19:03Z|3481||Fabian|4045857.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-20T15:22:25Z",
+      "date": "2026-11-20",
+      "player_id": "11956",
+      "player_name": "Fernández",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 13614965.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T15:22:25Z|11956||Marc Frischiniemi|13614965.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-20T16:29:59Z",
+      "date": "2026-11-20",
+      "player_id": "9684",
+      "player_name": "Claude-Maurice",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 8444446.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-20T16:29:59Z|9684|Simon Koller||8444446.00"
     }
   ]
 }
