@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T10:11:54.939264",
+  "updated_at": "2026-11-20T13:19:03.558149",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19110,6 +19110,21 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-20T09:03:02Z|3026||Simon Koller|5002250.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-20T10:19:03Z",
+      "date": "2026-11-20",
+      "player_id": "3481",
+      "player_name": "Stage",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 4045857.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T10:19:03Z|3481||Fabian|4045857.00"
     }
   ]
 }
