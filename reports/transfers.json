@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T23:19:48.327163",
+  "updated_at": "2026-11-20T10:11:54.939264",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19020,6 +19020,96 @@
       "overpay_pct": 1.31,
       "type": "kickbase_sale",
       "event_key": "2026-11-19T19:05:58Z|6292||Flo24|9762748.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-20T05:16:10Z",
+      "date": "2026-11-20",
+      "player_id": "3228",
+      "player_name": "Njinmah",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 5143512.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T05:16:10Z|3228||Thomasson|5143512.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-20T05:44:09Z",
+      "date": "2026-11-20",
+      "player_id": "10024",
+      "player_name": "Schmied",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 6524894.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T05:44:09Z|10024||Mario|6524894.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-20T06:10:32Z",
+      "date": "2026-11-20",
+      "player_id": "2552",
+      "player_name": "Bülter",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 4871372.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T06:10:32Z|2552||Flo24|4871372.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-20T08:18:50Z",
+      "date": "2026-11-20",
+      "player_id": "3041",
+      "player_name": "Widmer",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 4916492.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T08:18:50Z|3041||KönigMario|4916492.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-20T08:19:00Z",
+      "date": "2026-11-20",
+      "player_id": "15502",
+      "player_name": "Binder",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 3712913.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T08:19:00Z|15502||KönigMario|3712913.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-11-20T09:03:02Z",
+      "date": "2026-11-20",
+      "player_id": "3026",
+      "player_name": "Günther",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 5002250.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T09:03:02Z|3026||Simon Koller|5002250.00"
     }
   ]
 }
