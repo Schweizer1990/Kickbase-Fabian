@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T21:27:12.979110",
+  "updated_at": "2026-11-20T22:52:45.401115",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19185,6 +19185,36 @@
       "overpay_pct": 24.78,
       "type": "kickbase_purchase",
       "event_key": "2026-11-20T20:29:07Z|6209|Thomasson||15500000.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-20T21:34:00Z",
+      "date": "2026-11-20",
+      "player_id": "9754",
+      "player_name": "Bah",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7078314.0,
+      "market_value_at_transfer": 7078314.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T21:34:00Z|9754||Fabian|7078314.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-20T21:34:14Z",
+      "date": "2026-11-20",
+      "player_id": "11967",
+      "player_name": "Vieira",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 8950089.0,
+      "market_value_at_transfer": 8950089.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-20T21:34:14Z|11967||Fabian|8950089.00"
     }
   ]
 }
