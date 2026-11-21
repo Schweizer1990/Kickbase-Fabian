@@ -3179587,8 +3179587,8 @@
       }
     },
     {
-      "generated_at": "2026-11-21T23:00:30.520212+01:00",
-      "market_fetched_at": "2026-11-21T23:00:30.393143+01:00",
+      "generated_at": "2026-11-21T23:05:34.044499+01:00",
+      "market_fetched_at": "2026-11-21T23:05:33.919237+01:00",
       "market_update": {
         "status": "confirmed",
         "confirmed": true,
@@ -3179596,8 +3179596,8 @@
         "compared_player_count": 475,
         "required_player_count": 238,
         "same_date_revision_count": 0,
-        "observed_at": "2026-11-21T22:59:25.794233+01:00",
-        "last_confirmed_at": "2026-11-21T22:59:25.794233+01:00",
+        "observed_at": "2026-11-21T23:04:52.382082+01:00",
+        "last_confirmed_at": "2026-11-21T23:04:52.382082+01:00",
         "latest_mv_date": "2026-11-21",
         "evidence": "dated_market_value_history; at least half of comparable players advance"
       },
@@ -3179714,7 +3179714,7 @@
           "squad_market_value": 292806092.0,
           "mv_change_yesterday_sum": 902859.0,
           "mv_change_7d_sum": 1326468.0,
-          "predicted_mv_change_sum": 970121.4,
+          "predicted_mv_change_sum": 965747.5299999999,
           "prediction_coverage": 1.0
         },
         {
@@ -3179724,7 +3179724,7 @@
           "squad_market_value": 282437183.0,
           "mv_change_yesterday_sum": -277530.0,
           "mv_change_7d_sum": -2694264.0,
-          "predicted_mv_change_sum": 596626.48,
+          "predicted_mv_change_sum": 592519.8100000003,
           "prediction_coverage": 1.0
         },
         {
@@ -3179734,7 +3179734,7 @@
           "squad_market_value": 280889045.0,
           "mv_change_yesterday_sum": 131084.0,
           "mv_change_7d_sum": 3415422.0,
-          "predicted_mv_change_sum": -232161.30999999988,
+          "predicted_mv_change_sum": -222045.96000000005,
           "prediction_coverage": 1.0
         },
         {
@@ -3179744,7 +3179744,7 @@
           "squad_market_value": 248983137.0,
           "mv_change_yesterday_sum": 1453278.0,
           "mv_change_7d_sum": 9911545.0,
-          "predicted_mv_change_sum": 1310452.83,
+          "predicted_mv_change_sum": 1286222.02,
           "prediction_coverage": 1.0
         },
         {
@@ -3179754,7 +3179754,7 @@
           "squad_market_value": 248817094.0,
           "mv_change_yesterday_sum": 535744.0,
           "mv_change_7d_sum": 8561729.0,
-          "predicted_mv_change_sum": 639976.9500000001,
+          "predicted_mv_change_sum": 636932.22,
           "prediction_coverage": 1.0
         },
         {
@@ -3179764,7 +3179764,7 @@
           "squad_market_value": 248367719.0,
           "mv_change_yesterday_sum": 191535.0,
           "mv_change_7d_sum": -777031.0,
-          "predicted_mv_change_sum": 142629.83999999997,
+          "predicted_mv_change_sum": 147595.25000000006,
           "prediction_coverage": 1.0
         },
         {
@@ -3179774,7 +3179774,7 @@
           "squad_market_value": 231460881.0,
           "mv_change_yesterday_sum": 8327.0,
           "mv_change_7d_sum": 1984290.0,
-          "predicted_mv_change_sum": 110647.10999999996,
+          "predicted_mv_change_sum": 104840.59999999996,
           "prediction_coverage": 1.0
         },
         {
@@ -3179784,7 +3179784,7 @@
           "squad_market_value": 210665250.0,
           "mv_change_yesterday_sum": -490965.0,
           "mv_change_7d_sum": 4064852.0,
-          "predicted_mv_change_sum": -617909.6299999999,
+          "predicted_mv_change_sum": -622910.3800000001,
           "prediction_coverage": 1.0
         },
         {
@@ -3179794,7 +3179794,7 @@
           "squad_market_value": 205184159.0,
           "mv_change_yesterday_sum": 457505.0,
           "mv_change_7d_sum": 391606.0,
-          "predicted_mv_change_sum": 508103.32000000007,
+          "predicted_mv_change_sum": 475341.98,
           "prediction_coverage": 1.0
         },
         {
@@ -3179804,7 +3179804,7 @@
           "squad_market_value": 195992360.0,
           "mv_change_yesterday_sum": 813514.0,
           "mv_change_7d_sum": 3463202.0,
-          "predicted_mv_change_sum": 772696.8100000002,
+          "predicted_mv_change_sum": 778589.0900000002,
           "prediction_coverage": 1.0
         },
         {
@@ -3179814,7 +3179814,7 @@
           "squad_market_value": 183433065.0,
           "mv_change_yesterday_sum": 831280.0,
           "mv_change_7d_sum": 3060014.0,
-          "predicted_mv_change_sum": 884778.3500000001,
+          "predicted_mv_change_sum": 886889.25,
           "prediction_coverage": 1.0
         },
         {
@@ -3179824,7 +3179824,7 @@
           "squad_market_value": 75633022.0,
           "mv_change_yesterday_sum": 1035457.0,
           "mv_change_7d_sum": 3379167.0,
-          "predicted_mv_change_sum": 1057123.4500000002,
+          "predicted_mv_change_sum": 1077620.3,
           "prediction_coverage": 0.933
         }
       ],
@@ -3184831,387 +3184831,6 @@
               "competition": "Bundesliga",
               "matchday": 18.0,
               "date": "2027-01-24T14:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 19.0,
-              "date": "2027-01-30T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 20.0,
-              "date": "2027-02-06T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 21.0,
-              "date": "2027-02-13T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 22.0,
-              "date": "2027-02-20T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 23.0,
-              "date": "2027-02-27T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 24.0,
-              "date": "2027-03-03T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 25.0,
-              "date": "2027-03-06T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 26.0,
-              "date": "2027-03-13T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 27.0,
-              "date": "2027-03-20T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 28.0,
-              "date": "2027-04-03T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 29.0,
-              "date": "2027-04-10T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 30.0,
-              "date": "2027-04-17T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 31.0,
-              "date": "2027-04-24T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 32.0,
-              "date": "2027-05-08T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 33.0,
-              "date": "2027-05-15T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 34.0,
-              "date": "2027-05-22T13:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            }
-          ]
-        },
-        {
-          "player_id": "8277",
-          "player_name": "Becker",
-          "in_squad": false,
-          "matchday_history": [
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 1.0,
-              "date": "2026-08-30T15:30:00Z",
-              "points": 16.0,
-              "minutes": 62.0,
-              "matchday_status": 2,
-              "player_status": 5,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 2.0,
-              "date": "2026-09-05T16:30:00Z",
-              "points": 4.0,
-              "minutes": 29.0,
-              "matchday_status": 2,
-              "player_status": 3,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 3.0,
-              "date": "2026-09-11T18:30:00Z",
-              "points": null,
-              "minutes": 0.0,
-              "matchday_status": 2,
-              "player_status": 4,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 4.0,
-              "date": "2026-09-20T15:30:00Z",
-              "points": 16.0,
-              "minutes": 23.0,
-              "matchday_status": 2,
-              "player_status": 3,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 5.0,
-              "date": "2026-10-11T15:30:00Z",
-              "points": null,
-              "minutes": 0.0,
-              "matchday_status": 2,
-              "player_status": 4,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 6.0,
-              "date": "2026-10-17T13:30:00Z",
-              "points": -8.0,
-              "minutes": 16.0,
-              "matchday_status": 2,
-              "player_status": 3,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 7.0,
-              "date": "2026-10-24T13:30:00Z",
-              "points": 54.0,
-              "minutes": 58.0,
-              "matchday_status": 2,
-              "player_status": 3,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 8.0,
-              "date": "2026-10-31T14:30:00Z",
-              "points": 66.0,
-              "minutes": 96.0,
-              "matchday_status": 2,
-              "player_status": 5,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 9.0,
-              "date": "2026-11-08T18:30:00Z",
-              "points": 25.0,
-              "minutes": 49.0,
-              "matchday_status": 2,
-              "player_status": 3,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 10.0,
-              "date": "2026-11-21T17:30:00Z",
-              "points": 133.0,
-              "minutes": 93.0,
-              "matchday_status": 2,
-              "player_status": 5,
-              "is_current": true
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 11.0,
-              "date": "2026-11-28T14:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 12.0,
-              "date": "2026-12-06T14:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 13.0,
-              "date": "2026-12-11T19:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 14.0,
-              "date": "2026-12-20T18:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 15.0,
-              "date": "2027-01-09T14:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 16.0,
-              "date": "2027-01-14T19:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 17.0,
-              "date": "2027-01-17T16:30:00Z",
-              "points": null,
-              "minutes": null,
-              "matchday_status": 0,
-              "player_status": 0,
-              "is_current": false
-            },
-            {
-              "season": "2026/2027",
-              "competition": "Bundesliga",
-              "matchday": 18.0,
-              "date": "2027-01-23T14:30:00Z",
               "points": null,
               "minutes": null,
               "matchday_status": 0,
@@ -3193779,6 +3193398,387 @@
           ]
         },
         {
+          "player_id": "8277",
+          "player_name": "Becker",
+          "in_squad": false,
+          "matchday_history": [
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 1.0,
+              "date": "2026-08-30T15:30:00Z",
+              "points": 16.0,
+              "minutes": 62.0,
+              "matchday_status": 2,
+              "player_status": 5,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 2.0,
+              "date": "2026-09-05T16:30:00Z",
+              "points": 4.0,
+              "minutes": 29.0,
+              "matchday_status": 2,
+              "player_status": 3,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 3.0,
+              "date": "2026-09-11T18:30:00Z",
+              "points": null,
+              "minutes": 0.0,
+              "matchday_status": 2,
+              "player_status": 4,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 4.0,
+              "date": "2026-09-20T15:30:00Z",
+              "points": 16.0,
+              "minutes": 23.0,
+              "matchday_status": 2,
+              "player_status": 3,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 5.0,
+              "date": "2026-10-11T15:30:00Z",
+              "points": null,
+              "minutes": 0.0,
+              "matchday_status": 2,
+              "player_status": 4,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 6.0,
+              "date": "2026-10-17T13:30:00Z",
+              "points": -8.0,
+              "minutes": 16.0,
+              "matchday_status": 2,
+              "player_status": 3,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 7.0,
+              "date": "2026-10-24T13:30:00Z",
+              "points": 54.0,
+              "minutes": 58.0,
+              "matchday_status": 2,
+              "player_status": 3,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 8.0,
+              "date": "2026-10-31T14:30:00Z",
+              "points": 66.0,
+              "minutes": 96.0,
+              "matchday_status": 2,
+              "player_status": 5,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 9.0,
+              "date": "2026-11-08T18:30:00Z",
+              "points": 25.0,
+              "minutes": 49.0,
+              "matchday_status": 2,
+              "player_status": 3,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 10.0,
+              "date": "2026-11-21T17:30:00Z",
+              "points": 133.0,
+              "minutes": 93.0,
+              "matchday_status": 2,
+              "player_status": 5,
+              "is_current": true
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 11.0,
+              "date": "2026-11-28T14:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 12.0,
+              "date": "2026-12-06T14:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 13.0,
+              "date": "2026-12-11T19:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 14.0,
+              "date": "2026-12-20T18:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 15.0,
+              "date": "2027-01-09T14:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 16.0,
+              "date": "2027-01-14T19:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 17.0,
+              "date": "2027-01-17T16:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 18.0,
+              "date": "2027-01-23T14:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 19.0,
+              "date": "2027-01-30T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 20.0,
+              "date": "2027-02-06T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 21.0,
+              "date": "2027-02-13T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 22.0,
+              "date": "2027-02-20T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 23.0,
+              "date": "2027-02-27T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 24.0,
+              "date": "2027-03-03T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 25.0,
+              "date": "2027-03-06T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 26.0,
+              "date": "2027-03-13T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 27.0,
+              "date": "2027-03-20T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 28.0,
+              "date": "2027-04-03T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 29.0,
+              "date": "2027-04-10T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 30.0,
+              "date": "2027-04-17T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 31.0,
+              "date": "2027-04-24T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 32.0,
+              "date": "2027-05-08T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 33.0,
+              "date": "2027-05-15T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            },
+            {
+              "season": "2026/2027",
+              "competition": "Bundesliga",
+              "matchday": 34.0,
+              "date": "2027-05-22T13:30:00Z",
+              "points": null,
+              "minutes": null,
+              "matchday_status": 0,
+              "player_status": 0,
+              "is_current": false
+            }
+          ]
+        },
+        {
           "player_id": "18550",
           "player_name": "Codjo-Evora",
           "in_squad": false,
@@ -3195201,7 +3195201,7 @@
           "mv_change_yesterday": 200635.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 236324.87
+          "predicted_mv_target": 234775.06
         },
         {
           "player_id": "7463",
@@ -3195210,7 +3195210,7 @@
           "mv_change_yesterday": 180274.0,
           "mv_change_7d": -56613.0,
           "mv_trend_7d": -0.010669380012020085,
-          "predicted_mv_target": 204266.46
+          "predicted_mv_target": 204033.07
         },
         {
           "player_id": "3471",
@@ -3195219,16 +3195219,7 @@
           "mv_change_yesterday": 103257.0,
           "mv_change_7d": -962120.0,
           "mv_trend_7d": -0.1201647825713355,
-          "predicted_mv_target": 176070.58
-        },
-        {
-          "player_id": "4563",
-          "name": "Badé",
-          "mv": 3812754.0,
-          "mv_change_yesterday": 124851.0,
-          "mv_change_7d": 1786075.0,
-          "mv_trend_7d": 0.8812816435163141,
-          "predicted_mv_target": 117457.25
+          "predicted_mv_target": 172948.99
         },
         {
           "player_id": "11006",
@@ -3195237,7 +3195228,16 @@
           "mv_change_yesterday": 101086.0,
           "mv_change_7d": 423830.0,
           "mv_trend_7d": 0.021218939271318706,
-          "predicted_mv_target": 112524.73
+          "predicted_mv_target": 110754.17
+        },
+        {
+          "player_id": "4563",
+          "name": "Badé",
+          "mv": 3812754.0,
+          "mv_change_yesterday": 124851.0,
+          "mv_change_7d": 1786075.0,
+          "mv_trend_7d": 0.8812816435163141,
+          "predicted_mv_target": 110320.84
         },
         {
           "player_id": "6199",
@@ -3195246,7 +3195246,7 @@
           "mv_change_yesterday": 24918.0,
           "mv_change_7d": -482645.0,
           "mv_trend_7d": -0.10186391903143326,
-          "predicted_mv_target": 65947.43
+          "predicted_mv_target": 67185.84
         },
         {
           "player_id": "8166",
@@ -3195255,7 +3195255,7 @@
           "mv_change_yesterday": 42424.0,
           "mv_change_7d": 373279.0,
           "mv_trend_7d": 0.03369263940944574,
-          "predicted_mv_target": 36970.14
+          "predicted_mv_target": 38408.98
         },
         {
           "player_id": "7336",
@@ -3195264,7 +3195264,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 354.17
+          "predicted_mv_target": 425.89
         },
         {
           "player_id": "11666",
@@ -3195273,7 +3195273,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 354.17
+          "predicted_mv_target": 425.89
         },
         {
           "player_id": "168",
@@ -3195282,7 +3195282,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 261.08
+          "predicted_mv_target": 327.11
         },
         {
           "player_id": "1225",
@@ -3195291,7 +3195291,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 261.08
+          "predicted_mv_target": 327.11
         },
         {
           "player_id": "6751",
@@ -3195300,7 +3195300,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 261.08
+          "predicted_mv_target": 327.11
         },
         {
           "player_id": "1858",
@@ -3195309,7 +3195309,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 255.66
+          "predicted_mv_target": 315.82
         },
         {
           "player_id": "1889",
@@ -3195318,7 +3195318,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": 251.45
+          "predicted_mv_target": 245.02
         },
         {
           "player_id": "10106",
@@ -3195327,7 +3195327,7 @@
           "mv_change_yesterday": 0.0,
           "mv_change_7d": 0.0,
           "mv_trend_7d": 0.0,
-          "predicted_mv_target": -2735.85
+          "predicted_mv_target": -224.36
         },
         {
           "player_id": "72",
@@ -3195336,7 +3195336,7 @@
           "mv_change_yesterday": -13517.0,
           "mv_change_7d": -525008.0,
           "mv_trend_7d": -0.05146150404883142,
-          "predicted_mv_target": -4254.48
+          "predicted_mv_target": -6404.07
         },
         {
           "player_id": "3559",
@@ -3195345,7 +3195345,7 @@
           "mv_change_yesterday": -43073.0,
           "mv_change_7d": -692845.0,
           "mv_trend_7d": -0.1570405846933907,
-          "predicted_mv_target": -41465.39
+          "predicted_mv_target": -39353.27
         },
         {
           "player_id": "3176",
@@ -3195354,7 +3195354,7 @@
           "mv_change_yesterday": -85486.0,
           "mv_change_7d": -1955512.0,
           "mv_trend_7d": -0.2076848774369369,
-          "predicted_mv_target": -79003.73
+          "predicted_mv_target": -79404.49
         },
         {
           "player_id": "6148",
@@ -3195363,7 +3195363,7 @@
           "mv_change_yesterday": -113376.0,
           "mv_change_7d": -1528291.0,
           "mv_trend_7d": -0.1710601617531492,
-          "predicted_mv_target": -91044.4
+          "predicted_mv_target": -87801.63
         },
         {
           "player_id": "8277",
@@ -3195372,7 +3195372,7 @@
           "mv_change_yesterday": -116307.0,
           "mv_change_7d": -1624303.0,
           "mv_trend_7d": -0.2635945348091657,
-          "predicted_mv_target": -96616.32
+          "predicted_mv_target": -94805.65
         },
         {
           "player_id": "7216",
@@ -3195381,7 +3195381,7 @@
           "mv_change_yesterday": -118031.0,
           "mv_change_7d": -1424102.0,
           "mv_trend_7d": -0.27735570405227783,
-          "predicted_mv_target": -117897.42
+          "predicted_mv_target": -118055.73
         },
         {
           "player_id": "755",
@@ -3195390,7 +3195390,7 @@
           "mv_change_yesterday": -309040.0,
           "mv_change_7d": 209589.0,
           "mv_trend_7d": 0.13649809309450123,
-          "predicted_mv_target": -180382.69
+          "predicted_mv_target": -181924.65
         },
         {
           "player_id": "7167",
@@ -3195399,7 +3195399,7 @@
           "mv_change_yesterday": -692853.0,
           "mv_change_7d": -225343.0,
           "mv_trend_7d": -0.045592125255888315,
-          "predicted_mv_target": -198992.75
+          "predicted_mv_target": -203165.54
         },
         {
           "player_id": "2939",
@@ -3195408,7 +3195408,7 @@
           "mv_change_yesterday": -148520.0,
           "mv_change_7d": 384819.0,
           "mv_trend_7d": 0.03769622399071825,
-          "predicted_mv_target": -217525.58
+          "predicted_mv_target": -238768.21
         },
         {
           "player_id": "10916",
@@ -3195417,7 +3195417,7 @@
           "mv_change_yesterday": -504340.0,
           "mv_change_7d": 251514.0,
           "mv_trend_7d": 0.050847478186331986,
-          "predicted_mv_target": -443313.73
+          "predicted_mv_target": -447399.85
         }
       ],
       "market_live": [
@@ -3195425,7 +3195425,7 @@
           "player_id": "72",
           "player_name": "Flekken",
           "market_value": 9676948,
-          "expires_seconds": 55043,
+          "expires_seconds": 54740,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195435,7 +3195435,7 @@
           "player_id": "168",
           "player_name": "Michel",
           "market_value": 500000,
-          "expires_seconds": 21454,
+          "expires_seconds": 21151,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195445,7 +3195445,7 @@
           "player_id": "755",
           "player_name": "Müller",
           "market_value": 1745061,
-          "expires_seconds": 17398,
+          "expires_seconds": 17095,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195465,7 +3195465,7 @@
           "player_id": "1858",
           "player_name": "Jung",
           "market_value": 500000,
-          "expires_seconds": 84266,
+          "expires_seconds": 83963,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195475,7 +3195475,7 @@
           "player_id": "1889",
           "player_name": "Jatta",
           "market_value": 500000,
-          "expires_seconds": 28122,
+          "expires_seconds": 27819,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195495,7 +3195495,7 @@
           "player_id": "3176",
           "player_name": "Ibrahimović",
           "market_value": 7460253,
-          "expires_seconds": 123198,
+          "expires_seconds": 122895,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195505,7 +3195505,7 @@
           "player_id": "3471",
           "player_name": "Hložek",
           "market_value": 7044552,
-          "expires_seconds": 95165,
+          "expires_seconds": 94862,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195515,7 +3195515,7 @@
           "player_id": "3559",
           "player_name": "Ulrich",
           "market_value": 3719040,
-          "expires_seconds": 1407,
+          "expires_seconds": 1104,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195535,7 +3195535,7 @@
           "player_id": "6148",
           "player_name": "Pinckert",
           "market_value": 7405940,
-          "expires_seconds": 97746,
+          "expires_seconds": 97443,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195545,7 +3195545,7 @@
           "player_id": "6199",
           "player_name": "Machino",
           "market_value": 4255490,
-          "expires_seconds": 139419,
+          "expires_seconds": 139116,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195555,7 +3195555,7 @@
           "player_id": "6751",
           "player_name": "Pruhs",
           "market_value": 500000,
-          "expires_seconds": 4343,
+          "expires_seconds": 4040,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195565,7 +3195565,7 @@
           "player_id": "7167",
           "player_name": "Lynen",
           "market_value": 4717243,
-          "expires_seconds": 56467,
+          "expires_seconds": 56164,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195575,7 +3195575,7 @@
           "player_id": "7216",
           "player_name": "Rosenfelder",
           "market_value": 3710467,
-          "expires_seconds": 71284,
+          "expires_seconds": 70981,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195585,7 +3195585,7 @@
           "player_id": "7336",
           "player_name": "Suso",
           "market_value": 500000,
-          "expires_seconds": 34817,
+          "expires_seconds": 34514,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195595,7 +3195595,7 @@
           "player_id": "7463",
           "player_name": "Onyeka",
           "market_value": 5249506,
-          "expires_seconds": 51990,
+          "expires_seconds": 51687,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195605,7 +3195605,7 @@
           "player_id": "8166",
           "player_name": "Chuki",
           "market_value": 11452227,
-          "expires_seconds": 48220,
+          "expires_seconds": 47917,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195615,7 +3195615,7 @@
           "player_id": "8277",
           "player_name": "Becker",
           "market_value": 4537824,
-          "expires_seconds": 128290,
+          "expires_seconds": 127987,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195625,7 +3195625,7 @@
           "player_id": "10106",
           "player_name": "Ljubičić",
           "market_value": 500000,
-          "expires_seconds": 115784,
+          "expires_seconds": 115481,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195635,7 +3195635,7 @@
           "player_id": "10916",
           "player_name": "Ayhan",
           "market_value": 5197954,
-          "expires_seconds": 89875,
+          "expires_seconds": 89572,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195645,7 +3195645,7 @@
           "player_id": "11006",
           "player_name": "Suzuki",
           "market_value": 20397967,
-          "expires_seconds": 41485,
+          "expires_seconds": 41182,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195655,7 +3195655,7 @@
           "player_id": "11666",
           "player_name": "Kinzig",
           "market_value": 500000,
-          "expires_seconds": 5623,
+          "expires_seconds": 5320,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195665,7 +3195665,7 @@
           "player_id": "18550",
           "player_name": "Codjo-Evora",
           "market_value": 700635,
-          "expires_seconds": 60646,
+          "expires_seconds": 60343,
           "my_bid": null,
           "my_bid_present": false,
           "ofc_raw": 0,
@@ -3195681,7 +3195681,7 @@
           "mv_change_yesterday": 31106.0,
           "mv_change_7d": 75284.0,
           "mv_trend_7d": 0.0022462884427827063,
-          "predicted_mv_target": 33016.43
+          "predicted_mv_target": 31984.17
         },
         {
           "player_id": "49",
@@ -3195691,7 +3195691,7 @@
           "mv_change_yesterday": 42358.0,
           "mv_change_7d": 251580.0,
           "mv_trend_7d": 0.0086318263583135,
-          "predicted_mv_target": 44912.5
+          "predicted_mv_target": 45866.89
         },
         {
           "player_id": "1873",
@@ -3195701,7 +3195701,7 @@
           "mv_change_yesterday": 45385.0,
           "mv_change_7d": 238841.0,
           "mv_trend_7d": 0.012281540013515602,
-          "predicted_mv_target": 55112.94
+          "predicted_mv_target": 53450.8
         },
         {
           "player_id": "3284",
@@ -3195711,7 +3195711,7 @@
           "mv_change_yesterday": 61889.0,
           "mv_change_7d": 334128.0,
           "mv_trend_7d": 0.019923519416290395,
-          "predicted_mv_target": 60656.13
+          "predicted_mv_target": 61036.73
         },
         {
           "player_id": "1645",
@@ -3195721,7 +3195721,7 @@
           "mv_change_yesterday": 49091.0,
           "mv_change_7d": 250600.0,
           "mv_trend_7d": 0.011088114850569732,
-          "predicted_mv_target": 60346.96
+          "predicted_mv_target": 59225.14
         },
         {
           "player_id": "1991",
@@ -3195731,7 +3195731,7 @@
           "mv_change_yesterday": 80844.0,
           "mv_change_7d": 568336.0,
           "mv_trend_7d": 0.017254584265999958,
-          "predicted_mv_target": 78896.66
+          "predicted_mv_target": 78193.74
         },
         {
           "player_id": "1246",
@@ -3195741,7 +3195741,7 @@
           "mv_change_yesterday": 34707.0,
           "mv_change_7d": 207064.0,
           "mv_trend_7d": 0.006700586395153511,
-          "predicted_mv_target": 39595.93
+          "predicted_mv_target": 39350.49
         },
         {
           "player_id": "6172",
@@ -3195751,7 +3195751,7 @@
           "mv_change_yesterday": -44018.0,
           "mv_change_7d": 978188.0,
           "mv_trend_7d": 0.271292507497938,
-          "predicted_mv_target": -117060.91
+          "predicted_mv_target": -126703.43
         },
         {
           "player_id": "11756",
@@ -3195761,7 +3195761,7 @@
           "mv_change_yesterday": 60282.0,
           "mv_change_7d": 1555810.0,
           "mv_trend_7d": 0.6766706694856023,
-          "predicted_mv_target": -13679.95
+          "predicted_mv_target": -19506.81
         },
         {
           "player_id": "2694",
@@ -3195771,7 +3195771,7 @@
           "mv_change_yesterday": 168187.0,
           "mv_change_7d": 1094939.0,
           "mv_trend_7d": 0.05658849817852407,
-          "predicted_mv_target": 166937.67
+          "predicted_mv_target": 166926.87
         },
         {
           "player_id": "11170",
@@ -3195781,7 +3195781,7 @@
           "mv_change_yesterday": 81210.0,
           "mv_change_7d": 1734545.0,
           "mv_trend_7d": 1.0849735222036934,
-          "predicted_mv_target": -4025.4
+          "predicted_mv_target": -11902.47
         },
         {
           "player_id": "8247",
@@ -3195791,7 +3195791,7 @@
           "mv_change_yesterday": 216968.0,
           "mv_change_7d": 1343933.0,
           "mv_trend_7d": 0.11945608152430714,
-          "predicted_mv_target": 209481.01
+          "predicted_mv_target": 211187.78
         },
         {
           "player_id": "9683",
@@ -3195801,7 +3195801,7 @@
           "mv_change_yesterday": 268186.0,
           "mv_change_7d": 1383976.0,
           "mv_trend_7d": 1.1215237428424636,
-          "predicted_mv_target": 259918.21
+          "predicted_mv_target": 259735.71
         },
         {
           "player_id": "7616",
@@ -3195811,7 +3195811,7 @@
           "mv_change_yesterday": 219344.0,
           "mv_change_7d": 188517.0,
           "mv_trend_7d": 0.03356049155900684,
-          "predicted_mv_target": 237435.24
+          "predicted_mv_target": 237198.73
         },
         {
           "player_id": "4606",
@@ -3195821,7 +3195821,7 @@
           "mv_change_yesterday": 137739.0,
           "mv_change_7d": -294196.0,
           "mv_trend_7d": -0.033440339327442205,
-          "predicted_mv_target": 198909.41
+          "predicted_mv_target": 200177.68
         }
       ],
       "manager_squads": [
@@ -3197122,13 +3197122,13 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": true,
           "availability_factor": 1.0,
-          "capital_score": -1.34,
+          "capital_score": -1.44,
           "suggested_bid": null,
           "hard_max_bid": null,
           "budget_fit": true,
           "strategy_label": "avoid_for_trading",
           "championship_label": "startelf_target",
-          "win_score": 53.257,
+          "win_score": 53.232,
           "auction_eligible": false,
           "auction_exclusion_reason": "manager_listing_excluded",
           "updates_before_expiry": null,
@@ -3197148,13 +3197148,13 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": false,
           "availability_factor": 1.0,
-          "capital_score": -0.211,
+          "capital_score": -0.222,
           "suggested_bid": null,
           "hard_max_bid": null,
           "budget_fit": true,
           "strategy_label": "avoid_for_trading",
           "championship_label": "startelf_target",
-          "win_score": 47.507,
+          "win_score": 47.504,
           "auction_eligible": false,
           "auction_exclusion_reason": "non_positive_trend",
           "updates_before_expiry": 0,
@@ -3197174,7 +3197174,7 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": false,
           "availability_factor": 1.0,
-          "capital_score": -1.467,
+          "capital_score": -1.469,
           "suggested_bid": null,
           "hard_max_bid": null,
           "budget_fit": true,
@@ -3197184,7 +3197184,7 @@
           "auction_eligible": false,
           "auction_exclusion_reason": "non_positive_trend",
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 7381249
+          "projected_mv_at_expiry": 7380849
         },
         {
           "player_id": "6199",
@@ -3197200,17 +3197200,17 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": true,
           "availability_factor": 1.0,
-          "capital_score": 0.659,
-          "suggested_bid": 4378626,
-          "hard_max_bid": 4378626,
+          "capital_score": 0.674,
+          "suggested_bid": 4380938,
+          "hard_max_bid": 4380938,
           "budget_fit": true,
           "strategy_label": "watch_trend_unconfirmed",
           "championship_label": "startelf_target",
-          "win_score": 32.664,
+          "win_score": 32.668,
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 4321437
+          "projected_mv_at_expiry": 4322676
         },
         {
           "player_id": "6148",
@@ -3197226,17 +3197226,17 @@
           "ligainsider_status": "available",
           "ligainsider_topelf_pool": false,
           "availability_factor": 1.0,
-          "capital_score": -1.563,
+          "capital_score": -1.541,
           "suggested_bid": null,
           "hard_max_bid": null,
           "budget_fit": true,
           "strategy_label": "avoid_for_trading",
           "championship_label": "startelf_target",
-          "win_score": 27.98,
+          "win_score": 27.985,
           "auction_eligible": false,
           "auction_exclusion_reason": "non_positive_trend",
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 7314896
+          "projected_mv_at_expiry": 7318138
         }
       ],
       "top_bid_guardrails": [
@@ -3197288,16 +3197288,16 @@
           "top_rival_sample": 23,
           "top_rival_p75_overpay_pct": 12.72,
           "top_rival_shadow_bid": 12908950,
-          "roi_guardrail_bid": 11494973,
-          "trade_protection_bid": 11494973,
+          "roi_guardrail_bid": 11496637,
+          "trade_protection_bid": 11496637,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 11452227,
-          "suggested_bid": 11494973,
-          "hard_max_bid": 11494973,
+          "suggested_bid": 11496637,
+          "hard_max_bid": 11496637,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3197385,7 +3197385,7 @@
           "auction_eligible": false,
           "auction_exclusion_reason": "non_positive_trend",
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 7381249,
+          "projected_mv_at_expiry": 7380849,
           "suggested_bid": null,
           "hard_max_bid": null,
           "shadow_price_basis": "current_mv_historical_comparison_only"
@@ -3197415,7 +3197415,7 @@
           "auction_eligible": false,
           "auction_exclusion_reason": "non_positive_trend",
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 7314896,
+          "projected_mv_at_expiry": 7318138,
           "suggested_bid": null,
           "hard_max_bid": null,
           "shadow_price_basis": "current_mv_historical_comparison_only"
@@ -3197438,16 +3197438,16 @@
           "top_rival_sample": 18,
           "top_rival_p75_overpay_pct": 15.11,
           "top_rival_shadow_bid": 8108632,
-          "roi_guardrail_bid": 7373308,
-          "trade_protection_bid": 7373308,
+          "roi_guardrail_bid": 7367480,
+          "trade_protection_bid": 7367480,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 7220623,
-          "suggested_bid": 7373308,
-          "hard_max_bid": 7373308,
+          "projected_mv_at_expiry": 7217501,
+          "suggested_bid": 7367480,
+          "hard_max_bid": 7367480,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3197468,16 +3197468,16 @@
           "top_rival_sample": 13,
           "top_rival_p75_overpay_pct": 15.87,
           "top_rival_shadow_bid": 6082603,
-          "roi_guardrail_bid": 5485689,
-          "trade_protection_bid": 5485689,
+          "roi_guardrail_bid": 5485419,
+          "trade_protection_bid": 5485419,
           "competition_risk": "high",
           "model_confidence": "medium_high",
           "auction_eligible": true,
           "auction_exclusion_reason": null,
           "updates_before_expiry": 0,
           "projected_mv_at_expiry": 5249506,
-          "suggested_bid": 5485689,
-          "hard_max_bid": 5485689,
+          "suggested_bid": 5485419,
+          "hard_max_bid": 5485419,
           "shadow_price_basis": "current_mv_historical_comparison_only"
         },
         {
@@ -3197505,7 +3197505,7 @@
           "auction_eligible": false,
           "auction_exclusion_reason": "non_positive_trend",
           "updates_before_expiry": 1,
-          "projected_mv_at_expiry": 4754640,
+          "projected_mv_at_expiry": 4750554,
           "suggested_bid": null,
           "hard_max_bid": null,
           "shadow_price_basis": "current_mv_historical_comparison_only"
@@ -3197542,9 +3197542,9 @@
         }
       ],
       "winning_edge": {
-        "generated_at": "2026-11-21T23:00:30.520212+01:00",
+        "generated_at": "2026-11-21T23:05:34.044499+01:00",
         "deadline": "2026-11-27T20:30:00+01:00",
-        "deadline_hours_remaining": 141.49,
+        "deadline_hours_remaining": 141.41,
         "cash_now": 29453803.0,
         "positive_cash_now": true,
         "cash_to_recover_for_deadline": 0,
@@ -3197670,7 +3197670,7 @@
             "availability_evidence": "ligainsider_structured_injury_table",
             "availability_flag": "availability_risk",
             "mv_change_last": 31106.0,
-            "mv_change_predicted": 33016.43,
+            "mv_change_predicted": 31984.17,
             "momentum": "growing",
             "decision": "hold_for_trading"
           },
@@ -3197685,7 +3197685,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 42358.0,
-            "mv_change_predicted": 44912.5,
+            "mv_change_predicted": 45866.89,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197700,7 +3197700,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 45385.0,
-            "mv_change_predicted": 55112.94,
+            "mv_change_predicted": 53450.8,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197715,7 +3197715,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 61889.0,
-            "mv_change_predicted": 60656.13,
+            "mv_change_predicted": 61036.73,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197730,7 +3197730,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 49091.0,
-            "mv_change_predicted": 60346.96,
+            "mv_change_predicted": 59225.14,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197745,7 +3197745,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 80844.0,
-            "mv_change_predicted": 78896.66,
+            "mv_change_predicted": 78193.74,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197760,7 +3197760,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 34707.0,
-            "mv_change_predicted": 39595.93,
+            "mv_change_predicted": 39350.49,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197775,7 +3197775,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": -44018.0,
-            "mv_change_predicted": -117060.91,
+            "mv_change_predicted": -126703.43,
             "momentum": "declining",
             "decision": "protect_points_watch_trend"
           },
@@ -3197790,7 +3197790,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 60282.0,
-            "mv_change_predicted": -13679.95,
+            "mv_change_predicted": -19506.81,
             "momentum": "reversal_watch",
             "decision": "sell_watch"
           },
@@ -3197805,7 +3197805,7 @@
             "availability_evidence": "ligainsider_structured_injury_table",
             "availability_flag": "availability_risk",
             "mv_change_last": 168187.0,
-            "mv_change_predicted": 166937.67,
+            "mv_change_predicted": 166926.87,
             "momentum": "growing",
             "decision": "hold_for_trading"
           },
@@ -3197820,7 +3197820,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 81210.0,
-            "mv_change_predicted": -4025.4,
+            "mv_change_predicted": -11902.47,
             "momentum": "reversal_watch",
             "decision": "protect_points_watch_trend"
           },
@@ -3197835,7 +3197835,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 216968.0,
-            "mv_change_predicted": 209481.01,
+            "mv_change_predicted": 211187.78,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197850,7 +3197850,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 268186.0,
-            "mv_change_predicted": 259918.21,
+            "mv_change_predicted": 259735.71,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197865,7 +3197865,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 219344.0,
-            "mv_change_predicted": 237435.24,
+            "mv_change_predicted": 237198.73,
             "momentum": "growing",
             "decision": "hold"
           },
@@ -3197880,7 +3197880,7 @@
             "availability_evidence": "unconfirmed",
             "availability_flag": "not_medically_verified",
             "mv_change_last": 137739.0,
-            "mv_change_predicted": 198909.41,
+            "mv_change_predicted": 200177.68,
             "momentum": "growing",
             "decision": "hold"
           }
