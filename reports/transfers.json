@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T22:52:45.401115",
+  "updated_at": "2026-11-21T08:33:30.713949",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19215,6 +19215,36 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-20T21:34:14Z|11967||Fabian|8950089.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-21T01:07:56Z",
+      "date": "2026-11-21",
+      "player_id": "7616",
+      "player_name": "ter Horst",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 5768855.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-21T01:07:56Z|7616|Fabian||5768855.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-11-21T05:13:34Z",
+      "date": "2026-11-21",
+      "player_id": "2176",
+      "player_name": "Höler",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 5215742.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-21T05:13:34Z|2176||Mario|5215742.00"
     }
   ]
 }
