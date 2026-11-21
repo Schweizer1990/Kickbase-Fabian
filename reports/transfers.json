@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T17:14:50.659163",
+  "updated_at": "2026-11-21T21:57:23.820323",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19225,9 +19225,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 5768855.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5805747.0,
+      "overpay": -36892.0,
+      "overpay_pct": -0.64,
       "type": "kickbase_purchase",
       "event_key": "2026-11-21T01:07:56Z|7616|Fabian||5768855.00"
     },
@@ -19240,9 +19240,9 @@
       "buyer": null,
       "seller": "Mario",
       "price": 5215742.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4488281.0,
+      "overpay": 727461.0,
+      "overpay_pct": 16.21,
       "type": "kickbase_sale",
       "event_key": "2026-11-21T05:13:34Z|2176||Mario|5215742.00"
     },
@@ -19255,9 +19255,9 @@
       "buyer": null,
       "seller": "Bommer",
       "price": 7358511.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 6946324.0,
+      "overpay": 412187.0,
+      "overpay_pct": 5.93,
       "type": "kickbase_sale",
       "event_key": "2026-11-21T16:24:36Z|1811||Bommer|7358511.00"
     },
@@ -19270,11 +19270,56 @@
       "buyer": null,
       "seller": "Mario",
       "price": 23284826.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 23004753.0,
+      "overpay": 280073.0,
+      "overpay_pct": 1.22,
       "type": "kickbase_sale",
       "event_key": "2026-11-21T16:29:11Z|2373||Mario|23284826.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-11-21T20:07:13Z",
+      "date": "2026-11-21",
+      "player_id": "4606",
+      "player_name": "Kuruçay",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 8365703.0,
+      "market_value_at_transfer": 8503442.0,
+      "overpay": -137739.0,
+      "overpay_pct": -1.62,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-21T20:07:13Z|4606|Fabian||8365703.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-21T21:52:03Z",
+      "date": "2026-11-21",
+      "player_id": "1223",
+      "player_name": "Friedrich",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 5982383.0,
+      "market_value_at_transfer": 5982383.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-21T21:52:03Z|1223||Thomasson|5982383.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-21T21:52:06Z",
+      "date": "2026-11-21",
+      "player_id": "2068",
+      "player_name": "Zagadou",
+      "buyer": null,
+      "seller": "Thomasson",
+      "price": 3707995.0,
+      "market_value_at_transfer": 3707995.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-21T21:52:06Z|2068||Thomasson|3707995.00"
     }
   ]
 }
