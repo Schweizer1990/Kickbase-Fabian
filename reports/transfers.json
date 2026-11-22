@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:42:44.173099",
+  "updated_at": "2026-11-22T21:12:48.857160",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19375,9 +19375,9 @@
       "buyer": "Marc Frischiniemi",
       "seller": null,
       "price": 22152222.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 20506509.0,
+      "overpay": 1645713.0,
+      "overpay_pct": 8.03,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T09:32:07Z|11006|Marc Frischiniemi||22152222.00"
     },
@@ -19390,9 +19390,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 12111111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 11497123.0,
+      "overpay": 613988.0,
+      "overpay_pct": 5.34,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T11:24:23Z|8166|Flo24||12111111.00"
     },
@@ -19405,9 +19405,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 5485426.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 5488868.0,
+      "overpay": -3442.0,
+      "overpay_pct": -0.06,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T12:27:35Z|7463|Fabian||5485426.00"
     },
@@ -19420,9 +19420,9 @@
       "buyer": "Fabian",
       "seller": null,
       "price": 818246.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 1013416.0,
+      "overpay": -195170.0,
+      "overpay_pct": -19.26,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T14:51:40Z|18550|Fabian||818246.00"
     },
@@ -19435,11 +19435,56 @@
       "buyer": "Thomasson",
       "seller": null,
       "price": 6500000.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 4157851.0,
+      "overpay": 2342149.0,
+      "overpay_pct": 56.33,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T17:07:02Z|7269|Thomasson||6500000.00"
+    },
+    {
+      "transfer_id": "6",
+      "timestamp": "2026-11-22T18:21:05Z",
+      "date": "2026-11-22",
+      "player_id": "14256",
+      "player_name": "El Ouahdi",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 7677253.0,
+      "market_value_at_transfer": 7585450.0,
+      "overpay": 91803.0,
+      "overpay_pct": 1.21,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-22T18:21:05Z|14256||Joel|7677253.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-22T18:21:28Z",
+      "date": "2026-11-22",
+      "player_id": "6081",
+      "player_name": "Uzun",
+      "buyer": null,
+      "seller": "Joel",
+      "price": 23808454.0,
+      "market_value_at_transfer": 23426619.0,
+      "overpay": 381835.0,
+      "overpay_pct": 1.63,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-22T18:21:28Z|6081||Joel|23808454.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-22T18:35:23Z",
+      "date": "2026-11-22",
+      "player_id": "1955",
+      "player_name": "Burke",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 1580000.0,
+      "market_value_at_transfer": 1256383.0,
+      "overpay": 323617.0,
+      "overpay_pct": 25.76,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-22T18:35:23Z|1955|Thomasson||1580000.00"
     }
   ]
 }
