@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T12:44:56.549515",
+  "updated_at": "2026-11-22T17:42:44.173099",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19410,6 +19410,36 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T12:27:35Z|7463|Fabian||5485426.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-22T14:51:40Z",
+      "date": "2026-11-22",
+      "player_id": "18550",
+      "player_name": "Codjo-Evora",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 818246.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-22T14:51:40Z|18550|Fabian||818246.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-22T17:07:02Z",
+      "date": "2026-11-22",
+      "player_id": "7269",
+      "player_name": "Tella",
+      "buyer": "Thomasson",
+      "seller": null,
+      "price": 6500000.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-22T17:07:02Z|7269|Thomasson||6500000.00"
     }
   ]
 }
