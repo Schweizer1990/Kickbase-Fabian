@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T21:12:48.857160",
+  "updated_at": "2026-11-22T22:13:01.463844",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19485,6 +19485,21 @@
       "overpay_pct": 25.76,
       "type": "kickbase_purchase",
       "event_key": "2026-11-22T18:35:23Z|1955|Thomasson||1580000.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-22T21:19:27Z",
+      "date": "2026-11-22",
+      "player_id": "18550",
+      "player_name": "Codjo-Evora",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 1013416.0,
+      "market_value_at_transfer": 1013416.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-22T21:19:27Z|18550||Fabian|1013416.00"
     }
   ]
 }

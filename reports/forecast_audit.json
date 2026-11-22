@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "market_update": {
-    "status": "confirmed",
-    "confirmed": true,
-    "advanced_player_count": 361,
+    "status": "not_confirmed",
+    "confirmed": false,
+    "advanced_player_count": 0,
     "compared_player_count": 475,
     "required_player_count": 238,
     "same_date_revision_count": 0,
-    "observed_at": "2026-11-22T22:14:50.416581+01:00",
+    "observed_at": "2026-11-22T23:15:03.146189+01:00",
     "last_confirmed_at": "2026-11-22T22:14:50.416581+01:00",
     "latest_mv_date": "2026-11-22",
     "evidence": "dated_market_value_history; at least half of comparable players advance"
