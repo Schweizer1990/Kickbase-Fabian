@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T22:02:50.394894",
+  "updated_at": "2026-11-22T12:44:56.549515",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19320,6 +19320,96 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-21T21:52:06Z|2068||Thomasson|3707995.00"
+    },
+    {
+      "transfer_id": "8",
+      "timestamp": "2026-11-21T22:05:35Z",
+      "date": "2026-11-21",
+      "player_id": "6172",
+      "player_name": "Adamu",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 4583846.0,
+      "market_value_at_transfer": 4583846.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-21T22:05:35Z|6172||Fabian|4583846.00"
+    },
+    {
+      "transfer_id": "7",
+      "timestamp": "2026-11-21T22:05:51Z",
+      "date": "2026-11-21",
+      "player_id": "11756",
+      "player_name": "Culbreath",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 3855023.0,
+      "market_value_at_transfer": 3855023.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-21T22:05:51Z|11756||Fabian|3855023.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-21T22:11:42Z",
+      "date": "2026-11-21",
+      "player_id": "11170",
+      "player_name": "Müller",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 3333243.0,
+      "market_value_at_transfer": 3333243.0,
+      "overpay": 0.0,
+      "overpay_pct": 0.0,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-21T22:11:42Z|11170||Fabian|3333243.00"
+    },
+    {
+      "transfer_id": "5",
+      "timestamp": "2026-11-22T09:32:07Z",
+      "date": "2026-11-22",
+      "player_id": "11006",
+      "player_name": "Suzuki",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 22152222.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-22T09:32:07Z|11006|Marc Frischiniemi||22152222.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-22T11:24:23Z",
+      "date": "2026-11-22",
+      "player_id": "8166",
+      "player_name": "Chuki",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 12111111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-22T11:24:23Z|8166|Flo24||12111111.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-11-22T12:27:35Z",
+      "date": "2026-11-22",
+      "player_id": "7463",
+      "player_name": "Onyeka",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 5485426.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-22T12:27:35Z|7463|Fabian||5485426.00"
     }
   ]
 }
