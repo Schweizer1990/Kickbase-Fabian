@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T22:13:01.463844",
+  "updated_at": "2026-11-23T12:07:30.212519",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19500,6 +19500,66 @@
       "overpay_pct": 0.0,
       "type": "kickbase_sale",
       "event_key": "2026-11-22T21:19:27Z|18550||Fabian|1013416.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-23T00:27:07Z",
+      "date": "2026-11-23",
+      "player_id": "3471",
+      "player_name": "Hložek",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 7367545.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-23T00:27:07Z|3471|Fabian||7367545.00"
+    },
+    {
+      "transfer_id": "77",
+      "timestamp": "2026-11-23T01:10:00Z",
+      "date": "2026-11-23",
+      "player_id": "6148",
+      "player_name": "Pinckert",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 7500011.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-23T01:10:00Z|6148|Mario||7500011.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-23T06:22:21Z",
+      "date": "2026-11-23",
+      "player_id": "15202",
+      "player_name": "Uno",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 5379839.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-23T06:22:21Z|15202||Simon Koller|5379839.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-23T11:30:43Z",
+      "date": "2026-11-23",
+      "player_id": "173",
+      "player_name": "Tah",
+      "buyer": "Fabian",
+      "seller": null,
+      "price": 33154264.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-23T11:30:43Z|173|Fabian||33154264.00"
     }
   ]
 }
