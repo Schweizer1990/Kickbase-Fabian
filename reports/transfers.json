@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T12:07:30.212519",
+  "updated_at": "2026-11-23T15:02:59.471163",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19560,6 +19560,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-23T11:30:43Z|173|Fabian||33154264.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-23T12:44:36Z",
+      "date": "2026-11-23",
+      "player_id": "6199",
+      "player_name": "Machino",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 4888881.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-23T12:44:36Z|6199|Simon Koller||4888881.00"
     }
   ]
 }
