@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:57:56.190000",
+  "updated_at": "2026-11-24T03:06:42.608471",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19575,6 +19575,51 @@
       "overpay_pct": 6.55,
       "type": "kickbase_purchase",
       "event_key": "2026-11-23T12:44:36Z|6199|Simon Koller||4888881.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-23T21:59:18Z",
+      "date": "2026-11-23",
+      "player_id": "8061",
+      "player_name": "Bakayoko",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 1456789.0,
+      "market_value_at_transfer": 1188284.0,
+      "overpay": 268505.0,
+      "overpay_pct": 22.6,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-23T21:59:18Z|8061|Joel||1456789.00"
+    },
+    {
+      "transfer_id": "40",
+      "timestamp": "2026-11-24T02:13:37Z",
+      "date": "2026-11-24",
+      "player_id": "7723",
+      "player_name": "Querfeld",
+      "buyer": "Joel",
+      "seller": null,
+      "price": 6234511.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-24T02:13:37Z|7723|Joel||6234511.00"
+    },
+    {
+      "transfer_id": "13",
+      "timestamp": "2026-11-24T03:02:08Z",
+      "date": "2026-11-24",
+      "player_id": "3183",
+      "player_name": "Kade",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 15555555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-24T03:02:08Z|3183|Mario||15555555.00"
     }
   ]
 }
