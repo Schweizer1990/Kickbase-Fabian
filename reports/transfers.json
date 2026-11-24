@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T03:06:42.608471",
+  "updated_at": "2026-11-24T15:02:59.158386",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19620,6 +19620,96 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-24T03:02:08Z|3183|Mario||15555555.00"
+    },
+    {
+      "transfer_id": "10",
+      "timestamp": "2026-11-24T04:54:56Z",
+      "date": "2026-11-24",
+      "player_id": "2939",
+      "player_name": "Dinkçi",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 9745639.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-24T04:54:56Z|2939||Bommer|9745639.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-24T05:12:15Z",
+      "date": "2026-11-24",
+      "player_id": "11665",
+      "player_name": "Potulski",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 9328366.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-24T05:12:15Z|11665|KönigMario||9328366.00"
+    },
+    {
+      "transfer_id": "4",
+      "timestamp": "2026-11-24T05:56:32Z",
+      "date": "2026-11-24",
+      "player_id": "8351",
+      "player_name": "Højlund",
+      "buyer": null,
+      "seller": "Mario",
+      "price": 3298724.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-24T05:56:32Z|8351||Mario|3298724.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-24T06:51:49Z",
+      "date": "2026-11-24",
+      "player_id": "17282",
+      "player_name": "Moore",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 6666666.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-24T06:51:49Z|17282|Flo24||6666666.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-24T08:02:38Z",
+      "date": "2026-11-24",
+      "player_id": "6085",
+      "player_name": "Seimen",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 14000008.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-24T08:02:38Z|6085|Bommer||14000008.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-24T08:02:57Z",
+      "date": "2026-11-24",
+      "player_id": "1580",
+      "player_name": "Schwäbe",
+      "buyer": null,
+      "seller": "Bommer",
+      "price": 13822093.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-24T08:02:57Z|1580||Bommer|13822093.00"
     }
   ]
 }
