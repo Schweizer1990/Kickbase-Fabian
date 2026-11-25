@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T01:10:57.605138",
+  "updated_at": "2026-11-25T14:43:03.988145",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19710,6 +19710,81 @@
       "overpay_pct": 0.04,
       "type": "kickbase_sale",
       "event_key": "2026-11-24T08:02:57Z|1580||Bommer|13822093.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-25T03:03:43Z",
+      "date": "2026-11-25",
+      "player_id": "7349",
+      "player_name": "Jeltsch",
+      "buyer": "Mario",
+      "seller": null,
+      "price": 8311111.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-25T03:03:43Z|7349|Mario||8311111.00"
+    },
+    {
+      "transfer_id": "18",
+      "timestamp": "2026-11-25T04:25:23Z",
+      "date": "2026-11-25",
+      "player_id": "2646",
+      "player_name": "Becker",
+      "buyer": null,
+      "seller": "Marc Frischiniemi",
+      "price": 16460932.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-25T04:25:23Z|2646||Marc Frischiniemi|16460932.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-25T06:40:49Z",
+      "date": "2026-11-25",
+      "player_id": "2358",
+      "player_name": "Krauß",
+      "buyer": "Flo24",
+      "seller": null,
+      "price": 7665555.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-25T06:40:49Z|2358|Flo24||7665555.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-25T09:22:09Z",
+      "date": "2026-11-25",
+      "player_id": "11010",
+      "player_name": "Diks",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 9888888.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-25T09:22:09Z|11010|Bommer||9888888.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-25T12:22:40Z",
+      "date": "2026-11-25",
+      "player_id": "2214",
+      "player_name": "Karazor",
+      "buyer": "Simon Koller",
+      "seller": null,
+      "price": 7888889.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-25T12:22:40Z|2214|Simon Koller||7888889.00"
     }
   ]
 }
