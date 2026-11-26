@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T19:54:35.983032",
+  "updated_at": "2026-11-26T00:46:47.292013",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19720,9 +19720,9 @@
       "buyer": "Mario",
       "seller": null,
       "price": 8311111.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 8066157.0,
+      "overpay": 244954.0,
+      "overpay_pct": 3.04,
       "type": "kickbase_purchase",
       "event_key": "2026-11-25T03:03:43Z|7349|Mario||8311111.00"
     },
@@ -19735,9 +19735,9 @@
       "buyer": null,
       "seller": "Marc Frischiniemi",
       "price": 16460932.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 16649804.0,
+      "overpay": -188872.0,
+      "overpay_pct": -1.13,
       "type": "kickbase_sale",
       "event_key": "2026-11-25T04:25:23Z|2646||Marc Frischiniemi|16460932.00"
     },
@@ -19750,9 +19750,9 @@
       "buyer": "Flo24",
       "seller": null,
       "price": 7665555.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7125675.0,
+      "overpay": 539880.0,
+      "overpay_pct": 7.58,
       "type": "kickbase_purchase",
       "event_key": "2026-11-25T06:40:49Z|2358|Flo24||7665555.00"
     },
@@ -19765,9 +19765,9 @@
       "buyer": "Bommer",
       "seller": null,
       "price": 9888888.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 9054318.0,
+      "overpay": 834570.0,
+      "overpay_pct": 9.22,
       "type": "kickbase_purchase",
       "event_key": "2026-11-25T09:22:09Z|11010|Bommer||9888888.00"
     },
@@ -19780,9 +19780,9 @@
       "buyer": "Simon Koller",
       "seller": null,
       "price": 7888889.0,
-      "market_value_at_transfer": null,
-      "overpay": null,
-      "overpay_pct": null,
+      "market_value_at_transfer": 7329245.0,
+      "overpay": 559644.0,
+      "overpay_pct": 7.64,
       "type": "kickbase_purchase",
       "event_key": "2026-11-25T12:22:40Z|2214|Simon Koller||7888889.00"
     }
