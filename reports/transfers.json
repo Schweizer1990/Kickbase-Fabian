@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T14:04:36.261885",
+  "updated_at": "2026-11-27T15:01:12.656873",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19815,6 +19815,21 @@
       "overpay_pct": null,
       "type": "kickbase_purchase",
       "event_key": "2026-11-27T02:24:48Z|4296|Bommer||5444449.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-27T14:46:29Z",
+      "date": "2026-11-27",
+      "player_id": "8227",
+      "player_name": "Vandevoordt",
+      "buyer": null,
+      "seller": "Simon Koller",
+      "price": 21257817.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-27T14:46:29Z|8227||Simon Koller|21257817.00"
     }
   ]
 }
