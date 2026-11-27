@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:01:12.656873",
+  "updated_at": "2026-11-27T19:25:16.627600",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19830,6 +19830,81 @@
       "overpay_pct": null,
       "type": "kickbase_sale",
       "event_key": "2026-11-27T14:46:29Z|8227||Simon Koller|21257817.00"
+    },
+    {
+      "transfer_id": "14",
+      "timestamp": "2026-11-27T15:08:47Z",
+      "date": "2026-11-27",
+      "player_id": "11631",
+      "player_name": "Burger",
+      "buyer": null,
+      "seller": "KönigMario",
+      "price": 19293450.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-27T15:08:47Z|11631||KönigMario|19293450.00"
+    },
+    {
+      "transfer_id": "29",
+      "timestamp": "2026-11-27T15:14:18Z",
+      "date": "2026-11-27",
+      "player_id": "7616",
+      "player_name": "ter Horst",
+      "buyer": null,
+      "seller": "Fabian",
+      "price": 7036861.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-27T15:14:18Z|7616||Fabian|7036861.00"
+    },
+    {
+      "transfer_id": "2",
+      "timestamp": "2026-11-27T16:28:29Z",
+      "date": "2026-11-27",
+      "player_id": "6668",
+      "player_name": "Minjae",
+      "buyer": "KönigMario",
+      "seller": null,
+      "price": 12555360.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-27T16:28:29Z|6668|KönigMario||12555360.00"
+    },
+    {
+      "transfer_id": "43",
+      "timestamp": "2026-11-27T16:43:58Z",
+      "date": "2026-11-27",
+      "player_id": "7224",
+      "player_name": "Castello Jr.",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 20138456.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-27T16:43:58Z|7224||Flo24|20138456.00"
+    },
+    {
+      "transfer_id": "28",
+      "timestamp": "2026-11-27T16:44:01Z",
+      "date": "2026-11-27",
+      "player_id": "17282",
+      "player_name": "Moore",
+      "buyer": null,
+      "seller": "Flo24",
+      "price": 6630840.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_sale",
+      "event_key": "2026-11-27T16:44:01Z|17282||Flo24|6630840.00"
     }
   ]
 }
