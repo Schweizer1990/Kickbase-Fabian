@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T21:06:48.418556",
+  "updated_at": "2026-11-27T00:52:31.447848",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19785,6 +19785,21 @@
       "overpay_pct": 7.64,
       "type": "kickbase_purchase",
       "event_key": "2026-11-25T12:22:40Z|2214|Simon Koller||7888889.00"
+    },
+    {
+      "transfer_id": "15",
+      "timestamp": "2026-11-26T21:40:48Z",
+      "date": "2026-11-26",
+      "player_id": "2560",
+      "player_name": "Sander",
+      "buyer": "Marc Frischiniemi",
+      "seller": null,
+      "price": 5855555.0,
+      "market_value_at_transfer": 5685696.0,
+      "overpay": 169859.0,
+      "overpay_pct": 2.99,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-26T21:40:48Z|2560|Marc Frischiniemi||5855555.00"
     }
   ]
 }
