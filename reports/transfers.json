@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T00:52:31.447848",
+  "updated_at": "2026-11-27T14:04:36.261885",
   "transfers": [
     {
       "transfer_id": "13",
@@ -19800,6 +19800,21 @@
       "overpay_pct": 2.99,
       "type": "kickbase_purchase",
       "event_key": "2026-11-26T21:40:48Z|2560|Marc Frischiniemi||5855555.00"
+    },
+    {
+      "transfer_id": "9",
+      "timestamp": "2026-11-27T02:24:48Z",
+      "date": "2026-11-27",
+      "player_id": "4296",
+      "player_name": "Pejčinović",
+      "buyer": "Bommer",
+      "seller": null,
+      "price": 5444449.0,
+      "market_value_at_transfer": null,
+      "overpay": null,
+      "overpay_pct": null,
+      "type": "kickbase_purchase",
+      "event_key": "2026-11-27T02:24:48Z|4296|Bommer||5444449.00"
     }
   ]
 }
